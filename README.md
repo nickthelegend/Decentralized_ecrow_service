@@ -20,3 +20,10 @@ To get started execute:
 2. `algokit init` - invoke this command inside a github codespace to launch an interactive wizard to guide you through the process of creating a new AlgoKit project
 
 Powered by [Copier templates](https://copier.readthedocs.io/en/stable/).
+
+### Demo video with Web3 implementation
+
+follow the link for clear instructions 
+https://drive.google.com/file/d/1y2BnuitiimDfqQinP5N-RocTBoyaHzvj/view?usp=sharing
+
+
