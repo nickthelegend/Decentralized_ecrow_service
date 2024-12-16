@@ -4,6 +4,7 @@
 
 This project provides a decentralized escrow service implemented using TEALScript, a TypeScript library for building Algorand smart contracts. The contract enables secure transactions between two parties by locking funds until specific conditions are met. It ensures transparency and accountability while facilitating efficient fund transfers in Web3 applications.
 
+![Decentralized Escrow Service Image](./Decentralized Escrow Service image.png")
 ---
 
 ## Features
