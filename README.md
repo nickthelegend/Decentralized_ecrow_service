@@ -1,67 +1,60 @@
 # AlgoBharatDevTrackCompetition24
 
+# Decentralized Escrow Service
 
-# DecentrailizedEscrow
-
-Welcome to your new AlgoKit project!
-
-This is your workspace root. A `workspace` in AlgoKit is an orchestrated collection of standalone projects (backends, smart contracts, frontend apps and etc).
-
-By default, `projects_root_path` parameter is set to `projects`. Which instructs AlgoKit CLI to create a new directory under `projects` directory when new project is instantiated via `algokit init` at the root of the workspace.
-
-## Getting Started
-
-To get started refer to `README.md` files in respective sub-projects in the `projects` directory.
-
-To learn more about algokit, visit [documentation](https://github.com/algorandfoundation/algokit-cli/blob/main/docs/algokit.md).
-
-### GitHub Codespaces
-
-To get started execute:
-
-1. `algokit generate devcontainer` - invoking this command from the root of this repository will create a `devcontainer.json` file with all the configuration needed to run this project in a GitHub codespace. [Run the repository inside a codespace](https://docs.github.com/en/codespaces/getting-started/quickstart) to get started.
-2. `algokit init` - invoke this command inside a github codespace to launch an interactive wizard to guide you through the process of creating a new AlgoKit project
-
-Powered by [Copier templates](https://copier.readthedocs.io/en/stable/).
-
-
-
-# EscrowService Contract
-
-## Overview
-**EscrowService** is a smart contract written in TypeScript using [AlgoKit's TealScript](https://github.com/algorandfoundation/tealscript). It facilitates secure escrow transactions between a contract creator (boss) and a worker, ensuring funds are only released when pre-defined conditions are met.
-
-This contract can be used for scenarios such as:
-- Payment for services upon completion.
-- Conditional asset transfers.
-- Secured transactions requiring a trusted intermediary.
+This project provides a decentralized escrow service implemented using TEALScript, a TypeScript library for building Algorand smart contracts. The contract enables secure transactions between two parties by locking funds until specific conditions are met. It ensures transparency and accountability while facilitating efficient fund transfers in Web3 applications.
 
 ---
 
 ## Features
-### Core Functionalities:
-1. **Create an Escrow Contract**:
-   - Define the worker, admin, and escrow parameters during initialization.
-2. **Add Funds to Escrow**:
-   - Lock funds in the escrow account until conditions are met.
-3. **Set Condition**:
-   - Allow the boss or admin to set the condition for releasing funds.
-4. **Release Funds**:
-   - Transfer funds to the worker once conditions are fulfilled.
-5. **Cancel and Delete Contract**:
-   - Allow the boss to delete the escrow, refunding any remaining funds.
 
-### Access Control:
-- **Boss (Creator)**: Can initialize the contract, add funds, set conditions, release funds, and delete the contract.
-- **Admin**: Can assist the boss in setting conditions and releasing funds.
-- **Worker**: Receives the funds upon meeting the conditions.
+- **Escrow Creation**: Initialize the escrow with the payment amount, worker (receiver), and admin addresses.
+- **Add Funds to Escrow**: Deposit the agreed payment amount to the escrow account.
+- **Set Condition Met**: Admin or the creator can confirm the conditions for releasing the funds.
+- **Release Funds**: Automatically transfer funds to the worker when the conditions are met.
+- **Cancel Escrow**: The creator can cancel the escrow and reclaim any remaining funds.
+- **Secure Transactions**: Ensures that all actions are authorized and verifiable.
 
 ---
 
-## Prerequisites
-- [Node.js](https://nodejs.org) (v16+)
-- [AlgoKit](https://github.com/algorandfoundation/algokit) (v2.4.2+)
-- [Algorand Sandbox](https://github.com/algorand/sandbox) or a similar local test environment for testing smart contracts.
+## Smart Contract Overview
+
+### State Variables
+
+- **paymentAmount**: The agreed cost of the asset or service.
+- **worker**: The address of the worker (asset receiver).
+- **conditionMet**: Boolean indicating whether the release condition is met.
+- **admin**: Admin address for additional control.
+
+### Methods
+
+1. **createApplication(worker: Address, adminAddress: Address)**
+   - Initializes the escrow contract.
+
+2. **addFundsToEscrow(ebaTxn: PayTxn)**
+   - Adds the payment amount to the escrow.
+
+3. **setConditionMet()**
+   - Sets the condition to true, allowing funds release.
+
+4. **releaseFunds()**
+   - Transfers funds to the worker if conditions are met.
+
+5. **deleteApplication()**
+   - Cancels the escrow and deletes the application, refunding the creator.
+
+---
+
+## Usage
+
+### Prerequisites
+
+1. Install [Node.js](https://nodejs.org/) and npm.
+2. Install TEALScript:
+   ```bash
+   npm install @algorandfoundation/tealscript
+3. [AlgoKit](https://github.com/algorandfoundation/algokit) (v2.4.2+)
+4. [Algorand Sandbox](https://github.com/algorand/sandbox) or a similar local test environment for testing smart contracts.
 
 ---
 
