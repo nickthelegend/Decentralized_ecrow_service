@@ -1,3 +1,6 @@
+# AlgoBharatDevTrackCompetition24
+
+
 # DecentrailizedEscrow
 
 Welcome to your new AlgoKit project!
@@ -20,6 +23,52 @@ To get started execute:
 2. `algokit init` - invoke this command inside a github codespace to launch an interactive wizard to guide you through the process of creating a new AlgoKit project
 
 Powered by [Copier templates](https://copier.readthedocs.io/en/stable/).
+
+
+
+# EscrowService Contract
+
+## Overview
+**EscrowService** is a smart contract written in TypeScript using [AlgoKit's TealScript](https://github.com/algorandfoundation/tealscript). It facilitates secure escrow transactions between a contract creator (boss) and a worker, ensuring funds are only released when pre-defined conditions are met.
+
+This contract can be used for scenarios such as:
+- Payment for services upon completion.
+- Conditional asset transfers.
+- Secured transactions requiring a trusted intermediary.
+
+---
+
+## Features
+### Core Functionalities:
+1. **Create an Escrow Contract**:
+   - Define the worker, admin, and escrow parameters during initialization.
+2. **Add Funds to Escrow**:
+   - Lock funds in the escrow account until conditions are met.
+3. **Set Condition**:
+   - Allow the boss or admin to set the condition for releasing funds.
+4. **Release Funds**:
+   - Transfer funds to the worker once conditions are fulfilled.
+5. **Cancel and Delete Contract**:
+   - Allow the boss to delete the escrow, refunding any remaining funds.
+
+### Access Control:
+- **Boss (Creator)**: Can initialize the contract, add funds, set conditions, release funds, and delete the contract.
+- **Admin**: Can assist the boss in setting conditions and releasing funds.
+- **Worker**: Receives the funds upon meeting the conditions.
+
+---
+
+## Prerequisites
+- [Node.js](https://nodejs.org) (v16+)
+- [AlgoKit](https://github.com/algorandfoundation/algokit) (v2.4.2+)
+- [Algorand Sandbox](https://github.com/algorand/sandbox) or a similar local test environment for testing smart contracts.
+
+---
+
+## Setup Instructions
+1. **Clone the Repository**:
+   ```bash
+   git clone [ https://github.com/Srikarnivas/Decentralized_ecrow_service.git ](https://github.com/Srikarnivas/Decentralized_ecrow_service.git)
 
 ### Demo video with Web3 implementation
 
