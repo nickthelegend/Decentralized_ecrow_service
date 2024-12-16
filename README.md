@@ -68,7 +68,7 @@ This contract can be used for scenarios such as:
 ## Setup Instructions
 1. **Clone the Repository**:
    ```bash
-   git clone [ https://github.com/Srikarnivas/Decentralized_ecrow_service.git ](https://github.com/Srikarnivas/Decentralized_ecrow_service.git)
+   git clone https://github.com/Srikarnivas/Decentralized_ecrow_service.git
 
 ### Demo video with Web3 implementation
 
