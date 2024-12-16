@@ -68,4 +68,6 @@ This project provides a decentralized escrow service implemented using TEALScrip
 follow the link for clear instructions 
 https://drive.google.com/file/d/1y2BnuitiimDfqQinP5N-RocTBoyaHzvj/view?usp=sharing
 
+[![Watch this video on YouTube](https://img.youtube.com/vi/yAs8pgWQKJ0/0.jpg)](https://youtu.be/yAs8pgWQKJ0)
+
 
