@@ -1,0 +1,77 @@
+{
+  "name": "MarketService",
+  "desc": "",
+  "methods": [
+    {
+      "name": "createApplication",
+      "args": [
+        {
+          "name": "worker",
+          "type": "address"
+        },
+        {
+          "name": "adminAddress",
+          "type": "address"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "optIntoAsset",
+      "args": [
+        {
+          "name": "asset",
+          "type": "uint64"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "optIntoToken",
+      "args": [
+        {
+          "name": "asset",
+          "type": "uint64"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "takeFunds",
+      "args": [],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "addFundsToEscrow",
+      "args": [
+        {
+          "name": "ebaTxn",
+          "type": "axfer"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "recieveNFT",
+      "args": [
+        {
+          "name": "asset",
+          "type": "uint64"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "name": "Marketplace",
+  "desc": "",
+  "methods": [
+    {
+      "name": "createApplication",
+      "args": [
+        {
+          "name": "seller",
+          "type": "address"
+        },
+        {
+          "name": "price",
+          "type": "uint64"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "optIntoAsset",
+      "args": [
+        {
+          "name": "asset",
+          "type": "uint64"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "optIntoNFT",
+      "args": [
+        {
+          "name": "asset",
+          "type": "uint64"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "takeFunds",
+      "args": [],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "buyNFT",
+      "args": [
+        {
+          "name": "ebaTxn",
+          "type": "axfer"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "recieveNFT",
+      "args": [
+        {
+          "name": "asset",
+          "type": "uint64"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "cancelSell",
+      "args": [],
+      "returns": {
+        "type": "void"
+      }
+    }
+  ]
+}

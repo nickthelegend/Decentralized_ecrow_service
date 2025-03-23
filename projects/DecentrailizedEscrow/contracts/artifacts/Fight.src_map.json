@@ -1,0 +1,1328 @@
+[
+  {
+    "teal": 1,
+    "source": "contracts/Fight.algo.ts:4",
+    "pc": [
+      0
+    ]
+  },
+  {
+    "teal": 2,
+    "source": "contracts/Fight.algo.ts:4",
+    "pc": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "teal": 3,
+    "source": "contracts/Fight.algo.ts:4",
+    "pc": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ]
+  },
+  {
+    "teal": 15,
+    "source": "contracts/Fight.algo.ts:4",
+    "pc": [
+      45,
+      46
+    ]
+  },
+  {
+    "teal": 16,
+    "source": "contracts/Fight.algo.ts:4",
+    "pc": [
+      47
+    ]
+  },
+  {
+    "teal": 17,
+    "source": "contracts/Fight.algo.ts:4",
+    "pc": [
+      48,
+      49
+    ]
+  },
+  {
+    "teal": 18,
+    "source": "contracts/Fight.algo.ts:4",
+    "pc": [
+      50
+    ]
+  },
+  {
+    "teal": 19,
+    "source": "contracts/Fight.algo.ts:4",
+    "pc": [
+      51,
+      52
+    ]
+  },
+  {
+    "teal": 20,
+    "source": "contracts/Fight.algo.ts:4",
+    "pc": [
+      53
+    ]
+  },
+  {
+    "teal": 21,
+    "source": "contracts/Fight.algo.ts:4",
+    "pc": [
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79
+    ]
+  },
+  {
+    "teal": 25,
+    "source": "contracts/Fight.algo.ts:4",
+    "errorMessage": "The requested action is not implemented in this contract. Are you using the correct OnComplete? Did you set your app ID?",
+    "pc": [
+      80
+    ]
+  },
+  {
+    "teal": 30,
+    "source": "contracts/Fight.algo.ts:16",
+    "pc": [
+      81,
+      82,
+      83
+    ]
+  },
+  {
+    "teal": 31,
+    "source": "contracts/Fight.algo.ts:16",
+    "pc": [
+      84
+    ]
+  },
+  {
+    "teal": 32,
+    "source": "contracts/Fight.algo.ts:16",
+    "pc": [
+      85
+    ]
+  },
+  {
+    "teal": 33,
+    "source": "contracts/Fight.algo.ts:16",
+    "pc": [
+      86
+    ]
+  },
+  {
+    "teal": 34,
+    "source": "contracts/Fight.algo.ts:16",
+    "pc": [
+      87
+    ]
+  },
+  {
+    "teal": 37,
+    "source": "contracts/Fight.algo.ts:16",
+    "errorMessage": "argument 0 (player2) for createApplication must be a address",
+    "pc": [
+      88
+    ]
+  },
+  {
+    "teal": 40,
+    "source": "contracts/Fight.algo.ts:16",
+    "pc": [
+      89,
+      90,
+      91
+    ]
+  },
+  {
+    "teal": 41,
+    "source": "contracts/Fight.algo.ts:16",
+    "pc": [
+      92
+    ]
+  },
+  {
+    "teal": 42,
+    "source": "contracts/Fight.algo.ts:16",
+    "pc": [
+      93
+    ]
+  },
+  {
+    "teal": 43,
+    "source": "contracts/Fight.algo.ts:16",
+    "pc": [
+      94
+    ]
+  },
+  {
+    "teal": 44,
+    "source": "contracts/Fight.algo.ts:16",
+    "pc": [
+      95
+    ]
+  },
+  {
+    "teal": 47,
+    "source": "contracts/Fight.algo.ts:16",
+    "errorMessage": "argument 1 (player1) for createApplication must be a address",
+    "pc": [
+      96
+    ]
+  },
+  {
+    "teal": 50,
+    "source": "contracts/Fight.algo.ts:16",
+    "pc": [
+      97,
+      98,
+      99
+    ]
+  },
+  {
+    "teal": 51,
+    "source": "contracts/Fight.algo.ts:16",
+    "pc": [
+      100
+    ]
+  },
+  {
+    "teal": 52,
+    "source": "contracts/Fight.algo.ts:16",
+    "pc": [
+      101
+    ]
+  },
+  {
+    "teal": 56,
+    "source": "contracts/Fight.algo.ts:16",
+    "pc": [
+      102,
+      103,
+      104
+    ]
+  },
+  {
+    "teal": 60,
+    "source": "contracts/Fight.algo.ts:19",
+    "pc": [
+      105
+    ]
+  },
+  {
+    "teal": 61,
+    "source": "contracts/Fight.algo.ts:19",
+    "pc": [
+      106,
+      107
+    ]
+  },
+  {
+    "teal": 62,
+    "source": "contracts/Fight.algo.ts:19",
+    "pc": [
+      108
+    ]
+  },
+  {
+    "teal": 66,
+    "source": "contracts/Fight.algo.ts:20",
+    "pc": [
+      109
+    ]
+  },
+  {
+    "teal": 67,
+    "source": "contracts/Fight.algo.ts:20",
+    "pc": [
+      110,
+      111
+    ]
+  },
+  {
+    "teal": 68,
+    "source": "contracts/Fight.algo.ts:20",
+    "pc": [
+      112
+    ]
+  },
+  {
+    "teal": 72,
+    "source": "contracts/Fight.algo.ts:21",
+    "pc": [
+      113
+    ]
+  },
+  {
+    "teal": 73,
+    "source": "contracts/Fight.algo.ts:21",
+    "pc": [
+      114
+    ]
+  },
+  {
+    "teal": 74,
+    "source": "contracts/Fight.algo.ts:21",
+    "pc": [
+      115
+    ]
+  },
+  {
+    "teal": 78,
+    "source": "contracts/Fight.algo.ts:22",
+    "pc": [
+      116
+    ]
+  },
+  {
+    "teal": 79,
+    "source": "contracts/Fight.algo.ts:22",
+    "pc": [
+      117
+    ]
+  },
+  {
+    "teal": 80,
+    "source": "contracts/Fight.algo.ts:22",
+    "pc": [
+      118
+    ]
+  },
+  {
+    "teal": 81,
+    "source": "contracts/Fight.algo.ts:16",
+    "pc": [
+      119
+    ]
+  },
+  {
+    "teal": 86,
+    "source": "contracts/Fight.algo.ts:28",
+    "pc": [
+      120,
+      121,
+      122
+    ]
+  },
+  {
+    "teal": 87,
+    "source": "contracts/Fight.algo.ts:28",
+    "pc": [
+      123
+    ]
+  },
+  {
+    "teal": 90,
+    "source": "contracts/Fight.algo.ts:28",
+    "pc": [
+      124,
+      125,
+      126
+    ]
+  },
+  {
+    "teal": 91,
+    "source": "contracts/Fight.algo.ts:28",
+    "pc": [
+      127
+    ]
+  },
+  {
+    "teal": 92,
+    "source": "contracts/Fight.algo.ts:28",
+    "pc": [
+      128
+    ]
+  },
+  {
+    "teal": 96,
+    "source": "contracts/Fight.algo.ts:28",
+    "pc": [
+      129,
+      130,
+      131
+    ]
+  },
+  {
+    "teal": 102,
+    "source": "contracts/Fight.algo.ts:30",
+    "pc": [
+      132,
+      133
+    ]
+  },
+  {
+    "teal": 103,
+    "source": "contracts/Fight.algo.ts:30",
+    "pc": [
+      134,
+      135
+    ]
+  },
+  {
+    "teal": 104,
+    "source": "contracts/Fight.algo.ts:30",
+    "pc": [
+      136
+    ]
+  },
+  {
+    "teal": 107,
+    "source": "contracts/Fight.algo.ts:30",
+    "errorMessage": "transaction verification failed: {\"txn\":\"this.txn\",\"field\":\"sender\",\"expected\":\"globals.creatorAddress\"}",
+    "pc": [
+      137
+    ]
+  },
+  {
+    "teal": 112,
+    "source": "contracts/Fight.algo.ts:33",
+    "pc": [
+      138
+    ]
+  },
+  {
+    "teal": 113,
+    "source": "contracts/Fight.algo.ts:33",
+    "pc": [
+      139
+    ]
+  },
+  {
+    "teal": 114,
+    "source": "contracts/Fight.algo.ts:33",
+    "pc": [
+      140
+    ]
+  },
+  {
+    "teal": 115,
+    "source": "contracts/Fight.algo.ts:33",
+    "pc": [
+      141
+    ]
+  },
+  {
+    "teal": 116,
+    "source": "contracts/Fight.algo.ts:33",
+    "pc": [
+      142
+    ]
+  },
+  {
+    "teal": 121,
+    "source": "contracts/Fight.algo.ts:36",
+    "pc": [
+      143
+    ]
+  },
+  {
+    "teal": 122,
+    "source": "contracts/Fight.algo.ts:36",
+    "pc": [
+      144,
+      145
+    ]
+  },
+  {
+    "teal": 123,
+    "source": "contracts/Fight.algo.ts:36",
+    "pc": [
+      146
+    ]
+  },
+  {
+    "teal": 132,
+    "source": "contracts/Fight.algo.ts:39",
+    "pc": [
+      147
+    ]
+  },
+  {
+    "teal": 133,
+    "source": "contracts/Fight.algo.ts:39",
+    "pc": [
+      148
+    ]
+  },
+  {
+    "teal": 134,
+    "source": "contracts/Fight.algo.ts:39",
+    "pc": [
+      149,
+      150
+    ]
+  },
+  {
+    "teal": 138,
+    "source": "contracts/Fight.algo.ts:40",
+    "pc": [
+      151,
+      152
+    ]
+  },
+  {
+    "teal": 139,
+    "source": "contracts/Fight.algo.ts:40",
+    "pc": [
+      153,
+      154
+    ]
+  },
+  {
+    "teal": 143,
+    "source": "contracts/Fight.algo.ts:41",
+    "pc": [
+      155,
+      156
+    ]
+  },
+  {
+    "teal": 144,
+    "source": "contracts/Fight.algo.ts:41",
+    "pc": [
+      157,
+      158
+    ]
+  },
+  {
+    "teal": 148,
+    "source": "contracts/Fight.algo.ts:42",
+    "pc": [
+      159
+    ]
+  },
+  {
+    "teal": 149,
+    "source": "contracts/Fight.algo.ts:42",
+    "pc": [
+      160,
+      161
+    ]
+  },
+  {
+    "teal": 152,
+    "source": "contracts/Fight.algo.ts:39",
+    "pc": [
+      162
+    ]
+  },
+  {
+    "teal": 153,
+    "source": "contracts/Fight.algo.ts:39",
+    "pc": [
+      163,
+      164
+    ]
+  },
+  {
+    "teal": 156,
+    "source": "contracts/Fight.algo.ts:39",
+    "pc": [
+      165
+    ]
+  },
+  {
+    "teal": 157,
+    "source": "contracts/Fight.algo.ts:28",
+    "pc": [
+      166
+    ]
+  },
+  {
+    "teal": 162,
+    "source": "contracts/Fight.algo.ts:46",
+    "pc": [
+      167,
+      168
+    ]
+  },
+  {
+    "teal": 163,
+    "source": "contracts/Fight.algo.ts:46",
+    "pc": [
+      169
+    ]
+  },
+  {
+    "teal": 164,
+    "source": "contracts/Fight.algo.ts:46",
+    "pc": [
+      170
+    ]
+  },
+  {
+    "teal": 165,
+    "source": "contracts/Fight.algo.ts:46",
+    "pc": [
+      171
+    ]
+  },
+  {
+    "teal": 166,
+    "source": "contracts/Fight.algo.ts:46",
+    "pc": [
+      172,
+      173
+    ]
+  },
+  {
+    "teal": 167,
+    "source": "contracts/Fight.algo.ts:46",
+    "pc": [
+      174
+    ]
+  },
+  {
+    "teal": 168,
+    "source": "contracts/Fight.algo.ts:46",
+    "pc": [
+      175
+    ]
+  },
+  {
+    "teal": 171,
+    "source": "contracts/Fight.algo.ts:46",
+    "errorMessage": "argument 0 (ftransx) for depositfunds must be a axfer transaction",
+    "pc": [
+      176
+    ]
+  },
+  {
+    "teal": 174,
+    "source": "contracts/Fight.algo.ts:46",
+    "pc": [
+      177,
+      178,
+      179
+    ]
+  },
+  {
+    "teal": 175,
+    "source": "contracts/Fight.algo.ts:46",
+    "pc": [
+      180
+    ]
+  },
+  {
+    "teal": 176,
+    "source": "contracts/Fight.algo.ts:46",
+    "pc": [
+      181
+    ]
+  },
+  {
+    "teal": 180,
+    "source": "contracts/Fight.algo.ts:46",
+    "pc": [
+      182,
+      183,
+      184
+    ]
+  },
+  {
+    "teal": 188,
+    "source": "contracts/Fight.algo.ts:48",
+    "pc": [
+      185,
+      186
+    ]
+  },
+  {
+    "teal": 189,
+    "source": "contracts/Fight.algo.ts:48",
+    "pc": [
+      187,
+      188,
+      189
+    ]
+  },
+  {
+    "teal": 190,
+    "source": "contracts/Fight.algo.ts:48",
+    "pc": [
+      190,
+      191
+    ]
+  },
+  {
+    "teal": 191,
+    "source": "contracts/Fight.algo.ts:48",
+    "pc": [
+      192
+    ]
+  },
+  {
+    "teal": 192,
+    "source": "contracts/Fight.algo.ts:48",
+    "pc": [
+      193
+    ]
+  },
+  {
+    "teal": 193,
+    "source": "contracts/Fight.algo.ts:48",
+    "pc": [
+      194
+    ]
+  },
+  {
+    "teal": 194,
+    "source": "contracts/Fight.algo.ts:48",
+    "pc": [
+      195,
+      196,
+      197
+    ]
+  },
+  {
+    "teal": 195,
+    "source": "contracts/Fight.algo.ts:49",
+    "pc": [
+      198,
+      199
+    ]
+  },
+  {
+    "teal": 196,
+    "source": "contracts/Fight.algo.ts:49",
+    "pc": [
+      200
+    ]
+  },
+  {
+    "teal": 197,
+    "source": "contracts/Fight.algo.ts:49",
+    "pc": [
+      201
+    ]
+  },
+  {
+    "teal": 198,
+    "source": "contracts/Fight.algo.ts:49",
+    "pc": [
+      202
+    ]
+  },
+  {
+    "teal": 199,
+    "source": "contracts/Fight.algo.ts:48",
+    "pc": [
+      203
+    ]
+  },
+  {
+    "teal": 202,
+    "source": "contracts/Fight.algo.ts:49",
+    "pc": [
+      204
+    ]
+  },
+  {
+    "teal": 203,
+    "source": "contracts/Fight.algo.ts:49",
+    "pc": [
+      205,
+      206,
+      207
+    ]
+  },
+  {
+    "teal": 204,
+    "source": "contracts/Fight.algo.ts:50",
+    "pc": [
+      208,
+      209
+    ]
+  },
+  {
+    "teal": 205,
+    "source": "contracts/Fight.algo.ts:50",
+    "pc": [
+      210
+    ]
+  },
+  {
+    "teal": 206,
+    "source": "contracts/Fight.algo.ts:50",
+    "pc": [
+      211
+    ]
+  },
+  {
+    "teal": 207,
+    "source": "contracts/Fight.algo.ts:50",
+    "pc": [
+      212
+    ]
+  },
+  {
+    "teal": 208,
+    "source": "contracts/Fight.algo.ts:49",
+    "pc": [
+      213
+    ]
+  },
+  {
+    "teal": 211,
+    "source": "contracts/Fight.algo.ts:47",
+    "pc": [
+      214
+    ]
+  },
+  {
+    "teal": 219,
+    "source": "contracts/Fight.algo.ts:53",
+    "pc": [
+      215,
+      216
+    ]
+  },
+  {
+    "teal": 220,
+    "source": "contracts/Fight.algo.ts:54",
+    "pc": [
+      217,
+      218
+    ]
+  },
+  {
+    "teal": 221,
+    "source": "contracts/Fight.algo.ts:54",
+    "pc": [
+      219,
+      220
+    ]
+  },
+  {
+    "teal": 222,
+    "source": "contracts/Fight.algo.ts:54",
+    "pc": [
+      221
+    ]
+  },
+  {
+    "teal": 225,
+    "source": "contracts/Fight.algo.ts:54",
+    "errorMessage": "transaction verification failed: {\"txn\":\"ftransx\",\"field\":\"assetReceiver\",\"expected\":\"this.app.address\"}",
+    "pc": [
+      222
+    ]
+  },
+  {
+    "teal": 228,
+    "source": "contracts/Fight.algo.ts:53",
+    "pc": [
+      223,
+      224
+    ]
+  },
+  {
+    "teal": 229,
+    "source": "contracts/Fight.algo.ts:55",
+    "pc": [
+      225,
+      226
+    ]
+  },
+  {
+    "teal": 230,
+    "source": "contracts/Fight.algo.ts:55",
+    "pc": [
+      227
+    ]
+  },
+  {
+    "teal": 231,
+    "source": "contracts/Fight.algo.ts:55",
+    "pc": [
+      228
+    ]
+  },
+  {
+    "teal": 232,
+    "source": "contracts/Fight.algo.ts:55",
+    "pc": [
+      229
+    ]
+  },
+  {
+    "teal": 235,
+    "source": "contracts/Fight.algo.ts:55",
+    "errorMessage": "transaction verification failed: {\"txn\":\"ftransx\",\"field\":\"xferAsset\",\"expected\":\"this.asa.value\"}",
+    "pc": [
+      230
+    ]
+  },
+  {
+    "teal": 239,
+    "source": "contracts/Fight.algo.ts:57",
+    "pc": [
+      231
+    ]
+  },
+  {
+    "teal": 240,
+    "source": "contracts/Fight.algo.ts:57",
+    "pc": [
+      232
+    ]
+  },
+  {
+    "teal": 241,
+    "source": "contracts/Fight.algo.ts:57",
+    "pc": [
+      233,
+      234
+    ]
+  },
+  {
+    "teal": 242,
+    "source": "contracts/Fight.algo.ts:57",
+    "pc": [
+      235,
+      236
+    ]
+  },
+  {
+    "teal": 243,
+    "source": "contracts/Fight.algo.ts:57",
+    "pc": [
+      237
+    ]
+  },
+  {
+    "teal": 244,
+    "source": "contracts/Fight.algo.ts:57",
+    "pc": [
+      238
+    ]
+  },
+  {
+    "teal": 245,
+    "source": "contracts/Fight.algo.ts:57",
+    "pc": [
+      239
+    ]
+  },
+  {
+    "teal": 246,
+    "source": "contracts/Fight.algo.ts:57",
+    "pc": [
+      240
+    ]
+  },
+  {
+    "teal": 247,
+    "source": "contracts/Fight.algo.ts:46",
+    "pc": [
+      241
+    ]
+  },
+  {
+    "teal": 252,
+    "source": "contracts/Fight.algo.ts:65",
+    "pc": [
+      242,
+      243,
+      244
+    ]
+  },
+  {
+    "teal": 253,
+    "source": "contracts/Fight.algo.ts:65",
+    "pc": [
+      245
+    ]
+  },
+  {
+    "teal": 254,
+    "source": "contracts/Fight.algo.ts:65",
+    "pc": [
+      246
+    ]
+  },
+  {
+    "teal": 255,
+    "source": "contracts/Fight.algo.ts:65",
+    "pc": [
+      247
+    ]
+  },
+  {
+    "teal": 256,
+    "source": "contracts/Fight.algo.ts:65",
+    "pc": [
+      248
+    ]
+  },
+  {
+    "teal": 259,
+    "source": "contracts/Fight.algo.ts:65",
+    "errorMessage": "argument 0 (player) for sendFunds must be a address",
+    "pc": [
+      249
+    ]
+  },
+  {
+    "teal": 262,
+    "source": "contracts/Fight.algo.ts:65",
+    "pc": [
+      250,
+      251,
+      252
+    ]
+  },
+  {
+    "teal": 263,
+    "source": "contracts/Fight.algo.ts:65",
+    "pc": [
+      253
+    ]
+  },
+  {
+    "teal": 264,
+    "source": "contracts/Fight.algo.ts:65",
+    "pc": [
+      254
+    ]
+  },
+  {
+    "teal": 268,
+    "source": "contracts/Fight.algo.ts:65",
+    "pc": [
+      255,
+      256,
+      257
+    ]
+  },
+  {
+    "teal": 274,
+    "source": "contracts/Fight.algo.ts:68",
+    "pc": [
+      258,
+      259
+    ]
+  },
+  {
+    "teal": 275,
+    "source": "contracts/Fight.algo.ts:68",
+    "pc": [
+      260,
+      261,
+      262
+    ]
+  },
+  {
+    "teal": 276,
+    "source": "contracts/Fight.algo.ts:68",
+    "pc": [
+      263,
+      264
+    ]
+  },
+  {
+    "teal": 277,
+    "source": "contracts/Fight.algo.ts:68",
+    "pc": [
+      265
+    ]
+  },
+  {
+    "teal": 278,
+    "source": "contracts/Fight.algo.ts:68",
+    "pc": [
+      266
+    ]
+  },
+  {
+    "teal": 279,
+    "source": "contracts/Fight.algo.ts:67",
+    "pc": [
+      267
+    ]
+  },
+  {
+    "teal": 286,
+    "source": "contracts/Fight.algo.ts:70",
+    "pc": [
+      268
+    ]
+  },
+  {
+    "teal": 287,
+    "source": "contracts/Fight.algo.ts:70",
+    "pc": [
+      269
+    ]
+  },
+  {
+    "teal": 288,
+    "source": "contracts/Fight.algo.ts:70",
+    "pc": [
+      270,
+      271
+    ]
+  },
+  {
+    "teal": 292,
+    "source": "contracts/Fight.algo.ts:71",
+    "pc": [
+      272,
+      273
+    ]
+  },
+  {
+    "teal": 293,
+    "source": "contracts/Fight.algo.ts:71",
+    "pc": [
+      274,
+      275
+    ]
+  },
+  {
+    "teal": 297,
+    "source": "contracts/Fight.algo.ts:72",
+    "pc": [
+      276
+    ]
+  },
+  {
+    "teal": 298,
+    "source": "contracts/Fight.algo.ts:72",
+    "pc": [
+      277
+    ]
+  },
+  {
+    "teal": 299,
+    "source": "contracts/Fight.algo.ts:72",
+    "pc": [
+      278,
+      279
+    ]
+  },
+  {
+    "teal": 302,
+    "source": "contracts/Fight.algo.ts:70",
+    "pc": [
+      280
+    ]
+  },
+  {
+    "teal": 303,
+    "source": "contracts/Fight.algo.ts:70",
+    "pc": [
+      281,
+      282
+    ]
+  },
+  {
+    "teal": 306,
+    "source": "contracts/Fight.algo.ts:70",
+    "pc": [
+      283
+    ]
+  },
+  {
+    "teal": 310,
+    "source": "contracts/Fight.algo.ts:74",
+    "pc": [
+      284
+    ]
+  },
+  {
+    "teal": 311,
+    "source": "contracts/Fight.algo.ts:74",
+    "pc": [
+      285
+    ]
+  },
+  {
+    "teal": 312,
+    "source": "contracts/Fight.algo.ts:74",
+    "pc": [
+      286
+    ]
+  },
+  {
+    "teal": 313,
+    "source": "contracts/Fight.algo.ts:65",
+    "pc": [
+      287
+    ]
+  },
+  {
+    "teal": 316,
+    "source": "contracts/Fight.algo.ts:4",
+    "pc": [
+      288,
+      289,
+      290,
+      291,
+      292,
+      293
+    ]
+  },
+  {
+    "teal": 317,
+    "source": "contracts/Fight.algo.ts:4",
+    "pc": [
+      294,
+      295,
+      296
+    ]
+  },
+  {
+    "teal": 318,
+    "source": "contracts/Fight.algo.ts:4",
+    "pc": [
+      297,
+      298,
+      299,
+      300
+    ]
+  },
+  {
+    "teal": 321,
+    "source": "contracts/Fight.algo.ts:4",
+    "errorMessage": "this contract does not implement the given ABI method for create NoOp",
+    "pc": [
+      301
+    ]
+  },
+  {
+    "teal": 324,
+    "source": "contracts/Fight.algo.ts:4",
+    "pc": [
+      302,
+      303,
+      304,
+      305,
+      306,
+      307
+    ]
+  },
+  {
+    "teal": 325,
+    "source": "contracts/Fight.algo.ts:4",
+    "pc": [
+      308,
+      309,
+      310,
+      311,
+      312,
+      313
+    ]
+  },
+  {
+    "teal": 326,
+    "source": "contracts/Fight.algo.ts:4",
+    "pc": [
+      314,
+      315,
+      316,
+      317,
+      318,
+      319
+    ]
+  },
+  {
+    "teal": 327,
+    "source": "contracts/Fight.algo.ts:4",
+    "pc": [
+      320,
+      321,
+      322
+    ]
+  },
+  {
+    "teal": 328,
+    "source": "contracts/Fight.algo.ts:4",
+    "pc": [
+      323,
+      324,
+      325,
+      326,
+      327,
+      328,
+      329,
+      330
+    ]
+  },
+  {
+    "teal": 331,
+    "source": "contracts/Fight.algo.ts:4",
+    "errorMessage": "this contract does not implement the given ABI method for call NoOp",
+    "pc": [
+      331
+    ]
+  }
+]

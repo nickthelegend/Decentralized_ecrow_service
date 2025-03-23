@@ -1,0 +1,58 @@
+{
+  "name": "Fight",
+  "desc": "",
+  "methods": [
+    {
+      "name": "createApplication",
+      "args": [
+        {
+          "name": "player1",
+          "type": "address"
+        },
+        {
+          "name": "player2",
+          "type": "address"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "optIntoAsset",
+      "args": [
+        {
+          "name": "asset",
+          "type": "uint64"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "depositfunds",
+      "args": [
+        {
+          "name": "ftransx",
+          "type": "axfer"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "sendFunds",
+      "args": [
+        {
+          "name": "player",
+          "type": "address"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    }
+  ]
+}

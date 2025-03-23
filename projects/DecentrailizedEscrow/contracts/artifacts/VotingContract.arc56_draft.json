@@ -1,0 +1,1447 @@
+{
+  "name": "VotingContract",
+  "desc": "",
+  "methods": [
+    {
+      "name": "createApplication",
+      "args": [
+        {
+          "name": "ownerAddress",
+          "type": "address"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      },
+      "actions": {
+        "create": [
+          "NoOp"
+        ],
+        "call": []
+      }
+    },
+    {
+      "name": "createVote",
+      "args": [
+        {
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "name": "duration",
+          "type": "uint64"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      },
+      "actions": {
+        "create": [],
+        "call": [
+          "NoOp"
+        ]
+      }
+    },
+    {
+      "name": "vote",
+      "args": [
+        {
+          "name": "option",
+          "type": "uint64"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      },
+      "actions": {
+        "create": [],
+        "call": [
+          "NoOp"
+        ]
+      }
+    },
+    {
+      "name": "optInToApplication",
+      "args": [],
+      "returns": {
+        "type": "void"
+      },
+      "actions": {
+        "create": [],
+        "call": [
+          "OptIn"
+        ]
+      }
+    }
+  ],
+  "arcs": [
+    4,
+    56
+  ],
+  "structs": {},
+  "state": {
+    "schema": {
+      "global": {
+        "bytes": 3,
+        "ints": 3
+      },
+      "local": {
+        "bytes": 1,
+        "ints": 0
+      }
+    },
+    "keys": {
+      "global": {
+        "vote1": {
+          "key": "dm90ZTE=",
+          "keyType": "AVMBytes",
+          "valueType": "uint64"
+        },
+        "vote2": {
+          "key": "dm90ZTI=",
+          "keyType": "AVMBytes",
+          "valueType": "uint64"
+        },
+        "owner": {
+          "key": "b3duZXI=",
+          "keyType": "AVMBytes",
+          "valueType": "address"
+        },
+        "voteTitle": {
+          "key": "dm90ZVRpdGxl",
+          "keyType": "AVMBytes",
+          "valueType": "string"
+        },
+        "voteDescription": {
+          "key": "dm90ZURlc2NyaXB0aW9u",
+          "keyType": "AVMBytes",
+          "valueType": "string"
+        },
+        "votingEndTime": {
+          "key": "dm90aW5nRW5kVGltZQ==",
+          "keyType": "AVMBytes",
+          "valueType": "uint64"
+        }
+      },
+      "local": {
+        "localState": {
+          "key": "bG9jYWxTdGF0ZQ==",
+          "keyType": "AVMBytes",
+          "valueType": "address"
+        }
+      },
+      "box": {}
+    },
+    "maps": {
+      "global": {},
+      "local": {},
+      "box": {}
+    }
+  },
+  "bareActions": {
+    "create": [],
+    "call": []
+  },
+  "sourceInfo": {
+    "approval": {
+      "sourceInfo": [
+        {
+          "teal": 1,
+          "source": "contracts/Voting.algo.ts:3",
+          "pc": [
+            0
+          ]
+        },
+        {
+          "teal": 2,
+          "source": "contracts/Voting.algo.ts:3",
+          "pc": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "teal": 3,
+          "source": "contracts/Voting.algo.ts:3",
+          "pc": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78
+          ]
+        },
+        {
+          "teal": 15,
+          "source": "contracts/Voting.algo.ts:3",
+          "pc": [
+            79,
+            80
+          ]
+        },
+        {
+          "teal": 16,
+          "source": "contracts/Voting.algo.ts:3",
+          "pc": [
+            81
+          ]
+        },
+        {
+          "teal": 17,
+          "source": "contracts/Voting.algo.ts:3",
+          "pc": [
+            82,
+            83
+          ]
+        },
+        {
+          "teal": 18,
+          "source": "contracts/Voting.algo.ts:3",
+          "pc": [
+            84
+          ]
+        },
+        {
+          "teal": 19,
+          "source": "contracts/Voting.algo.ts:3",
+          "pc": [
+            85,
+            86
+          ]
+        },
+        {
+          "teal": 20,
+          "source": "contracts/Voting.algo.ts:3",
+          "pc": [
+            87
+          ]
+        },
+        {
+          "teal": 21,
+          "source": "contracts/Voting.algo.ts:3",
+          "pc": [
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113
+          ]
+        },
+        {
+          "teal": 25,
+          "source": "contracts/Voting.algo.ts:3",
+          "errorMessage": "The requested action is not implemented in this contract. Are you using the correct OnComplete? Did you set your app ID?",
+          "pc": [
+            114
+          ]
+        },
+        {
+          "teal": 30,
+          "source": "contracts/Voting.algo.ts:17",
+          "pc": [
+            115,
+            116,
+            117
+          ]
+        },
+        {
+          "teal": 31,
+          "source": "contracts/Voting.algo.ts:17",
+          "pc": [
+            118
+          ]
+        },
+        {
+          "teal": 32,
+          "source": "contracts/Voting.algo.ts:17",
+          "pc": [
+            119
+          ]
+        },
+        {
+          "teal": 33,
+          "source": "contracts/Voting.algo.ts:17",
+          "pc": [
+            120,
+            121
+          ]
+        },
+        {
+          "teal": 34,
+          "source": "contracts/Voting.algo.ts:17",
+          "pc": [
+            122
+          ]
+        },
+        {
+          "teal": 37,
+          "source": "contracts/Voting.algo.ts:17",
+          "errorMessage": "argument 0 (ownerAddress) for createApplication must be a address",
+          "pc": [
+            123
+          ]
+        },
+        {
+          "teal": 40,
+          "source": "contracts/Voting.algo.ts:17",
+          "pc": [
+            124,
+            125,
+            126
+          ]
+        },
+        {
+          "teal": 41,
+          "source": "contracts/Voting.algo.ts:17",
+          "pc": [
+            127
+          ]
+        },
+        {
+          "teal": 42,
+          "source": "contracts/Voting.algo.ts:17",
+          "pc": [
+            128
+          ]
+        },
+        {
+          "teal": 46,
+          "source": "contracts/Voting.algo.ts:17",
+          "pc": [
+            129,
+            130,
+            131
+          ]
+        },
+        {
+          "teal": 50,
+          "source": "contracts/Voting.algo.ts:18",
+          "pc": [
+            132
+          ]
+        },
+        {
+          "teal": 51,
+          "source": "contracts/Voting.algo.ts:18",
+          "pc": [
+            133
+          ]
+        },
+        {
+          "teal": 52,
+          "source": "contracts/Voting.algo.ts:18",
+          "pc": [
+            134
+          ]
+        },
+        {
+          "teal": 56,
+          "source": "contracts/Voting.algo.ts:19",
+          "pc": [
+            135
+          ]
+        },
+        {
+          "teal": 57,
+          "source": "contracts/Voting.algo.ts:19",
+          "pc": [
+            136
+          ]
+        },
+        {
+          "teal": 58,
+          "source": "contracts/Voting.algo.ts:19",
+          "pc": [
+            137
+          ]
+        },
+        {
+          "teal": 62,
+          "source": "contracts/Voting.algo.ts:20",
+          "pc": [
+            138,
+            139
+          ]
+        },
+        {
+          "teal": 63,
+          "source": "contracts/Voting.algo.ts:20",
+          "pc": [
+            140,
+            141
+          ]
+        },
+        {
+          "teal": 64,
+          "source": "contracts/Voting.algo.ts:20",
+          "pc": [
+            142
+          ]
+        },
+        {
+          "teal": 68,
+          "source": "contracts/Voting.algo.ts:21",
+          "pc": [
+            143,
+            144
+          ]
+        },
+        {
+          "teal": 69,
+          "source": "contracts/Voting.algo.ts:21",
+          "pc": [
+            145,
+            146
+          ]
+        },
+        {
+          "teal": 70,
+          "source": "contracts/Voting.algo.ts:21",
+          "pc": [
+            147
+          ]
+        },
+        {
+          "teal": 74,
+          "source": "contracts/Voting.algo.ts:22",
+          "pc": [
+            148,
+            149
+          ]
+        },
+        {
+          "teal": 75,
+          "source": "contracts/Voting.algo.ts:22",
+          "pc": [
+            150,
+            151
+          ]
+        },
+        {
+          "teal": 76,
+          "source": "contracts/Voting.algo.ts:22",
+          "pc": [
+            152
+          ]
+        },
+        {
+          "teal": 80,
+          "source": "contracts/Voting.algo.ts:23",
+          "pc": [
+            153
+          ]
+        },
+        {
+          "teal": 81,
+          "source": "contracts/Voting.algo.ts:23",
+          "pc": [
+            154
+          ]
+        },
+        {
+          "teal": 82,
+          "source": "contracts/Voting.algo.ts:23",
+          "pc": [
+            155
+          ]
+        },
+        {
+          "teal": 83,
+          "source": "contracts/Voting.algo.ts:17",
+          "pc": [
+            156
+          ]
+        },
+        {
+          "teal": 88,
+          "source": "contracts/Voting.algo.ts:27",
+          "pc": [
+            157,
+            158,
+            159
+          ]
+        },
+        {
+          "teal": 89,
+          "source": "contracts/Voting.algo.ts:27",
+          "pc": [
+            160
+          ]
+        },
+        {
+          "teal": 92,
+          "source": "contracts/Voting.algo.ts:27",
+          "pc": [
+            161,
+            162,
+            163
+          ]
+        },
+        {
+          "teal": 93,
+          "source": "contracts/Voting.algo.ts:27",
+          "pc": [
+            164,
+            165,
+            166
+          ]
+        },
+        {
+          "teal": 96,
+          "source": "contracts/Voting.algo.ts:27",
+          "pc": [
+            167,
+            168,
+            169
+          ]
+        },
+        {
+          "teal": 97,
+          "source": "contracts/Voting.algo.ts:27",
+          "pc": [
+            170,
+            171,
+            172
+          ]
+        },
+        {
+          "teal": 100,
+          "source": "contracts/Voting.algo.ts:27",
+          "pc": [
+            173,
+            174,
+            175
+          ]
+        },
+        {
+          "teal": 101,
+          "source": "contracts/Voting.algo.ts:27",
+          "pc": [
+            176
+          ]
+        },
+        {
+          "teal": 102,
+          "source": "contracts/Voting.algo.ts:27",
+          "pc": [
+            177
+          ]
+        },
+        {
+          "teal": 106,
+          "source": "contracts/Voting.algo.ts:27",
+          "pc": [
+            178,
+            179,
+            180
+          ]
+        },
+        {
+          "teal": 110,
+          "source": "contracts/Voting.algo.ts:29",
+          "pc": [
+            181,
+            182
+          ]
+        },
+        {
+          "teal": 111,
+          "source": "contracts/Voting.algo.ts:29",
+          "pc": [
+            183,
+            184
+          ]
+        },
+        {
+          "teal": 112,
+          "source": "contracts/Voting.algo.ts:29",
+          "pc": [
+            185
+          ]
+        },
+        {
+          "teal": 113,
+          "source": "contracts/Voting.algo.ts:29",
+          "pc": [
+            186
+          ]
+        },
+        {
+          "teal": 114,
+          "source": "contracts/Voting.algo.ts:29",
+          "pc": [
+            187
+          ]
+        },
+        {
+          "teal": 118,
+          "source": "contracts/Voting.algo.ts:30",
+          "pc": [
+            188,
+            189
+          ]
+        },
+        {
+          "teal": 119,
+          "source": "contracts/Voting.algo.ts:30",
+          "pc": [
+            190,
+            191
+          ]
+        },
+        {
+          "teal": 120,
+          "source": "contracts/Voting.algo.ts:30",
+          "pc": [
+            192
+          ]
+        },
+        {
+          "teal": 121,
+          "source": "contracts/Voting.algo.ts:30",
+          "pc": [
+            193
+          ]
+        },
+        {
+          "teal": 122,
+          "source": "contracts/Voting.algo.ts:30",
+          "pc": [
+            194
+          ]
+        },
+        {
+          "teal": 123,
+          "source": "contracts/Voting.algo.ts:30",
+          "pc": [
+            195,
+            196,
+            197
+          ]
+        },
+        {
+          "teal": 124,
+          "source": "contracts/Voting.algo.ts:30",
+          "pc": [
+            198
+          ]
+        },
+        {
+          "teal": 125,
+          "source": "contracts/Voting.algo.ts:30",
+          "pc": [
+            199
+          ]
+        },
+        {
+          "teal": 126,
+          "source": "contracts/Voting.algo.ts:30",
+          "pc": [
+            200
+          ]
+        },
+        {
+          "teal": 130,
+          "source": "contracts/Voting.algo.ts:31",
+          "pc": [
+            201,
+            202
+          ]
+        },
+        {
+          "teal": 131,
+          "source": "contracts/Voting.algo.ts:31",
+          "pc": [
+            203,
+            204
+          ]
+        },
+        {
+          "teal": 132,
+          "source": "contracts/Voting.algo.ts:31",
+          "pc": [
+            205
+          ]
+        },
+        {
+          "teal": 133,
+          "source": "contracts/Voting.algo.ts:31",
+          "pc": [
+            206
+          ]
+        },
+        {
+          "teal": 134,
+          "source": "contracts/Voting.algo.ts:31",
+          "pc": [
+            207
+          ]
+        },
+        {
+          "teal": 135,
+          "source": "contracts/Voting.algo.ts:31",
+          "pc": [
+            208,
+            209,
+            210
+          ]
+        },
+        {
+          "teal": 136,
+          "source": "contracts/Voting.algo.ts:31",
+          "pc": [
+            211
+          ]
+        },
+        {
+          "teal": 137,
+          "source": "contracts/Voting.algo.ts:31",
+          "pc": [
+            212
+          ]
+        },
+        {
+          "teal": 138,
+          "source": "contracts/Voting.algo.ts:31",
+          "pc": [
+            213
+          ]
+        },
+        {
+          "teal": 142,
+          "source": "contracts/Voting.algo.ts:34",
+          "pc": [
+            214
+          ]
+        },
+        {
+          "teal": 143,
+          "source": "contracts/Voting.algo.ts:34",
+          "pc": [
+            215,
+            216
+          ]
+        },
+        {
+          "teal": 144,
+          "source": "contracts/Voting.algo.ts:34",
+          "pc": [
+            217,
+            218
+          ]
+        },
+        {
+          "teal": 145,
+          "source": "contracts/Voting.algo.ts:34",
+          "pc": [
+            219
+          ]
+        },
+        {
+          "teal": 146,
+          "source": "contracts/Voting.algo.ts:34",
+          "pc": [
+            220
+          ]
+        },
+        {
+          "teal": 147,
+          "source": "contracts/Voting.algo.ts:27",
+          "pc": [
+            221
+          ]
+        },
+        {
+          "teal": 152,
+          "source": "contracts/Voting.algo.ts:38",
+          "pc": [
+            222,
+            223,
+            224
+          ]
+        },
+        {
+          "teal": 153,
+          "source": "contracts/Voting.algo.ts:38",
+          "pc": [
+            225
+          ]
+        },
+        {
+          "teal": 156,
+          "source": "contracts/Voting.algo.ts:38",
+          "pc": [
+            226,
+            227,
+            228
+          ]
+        },
+        {
+          "teal": 157,
+          "source": "contracts/Voting.algo.ts:38",
+          "pc": [
+            229
+          ]
+        },
+        {
+          "teal": 158,
+          "source": "contracts/Voting.algo.ts:38",
+          "pc": [
+            230
+          ]
+        },
+        {
+          "teal": 162,
+          "source": "contracts/Voting.algo.ts:38",
+          "pc": [
+            231,
+            232,
+            233
+          ]
+        },
+        {
+          "teal": 166,
+          "source": "contracts/Voting.algo.ts:40",
+          "pc": [
+            234,
+            235
+          ]
+        },
+        {
+          "teal": 167,
+          "source": "contracts/Voting.algo.ts:40",
+          "pc": [
+            236
+          ]
+        },
+        {
+          "teal": 168,
+          "source": "contracts/Voting.algo.ts:40",
+          "pc": [
+            237
+          ]
+        },
+        {
+          "teal": 169,
+          "source": "contracts/Voting.algo.ts:40",
+          "pc": [
+            238
+          ]
+        },
+        {
+          "teal": 170,
+          "source": "contracts/Voting.algo.ts:40",
+          "pc": [
+            239
+          ]
+        },
+        {
+          "teal": 174,
+          "source": "contracts/Voting.algo.ts:42",
+          "pc": [
+            240,
+            241
+          ]
+        },
+        {
+          "teal": 175,
+          "source": "contracts/Voting.algo.ts:42",
+          "pc": [
+            242
+          ]
+        },
+        {
+          "teal": 176,
+          "source": "contracts/Voting.algo.ts:42",
+          "pc": [
+            243
+          ]
+        },
+        {
+          "teal": 177,
+          "source": "contracts/Voting.algo.ts:42",
+          "pc": [
+            244,
+            245
+          ]
+        },
+        {
+          "teal": 178,
+          "source": "contracts/Voting.algo.ts:42",
+          "pc": [
+            246
+          ]
+        },
+        {
+          "teal": 179,
+          "source": "contracts/Voting.algo.ts:42",
+          "pc": [
+            247
+          ]
+        },
+        {
+          "teal": 180,
+          "source": "contracts/Voting.algo.ts:42",
+          "pc": [
+            248
+          ]
+        },
+        {
+          "teal": 185,
+          "source": "contracts/Voting.algo.ts:44",
+          "pc": [
+            249,
+            250
+          ]
+        },
+        {
+          "teal": 186,
+          "source": "contracts/Voting.algo.ts:44",
+          "pc": [
+            251
+          ]
+        },
+        {
+          "teal": 187,
+          "source": "contracts/Voting.algo.ts:44",
+          "pc": [
+            252
+          ]
+        },
+        {
+          "teal": 188,
+          "source": "contracts/Voting.algo.ts:44",
+          "pc": [
+            253,
+            254,
+            255
+          ]
+        },
+        {
+          "teal": 193,
+          "source": "contracts/Voting.algo.ts:45",
+          "pc": [
+            256
+          ]
+        },
+        {
+          "teal": 194,
+          "source": "contracts/Voting.algo.ts:45",
+          "pc": [
+            257
+          ]
+        },
+        {
+          "teal": 195,
+          "source": "contracts/Voting.algo.ts:45",
+          "pc": [
+            258
+          ]
+        },
+        {
+          "teal": 196,
+          "source": "contracts/Voting.algo.ts:45",
+          "pc": [
+            259
+          ]
+        },
+        {
+          "teal": 197,
+          "source": "contracts/Voting.algo.ts:45",
+          "pc": [
+            260
+          ]
+        },
+        {
+          "teal": 198,
+          "source": "contracts/Voting.algo.ts:45",
+          "pc": [
+            261
+          ]
+        },
+        {
+          "teal": 199,
+          "source": "contracts/Voting.algo.ts:45",
+          "pc": [
+            262
+          ]
+        },
+        {
+          "teal": 203,
+          "source": "contracts/Voting.algo.ts:46",
+          "pc": [
+            263,
+            264
+          ]
+        },
+        {
+          "teal": 204,
+          "source": "contracts/Voting.algo.ts:46",
+          "pc": [
+            265
+          ]
+        },
+        {
+          "teal": 205,
+          "source": "contracts/Voting.algo.ts:46",
+          "pc": [
+            266,
+            267
+          ]
+        },
+        {
+          "teal": 206,
+          "source": "contracts/Voting.algo.ts:46",
+          "pc": [
+            268
+          ]
+        },
+        {
+          "teal": 207,
+          "source": "contracts/Voting.algo.ts:44",
+          "pc": [
+            269,
+            270,
+            271
+          ]
+        },
+        {
+          "teal": 212,
+          "source": "contracts/Voting.algo.ts:47",
+          "pc": [
+            272,
+            273
+          ]
+        },
+        {
+          "teal": 213,
+          "source": "contracts/Voting.algo.ts:47",
+          "pc": [
+            274,
+            275
+          ]
+        },
+        {
+          "teal": 214,
+          "source": "contracts/Voting.algo.ts:47",
+          "pc": [
+            276
+          ]
+        },
+        {
+          "teal": 215,
+          "source": "contracts/Voting.algo.ts:47",
+          "pc": [
+            277,
+            278,
+            279
+          ]
+        },
+        {
+          "teal": 220,
+          "source": "contracts/Voting.algo.ts:48",
+          "pc": [
+            280
+          ]
+        },
+        {
+          "teal": 221,
+          "source": "contracts/Voting.algo.ts:48",
+          "pc": [
+            281
+          ]
+        },
+        {
+          "teal": 222,
+          "source": "contracts/Voting.algo.ts:48",
+          "pc": [
+            282
+          ]
+        },
+        {
+          "teal": 223,
+          "source": "contracts/Voting.algo.ts:48",
+          "pc": [
+            283
+          ]
+        },
+        {
+          "teal": 224,
+          "source": "contracts/Voting.algo.ts:48",
+          "pc": [
+            284
+          ]
+        },
+        {
+          "teal": 225,
+          "source": "contracts/Voting.algo.ts:48",
+          "pc": [
+            285
+          ]
+        },
+        {
+          "teal": 226,
+          "source": "contracts/Voting.algo.ts:48",
+          "pc": [
+            286
+          ]
+        },
+        {
+          "teal": 230,
+          "source": "contracts/Voting.algo.ts:49",
+          "pc": [
+            287,
+            288
+          ]
+        },
+        {
+          "teal": 231,
+          "source": "contracts/Voting.algo.ts:49",
+          "pc": [
+            289
+          ]
+        },
+        {
+          "teal": 232,
+          "source": "contracts/Voting.algo.ts:49",
+          "pc": [
+            290,
+            291
+          ]
+        },
+        {
+          "teal": 233,
+          "source": "contracts/Voting.algo.ts:49",
+          "pc": [
+            292
+          ]
+        },
+        {
+          "teal": 236,
+          "source": "contracts/Voting.algo.ts:38",
+          "pc": [
+            293
+          ]
+        },
+        {
+          "teal": 241,
+          "source": "contracts/Voting.algo.ts:54",
+          "pc": [
+            294,
+            295,
+            296
+          ]
+        },
+        {
+          "teal": 242,
+          "source": "contracts/Voting.algo.ts:54",
+          "pc": [
+            297
+          ]
+        },
+        {
+          "teal": 243,
+          "source": "contracts/Voting.algo.ts:54",
+          "pc": [
+            298
+          ]
+        },
+        {
+          "teal": 247,
+          "source": "contracts/Voting.algo.ts:54",
+          "pc": [
+            299,
+            300,
+            301
+          ]
+        },
+        {
+          "teal": 251,
+          "source": "contracts/Voting.algo.ts:55",
+          "pc": [
+            302,
+            303
+          ]
+        },
+        {
+          "teal": 252,
+          "source": "contracts/Voting.algo.ts:55",
+          "pc": [
+            304
+          ]
+        },
+        {
+          "teal": 253,
+          "source": "contracts/Voting.algo.ts:55",
+          "pc": [
+            305,
+            306
+          ]
+        },
+        {
+          "teal": 254,
+          "source": "contracts/Voting.algo.ts:55",
+          "pc": [
+            307
+          ]
+        },
+        {
+          "teal": 255,
+          "source": "contracts/Voting.algo.ts:54",
+          "pc": [
+            308
+          ]
+        },
+        {
+          "teal": 258,
+          "source": "contracts/Voting.algo.ts:3",
+          "pc": [
+            309,
+            310,
+            311,
+            312,
+            313,
+            314
+          ]
+        },
+        {
+          "teal": 259,
+          "source": "contracts/Voting.algo.ts:3",
+          "pc": [
+            315,
+            316,
+            317
+          ]
+        },
+        {
+          "teal": 260,
+          "source": "contracts/Voting.algo.ts:3",
+          "pc": [
+            318,
+            319,
+            320,
+            321
+          ]
+        },
+        {
+          "teal": 263,
+          "source": "contracts/Voting.algo.ts:3",
+          "errorMessage": "this contract does not implement the given ABI method for create NoOp",
+          "pc": [
+            322
+          ]
+        },
+        {
+          "teal": 266,
+          "source": "contracts/Voting.algo.ts:3",
+          "pc": [
+            323,
+            324,
+            325,
+            326,
+            327,
+            328
+          ]
+        },
+        {
+          "teal": 267,
+          "source": "contracts/Voting.algo.ts:3",
+          "pc": [
+            329,
+            330,
+            331,
+            332,
+            333,
+            334
+          ]
+        },
+        {
+          "teal": 268,
+          "source": "contracts/Voting.algo.ts:3",
+          "pc": [
+            335,
+            336,
+            337
+          ]
+        },
+        {
+          "teal": 269,
+          "source": "contracts/Voting.algo.ts:3",
+          "pc": [
+            338,
+            339,
+            340,
+            341,
+            342,
+            343
+          ]
+        },
+        {
+          "teal": 272,
+          "source": "contracts/Voting.algo.ts:3",
+          "errorMessage": "this contract does not implement the given ABI method for call NoOp",
+          "pc": [
+            344
+          ]
+        },
+        {
+          "teal": 275,
+          "source": "contracts/Voting.algo.ts:3",
+          "pc": [
+            345,
+            346,
+            347,
+            348,
+            349,
+            350
+          ]
+        },
+        {
+          "teal": 276,
+          "source": "contracts/Voting.algo.ts:3",
+          "pc": [
+            351,
+            352,
+            353
+          ]
+        },
+        {
+          "teal": 277,
+          "source": "contracts/Voting.algo.ts:3",
+          "pc": [
+            354,
+            355,
+            356,
+            357
+          ]
+        },
+        {
+          "teal": 280,
+          "source": "contracts/Voting.algo.ts:3",
+          "errorMessage": "this contract does not implement the given ABI method for call OptIn",
+          "pc": [
+            358
+          ]
+        }
+      ],
+      "pcOffsetMethod": "none"
+    },
+    "clear": {
+      "sourceInfo": [],
+      "pcOffsetMethod": "none"
+    }
+  },
+  "source": {
+    "approval": "I3ByYWdtYSB2ZXJzaW9uIDEwCmludGNibG9jayAxIDAKYnl0ZWNibG9jayAweDZjNmY2MzYxNmM1Mzc0NjE3NDY1IDB4NzY2Zjc0Njk2ZTY3NDU2ZTY0NTQ2OTZkNjUgMHg3NjZmNzQ2NTMxIDB4NzY2Zjc0NjUzMiAweDc2NmY3NDY1NDQ2NTczNjM3MjY5NzA3NDY5NmY2ZSAweDc2NmY3NDY1NTQ2OTc0NmM2NSAweDZmNzc2ZTY1NzIgMHgwMDAwCgovLyBUaGlzIFRFQUwgd2FzIGdlbmVyYXRlZCBieSBURUFMU2NyaXB0IHYwLjEwNS40Ci8vIGh0dHBzOi8vZ2l0aHViLmNvbS9hbGdvcmFuZGZvdW5kYXRpb24vVEVBTFNjcmlwdAoKLy8gVGhpcyBjb250cmFjdCBpcyBjb21wbGlhbnQgd2l0aCBhbmQvb3IgaW1wbGVtZW50cyB0aGUgZm9sbG93aW5nIEFSQ3M6IFsgQVJDNCBdCgovLyBUaGUgZm9sbG93aW5nIHRlbiBsaW5lcyBvZiBURUFMIGhhbmRsZSBpbml0aWFsIHByb2dyYW0gZmxvdwovLyBUaGlzIHBhdHRlcm4gaXMgdXNlZCB0byBtYWtlIGl0IGVhc3kgZm9yIGFueW9uZSB0byBwYXJzZSB0aGUgc3RhcnQgb2YgdGhlIHByb2dyYW0gYW5kIGRldGVybWluZSBpZiBhIHNwZWNpZmljIGFjdGlvbiBpcyBhbGxvd2VkCi8vIEhlcmUsIGFjdGlvbiByZWZlcnMgdG8gdGhlIE9uQ29tcGxldGUgaW4gY29tYmluYXRpb24gd2l0aCB3aGV0aGVyIHRoZSBhcHAgaXMgYmVpbmcgY3JlYXRlZCBvciBjYWxsZWQKLy8gRXZlcnkgcG9zc2libGUgYWN0aW9uIGZvciB0aGlzIGNvbnRyYWN0IGlzIHJlcHJlc2VudGVkIGluIHRoZSBzd2l0Y2ggc3RhdGVtZW50Ci8vIElmIHRoZSBhY3Rpb24gaXMgbm90IGltcGxlbWVudGVkIGluIHRoZSBjb250cmFjdCwgaXRzIHJlc3BlY3RpdmUgYnJhbmNoIHdpbGwgYmUgIipOT1RfSU1QTEVNRU5URUQiIHdoaWNoIGp1c3QgY29udGFpbnMgImVyciIKdHhuIEFwcGxpY2F0aW9uSUQKIQpwdXNoaW50IDYKKgp0eG4gT25Db21wbGV0aW9uCisKc3dpdGNoICpjYWxsX05vT3AgKmNhbGxfT3B0SW4gKk5PVF9JTVBMRU1FTlRFRCAqTk9UX0lNUExFTUVOVEVEICpOT1RfSU1QTEVNRU5URUQgKk5PVF9JTVBMRU1FTlRFRCAqY3JlYXRlX05vT3AgKk5PVF9JTVBMRU1FTlRFRCAqTk9UX0lNUExFTUVOVEVEICpOT1RfSU1QTEVNRU5URUQgKk5PVF9JTVBMRU1FTlRFRCAqTk9UX0lNUExFTUVOVEVECgoqTk9UX0lNUExFTUVOVEVEOgoJLy8gVGhlIHJlcXVlc3RlZCBhY3Rpb24gaXMgbm90IGltcGxlbWVudGVkIGluIHRoaXMgY29udHJhY3QuIEFyZSB5b3UgdXNpbmcgdGhlIGNvcnJlY3QgT25Db21wbGV0ZT8gRGlkIHlvdSBzZXQgeW91ciBhcHAgSUQ/CgllcnIKCi8vIGNyZWF0ZUFwcGxpY2F0aW9uKGFkZHJlc3Mpdm9pZAoqYWJpX3JvdXRlX2NyZWF0ZUFwcGxpY2F0aW9uOgoJLy8gb3duZXJBZGRyZXNzOiBhZGRyZXNzCgl0eG5hIEFwcGxpY2F0aW9uQXJncyAxCglkdXAKCWxlbgoJcHVzaGludCAzMgoJPT0KCgkvLyBhcmd1bWVudCAwIChvd25lckFkZHJlc3MpIGZvciBjcmVhdGVBcHBsaWNhdGlvbiBtdXN0IGJlIGEgYWRkcmVzcwoJYXNzZXJ0CgoJLy8gZXhlY3V0ZSBjcmVhdGVBcHBsaWNhdGlvbihhZGRyZXNzKXZvaWQKCWNhbGxzdWIgY3JlYXRlQXBwbGljYXRpb24KCWludGMgMCAvLyAxCglyZXR1cm4KCi8vIGNyZWF0ZUFwcGxpY2F0aW9uKG93bmVyQWRkcmVzczogQWRkcmVzcyk6IHZvaWQKY3JlYXRlQXBwbGljYXRpb246Cglwcm90byAxIDAKCgkvLyBjb250cmFjdHMvVm90aW5nLmFsZ28udHM6MTgKCS8vIHRoaXMudm90ZTEudmFsdWUgPSAwCglieXRlYyAyIC8vICAidm90ZTEiCglpbnRjIDEgLy8gMAoJYXBwX2dsb2JhbF9wdXQKCgkvLyBjb250cmFjdHMvVm90aW5nLmFsZ28udHM6MTkKCS8vIHRoaXMudm90ZTIudmFsdWUgPSAwCglieXRlYyAzIC8vICAidm90ZTIiCglpbnRjIDEgLy8gMAoJYXBwX2dsb2JhbF9wdXQKCgkvLyBjb250cmFjdHMvVm90aW5nLmFsZ28udHM6MjAKCS8vIHRoaXMub3duZXIudmFsdWUgPSBvd25lckFkZHJlc3MKCWJ5dGVjIDYgLy8gICJvd25lciIKCWZyYW1lX2RpZyAtMSAvLyBvd25lckFkZHJlc3M6IEFkZHJlc3MKCWFwcF9nbG9iYWxfcHV0CgoJLy8gY29udHJhY3RzL1ZvdGluZy5hbGdvLnRzOjIxCgkvLyB0aGlzLnZvdGVUaXRsZS52YWx1ZSA9ICIiCglieXRlYyA1IC8vICAidm90ZVRpdGxlIgoJYnl0ZWMgNyAvLyAweDAwMDAKCWFwcF9nbG9iYWxfcHV0CgoJLy8gY29udHJhY3RzL1ZvdGluZy5hbGdvLnRzOjIyCgkvLyB0aGlzLnZvdGVEZXNjcmlwdGlvbi52YWx1ZSA9ICIiCglieXRlYyA0IC8vICAidm90ZURlc2NyaXB0aW9uIgoJYnl0ZWMgNyAvLyAweDAwMDAKCWFwcF9nbG9iYWxfcHV0CgoJLy8gY29udHJhY3RzL1ZvdGluZy5hbGdvLnRzOjIzCgkvLyB0aGlzLnZvdGluZ0VuZFRpbWUudmFsdWUgPSAwCglieXRlYyAxIC8vICAidm90aW5nRW5kVGltZSIKCWludGMgMSAvLyAwCglhcHBfZ2xvYmFsX3B1dAoJcmV0c3ViCgovLyBjcmVhdGVWb3RlKHN0cmluZyxzdHJpbmcsdWludDY0KXZvaWQKKmFiaV9yb3V0ZV9jcmVhdGVWb3RlOgoJLy8gZHVyYXRpb246IHVpbnQ2NAoJdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMwoJYnRvaQoKCS8vIGRlc2NyaXB0aW9uOiBzdHJpbmcKCXR4bmEgQXBwbGljYXRpb25BcmdzIDIKCWV4dHJhY3QgMiAwCgoJLy8gdGl0bGU6IHN0cmluZwoJdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMQoJZXh0cmFjdCAyIDAKCgkvLyBleGVjdXRlIGNyZWF0ZVZvdGUoc3RyaW5nLHN0cmluZyx1aW50NjQpdm9pZAoJY2FsbHN1YiBjcmVhdGVWb3RlCglpbnRjIDAgLy8gMQoJcmV0dXJuCgovLyBjcmVhdGVWb3RlKHRpdGxlOiBzdHJpbmcsIGRlc2NyaXB0aW9uOiBzdHJpbmcsIGR1cmF0aW9uOiB1aW50NjQpOiB2b2lkCmNyZWF0ZVZvdGU6Cglwcm90byAzIDAKCgkvLyBjb250cmFjdHMvVm90aW5nLmFsZ28udHM6MjkKCS8vIGFzc2VydCh0aGlzLnR4bi5zZW5kZXIgPT09IHRoaXMub3duZXIudmFsdWUpCgl0eG4gU2VuZGVyCglieXRlYyA2IC8vICAib3duZXIiCglhcHBfZ2xvYmFsX2dldAoJPT0KCWFzc2VydAoKCS8vIGNvbnRyYWN0cy9Wb3RpbmcuYWxnby50czozMAoJLy8gdGhpcy52b3RlVGl0bGUudmFsdWUgPSB0aXRsZQoJYnl0ZWMgNSAvLyAgInZvdGVUaXRsZSIKCWZyYW1lX2RpZyAtMSAvLyB0aXRsZTogc3RyaW5nCglkdXAKCWxlbgoJaXRvYgoJZXh0cmFjdCA2IDIKCXN3YXAKCWNvbmNhdAoJYXBwX2dsb2JhbF9wdXQKCgkvLyBjb250cmFjdHMvVm90aW5nLmFsZ28udHM6MzEKCS8vIHRoaXMudm90ZURlc2NyaXB0aW9uLnZhbHVlID0gZGVzY3JpcHRpb24KCWJ5dGVjIDQgLy8gICJ2b3RlRGVzY3JpcHRpb24iCglmcmFtZV9kaWcgLTIgLy8gZGVzY3JpcHRpb246IHN0cmluZwoJZHVwCglsZW4KCWl0b2IKCWV4dHJhY3QgNiAyCglzd2FwCgljb25jYXQKCWFwcF9nbG9iYWxfcHV0CgoJLy8gY29udHJhY3RzL1ZvdGluZy5hbGdvLnRzOjM0CgkvLyB0aGlzLnZvdGluZ0VuZFRpbWUudmFsdWUgPSBnbG9iYWxzLmxhdGVzdFRpbWVzdGFtcCArIGR1cmF0aW9uCglieXRlYyAxIC8vICAidm90aW5nRW5kVGltZSIKCWdsb2JhbCBMYXRlc3RUaW1lc3RhbXAKCWZyYW1lX2RpZyAtMyAvLyBkdXJhdGlvbjogdWludDY0CgkrCglhcHBfZ2xvYmFsX3B1dAoJcmV0c3ViCgovLyB2b3RlKHVpbnQ2NCl2b2lkCiphYmlfcm91dGVfdm90ZToKCS8vIG9wdGlvbjogdWludDY0Cgl0eG5hIEFwcGxpY2F0aW9uQXJncyAxCglidG9pCgoJLy8gZXhlY3V0ZSB2b3RlKHVpbnQ2NCl2b2lkCgljYWxsc3ViIHZvdGUKCWludGMgMCAvLyAxCglyZXR1cm4KCi8vIHZvdGUob3B0aW9uOiB1aW50NjQpOiB2b2lkCnZvdGU6Cglwcm90byAxIDAKCgkvLyBjb250cmFjdHMvVm90aW5nLmFsZ28udHM6NDAKCS8vIGFzc2VydChnbG9iYWxzLmxhdGVzdFRpbWVzdGFtcCA8IHRoaXMudm90aW5nRW5kVGltZS52YWx1ZSkKCWdsb2JhbCBMYXRlc3RUaW1lc3RhbXAKCWJ5dGVjIDEgLy8gICJ2b3RpbmdFbmRUaW1lIgoJYXBwX2dsb2JhbF9nZXQKCTwKCWFzc2VydAoKCS8vIGNvbnRyYWN0cy9Wb3RpbmcuYWxnby50czo0MgoJLy8gYXNzZXJ0KCEodGhpcy5sb2NhbFN0YXRlKHRoaXMudHhuLnNlbmRlcikudmFsdWUgPT09IHRoaXMudHhuLnNlbmRlcikpCgl0eG4gU2VuZGVyCglieXRlYyAwIC8vICAibG9jYWxTdGF0ZSIKCWFwcF9sb2NhbF9nZXQKCXR4biBTZW5kZXIKCT09CgkhCglhc3NlcnQKCgkvLyAqaWYwX2NvbmRpdGlvbgoJLy8gY29udHJhY3RzL1ZvdGluZy5hbGdvLnRzOjQ0CgkvLyBvcHRpb24gPT0gMQoJZnJhbWVfZGlnIC0xIC8vIG9wdGlvbjogdWludDY0CglpbnRjIDAgLy8gMQoJPT0KCWJ6ICppZjBfZWxzZWlmMV9jb25kaXRpb24KCgkvLyAqaWYwX2NvbnNlcXVlbnQKCS8vIGNvbnRyYWN0cy9Wb3RpbmcuYWxnby50czo0NQoJLy8gdGhpcy52b3RlMS52YWx1ZSArPSAxCglieXRlYyAyIC8vICAidm90ZTEiCglhcHBfZ2xvYmFsX2dldAoJaW50YyAwIC8vIDEKCSsKCWJ5dGVjIDIgLy8gICJ2b3RlMSIKCXN3YXAKCWFwcF9nbG9iYWxfcHV0CgoJLy8gY29udHJhY3RzL1ZvdGluZy5hbGdvLnRzOjQ2CgkvLyB0aGlzLmxvY2FsU3RhdGUodGhpcy50eG4uc2VuZGVyKS52YWx1ZSA9IHRoaXMudHhuLnNlbmRlcgoJdHhuIFNlbmRlcgoJYnl0ZWMgMCAvLyAgImxvY2FsU3RhdGUiCgl0eG4gU2VuZGVyCglhcHBfbG9jYWxfcHV0CgliICppZjBfZW5kCgoqaWYwX2Vsc2VpZjFfY29uZGl0aW9uOgoJLy8gY29udHJhY3RzL1ZvdGluZy5hbGdvLnRzOjQ3CgkvLyBvcHRpb24gPT0gMgoJZnJhbWVfZGlnIC0xIC8vIG9wdGlvbjogdWludDY0CglwdXNoaW50IDIKCT09CglieiAqaWYwX2VuZAoKCS8vICppZjBfZWxzZWlmMV9jb25zZXF1ZW50CgkvLyBjb250cmFjdHMvVm90aW5nLmFsZ28udHM6NDgKCS8vIHRoaXMudm90ZTIudmFsdWUgKz0gMQoJYnl0ZWMgMyAvLyAgInZvdGUyIgoJYXBwX2dsb2JhbF9nZXQKCWludGMgMCAvLyAxCgkrCglieXRlYyAzIC8vICAidm90ZTIiCglzd2FwCglhcHBfZ2xvYmFsX3B1dAoKCS8vIGNvbnRyYWN0cy9Wb3RpbmcuYWxnby50czo0OQoJLy8gdGhpcy5sb2NhbFN0YXRlKHRoaXMudHhuLnNlbmRlcikudmFsdWUgPSB0aGlzLnR4bi5zZW5kZXIKCXR4biBTZW5kZXIKCWJ5dGVjIDAgLy8gICJsb2NhbFN0YXRlIgoJdHhuIFNlbmRlcgoJYXBwX2xvY2FsX3B1dAoKKmlmMF9lbmQ6CglyZXRzdWIKCi8vIG9wdEluVG9BcHBsaWNhdGlvbigpdm9pZAoqYWJpX3JvdXRlX29wdEluVG9BcHBsaWNhdGlvbjoKCS8vIGV4ZWN1dGUgb3B0SW5Ub0FwcGxpY2F0aW9uKCl2b2lkCgljYWxsc3ViIG9wdEluVG9BcHBsaWNhdGlvbgoJaW50YyAwIC8vIDEKCXJldHVybgoKLy8gb3B0SW5Ub0FwcGxpY2F0aW9uKCk6IHZvaWQKb3B0SW5Ub0FwcGxpY2F0aW9uOgoJcHJvdG8gMCAwCgoJLy8gY29udHJhY3RzL1ZvdGluZy5hbGdvLnRzOjU1CgkvLyB0aGlzLmxvY2FsU3RhdGUodGhpcy50eG4uc2VuZGVyKS52YWx1ZSA9IEFkZHJlc3MuemVyb0FkZHJlc3MKCXR4biBTZW5kZXIKCWJ5dGVjIDAgLy8gICJsb2NhbFN0YXRlIgoJZ2xvYmFsIFplcm9BZGRyZXNzCglhcHBfbG9jYWxfcHV0CglyZXRzdWIKCipjcmVhdGVfTm9PcDoKCXB1c2hieXRlcyAweGQzMjRiZWE0IC8vIG1ldGhvZCAiY3JlYXRlQXBwbGljYXRpb24oYWRkcmVzcyl2b2lkIgoJdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMAoJbWF0Y2ggKmFiaV9yb3V0ZV9jcmVhdGVBcHBsaWNhdGlvbgoKCS8vIHRoaXMgY29udHJhY3QgZG9lcyBub3QgaW1wbGVtZW50IHRoZSBnaXZlbiBBQkkgbWV0aG9kIGZvciBjcmVhdGUgTm9PcAoJZXJyCgoqY2FsbF9Ob09wOgoJcHVzaGJ5dGVzIDB4ZDEzMzFmZGMgLy8gbWV0aG9kICJjcmVhdGVWb3RlKHN0cmluZyxzdHJpbmcsdWludDY0KXZvaWQiCglwdXNoYnl0ZXMgMHgzMWQ1YzMwMCAvLyBtZXRob2QgInZvdGUodWludDY0KXZvaWQiCgl0eG5hIEFwcGxpY2F0aW9uQXJncyAwCgltYXRjaCAqYWJpX3JvdXRlX2NyZWF0ZVZvdGUgKmFiaV9yb3V0ZV92b3RlCgoJLy8gdGhpcyBjb250cmFjdCBkb2VzIG5vdCBpbXBsZW1lbnQgdGhlIGdpdmVuIEFCSSBtZXRob2QgZm9yIGNhbGwgTm9PcAoJZXJyCgoqY2FsbF9PcHRJbjoKCXB1c2hieXRlcyAweDAxYTNhM2ZmIC8vIG1ldGhvZCAib3B0SW5Ub0FwcGxpY2F0aW9uKCl2b2lkIgoJdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMAoJbWF0Y2ggKmFiaV9yb3V0ZV9vcHRJblRvQXBwbGljYXRpb24KCgkvLyB0aGlzIGNvbnRyYWN0IGRvZXMgbm90IGltcGxlbWVudCB0aGUgZ2l2ZW4gQUJJIG1ldGhvZCBmb3IgY2FsbCBPcHRJbgoJZXJy",
+    "clear": "I3ByYWdtYSB2ZXJzaW9uIDEw"
+  },
+  "byteCode": {
+    "approval": "CiACAQAmCApsb2NhbFN0YXRlDXZvdGluZ0VuZFRpbWUFdm90ZTEFdm90ZTIPdm90ZURlc2NyaXB0aW9uCXZvdGVUaXRsZQVvd25lcgIAADEYFIEGCzEZCI0MANEA5wAAAAAAAAAAAMMAAAAAAAAAAAAAADYaAUkVgSASRIgAAiJDigEAKiNnKyNnJwaL/2cnBScHZycEJwdnKSNniTYaAxc2GgJXAgA2GgFXAgCIAAIiQ4oDADEAJwZkEkQnBYv/SRUWVwYCTFBnJwSL/kkVFlcGAkxQZykyB4v9CGeJNhoBF4gAAiJDigEAMgcpZAxEMQAoYjEAEhREi/8iEkEAECpkIggqTGcxACgxAGZCABWL/4ECEkEADStkIggrTGcxACgxAGaJiAACIkOKAAAxACgyA2aJgATTJL6kNhoAjgH/MQCABNEzH9yABDHVwwA2GgCOAv9F/4YAgAQBo6P/NhoAjgH/wAA=",
+    "clear": "Cg=="
+  },
+  "compilerInfo": {
+    "compiler": "algod",
+    "compilerVersion": {
+      "major": 4,
+      "minor": 0,
+      "patch": 2,
+      "commitHash": "6b940281"
+    }
+  }
+}
