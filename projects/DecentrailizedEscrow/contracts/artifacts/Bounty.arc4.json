@@ -1,0 +1,61 @@
+{
+  "name": "Bounty",
+  "desc": "",
+  "methods": [
+    {
+      "name": "createApplication",
+      "args": [
+        {
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "name": "cfid",
+          "type": "string"
+        },
+        {
+          "name": "bountyOrganization",
+          "type": "string"
+        },
+        {
+          "name": "expiryDate",
+          "type": "uint64"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "depositReward",
+      "args": [
+        {
+          "name": "rewardTxn",
+          "type": "pay"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "setWinner",
+      "args": [
+        {
+          "name": "winner",
+          "type": "address"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "sendReward",
+      "args": [],
+      "returns": {
+        "type": "void"
+      }
+    }
+  ]
+}

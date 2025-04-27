@@ -1,0 +1,87 @@
+{
+  "name": "ConsentContract",
+  "desc": "",
+  "methods": [
+    {
+      "name": "createApplication",
+      "args": [
+        {
+          "name": "ownerAddress",
+          "type": "address"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "createBox",
+      "args": [],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "createConsent",
+      "args": [
+        {
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "name": "organization",
+          "type": "string"
+        },
+        {
+          "name": "duration",
+          "type": "uint64"
+        },
+        {
+          "name": "consentHash",
+          "type": "string"
+        },
+        {
+          "name": "signedUrl",
+          "type": "string"
+        },
+        {
+          "name": "consetData",
+          "type": "string"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "revokeConsent",
+      "args": [],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "extendConsent",
+      "args": [
+        {
+          "name": "duration",
+          "type": "uint64"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "updateStatus",
+      "args": [],
+      "returns": {
+        "type": "void"
+      }
+    }
+  ]
+}

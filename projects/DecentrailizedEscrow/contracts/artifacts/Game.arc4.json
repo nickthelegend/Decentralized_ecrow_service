@@ -1,0 +1,104 @@
+{
+  "name": "Game",
+  "desc": "",
+  "methods": [
+    {
+      "name": "createApplication",
+      "args": [],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "createBox",
+      "args": [],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "depositfundsPlayer1",
+      "args": [
+        {
+          "name": "ftransx",
+          "type": "pay"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "depositfundsPlayer2",
+      "args": [
+        {
+          "name": "ftransx",
+          "type": "pay"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "sendFunds",
+      "args": [
+        {
+          "name": "player",
+          "type": "address"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "joinGame",
+      "args": [
+        {
+          "name": "player",
+          "type": "address"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "player1turn",
+      "args": [
+        {
+          "name": "move",
+          "type": "string"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "player2turn",
+      "args": [
+        {
+          "name": "move",
+          "type": "string"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "setWinner",
+      "args": [
+        {
+          "name": "winner",
+          "type": "address"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    }
+  ]
+}

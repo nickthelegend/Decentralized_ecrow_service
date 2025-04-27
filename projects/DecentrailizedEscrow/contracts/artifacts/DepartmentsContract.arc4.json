@@ -1,0 +1,78 @@
+{
+  "name": "DepartmentsContract",
+  "desc": "",
+  "methods": [
+    {
+      "name": "createApplication",
+      "args": [
+        {
+          "name": "adminAddress",
+          "type": "address"
+        },
+        {
+          "name": "company",
+          "type": "string"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "registerDepartment",
+      "args": [
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "manager",
+          "type": "address"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "addInventory",
+      "args": [
+        {
+          "name": "department",
+          "type": "string"
+        },
+        {
+          "name": "product",
+          "type": "string"
+        },
+        {
+          "name": "quantity",
+          "type": "uint64"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "useStock",
+      "args": [
+        {
+          "name": "department",
+          "type": "string"
+        },
+        {
+          "name": "product",
+          "type": "string"
+        },
+        {
+          "name": "quantity",
+          "type": "uint64"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    }
+  ]
+}

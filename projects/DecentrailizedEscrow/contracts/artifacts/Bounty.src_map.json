@@ -1,0 +1,1152 @@
+[
+  {
+    "teal": 1,
+    "source": "contracts/Dev.algo.ts:4",
+    "pc": [
+      0
+    ]
+  },
+  {
+    "teal": 2,
+    "source": "contracts/Dev.algo.ts:4",
+    "pc": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "teal": 3,
+    "source": "contracts/Dev.algo.ts:4",
+    "pc": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "teal": 15,
+    "source": "contracts/Dev.algo.ts:4",
+    "pc": [
+      20,
+      21
+    ]
+  },
+  {
+    "teal": 16,
+    "source": "contracts/Dev.algo.ts:4",
+    "pc": [
+      22
+    ]
+  },
+  {
+    "teal": 17,
+    "source": "contracts/Dev.algo.ts:4",
+    "pc": [
+      23,
+      24
+    ]
+  },
+  {
+    "teal": 18,
+    "source": "contracts/Dev.algo.ts:4",
+    "pc": [
+      25
+    ]
+  },
+  {
+    "teal": 19,
+    "source": "contracts/Dev.algo.ts:4",
+    "pc": [
+      26,
+      27
+    ]
+  },
+  {
+    "teal": 20,
+    "source": "contracts/Dev.algo.ts:4",
+    "pc": [
+      28
+    ]
+  },
+  {
+    "teal": 21,
+    "source": "contracts/Dev.algo.ts:4",
+    "pc": [
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54
+    ]
+  },
+  {
+    "teal": 25,
+    "source": "contracts/Dev.algo.ts:4",
+    "errorMessage": "The requested action is not implemented in this contract. Are you using the correct OnComplete? Did you set your app ID?",
+    "pc": [
+      55
+    ]
+  },
+  {
+    "teal": 30,
+    "source": "contracts/Dev.algo.ts:15",
+    "pc": [
+      56,
+      57,
+      58
+    ]
+  },
+  {
+    "teal": 31,
+    "source": "contracts/Dev.algo.ts:15",
+    "pc": [
+      59
+    ]
+  },
+  {
+    "teal": 34,
+    "source": "contracts/Dev.algo.ts:15",
+    "pc": [
+      60,
+      61,
+      62
+    ]
+  },
+  {
+    "teal": 35,
+    "source": "contracts/Dev.algo.ts:15",
+    "pc": [
+      63,
+      64,
+      65
+    ]
+  },
+  {
+    "teal": 38,
+    "source": "contracts/Dev.algo.ts:15",
+    "pc": [
+      66,
+      67,
+      68
+    ]
+  },
+  {
+    "teal": 39,
+    "source": "contracts/Dev.algo.ts:15",
+    "pc": [
+      69,
+      70,
+      71
+    ]
+  },
+  {
+    "teal": 42,
+    "source": "contracts/Dev.algo.ts:15",
+    "pc": [
+      72,
+      73,
+      74
+    ]
+  },
+  {
+    "teal": 43,
+    "source": "contracts/Dev.algo.ts:15",
+    "pc": [
+      75,
+      76,
+      77
+    ]
+  },
+  {
+    "teal": 46,
+    "source": "contracts/Dev.algo.ts:15",
+    "pc": [
+      78,
+      79,
+      80
+    ]
+  },
+  {
+    "teal": 47,
+    "source": "contracts/Dev.algo.ts:15",
+    "pc": [
+      81
+    ]
+  },
+  {
+    "teal": 48,
+    "source": "contracts/Dev.algo.ts:15",
+    "pc": [
+      82
+    ]
+  },
+  {
+    "teal": 52,
+    "source": "contracts/Dev.algo.ts:15",
+    "pc": [
+      83,
+      84,
+      85
+    ]
+  },
+  {
+    "teal": 56,
+    "source": "contracts/Dev.algo.ts:18",
+    "pc": [
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98
+    ]
+  },
+  {
+    "teal": 57,
+    "source": "contracts/Dev.algo.ts:18",
+    "pc": [
+      99,
+      100
+    ]
+  },
+  {
+    "teal": 58,
+    "source": "contracts/Dev.algo.ts:18",
+    "pc": [
+      101
+    ]
+  },
+  {
+    "teal": 59,
+    "source": "contracts/Dev.algo.ts:18",
+    "pc": [
+      102
+    ]
+  },
+  {
+    "teal": 60,
+    "source": "contracts/Dev.algo.ts:18",
+    "pc": [
+      103
+    ]
+  },
+  {
+    "teal": 61,
+    "source": "contracts/Dev.algo.ts:18",
+    "pc": [
+      104,
+      105,
+      106
+    ]
+  },
+  {
+    "teal": 62,
+    "source": "contracts/Dev.algo.ts:18",
+    "pc": [
+      107
+    ]
+  },
+  {
+    "teal": 63,
+    "source": "contracts/Dev.algo.ts:18",
+    "pc": [
+      108
+    ]
+  },
+  {
+    "teal": 64,
+    "source": "contracts/Dev.algo.ts:18",
+    "pc": [
+      109
+    ]
+  },
+  {
+    "teal": 68,
+    "source": "contracts/Dev.algo.ts:19",
+    "pc": [
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120
+    ]
+  },
+  {
+    "teal": 69,
+    "source": "contracts/Dev.algo.ts:19",
+    "pc": [
+      121,
+      122
+    ]
+  },
+  {
+    "teal": 70,
+    "source": "contracts/Dev.algo.ts:19",
+    "pc": [
+      123
+    ]
+  },
+  {
+    "teal": 71,
+    "source": "contracts/Dev.algo.ts:19",
+    "pc": [
+      124
+    ]
+  },
+  {
+    "teal": 72,
+    "source": "contracts/Dev.algo.ts:19",
+    "pc": [
+      125
+    ]
+  },
+  {
+    "teal": 73,
+    "source": "contracts/Dev.algo.ts:19",
+    "pc": [
+      126,
+      127,
+      128
+    ]
+  },
+  {
+    "teal": 74,
+    "source": "contracts/Dev.algo.ts:19",
+    "pc": [
+      129
+    ]
+  },
+  {
+    "teal": 75,
+    "source": "contracts/Dev.algo.ts:19",
+    "pc": [
+      130
+    ]
+  },
+  {
+    "teal": 76,
+    "source": "contracts/Dev.algo.ts:19",
+    "pc": [
+      131
+    ]
+  },
+  {
+    "teal": 80,
+    "source": "contracts/Dev.algo.ts:20",
+    "pc": [
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151
+    ]
+  },
+  {
+    "teal": 81,
+    "source": "contracts/Dev.algo.ts:20",
+    "pc": [
+      152,
+      153
+    ]
+  },
+  {
+    "teal": 82,
+    "source": "contracts/Dev.algo.ts:20",
+    "pc": [
+      154
+    ]
+  },
+  {
+    "teal": 83,
+    "source": "contracts/Dev.algo.ts:20",
+    "pc": [
+      155
+    ]
+  },
+  {
+    "teal": 84,
+    "source": "contracts/Dev.algo.ts:20",
+    "pc": [
+      156
+    ]
+  },
+  {
+    "teal": 85,
+    "source": "contracts/Dev.algo.ts:20",
+    "pc": [
+      157,
+      158,
+      159
+    ]
+  },
+  {
+    "teal": 86,
+    "source": "contracts/Dev.algo.ts:20",
+    "pc": [
+      160
+    ]
+  },
+  {
+    "teal": 87,
+    "source": "contracts/Dev.algo.ts:20",
+    "pc": [
+      161
+    ]
+  },
+  {
+    "teal": 88,
+    "source": "contracts/Dev.algo.ts:20",
+    "pc": [
+      162
+    ]
+  },
+  {
+    "teal": 92,
+    "source": "contracts/Dev.algo.ts:21",
+    "pc": [
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174
+    ]
+  },
+  {
+    "teal": 93,
+    "source": "contracts/Dev.algo.ts:21",
+    "pc": [
+      175,
+      176
+    ]
+  },
+  {
+    "teal": 94,
+    "source": "contracts/Dev.algo.ts:21",
+    "pc": [
+      177
+    ]
+  },
+  {
+    "teal": 95,
+    "source": "contracts/Dev.algo.ts:15",
+    "pc": [
+      178
+    ]
+  },
+  {
+    "teal": 100,
+    "source": "contracts/Dev.algo.ts:25",
+    "pc": [
+      179,
+      180
+    ]
+  },
+  {
+    "teal": 101,
+    "source": "contracts/Dev.algo.ts:25",
+    "pc": [
+      181
+    ]
+  },
+  {
+    "teal": 102,
+    "source": "contracts/Dev.algo.ts:25",
+    "pc": [
+      182
+    ]
+  },
+  {
+    "teal": 103,
+    "source": "contracts/Dev.algo.ts:25",
+    "pc": [
+      183
+    ]
+  },
+  {
+    "teal": 104,
+    "source": "contracts/Dev.algo.ts:25",
+    "pc": [
+      184,
+      185
+    ]
+  },
+  {
+    "teal": 105,
+    "source": "contracts/Dev.algo.ts:25",
+    "pc": [
+      186
+    ]
+  },
+  {
+    "teal": 106,
+    "source": "contracts/Dev.algo.ts:25",
+    "pc": [
+      187
+    ]
+  },
+  {
+    "teal": 109,
+    "source": "contracts/Dev.algo.ts:25",
+    "errorMessage": "argument 0 (rewardTxn) for depositReward must be a pay transaction",
+    "pc": [
+      188
+    ]
+  },
+  {
+    "teal": 112,
+    "source": "contracts/Dev.algo.ts:25",
+    "pc": [
+      189,
+      190,
+      191
+    ]
+  },
+  {
+    "teal": 113,
+    "source": "contracts/Dev.algo.ts:25",
+    "pc": [
+      192
+    ]
+  },
+  {
+    "teal": 114,
+    "source": "contracts/Dev.algo.ts:25",
+    "pc": [
+      193
+    ]
+  },
+  {
+    "teal": 118,
+    "source": "contracts/Dev.algo.ts:25",
+    "pc": [
+      194,
+      195,
+      196
+    ]
+  },
+  {
+    "teal": 124,
+    "source": "contracts/Dev.algo.ts:28",
+    "pc": [
+      197,
+      198
+    ]
+  },
+  {
+    "teal": 125,
+    "source": "contracts/Dev.algo.ts:28",
+    "pc": [
+      199,
+      200,
+      201
+    ]
+  },
+  {
+    "teal": 126,
+    "source": "contracts/Dev.algo.ts:28",
+    "pc": [
+      202,
+      203
+    ]
+  },
+  {
+    "teal": 127,
+    "source": "contracts/Dev.algo.ts:28",
+    "pc": [
+      204
+    ]
+  },
+  {
+    "teal": 128,
+    "source": "contracts/Dev.algo.ts:28",
+    "pc": [
+      205
+    ]
+  },
+  {
+    "teal": 129,
+    "source": "contracts/Dev.algo.ts:27",
+    "pc": [
+      206
+    ]
+  },
+  {
+    "teal": 137,
+    "source": "contracts/Dev.algo.ts:31",
+    "pc": [
+      207,
+      208
+    ]
+  },
+  {
+    "teal": 138,
+    "source": "contracts/Dev.algo.ts:33",
+    "pc": [
+      209,
+      210
+    ]
+  },
+  {
+    "teal": 139,
+    "source": "contracts/Dev.algo.ts:33",
+    "pc": [
+      211,
+      212
+    ]
+  },
+  {
+    "teal": 140,
+    "source": "contracts/Dev.algo.ts:33",
+    "pc": [
+      213
+    ]
+  },
+  {
+    "teal": 143,
+    "source": "contracts/Dev.algo.ts:33",
+    "errorMessage": "transaction verification failed: {\"txn\":\"rewardTxn\",\"field\":\"receiver\",\"expected\":\"this.app.address\"}",
+    "pc": [
+      214
+    ]
+  },
+  {
+    "teal": 147,
+    "source": "contracts/Dev.algo.ts:36",
+    "pc": [
+      215
+    ]
+  },
+  {
+    "teal": 148,
+    "source": "contracts/Dev.algo.ts:36",
+    "pc": [
+      216,
+      217
+    ]
+  },
+  {
+    "teal": 149,
+    "source": "contracts/Dev.algo.ts:36",
+    "pc": [
+      218,
+      219
+    ]
+  },
+  {
+    "teal": 150,
+    "source": "contracts/Dev.algo.ts:36",
+    "pc": [
+      220
+    ]
+  },
+  {
+    "teal": 151,
+    "source": "contracts/Dev.algo.ts:25",
+    "pc": [
+      221
+    ]
+  },
+  {
+    "teal": 156,
+    "source": "contracts/Dev.algo.ts:43",
+    "pc": [
+      222,
+      223,
+      224
+    ]
+  },
+  {
+    "teal": 157,
+    "source": "contracts/Dev.algo.ts:43",
+    "pc": [
+      225
+    ]
+  },
+  {
+    "teal": 158,
+    "source": "contracts/Dev.algo.ts:43",
+    "pc": [
+      226
+    ]
+  },
+  {
+    "teal": 159,
+    "source": "contracts/Dev.algo.ts:43",
+    "pc": [
+      227,
+      228
+    ]
+  },
+  {
+    "teal": 160,
+    "source": "contracts/Dev.algo.ts:43",
+    "pc": [
+      229
+    ]
+  },
+  {
+    "teal": 163,
+    "source": "contracts/Dev.algo.ts:43",
+    "errorMessage": "argument 0 (winner) for setWinner must be a address",
+    "pc": [
+      230
+    ]
+  },
+  {
+    "teal": 166,
+    "source": "contracts/Dev.algo.ts:43",
+    "pc": [
+      231,
+      232,
+      233
+    ]
+  },
+  {
+    "teal": 167,
+    "source": "contracts/Dev.algo.ts:43",
+    "pc": [
+      234
+    ]
+  },
+  {
+    "teal": 168,
+    "source": "contracts/Dev.algo.ts:43",
+    "pc": [
+      235
+    ]
+  },
+  {
+    "teal": 172,
+    "source": "contracts/Dev.algo.ts:43",
+    "pc": [
+      236,
+      237,
+      238
+    ]
+  },
+  {
+    "teal": 178,
+    "source": "contracts/Dev.algo.ts:46",
+    "pc": [
+      239,
+      240
+    ]
+  },
+  {
+    "teal": 179,
+    "source": "contracts/Dev.algo.ts:46",
+    "pc": [
+      241,
+      242,
+      243
+    ]
+  },
+  {
+    "teal": 180,
+    "source": "contracts/Dev.algo.ts:46",
+    "pc": [
+      244,
+      245
+    ]
+  },
+  {
+    "teal": 181,
+    "source": "contracts/Dev.algo.ts:46",
+    "pc": [
+      246
+    ]
+  },
+  {
+    "teal": 182,
+    "source": "contracts/Dev.algo.ts:46",
+    "pc": [
+      247
+    ]
+  },
+  {
+    "teal": 183,
+    "source": "contracts/Dev.algo.ts:45",
+    "pc": [
+      248
+    ]
+  },
+  {
+    "teal": 187,
+    "source": "contracts/Dev.algo.ts:49",
+    "pc": [
+      249
+    ]
+  },
+  {
+    "teal": 188,
+    "source": "contracts/Dev.algo.ts:49",
+    "pc": [
+      250,
+      251
+    ]
+  },
+  {
+    "teal": 189,
+    "source": "contracts/Dev.algo.ts:49",
+    "pc": [
+      252
+    ]
+  },
+  {
+    "teal": 190,
+    "source": "contracts/Dev.algo.ts:43",
+    "pc": [
+      253
+    ]
+  },
+  {
+    "teal": 195,
+    "source": "contracts/Dev.algo.ts:54",
+    "pc": [
+      254,
+      255,
+      256
+    ]
+  },
+  {
+    "teal": 196,
+    "source": "contracts/Dev.algo.ts:54",
+    "pc": [
+      257
+    ]
+  },
+  {
+    "teal": 197,
+    "source": "contracts/Dev.algo.ts:54",
+    "pc": [
+      258
+    ]
+  },
+  {
+    "teal": 201,
+    "source": "contracts/Dev.algo.ts:54",
+    "pc": [
+      259,
+      260,
+      261
+    ]
+  },
+  {
+    "teal": 207,
+    "source": "contracts/Dev.algo.ts:57",
+    "pc": [
+      262,
+      263
+    ]
+  },
+  {
+    "teal": 208,
+    "source": "contracts/Dev.algo.ts:57",
+    "pc": [
+      264,
+      265,
+      266
+    ]
+  },
+  {
+    "teal": 209,
+    "source": "contracts/Dev.algo.ts:57",
+    "pc": [
+      267,
+      268
+    ]
+  },
+  {
+    "teal": 210,
+    "source": "contracts/Dev.algo.ts:57",
+    "pc": [
+      269
+    ]
+  },
+  {
+    "teal": 211,
+    "source": "contracts/Dev.algo.ts:57",
+    "pc": [
+      270
+    ]
+  },
+  {
+    "teal": 212,
+    "source": "contracts/Dev.algo.ts:56",
+    "pc": [
+      271
+    ]
+  },
+  {
+    "teal": 219,
+    "source": "contracts/Dev.algo.ts:60",
+    "pc": [
+      272
+    ]
+  },
+  {
+    "teal": 220,
+    "source": "contracts/Dev.algo.ts:60",
+    "pc": [
+      273
+    ]
+  },
+  {
+    "teal": 221,
+    "source": "contracts/Dev.algo.ts:60",
+    "pc": [
+      274,
+      275
+    ]
+  },
+  {
+    "teal": 225,
+    "source": "contracts/Dev.algo.ts:61",
+    "pc": [
+      276
+    ]
+  },
+  {
+    "teal": 226,
+    "source": "contracts/Dev.algo.ts:61",
+    "pc": [
+      277
+    ]
+  },
+  {
+    "teal": 227,
+    "source": "contracts/Dev.algo.ts:61",
+    "pc": [
+      278,
+      279
+    ]
+  },
+  {
+    "teal": 231,
+    "source": "contracts/Dev.algo.ts:62",
+    "pc": [
+      280
+    ]
+  },
+  {
+    "teal": 232,
+    "source": "contracts/Dev.algo.ts:62",
+    "pc": [
+      281
+    ]
+  },
+  {
+    "teal": 233,
+    "source": "contracts/Dev.algo.ts:62",
+    "pc": [
+      282,
+      283
+    ]
+  },
+  {
+    "teal": 236,
+    "source": "contracts/Dev.algo.ts:60",
+    "pc": [
+      284,
+      285
+    ]
+  },
+  {
+    "teal": 237,
+    "source": "contracts/Dev.algo.ts:60",
+    "pc": [
+      286,
+      287
+    ]
+  },
+  {
+    "teal": 240,
+    "source": "contracts/Dev.algo.ts:60",
+    "pc": [
+      288
+    ]
+  },
+  {
+    "teal": 241,
+    "source": "contracts/Dev.algo.ts:54",
+    "pc": [
+      289
+    ]
+  },
+  {
+    "teal": 244,
+    "source": "contracts/Dev.algo.ts:4",
+    "pc": [
+      290,
+      291,
+      292,
+      293,
+      294,
+      295
+    ]
+  },
+  {
+    "teal": 245,
+    "source": "contracts/Dev.algo.ts:4",
+    "pc": [
+      296,
+      297,
+      298
+    ]
+  },
+  {
+    "teal": 246,
+    "source": "contracts/Dev.algo.ts:4",
+    "pc": [
+      299,
+      300,
+      301,
+      302
+    ]
+  },
+  {
+    "teal": 249,
+    "source": "contracts/Dev.algo.ts:4",
+    "errorMessage": "this contract does not implement the given ABI method for create NoOp",
+    "pc": [
+      303
+    ]
+  },
+  {
+    "teal": 252,
+    "source": "contracts/Dev.algo.ts:4",
+    "pc": [
+      304,
+      305,
+      306,
+      307,
+      308,
+      309
+    ]
+  },
+  {
+    "teal": 253,
+    "source": "contracts/Dev.algo.ts:4",
+    "pc": [
+      310,
+      311,
+      312,
+      313,
+      314,
+      315
+    ]
+  },
+  {
+    "teal": 254,
+    "source": "contracts/Dev.algo.ts:4",
+    "pc": [
+      316,
+      317,
+      318,
+      319,
+      320,
+      321
+    ]
+  },
+  {
+    "teal": 255,
+    "source": "contracts/Dev.algo.ts:4",
+    "pc": [
+      322,
+      323,
+      324
+    ]
+  },
+  {
+    "teal": 256,
+    "source": "contracts/Dev.algo.ts:4",
+    "pc": [
+      325,
+      326,
+      327,
+      328,
+      329,
+      330,
+      331,
+      332
+    ]
+  },
+  {
+    "teal": 259,
+    "source": "contracts/Dev.algo.ts:4",
+    "errorMessage": "this contract does not implement the given ABI method for call NoOp",
+    "pc": [
+      333
+    ]
+  }
+]

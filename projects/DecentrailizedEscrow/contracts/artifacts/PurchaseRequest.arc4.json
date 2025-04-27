@@ -1,0 +1,107 @@
+{
+  "name": "PurchaseRequest",
+  "desc": "",
+  "methods": [
+    {
+      "name": "createApplication",
+      "args": [
+        {
+          "name": "product",
+          "type": "string"
+        },
+        {
+          "name": "quantity",
+          "type": "string"
+        },
+        {
+          "name": "deadline",
+          "type": "uint64"
+        },
+        {
+          "name": "max_budget",
+          "type": "uint64"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "submitBid",
+      "args": [
+        {
+          "name": "amount",
+          "type": "uint64"
+        },
+        {
+          "name": "deliveryTime",
+          "type": "uint64"
+        },
+        {
+          "name": "description",
+          "type": "string"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "acceptBid",
+      "args": [
+        {
+          "name": "vendorAddress",
+          "type": "address"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "sendFunds",
+      "args": [
+        {
+          "name": "payment",
+          "type": "pay"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "confirm_dispatch",
+      "args": [
+        {
+          "name": "companyAddress",
+          "type": "address"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "confirm_delivery_received",
+      "args": [],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "cancel_request",
+      "args": [],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "receive_order",
+      "args": [],
+      "returns": {
+        "type": "void"
+      }
+    }
+  ]
+}

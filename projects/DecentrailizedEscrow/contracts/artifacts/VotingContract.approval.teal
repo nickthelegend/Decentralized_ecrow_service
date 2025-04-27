@@ -138,11 +138,9 @@ createVote:
 	app_global_put
 
 	// contracts/Voting.algo.ts:34
-	// this.votingEndTime.value = globals.latestTimestamp + duration
+	// this.votingEndTime.value = duration
 	bytec 1 //  "votingEndTime"
-	global LatestTimestamp
 	frame_dig -3 // duration: uint64
-	+
 	app_global_put
 	retsub
 

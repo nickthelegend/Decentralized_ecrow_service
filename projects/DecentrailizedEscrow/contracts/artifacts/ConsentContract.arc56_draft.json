@@ -1,0 +1,2109 @@
+{
+  "name": "ConsentContract",
+  "desc": "",
+  "methods": [
+    {
+      "name": "createApplication",
+      "args": [
+        {
+          "name": "ownerAddress",
+          "type": "address"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      },
+      "actions": {
+        "create": [
+          "NoOp"
+        ],
+        "call": []
+      }
+    },
+    {
+      "name": "createBox",
+      "args": [],
+      "returns": {
+        "type": "void"
+      },
+      "actions": {
+        "create": [],
+        "call": [
+          "NoOp"
+        ]
+      }
+    },
+    {
+      "name": "createConsent",
+      "args": [
+        {
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "name": "organization",
+          "type": "string"
+        },
+        {
+          "name": "duration",
+          "type": "uint64"
+        },
+        {
+          "name": "consentHash",
+          "type": "string"
+        },
+        {
+          "name": "signedUrl",
+          "type": "string"
+        },
+        {
+          "name": "consetData",
+          "type": "string"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      },
+      "actions": {
+        "create": [],
+        "call": [
+          "NoOp"
+        ]
+      }
+    },
+    {
+      "name": "revokeConsent",
+      "args": [],
+      "returns": {
+        "type": "void"
+      },
+      "actions": {
+        "create": [],
+        "call": [
+          "NoOp"
+        ]
+      }
+    },
+    {
+      "name": "extendConsent",
+      "args": [
+        {
+          "name": "duration",
+          "type": "uint64"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      },
+      "actions": {
+        "create": [],
+        "call": [
+          "NoOp"
+        ]
+      }
+    },
+    {
+      "name": "updateStatus",
+      "args": [],
+      "returns": {
+        "type": "void"
+      },
+      "actions": {
+        "create": [],
+        "call": [
+          "NoOp"
+        ]
+      }
+    }
+  ],
+  "arcs": [
+    4,
+    56
+  ],
+  "structs": {},
+  "state": {
+    "schema": {
+      "global": {
+        "bytes": 7,
+        "ints": 1
+      },
+      "local": {
+        "bytes": 0,
+        "ints": 0
+      }
+    },
+    "keys": {
+      "global": {
+        "consentTitle": {
+          "key": "Y29uc2VudFRpdGxl",
+          "keyType": "AVMBytes",
+          "valueType": "string"
+        },
+        "description": {
+          "key": "ZGVzY3JpcHRpb24=",
+          "keyType": "AVMBytes",
+          "valueType": "string"
+        },
+        "organization": {
+          "key": "b3JnYW5pemF0aW9u",
+          "keyType": "AVMBytes",
+          "valueType": "string"
+        },
+        "expirationDate": {
+          "key": "ZXhwaXJhdGlvbkRhdGU=",
+          "keyType": "AVMBytes",
+          "valueType": "uint64"
+        },
+        "consentHash": {
+          "key": "Y29uc2VudEhhc2g=",
+          "keyType": "AVMBytes",
+          "valueType": "string"
+        },
+        "status": {
+          "key": "c3RhdHVz",
+          "keyType": "AVMBytes",
+          "valueType": "string"
+        },
+        "owner": {
+          "key": "b3duZXI=",
+          "keyType": "AVMBytes",
+          "valueType": "address"
+        },
+        "signedUrl": {
+          "key": "c2lnbmVkVXJs",
+          "keyType": "AVMBytes",
+          "valueType": "string"
+        }
+      },
+      "local": {},
+      "box": {
+        "consentDataBox": {
+          "key": "Y29uc2VudERhdGE=",
+          "keyType": "AVMBytes",
+          "valueType": "string"
+        }
+      }
+    },
+    "maps": {
+      "global": {},
+      "local": {},
+      "box": {}
+    }
+  },
+  "bareActions": {
+    "create": [],
+    "call": []
+  },
+  "sourceInfo": {
+    "approval": {
+      "sourceInfo": [
+        {
+          "teal": 1,
+          "source": "contracts/ConsentContract.algo.ts:3",
+          "pc": [
+            0
+          ]
+        },
+        {
+          "teal": 2,
+          "source": "contracts/ConsentContract.algo.ts:3",
+          "pc": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "teal": 3,
+          "source": "contracts/ConsentContract.algo.ts:3",
+          "pc": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124
+          ]
+        },
+        {
+          "teal": 15,
+          "source": "contracts/ConsentContract.algo.ts:3",
+          "pc": [
+            125,
+            126
+          ]
+        },
+        {
+          "teal": 16,
+          "source": "contracts/ConsentContract.algo.ts:3",
+          "pc": [
+            127
+          ]
+        },
+        {
+          "teal": 17,
+          "source": "contracts/ConsentContract.algo.ts:3",
+          "pc": [
+            128,
+            129
+          ]
+        },
+        {
+          "teal": 18,
+          "source": "contracts/ConsentContract.algo.ts:3",
+          "pc": [
+            130
+          ]
+        },
+        {
+          "teal": 19,
+          "source": "contracts/ConsentContract.algo.ts:3",
+          "pc": [
+            131,
+            132
+          ]
+        },
+        {
+          "teal": 20,
+          "source": "contracts/ConsentContract.algo.ts:3",
+          "pc": [
+            133
+          ]
+        },
+        {
+          "teal": 21,
+          "source": "contracts/ConsentContract.algo.ts:3",
+          "pc": [
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            146,
+            147,
+            148,
+            149,
+            150,
+            151,
+            152,
+            153,
+            154,
+            155,
+            156,
+            157,
+            158,
+            159
+          ]
+        },
+        {
+          "teal": 25,
+          "source": "contracts/ConsentContract.algo.ts:3",
+          "errorMessage": "The requested action is not implemented in this contract. Are you using the correct OnComplete? Did you set your app ID?",
+          "pc": [
+            160
+          ]
+        },
+        {
+          "teal": 30,
+          "source": "contracts/ConsentContract.algo.ts:19",
+          "pc": [
+            161,
+            162,
+            163
+          ]
+        },
+        {
+          "teal": 31,
+          "source": "contracts/ConsentContract.algo.ts:19",
+          "pc": [
+            164
+          ]
+        },
+        {
+          "teal": 32,
+          "source": "contracts/ConsentContract.algo.ts:19",
+          "pc": [
+            165
+          ]
+        },
+        {
+          "teal": 33,
+          "source": "contracts/ConsentContract.algo.ts:19",
+          "pc": [
+            166,
+            167
+          ]
+        },
+        {
+          "teal": 34,
+          "source": "contracts/ConsentContract.algo.ts:19",
+          "pc": [
+            168
+          ]
+        },
+        {
+          "teal": 37,
+          "source": "contracts/ConsentContract.algo.ts:19",
+          "errorMessage": "argument 0 (ownerAddress) for createApplication must be a address",
+          "pc": [
+            169
+          ]
+        },
+        {
+          "teal": 40,
+          "source": "contracts/ConsentContract.algo.ts:19",
+          "pc": [
+            170,
+            171,
+            172
+          ]
+        },
+        {
+          "teal": 41,
+          "source": "contracts/ConsentContract.algo.ts:19",
+          "pc": [
+            173
+          ]
+        },
+        {
+          "teal": 42,
+          "source": "contracts/ConsentContract.algo.ts:19",
+          "pc": [
+            174
+          ]
+        },
+        {
+          "teal": 46,
+          "source": "contracts/ConsentContract.algo.ts:19",
+          "pc": [
+            175,
+            176,
+            177
+          ]
+        },
+        {
+          "teal": 50,
+          "source": "contracts/ConsentContract.algo.ts:20",
+          "pc": [
+            178,
+            179
+          ]
+        },
+        {
+          "teal": 51,
+          "source": "contracts/ConsentContract.algo.ts:20",
+          "pc": [
+            180
+          ]
+        },
+        {
+          "teal": 52,
+          "source": "contracts/ConsentContract.algo.ts:20",
+          "pc": [
+            181
+          ]
+        },
+        {
+          "teal": 56,
+          "source": "contracts/ConsentContract.algo.ts:21",
+          "pc": [
+            182,
+            183
+          ]
+        },
+        {
+          "teal": 57,
+          "source": "contracts/ConsentContract.algo.ts:21",
+          "pc": [
+            184
+          ]
+        },
+        {
+          "teal": 58,
+          "source": "contracts/ConsentContract.algo.ts:21",
+          "pc": [
+            185
+          ]
+        },
+        {
+          "teal": 62,
+          "source": "contracts/ConsentContract.algo.ts:22",
+          "pc": [
+            186,
+            187
+          ]
+        },
+        {
+          "teal": 63,
+          "source": "contracts/ConsentContract.algo.ts:22",
+          "pc": [
+            188
+          ]
+        },
+        {
+          "teal": 64,
+          "source": "contracts/ConsentContract.algo.ts:22",
+          "pc": [
+            189
+          ]
+        },
+        {
+          "teal": 68,
+          "source": "contracts/ConsentContract.algo.ts:23",
+          "pc": [
+            190
+          ]
+        },
+        {
+          "teal": 69,
+          "source": "contracts/ConsentContract.algo.ts:23",
+          "pc": [
+            191,
+            192
+          ]
+        },
+        {
+          "teal": 70,
+          "source": "contracts/ConsentContract.algo.ts:23",
+          "pc": [
+            193
+          ]
+        },
+        {
+          "teal": 74,
+          "source": "contracts/ConsentContract.algo.ts:24",
+          "pc": [
+            194,
+            195
+          ]
+        },
+        {
+          "teal": 75,
+          "source": "contracts/ConsentContract.algo.ts:24",
+          "pc": [
+            196
+          ]
+        },
+        {
+          "teal": 76,
+          "source": "contracts/ConsentContract.algo.ts:24",
+          "pc": [
+            197
+          ]
+        },
+        {
+          "teal": 80,
+          "source": "contracts/ConsentContract.algo.ts:25",
+          "pc": [
+            198
+          ]
+        },
+        {
+          "teal": 81,
+          "source": "contracts/ConsentContract.algo.ts:25",
+          "pc": [
+            199,
+            200
+          ]
+        },
+        {
+          "teal": 82,
+          "source": "contracts/ConsentContract.algo.ts:25",
+          "pc": [
+            201
+          ]
+        },
+        {
+          "teal": 86,
+          "source": "contracts/ConsentContract.algo.ts:26",
+          "pc": [
+            202
+          ]
+        },
+        {
+          "teal": 87,
+          "source": "contracts/ConsentContract.algo.ts:26",
+          "pc": [
+            203,
+            204
+          ]
+        },
+        {
+          "teal": 88,
+          "source": "contracts/ConsentContract.algo.ts:26",
+          "pc": [
+            205
+          ]
+        },
+        {
+          "teal": 92,
+          "source": "contracts/ConsentContract.algo.ts:27",
+          "pc": [
+            206,
+            207
+          ]
+        },
+        {
+          "teal": 93,
+          "source": "contracts/ConsentContract.algo.ts:27",
+          "pc": [
+            208
+          ]
+        },
+        {
+          "teal": 94,
+          "source": "contracts/ConsentContract.algo.ts:27",
+          "pc": [
+            209
+          ]
+        },
+        {
+          "teal": 95,
+          "source": "contracts/ConsentContract.algo.ts:19",
+          "pc": [
+            210
+          ]
+        },
+        {
+          "teal": 100,
+          "source": "contracts/ConsentContract.algo.ts:30",
+          "pc": [
+            211,
+            212,
+            213
+          ]
+        },
+        {
+          "teal": 101,
+          "source": "contracts/ConsentContract.algo.ts:30",
+          "pc": [
+            214
+          ]
+        },
+        {
+          "teal": 102,
+          "source": "contracts/ConsentContract.algo.ts:30",
+          "pc": [
+            215
+          ]
+        },
+        {
+          "teal": 106,
+          "source": "contracts/ConsentContract.algo.ts:30",
+          "pc": [
+            216,
+            217,
+            218
+          ]
+        },
+        {
+          "teal": 110,
+          "source": "contracts/ConsentContract.algo.ts:31",
+          "pc": [
+            219,
+            220
+          ]
+        },
+        {
+          "teal": 111,
+          "source": "contracts/ConsentContract.algo.ts:31",
+          "pc": [
+            221,
+            222,
+            223
+          ]
+        },
+        {
+          "teal": 112,
+          "source": "contracts/ConsentContract.algo.ts:31",
+          "pc": [
+            224
+          ]
+        },
+        {
+          "teal": 113,
+          "source": "contracts/ConsentContract.algo.ts:31",
+          "pc": [
+            225
+          ]
+        },
+        {
+          "teal": 114,
+          "source": "contracts/ConsentContract.algo.ts:30",
+          "pc": [
+            226
+          ]
+        },
+        {
+          "teal": 119,
+          "source": "contracts/ConsentContract.algo.ts:42",
+          "pc": [
+            227,
+            228,
+            229
+          ]
+        },
+        {
+          "teal": 120,
+          "source": "contracts/ConsentContract.algo.ts:42",
+          "pc": [
+            230,
+            231,
+            232
+          ]
+        },
+        {
+          "teal": 123,
+          "source": "contracts/ConsentContract.algo.ts:41",
+          "pc": [
+            233,
+            234,
+            235
+          ]
+        },
+        {
+          "teal": 124,
+          "source": "contracts/ConsentContract.algo.ts:41",
+          "pc": [
+            236,
+            237,
+            238
+          ]
+        },
+        {
+          "teal": 127,
+          "source": "contracts/ConsentContract.algo.ts:40",
+          "pc": [
+            239,
+            240,
+            241
+          ]
+        },
+        {
+          "teal": 128,
+          "source": "contracts/ConsentContract.algo.ts:40",
+          "pc": [
+            242,
+            243,
+            244
+          ]
+        },
+        {
+          "teal": 131,
+          "source": "contracts/ConsentContract.algo.ts:39",
+          "pc": [
+            245,
+            246,
+            247
+          ]
+        },
+        {
+          "teal": 132,
+          "source": "contracts/ConsentContract.algo.ts:39",
+          "pc": [
+            248
+          ]
+        },
+        {
+          "teal": 135,
+          "source": "contracts/ConsentContract.algo.ts:38",
+          "pc": [
+            249,
+            250,
+            251
+          ]
+        },
+        {
+          "teal": 136,
+          "source": "contracts/ConsentContract.algo.ts:38",
+          "pc": [
+            252,
+            253,
+            254
+          ]
+        },
+        {
+          "teal": 139,
+          "source": "contracts/ConsentContract.algo.ts:37",
+          "pc": [
+            255,
+            256,
+            257
+          ]
+        },
+        {
+          "teal": 140,
+          "source": "contracts/ConsentContract.algo.ts:37",
+          "pc": [
+            258,
+            259,
+            260
+          ]
+        },
+        {
+          "teal": 143,
+          "source": "contracts/ConsentContract.algo.ts:36",
+          "pc": [
+            261,
+            262,
+            263
+          ]
+        },
+        {
+          "teal": 144,
+          "source": "contracts/ConsentContract.algo.ts:36",
+          "pc": [
+            264,
+            265,
+            266
+          ]
+        },
+        {
+          "teal": 147,
+          "source": "contracts/ConsentContract.algo.ts:35",
+          "pc": [
+            267,
+            268,
+            269
+          ]
+        },
+        {
+          "teal": 148,
+          "source": "contracts/ConsentContract.algo.ts:35",
+          "pc": [
+            270
+          ]
+        },
+        {
+          "teal": 149,
+          "source": "contracts/ConsentContract.algo.ts:35",
+          "pc": [
+            271
+          ]
+        },
+        {
+          "teal": 153,
+          "source": "contracts/ConsentContract.algo.ts:35",
+          "pc": [
+            272,
+            273,
+            274
+          ]
+        },
+        {
+          "teal": 157,
+          "source": "contracts/ConsentContract.algo.ts:45",
+          "pc": [
+            275,
+            276
+          ]
+        },
+        {
+          "teal": 158,
+          "source": "contracts/ConsentContract.algo.ts:45",
+          "pc": [
+            277
+          ]
+        },
+        {
+          "teal": 159,
+          "source": "contracts/ConsentContract.algo.ts:45",
+          "pc": [
+            278
+          ]
+        },
+        {
+          "teal": 160,
+          "source": "contracts/ConsentContract.algo.ts:45",
+          "pc": [
+            279
+          ]
+        },
+        {
+          "teal": 161,
+          "source": "contracts/ConsentContract.algo.ts:45",
+          "pc": [
+            280
+          ]
+        },
+        {
+          "teal": 165,
+          "source": "contracts/ConsentContract.algo.ts:46",
+          "pc": [
+            281,
+            282
+          ]
+        },
+        {
+          "teal": 166,
+          "source": "contracts/ConsentContract.algo.ts:46",
+          "pc": [
+            283,
+            284
+          ]
+        },
+        {
+          "teal": 167,
+          "source": "contracts/ConsentContract.algo.ts:46",
+          "pc": [
+            285
+          ]
+        },
+        {
+          "teal": 168,
+          "source": "contracts/ConsentContract.algo.ts:46",
+          "pc": [
+            286
+          ]
+        },
+        {
+          "teal": 169,
+          "source": "contracts/ConsentContract.algo.ts:46",
+          "pc": [
+            287
+          ]
+        },
+        {
+          "teal": 170,
+          "source": "contracts/ConsentContract.algo.ts:46",
+          "pc": [
+            288,
+            289,
+            290
+          ]
+        },
+        {
+          "teal": 171,
+          "source": "contracts/ConsentContract.algo.ts:46",
+          "pc": [
+            291
+          ]
+        },
+        {
+          "teal": 172,
+          "source": "contracts/ConsentContract.algo.ts:46",
+          "pc": [
+            292
+          ]
+        },
+        {
+          "teal": 173,
+          "source": "contracts/ConsentContract.algo.ts:46",
+          "pc": [
+            293
+          ]
+        },
+        {
+          "teal": 177,
+          "source": "contracts/ConsentContract.algo.ts:47",
+          "pc": [
+            294,
+            295
+          ]
+        },
+        {
+          "teal": 178,
+          "source": "contracts/ConsentContract.algo.ts:47",
+          "pc": [
+            296,
+            297
+          ]
+        },
+        {
+          "teal": 179,
+          "source": "contracts/ConsentContract.algo.ts:47",
+          "pc": [
+            298
+          ]
+        },
+        {
+          "teal": 180,
+          "source": "contracts/ConsentContract.algo.ts:47",
+          "pc": [
+            299
+          ]
+        },
+        {
+          "teal": 181,
+          "source": "contracts/ConsentContract.algo.ts:47",
+          "pc": [
+            300
+          ]
+        },
+        {
+          "teal": 182,
+          "source": "contracts/ConsentContract.algo.ts:47",
+          "pc": [
+            301,
+            302,
+            303
+          ]
+        },
+        {
+          "teal": 183,
+          "source": "contracts/ConsentContract.algo.ts:47",
+          "pc": [
+            304
+          ]
+        },
+        {
+          "teal": 184,
+          "source": "contracts/ConsentContract.algo.ts:47",
+          "pc": [
+            305
+          ]
+        },
+        {
+          "teal": 185,
+          "source": "contracts/ConsentContract.algo.ts:47",
+          "pc": [
+            306
+          ]
+        },
+        {
+          "teal": 189,
+          "source": "contracts/ConsentContract.algo.ts:48",
+          "pc": [
+            307,
+            308
+          ]
+        },
+        {
+          "teal": 190,
+          "source": "contracts/ConsentContract.algo.ts:48",
+          "pc": [
+            309,
+            310
+          ]
+        },
+        {
+          "teal": 191,
+          "source": "contracts/ConsentContract.algo.ts:48",
+          "pc": [
+            311
+          ]
+        },
+        {
+          "teal": 192,
+          "source": "contracts/ConsentContract.algo.ts:48",
+          "pc": [
+            312
+          ]
+        },
+        {
+          "teal": 193,
+          "source": "contracts/ConsentContract.algo.ts:48",
+          "pc": [
+            313
+          ]
+        },
+        {
+          "teal": 194,
+          "source": "contracts/ConsentContract.algo.ts:48",
+          "pc": [
+            314,
+            315,
+            316
+          ]
+        },
+        {
+          "teal": 195,
+          "source": "contracts/ConsentContract.algo.ts:48",
+          "pc": [
+            317
+          ]
+        },
+        {
+          "teal": 196,
+          "source": "contracts/ConsentContract.algo.ts:48",
+          "pc": [
+            318
+          ]
+        },
+        {
+          "teal": 197,
+          "source": "contracts/ConsentContract.algo.ts:48",
+          "pc": [
+            319
+          ]
+        },
+        {
+          "teal": 201,
+          "source": "contracts/ConsentContract.algo.ts:50",
+          "pc": [
+            320
+          ]
+        },
+        {
+          "teal": 202,
+          "source": "contracts/ConsentContract.algo.ts:50",
+          "pc": [
+            321,
+            322
+          ]
+        },
+        {
+          "teal": 203,
+          "source": "contracts/ConsentContract.algo.ts:50",
+          "pc": [
+            323,
+            324
+          ]
+        },
+        {
+          "teal": 204,
+          "source": "contracts/ConsentContract.algo.ts:50",
+          "pc": [
+            325
+          ]
+        },
+        {
+          "teal": 205,
+          "source": "contracts/ConsentContract.algo.ts:50",
+          "pc": [
+            326
+          ]
+        },
+        {
+          "teal": 209,
+          "source": "contracts/ConsentContract.algo.ts:51",
+          "pc": [
+            327,
+            328
+          ]
+        },
+        {
+          "teal": 210,
+          "source": "contracts/ConsentContract.algo.ts:51",
+          "pc": [
+            329,
+            330
+          ]
+        },
+        {
+          "teal": 211,
+          "source": "contracts/ConsentContract.algo.ts:51",
+          "pc": [
+            331
+          ]
+        },
+        {
+          "teal": 212,
+          "source": "contracts/ConsentContract.algo.ts:51",
+          "pc": [
+            332
+          ]
+        },
+        {
+          "teal": 213,
+          "source": "contracts/ConsentContract.algo.ts:51",
+          "pc": [
+            333
+          ]
+        },
+        {
+          "teal": 214,
+          "source": "contracts/ConsentContract.algo.ts:51",
+          "pc": [
+            334,
+            335,
+            336
+          ]
+        },
+        {
+          "teal": 215,
+          "source": "contracts/ConsentContract.algo.ts:51",
+          "pc": [
+            337
+          ]
+        },
+        {
+          "teal": 216,
+          "source": "contracts/ConsentContract.algo.ts:51",
+          "pc": [
+            338
+          ]
+        },
+        {
+          "teal": 217,
+          "source": "contracts/ConsentContract.algo.ts:51",
+          "pc": [
+            339
+          ]
+        },
+        {
+          "teal": 221,
+          "source": "contracts/ConsentContract.algo.ts:52",
+          "pc": [
+            340
+          ]
+        },
+        {
+          "teal": 222,
+          "source": "contracts/ConsentContract.algo.ts:52",
+          "pc": [
+            341,
+            342
+          ]
+        },
+        {
+          "teal": 223,
+          "source": "contracts/ConsentContract.algo.ts:52",
+          "pc": [
+            343
+          ]
+        },
+        {
+          "teal": 227,
+          "source": "contracts/ConsentContract.algo.ts:54",
+          "pc": [
+            344,
+            345
+          ]
+        },
+        {
+          "teal": 228,
+          "source": "contracts/ConsentContract.algo.ts:54",
+          "pc": [
+            346,
+            347
+          ]
+        },
+        {
+          "teal": 229,
+          "source": "contracts/ConsentContract.algo.ts:54",
+          "pc": [
+            348
+          ]
+        },
+        {
+          "teal": 230,
+          "source": "contracts/ConsentContract.algo.ts:54",
+          "pc": [
+            349
+          ]
+        },
+        {
+          "teal": 231,
+          "source": "contracts/ConsentContract.algo.ts:54",
+          "pc": [
+            350
+          ]
+        },
+        {
+          "teal": 232,
+          "source": "contracts/ConsentContract.algo.ts:54",
+          "pc": [
+            351,
+            352,
+            353
+          ]
+        },
+        {
+          "teal": 233,
+          "source": "contracts/ConsentContract.algo.ts:54",
+          "pc": [
+            354
+          ]
+        },
+        {
+          "teal": 234,
+          "source": "contracts/ConsentContract.algo.ts:54",
+          "pc": [
+            355
+          ]
+        },
+        {
+          "teal": 235,
+          "source": "contracts/ConsentContract.algo.ts:54",
+          "pc": [
+            356
+          ]
+        },
+        {
+          "teal": 239,
+          "source": "contracts/ConsentContract.algo.ts:57",
+          "pc": [
+            357,
+            358
+          ]
+        },
+        {
+          "teal": 240,
+          "source": "contracts/ConsentContract.algo.ts:57",
+          "pc": [
+            359
+          ]
+        },
+        {
+          "teal": 241,
+          "source": "contracts/ConsentContract.algo.ts:57",
+          "pc": [
+            360
+          ]
+        },
+        {
+          "teal": 242,
+          "source": "contracts/ConsentContract.algo.ts:57",
+          "pc": [
+            361
+          ]
+        },
+        {
+          "teal": 243,
+          "source": "contracts/ConsentContract.algo.ts:57",
+          "pc": [
+            362,
+            363
+          ]
+        },
+        {
+          "teal": 244,
+          "source": "contracts/ConsentContract.algo.ts:57",
+          "pc": [
+            364
+          ]
+        },
+        {
+          "teal": 245,
+          "source": "contracts/ConsentContract.algo.ts:57",
+          "pc": [
+            365
+          ]
+        },
+        {
+          "teal": 246,
+          "source": "contracts/ConsentContract.algo.ts:57",
+          "pc": [
+            366
+          ]
+        },
+        {
+          "teal": 247,
+          "source": "contracts/ConsentContract.algo.ts:57",
+          "pc": [
+            367,
+            368,
+            369
+          ]
+        },
+        {
+          "teal": 248,
+          "source": "contracts/ConsentContract.algo.ts:57",
+          "pc": [
+            370
+          ]
+        },
+        {
+          "teal": 249,
+          "source": "contracts/ConsentContract.algo.ts:57",
+          "pc": [
+            371
+          ]
+        },
+        {
+          "teal": 250,
+          "source": "contracts/ConsentContract.algo.ts:57",
+          "pc": [
+            372
+          ]
+        },
+        {
+          "teal": 251,
+          "source": "contracts/ConsentContract.algo.ts:35",
+          "pc": [
+            373
+          ]
+        },
+        {
+          "teal": 256,
+          "source": "contracts/ConsentContract.algo.ts:61",
+          "pc": [
+            374,
+            375,
+            376
+          ]
+        },
+        {
+          "teal": 257,
+          "source": "contracts/ConsentContract.algo.ts:61",
+          "pc": [
+            377
+          ]
+        },
+        {
+          "teal": 258,
+          "source": "contracts/ConsentContract.algo.ts:61",
+          "pc": [
+            378
+          ]
+        },
+        {
+          "teal": 262,
+          "source": "contracts/ConsentContract.algo.ts:61",
+          "pc": [
+            379,
+            380,
+            381
+          ]
+        },
+        {
+          "teal": 266,
+          "source": "contracts/ConsentContract.algo.ts:63",
+          "pc": [
+            382,
+            383
+          ]
+        },
+        {
+          "teal": 267,
+          "source": "contracts/ConsentContract.algo.ts:63",
+          "pc": [
+            384
+          ]
+        },
+        {
+          "teal": 268,
+          "source": "contracts/ConsentContract.algo.ts:63",
+          "pc": [
+            385
+          ]
+        },
+        {
+          "teal": 269,
+          "source": "contracts/ConsentContract.algo.ts:63",
+          "pc": [
+            386
+          ]
+        },
+        {
+          "teal": 270,
+          "source": "contracts/ConsentContract.algo.ts:63",
+          "pc": [
+            387
+          ]
+        },
+        {
+          "teal": 274,
+          "source": "contracts/ConsentContract.algo.ts:65",
+          "pc": [
+            388
+          ]
+        },
+        {
+          "teal": 275,
+          "source": "contracts/ConsentContract.algo.ts:65",
+          "pc": [
+            389
+          ]
+        },
+        {
+          "teal": 276,
+          "source": "contracts/ConsentContract.algo.ts:65",
+          "pc": [
+            390,
+            391,
+            392
+          ]
+        },
+        {
+          "teal": 277,
+          "source": "contracts/ConsentContract.algo.ts:65",
+          "pc": [
+            393,
+            394
+          ]
+        },
+        {
+          "teal": 278,
+          "source": "contracts/ConsentContract.algo.ts:65",
+          "pc": [
+            395
+          ]
+        },
+        {
+          "teal": 279,
+          "source": "contracts/ConsentContract.algo.ts:65",
+          "pc": [
+            396
+          ]
+        },
+        {
+          "teal": 283,
+          "source": "contracts/ConsentContract.algo.ts:66",
+          "pc": [
+            397
+          ]
+        },
+        {
+          "teal": 284,
+          "source": "contracts/ConsentContract.algo.ts:66",
+          "pc": [
+            398,
+            399,
+            400,
+            401,
+            402,
+            403,
+            404,
+            405,
+            406,
+            407,
+            408
+          ]
+        },
+        {
+          "teal": 285,
+          "source": "contracts/ConsentContract.algo.ts:66",
+          "pc": [
+            409
+          ]
+        },
+        {
+          "teal": 286,
+          "source": "contracts/ConsentContract.algo.ts:61",
+          "pc": [
+            410
+          ]
+        },
+        {
+          "teal": 291,
+          "source": "contracts/ConsentContract.algo.ts:70",
+          "pc": [
+            411,
+            412,
+            413
+          ]
+        },
+        {
+          "teal": 292,
+          "source": "contracts/ConsentContract.algo.ts:70",
+          "pc": [
+            414
+          ]
+        },
+        {
+          "teal": 295,
+          "source": "contracts/ConsentContract.algo.ts:70",
+          "pc": [
+            415,
+            416,
+            417
+          ]
+        },
+        {
+          "teal": 296,
+          "source": "contracts/ConsentContract.algo.ts:70",
+          "pc": [
+            418
+          ]
+        },
+        {
+          "teal": 297,
+          "source": "contracts/ConsentContract.algo.ts:70",
+          "pc": [
+            419
+          ]
+        },
+        {
+          "teal": 301,
+          "source": "contracts/ConsentContract.algo.ts:70",
+          "pc": [
+            420,
+            421,
+            422
+          ]
+        },
+        {
+          "teal": 305,
+          "source": "contracts/ConsentContract.algo.ts:72",
+          "pc": [
+            423,
+            424
+          ]
+        },
+        {
+          "teal": 306,
+          "source": "contracts/ConsentContract.algo.ts:72",
+          "pc": [
+            425
+          ]
+        },
+        {
+          "teal": 307,
+          "source": "contracts/ConsentContract.algo.ts:72",
+          "pc": [
+            426
+          ]
+        },
+        {
+          "teal": 308,
+          "source": "contracts/ConsentContract.algo.ts:72",
+          "pc": [
+            427
+          ]
+        },
+        {
+          "teal": 309,
+          "source": "contracts/ConsentContract.algo.ts:72",
+          "pc": [
+            428
+          ]
+        },
+        {
+          "teal": 313,
+          "source": "contracts/ConsentContract.algo.ts:74",
+          "pc": [
+            429
+          ]
+        },
+        {
+          "teal": 314,
+          "source": "contracts/ConsentContract.algo.ts:74",
+          "pc": [
+            430
+          ]
+        },
+        {
+          "teal": 315,
+          "source": "contracts/ConsentContract.algo.ts:74",
+          "pc": [
+            431,
+            432,
+            433
+          ]
+        },
+        {
+          "teal": 316,
+          "source": "contracts/ConsentContract.algo.ts:74",
+          "pc": [
+            434,
+            435
+          ]
+        },
+        {
+          "teal": 317,
+          "source": "contracts/ConsentContract.algo.ts:74",
+          "pc": [
+            436
+          ]
+        },
+        {
+          "teal": 318,
+          "source": "contracts/ConsentContract.algo.ts:74",
+          "pc": [
+            437
+          ]
+        },
+        {
+          "teal": 322,
+          "source": "contracts/ConsentContract.algo.ts:76",
+          "pc": [
+            438
+          ]
+        },
+        {
+          "teal": 323,
+          "source": "contracts/ConsentContract.algo.ts:76",
+          "pc": [
+            439
+          ]
+        },
+        {
+          "teal": 324,
+          "source": "contracts/ConsentContract.algo.ts:76",
+          "pc": [
+            440,
+            441
+          ]
+        },
+        {
+          "teal": 325,
+          "source": "contracts/ConsentContract.algo.ts:76",
+          "pc": [
+            442
+          ]
+        },
+        {
+          "teal": 326,
+          "source": "contracts/ConsentContract.algo.ts:76",
+          "pc": [
+            443
+          ]
+        },
+        {
+          "teal": 327,
+          "source": "contracts/ConsentContract.algo.ts:76",
+          "pc": [
+            444
+          ]
+        },
+        {
+          "teal": 328,
+          "source": "contracts/ConsentContract.algo.ts:76",
+          "pc": [
+            445
+          ]
+        },
+        {
+          "teal": 329,
+          "source": "contracts/ConsentContract.algo.ts:70",
+          "pc": [
+            446
+          ]
+        },
+        {
+          "teal": 334,
+          "source": "contracts/ConsentContract.algo.ts:80",
+          "pc": [
+            447,
+            448,
+            449
+          ]
+        },
+        {
+          "teal": 335,
+          "source": "contracts/ConsentContract.algo.ts:80",
+          "pc": [
+            450
+          ]
+        },
+        {
+          "teal": 336,
+          "source": "contracts/ConsentContract.algo.ts:80",
+          "pc": [
+            451
+          ]
+        },
+        {
+          "teal": 340,
+          "source": "contracts/ConsentContract.algo.ts:80",
+          "pc": [
+            452,
+            453,
+            454
+          ]
+        },
+        {
+          "teal": 345,
+          "source": "contracts/ConsentContract.algo.ts:82",
+          "pc": [
+            455,
+            456
+          ]
+        },
+        {
+          "teal": 346,
+          "source": "contracts/ConsentContract.algo.ts:82",
+          "pc": [
+            457
+          ]
+        },
+        {
+          "teal": 347,
+          "source": "contracts/ConsentContract.algo.ts:82",
+          "pc": [
+            458
+          ]
+        },
+        {
+          "teal": 348,
+          "source": "contracts/ConsentContract.algo.ts:82",
+          "pc": [
+            459
+          ]
+        },
+        {
+          "teal": 349,
+          "source": "contracts/ConsentContract.algo.ts:82",
+          "pc": [
+            460
+          ]
+        },
+        {
+          "teal": 350,
+          "source": "contracts/ConsentContract.algo.ts:82",
+          "pc": [
+            461,
+            462,
+            463
+          ]
+        },
+        {
+          "teal": 351,
+          "source": "contracts/ConsentContract.algo.ts:82",
+          "pc": [
+            464
+          ]
+        },
+        {
+          "teal": 352,
+          "source": "contracts/ConsentContract.algo.ts:82",
+          "pc": [
+            465
+          ]
+        },
+        {
+          "teal": 353,
+          "source": "contracts/ConsentContract.algo.ts:82",
+          "pc": [
+            466,
+            467,
+            468
+          ]
+        },
+        {
+          "teal": 354,
+          "source": "contracts/ConsentContract.algo.ts:82",
+          "pc": [
+            469,
+            470
+          ]
+        },
+        {
+          "teal": 355,
+          "source": "contracts/ConsentContract.algo.ts:82",
+          "pc": [
+            471
+          ]
+        },
+        {
+          "teal": 356,
+          "source": "contracts/ConsentContract.algo.ts:82",
+          "pc": [
+            472
+          ]
+        },
+        {
+          "teal": 359,
+          "source": "contracts/ConsentContract.algo.ts:82",
+          "pc": [
+            473,
+            474,
+            475
+          ]
+        },
+        {
+          "teal": 364,
+          "source": "contracts/ConsentContract.algo.ts:83",
+          "pc": [
+            476
+          ]
+        },
+        {
+          "teal": 365,
+          "source": "contracts/ConsentContract.algo.ts:83",
+          "pc": [
+            477,
+            478,
+            479,
+            480,
+            481,
+            482,
+            483,
+            484,
+            485,
+            486,
+            487
+          ]
+        },
+        {
+          "teal": 366,
+          "source": "contracts/ConsentContract.algo.ts:83",
+          "pc": [
+            488
+          ]
+        },
+        {
+          "teal": 369,
+          "source": "contracts/ConsentContract.algo.ts:80",
+          "pc": [
+            489
+          ]
+        },
+        {
+          "teal": 372,
+          "source": "contracts/ConsentContract.algo.ts:3",
+          "pc": [
+            490,
+            491,
+            492,
+            493,
+            494,
+            495
+          ]
+        },
+        {
+          "teal": 373,
+          "source": "contracts/ConsentContract.algo.ts:3",
+          "pc": [
+            496,
+            497,
+            498
+          ]
+        },
+        {
+          "teal": 374,
+          "source": "contracts/ConsentContract.algo.ts:3",
+          "pc": [
+            499,
+            500,
+            501,
+            502
+          ]
+        },
+        {
+          "teal": 377,
+          "source": "contracts/ConsentContract.algo.ts:3",
+          "errorMessage": "this contract does not implement the given ABI method for create NoOp",
+          "pc": [
+            503
+          ]
+        },
+        {
+          "teal": 380,
+          "source": "contracts/ConsentContract.algo.ts:3",
+          "pc": [
+            504,
+            505,
+            506,
+            507,
+            508,
+            509
+          ]
+        },
+        {
+          "teal": 381,
+          "source": "contracts/ConsentContract.algo.ts:3",
+          "pc": [
+            510,
+            511,
+            512,
+            513,
+            514,
+            515
+          ]
+        },
+        {
+          "teal": 382,
+          "source": "contracts/ConsentContract.algo.ts:3",
+          "pc": [
+            516,
+            517,
+            518,
+            519,
+            520,
+            521
+          ]
+        },
+        {
+          "teal": 383,
+          "source": "contracts/ConsentContract.algo.ts:3",
+          "pc": [
+            522,
+            523,
+            524,
+            525,
+            526,
+            527
+          ]
+        },
+        {
+          "teal": 384,
+          "source": "contracts/ConsentContract.algo.ts:3",
+          "pc": [
+            528,
+            529,
+            530,
+            531,
+            532,
+            533
+          ]
+        },
+        {
+          "teal": 385,
+          "source": "contracts/ConsentContract.algo.ts:3",
+          "pc": [
+            534,
+            535,
+            536
+          ]
+        },
+        {
+          "teal": 386,
+          "source": "contracts/ConsentContract.algo.ts:3",
+          "pc": [
+            537,
+            538,
+            539,
+            540,
+            541,
+            542,
+            543,
+            544,
+            545,
+            546,
+            547,
+            548
+          ]
+        },
+        {
+          "teal": 389,
+          "source": "contracts/ConsentContract.algo.ts:3",
+          "errorMessage": "this contract does not implement the given ABI method for call NoOp",
+          "pc": [
+            549
+          ]
+        }
+      ],
+      "pcOffsetMethod": "none"
+    },
+    "clear": {
+      "sourceInfo": [],
+      "pcOffsetMethod": "none"
+    }
+  },
+  "source": {
+    "approval": "I3ByYWdtYSB2ZXJzaW9uIDEwCmludGNibG9jayAxCmJ5dGVjYmxvY2sgMHg3Mzc0NjE3NDc1NzMgMHg2NTc4NzA2OTcyNjE3NDY5NmY2ZTQ0NjE3NDY1IDB4MDAwMCAweDZmNzc2ZTY1NzIgMHg2MzZmNmU3MzY1NmU3NDQ0NjE3NDYxIDB4NDE2Mzc0Njk3NjY1IDB4NjM2ZjZlNzM2NTZlNzQ1NDY5NzQ2YzY1IDB4NmY3MjY3NjE2ZTY5N2E2MTc0Njk2ZjZlIDB4NjQ2NTczNjM3MjY5NzA3NDY5NmY2ZSAweDYzNmY2ZTczNjU2ZTc0NDg2MTczNjggMHg3MzY5Njc2ZTY1NjQ1NTcyNmMgMHgwMDA2NDE2Mzc0Njk3NjY1CgovLyBUaGlzIFRFQUwgd2FzIGdlbmVyYXRlZCBieSBURUFMU2NyaXB0IHYwLjEwNS40Ci8vIGh0dHBzOi8vZ2l0aHViLmNvbS9hbGdvcmFuZGZvdW5kYXRpb24vVEVBTFNjcmlwdAoKLy8gVGhpcyBjb250cmFjdCBpcyBjb21wbGlhbnQgd2l0aCBhbmQvb3IgaW1wbGVtZW50cyB0aGUgZm9sbG93aW5nIEFSQ3M6IFsgQVJDNCBdCgovLyBUaGUgZm9sbG93aW5nIHRlbiBsaW5lcyBvZiBURUFMIGhhbmRsZSBpbml0aWFsIHByb2dyYW0gZmxvdwovLyBUaGlzIHBhdHRlcm4gaXMgdXNlZCB0byBtYWtlIGl0IGVhc3kgZm9yIGFueW9uZSB0byBwYXJzZSB0aGUgc3RhcnQgb2YgdGhlIHByb2dyYW0gYW5kIGRldGVybWluZSBpZiBhIHNwZWNpZmljIGFjdGlvbiBpcyBhbGxvd2VkCi8vIEhlcmUsIGFjdGlvbiByZWZlcnMgdG8gdGhlIE9uQ29tcGxldGUgaW4gY29tYmluYXRpb24gd2l0aCB3aGV0aGVyIHRoZSBhcHAgaXMgYmVpbmcgY3JlYXRlZCBvciBjYWxsZWQKLy8gRXZlcnkgcG9zc2libGUgYWN0aW9uIGZvciB0aGlzIGNvbnRyYWN0IGlzIHJlcHJlc2VudGVkIGluIHRoZSBzd2l0Y2ggc3RhdGVtZW50Ci8vIElmIHRoZSBhY3Rpb24gaXMgbm90IGltcGxlbWVudGVkIGluIHRoZSBjb250cmFjdCwgaXRzIHJlc3BlY3RpdmUgYnJhbmNoIHdpbGwgYmUgIipOT1RfSU1QTEVNRU5URUQiIHdoaWNoIGp1c3QgY29udGFpbnMgImVyciIKdHhuIEFwcGxpY2F0aW9uSUQKIQpwdXNoaW50IDYKKgp0eG4gT25Db21wbGV0aW9uCisKc3dpdGNoICpjYWxsX05vT3AgKk5PVF9JTVBMRU1FTlRFRCAqTk9UX0lNUExFTUVOVEVEICpOT1RfSU1QTEVNRU5URUQgKk5PVF9JTVBMRU1FTlRFRCAqTk9UX0lNUExFTUVOVEVEICpjcmVhdGVfTm9PcCAqTk9UX0lNUExFTUVOVEVEICpOT1RfSU1QTEVNRU5URUQgKk5PVF9JTVBMRU1FTlRFRCAqTk9UX0lNUExFTUVOVEVEICpOT1RfSU1QTEVNRU5URUQKCipOT1RfSU1QTEVNRU5URUQ6CgkvLyBUaGUgcmVxdWVzdGVkIGFjdGlvbiBpcyBub3QgaW1wbGVtZW50ZWQgaW4gdGhpcyBjb250cmFjdC4gQXJlIHlvdSB1c2luZyB0aGUgY29ycmVjdCBPbkNvbXBsZXRlPyBEaWQgeW91IHNldCB5b3VyIGFwcCBJRD8KCWVycgoKLy8gY3JlYXRlQXBwbGljYXRpb24oYWRkcmVzcyl2b2lkCiphYmlfcm91dGVfY3JlYXRlQXBwbGljYXRpb246CgkvLyBvd25lckFkZHJlc3M6IGFkZHJlc3MKCXR4bmEgQXBwbGljYXRpb25BcmdzIDEKCWR1cAoJbGVuCglwdXNoaW50IDMyCgk9PQoKCS8vIGFyZ3VtZW50IDAgKG93bmVyQWRkcmVzcykgZm9yIGNyZWF0ZUFwcGxpY2F0aW9uIG11c3QgYmUgYSBhZGRyZXNzCglhc3NlcnQKCgkvLyBleGVjdXRlIGNyZWF0ZUFwcGxpY2F0aW9uKGFkZHJlc3Mpdm9pZAoJY2FsbHN1YiBjcmVhdGVBcHBsaWNhdGlvbgoJaW50YyAwIC8vIDEKCXJldHVybgoKLy8gY3JlYXRlQXBwbGljYXRpb24ob3duZXJBZGRyZXNzOiBBZGRyZXNzKTogdm9pZApjcmVhdGVBcHBsaWNhdGlvbjoKCXByb3RvIDEgMAoKCS8vIGNvbnRyYWN0cy9Db25zZW50Q29udHJhY3QuYWxnby50czoyMAoJLy8gdGhpcy5jb25zZW50VGl0bGUudmFsdWUgPSAiIgoJYnl0ZWMgNiAvLyAgImNvbnNlbnRUaXRsZSIKCWJ5dGVjIDIgLy8gMHgwMDAwCglhcHBfZ2xvYmFsX3B1dAoKCS8vIGNvbnRyYWN0cy9Db25zZW50Q29udHJhY3QuYWxnby50czoyMQoJLy8gdGhpcy5kZXNjcmlwdGlvbi52YWx1ZSA9ICIiCglieXRlYyA4IC8vICAiZGVzY3JpcHRpb24iCglieXRlYyAyIC8vIDB4MDAwMAoJYXBwX2dsb2JhbF9wdXQKCgkvLyBjb250cmFjdHMvQ29uc2VudENvbnRyYWN0LmFsZ28udHM6MjIKCS8vIHRoaXMub3JnYW5pemF0aW9uLnZhbHVlID0gIiIKCWJ5dGVjIDcgLy8gICJvcmdhbml6YXRpb24iCglieXRlYyAyIC8vIDB4MDAwMAoJYXBwX2dsb2JhbF9wdXQKCgkvLyBjb250cmFjdHMvQ29uc2VudENvbnRyYWN0LmFsZ28udHM6MjMKCS8vIHRoaXMuZXhwaXJhdGlvbkRhdGUudmFsdWUgPSAwCglieXRlYyAxIC8vICAiZXhwaXJhdGlvbkRhdGUiCglwdXNoaW50IDAKCWFwcF9nbG9iYWxfcHV0CgoJLy8gY29udHJhY3RzL0NvbnNlbnRDb250cmFjdC5hbGdvLnRzOjI0CgkvLyB0aGlzLmNvbnNlbnRIYXNoLnZhbHVlID0gIiIKCWJ5dGVjIDkgLy8gICJjb25zZW50SGFzaCIKCWJ5dGVjIDIgLy8gMHgwMDAwCglhcHBfZ2xvYmFsX3B1dAoKCS8vIGNvbnRyYWN0cy9Db25zZW50Q29udHJhY3QuYWxnby50czoyNQoJLy8gdGhpcy5zdGF0dXMudmFsdWUgPSAiQWN0aXZlIgoJYnl0ZWMgMCAvLyAgInN0YXR1cyIKCWJ5dGVjIDExIC8vIDB4MDAwNjQxNjM3NDY5NzY2NQoJYXBwX2dsb2JhbF9wdXQKCgkvLyBjb250cmFjdHMvQ29uc2VudENvbnRyYWN0LmFsZ28udHM6MjYKCS8vIHRoaXMub3duZXIudmFsdWUgPSBvd25lckFkZHJlc3MKCWJ5dGVjIDMgLy8gICJvd25lciIKCWZyYW1lX2RpZyAtMSAvLyBvd25lckFkZHJlc3M6IEFkZHJlc3MKCWFwcF9nbG9iYWxfcHV0CgoJLy8gY29udHJhY3RzL0NvbnNlbnRDb250cmFjdC5hbGdvLnRzOjI3CgkvLyB0aGlzLnNpZ25lZFVybC52YWx1ZSA9ICIiCglieXRlYyAxMCAvLyAgInNpZ25lZFVybCIKCWJ5dGVjIDIgLy8gMHgwMDAwCglhcHBfZ2xvYmFsX3B1dAoJcmV0c3ViCgovLyBjcmVhdGVCb3goKXZvaWQKKmFiaV9yb3V0ZV9jcmVhdGVCb3g6CgkvLyBleGVjdXRlIGNyZWF0ZUJveCgpdm9pZAoJY2FsbHN1YiBjcmVhdGVCb3gKCWludGMgMCAvLyAxCglyZXR1cm4KCi8vIGNyZWF0ZUJveCgpOiB2b2lkCmNyZWF0ZUJveDoKCXByb3RvIDAgMAoKCS8vIGNvbnRyYWN0cy9Db25zZW50Q29udHJhY3QuYWxnby50czozMQoJLy8gdGhpcy5jb25zZW50RGF0YUJveC5jcmVhdGUoNDAwKQoJYnl0ZWMgNCAvLyAgImNvbnNlbnREYXRhIgoJcHVzaGludCA0MDAKCWJveF9jcmVhdGUKCXBvcAoJcmV0c3ViCgovLyBjcmVhdGVDb25zZW50KHN0cmluZyxzdHJpbmcsc3RyaW5nLHVpbnQ2NCxzdHJpbmcsc3RyaW5nLHN0cmluZyl2b2lkCiphYmlfcm91dGVfY3JlYXRlQ29uc2VudDoKCS8vIGNvbnNldERhdGE6IHN0cmluZwoJdHhuYSBBcHBsaWNhdGlvbkFyZ3MgNwoJZXh0cmFjdCAyIDAKCgkvLyBzaWduZWRVcmw6IHN0cmluZwoJdHhuYSBBcHBsaWNhdGlvbkFyZ3MgNgoJZXh0cmFjdCAyIDAKCgkvLyBjb25zZW50SGFzaDogc3RyaW5nCgl0eG5hIEFwcGxpY2F0aW9uQXJncyA1CglleHRyYWN0IDIgMAoKCS8vIGR1cmF0aW9uOiB1aW50NjQKCXR4bmEgQXBwbGljYXRpb25BcmdzIDQKCWJ0b2kKCgkvLyBvcmdhbml6YXRpb246IHN0cmluZwoJdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMwoJZXh0cmFjdCAyIDAKCgkvLyBkZXNjcmlwdGlvbjogc3RyaW5nCgl0eG5hIEFwcGxpY2F0aW9uQXJncyAyCglleHRyYWN0IDIgMAoKCS8vIHRpdGxlOiBzdHJpbmcKCXR4bmEgQXBwbGljYXRpb25BcmdzIDEKCWV4dHJhY3QgMiAwCgoJLy8gZXhlY3V0ZSBjcmVhdGVDb25zZW50KHN0cmluZyxzdHJpbmcsc3RyaW5nLHVpbnQ2NCxzdHJpbmcsc3RyaW5nLHN0cmluZyl2b2lkCgljYWxsc3ViIGNyZWF0ZUNvbnNlbnQKCWludGMgMCAvLyAxCglyZXR1cm4KCi8vIGNyZWF0ZUNvbnNlbnQodGl0bGU6IHN0cmluZywgZGVzY3JpcHRpb246IHN0cmluZywgb3JnYW5pemF0aW9uOiBzdHJpbmcsIGR1cmF0aW9uOiB1aW50NjQsIGNvbnNlbnRIYXNoOiBzdHJpbmcsIHNpZ25lZFVybDogc3RyaW5nLCBjb25zZXREYXRhOiBzdHJpbmcpOiB2b2lkCmNyZWF0ZUNvbnNlbnQ6Cglwcm90byA3IDAKCgkvLyBjb250cmFjdHMvQ29uc2VudENvbnRyYWN0LmFsZ28udHM6NDUKCS8vIGFzc2VydCh0aGlzLnR4bi5zZW5kZXIgPT09IHRoaXMub3duZXIudmFsdWUpCgl0eG4gU2VuZGVyCglieXRlYyAzIC8vICAib3duZXIiCglhcHBfZ2xvYmFsX2dldAoJPT0KCWFzc2VydAoKCS8vIGNvbnRyYWN0cy9Db25zZW50Q29udHJhY3QuYWxnby50czo0NgoJLy8gdGhpcy5jb25zZW50VGl0bGUudmFsdWUgPSB0aXRsZQoJYnl0ZWMgNiAvLyAgImNvbnNlbnRUaXRsZSIKCWZyYW1lX2RpZyAtMSAvLyB0aXRsZTogc3RyaW5nCglkdXAKCWxlbgoJaXRvYgoJZXh0cmFjdCA2IDIKCXN3YXAKCWNvbmNhdAoJYXBwX2dsb2JhbF9wdXQKCgkvLyBjb250cmFjdHMvQ29uc2VudENvbnRyYWN0LmFsZ28udHM6NDcKCS8vIHRoaXMuZGVzY3JpcHRpb24udmFsdWUgPSBkZXNjcmlwdGlvbgoJYnl0ZWMgOCAvLyAgImRlc2NyaXB0aW9uIgoJZnJhbWVfZGlnIC0yIC8vIGRlc2NyaXB0aW9uOiBzdHJpbmcKCWR1cAoJbGVuCglpdG9iCglleHRyYWN0IDYgMgoJc3dhcAoJY29uY2F0CglhcHBfZ2xvYmFsX3B1dAoKCS8vIGNvbnRyYWN0cy9Db25zZW50Q29udHJhY3QuYWxnby50czo0OAoJLy8gdGhpcy5vcmdhbml6YXRpb24udmFsdWUgPSBvcmdhbml6YXRpb24KCWJ5dGVjIDcgLy8gICJvcmdhbml6YXRpb24iCglmcmFtZV9kaWcgLTMgLy8gb3JnYW5pemF0aW9uOiBzdHJpbmcKCWR1cAoJbGVuCglpdG9iCglleHRyYWN0IDYgMgoJc3dhcAoJY29uY2F0CglhcHBfZ2xvYmFsX3B1dAoKCS8vIGNvbnRyYWN0cy9Db25zZW50Q29udHJhY3QuYWxnby50czo1MAoJLy8gdGhpcy5leHBpcmF0aW9uRGF0ZS52YWx1ZSA9IGdsb2JhbHMubGF0ZXN0VGltZXN0YW1wICsgZHVyYXRpb24KCWJ5dGVjIDEgLy8gICJleHBpcmF0aW9uRGF0ZSIKCWdsb2JhbCBMYXRlc3RUaW1lc3RhbXAKCWZyYW1lX2RpZyAtNCAvLyBkdXJhdGlvbjogdWludDY0CgkrCglhcHBfZ2xvYmFsX3B1dAoKCS8vIGNvbnRyYWN0cy9Db25zZW50Q29udHJhY3QuYWxnby50czo1MQoJLy8gdGhpcy5jb25zZW50SGFzaC52YWx1ZSA9IGNvbnNlbnRIYXNoCglieXRlYyA5IC8vICAiY29uc2VudEhhc2giCglmcmFtZV9kaWcgLTUgLy8gY29uc2VudEhhc2g6IHN0cmluZwoJZHVwCglsZW4KCWl0b2IKCWV4dHJhY3QgNiAyCglzd2FwCgljb25jYXQKCWFwcF9nbG9iYWxfcHV0CgoJLy8gY29udHJhY3RzL0NvbnNlbnRDb250cmFjdC5hbGdvLnRzOjUyCgkvLyB0aGlzLnN0YXR1cy52YWx1ZSA9ICJBY3RpdmUiCglieXRlYyAwIC8vICAic3RhdHVzIgoJYnl0ZWMgMTEgLy8gMHgwMDA2NDE2Mzc0Njk3NjY1CglhcHBfZ2xvYmFsX3B1dAoKCS8vIGNvbnRyYWN0cy9Db25zZW50Q29udHJhY3QuYWxnby50czo1NAoJLy8gdGhpcy5zaWduZWRVcmwudmFsdWUgPSBzaWduZWRVcmwKCWJ5dGVjIDEwIC8vICAic2lnbmVkVXJsIgoJZnJhbWVfZGlnIC02IC8vIHNpZ25lZFVybDogc3RyaW5nCglkdXAKCWxlbgoJaXRvYgoJZXh0cmFjdCA2IDIKCXN3YXAKCWNvbmNhdAoJYXBwX2dsb2JhbF9wdXQKCgkvLyBjb250cmFjdHMvQ29uc2VudENvbnRyYWN0LmFsZ28udHM6NTcKCS8vIHRoaXMuY29uc2VudERhdGFCb3gudmFsdWUgPSBjb25zZXREYXRhCglieXRlYyA0IC8vICAiY29uc2VudERhdGEiCglkdXAKCWJveF9kZWwKCXBvcAoJZnJhbWVfZGlnIC03IC8vIGNvbnNldERhdGE6IHN0cmluZwoJZHVwCglsZW4KCWl0b2IKCWV4dHJhY3QgNiAyCglzd2FwCgljb25jYXQKCWJveF9wdXQKCXJldHN1YgoKLy8gcmV2b2tlQ29uc2VudCgpdm9pZAoqYWJpX3JvdXRlX3Jldm9rZUNvbnNlbnQ6CgkvLyBleGVjdXRlIHJldm9rZUNvbnNlbnQoKXZvaWQKCWNhbGxzdWIgcmV2b2tlQ29uc2VudAoJaW50YyAwIC8vIDEKCXJldHVybgoKLy8gcmV2b2tlQ29uc2VudCgpOiB2b2lkCnJldm9rZUNvbnNlbnQ6Cglwcm90byAwIDAKCgkvLyBjb250cmFjdHMvQ29uc2VudENvbnRyYWN0LmFsZ28udHM6NjMKCS8vIGFzc2VydCh0aGlzLnR4bi5zZW5kZXIgPT09IHRoaXMub3duZXIudmFsdWUpCgl0eG4gU2VuZGVyCglieXRlYyAzIC8vICAib3duZXIiCglhcHBfZ2xvYmFsX2dldAoJPT0KCWFzc2VydAoKCS8vIGNvbnRyYWN0cy9Db25zZW50Q29udHJhY3QuYWxnby50czo2NQoJLy8gYXNzZXJ0KHRoaXMuc3RhdHVzLnZhbHVlID09PSAiQWN0aXZlIikKCWJ5dGVjIDAgLy8gICJzdGF0dXMiCglhcHBfZ2xvYmFsX2dldAoJZXh0cmFjdCAyIDAKCWJ5dGVjIDUgLy8gICJBY3RpdmUiCgk9PQoJYXNzZXJ0CgoJLy8gY29udHJhY3RzL0NvbnNlbnRDb250cmFjdC5hbGdvLnRzOjY2CgkvLyB0aGlzLnN0YXR1cy52YWx1ZSA9ICJSZXZva2VkIgoJYnl0ZWMgMCAvLyAgInN0YXR1cyIKCXB1c2hieXRlcyAweDAwMDc1MjY1NzY2ZjZiNjU2NAoJYXBwX2dsb2JhbF9wdXQKCXJldHN1YgoKLy8gZXh0ZW5kQ29uc2VudCh1aW50NjQpdm9pZAoqYWJpX3JvdXRlX2V4dGVuZENvbnNlbnQ6CgkvLyBkdXJhdGlvbjogdWludDY0Cgl0eG5hIEFwcGxpY2F0aW9uQXJncyAxCglidG9pCgoJLy8gZXhlY3V0ZSBleHRlbmRDb25zZW50KHVpbnQ2NCl2b2lkCgljYWxsc3ViIGV4dGVuZENvbnNlbnQKCWludGMgMCAvLyAxCglyZXR1cm4KCi8vIGV4dGVuZENvbnNlbnQoZHVyYXRpb246IHVpbnQ2NCk6IHZvaWQKZXh0ZW5kQ29uc2VudDoKCXByb3RvIDEgMAoKCS8vIGNvbnRyYWN0cy9Db25zZW50Q29udHJhY3QuYWxnby50czo3MgoJLy8gYXNzZXJ0KHRoaXMudHhuLnNlbmRlciA9PT0gdGhpcy5vd25lci52YWx1ZSkKCXR4biBTZW5kZXIKCWJ5dGVjIDMgLy8gICJvd25lciIKCWFwcF9nbG9iYWxfZ2V0Cgk9PQoJYXNzZXJ0CgoJLy8gY29udHJhY3RzL0NvbnNlbnRDb250cmFjdC5hbGdvLnRzOjc0CgkvLyBhc3NlcnQodGhpcy5zdGF0dXMudmFsdWUgPT09ICJBY3RpdmUiKQoJYnl0ZWMgMCAvLyAgInN0YXR1cyIKCWFwcF9nbG9iYWxfZ2V0CglleHRyYWN0IDIgMAoJYnl0ZWMgNSAvLyAgIkFjdGl2ZSIKCT09Cglhc3NlcnQKCgkvLyBjb250cmFjdHMvQ29uc2VudENvbnRyYWN0LmFsZ28udHM6NzYKCS8vIHRoaXMuZXhwaXJhdGlvbkRhdGUudmFsdWUgKz0gZHVyYXRpb24KCWJ5dGVjIDEgLy8gICJleHBpcmF0aW9uRGF0ZSIKCWFwcF9nbG9iYWxfZ2V0CglmcmFtZV9kaWcgLTEgLy8gZHVyYXRpb246IHVpbnQ2NAoJKwoJYnl0ZWMgMSAvLyAgImV4cGlyYXRpb25EYXRlIgoJc3dhcAoJYXBwX2dsb2JhbF9wdXQKCXJldHN1YgoKLy8gdXBkYXRlU3RhdHVzKCl2b2lkCiphYmlfcm91dGVfdXBkYXRlU3RhdHVzOgoJLy8gZXhlY3V0ZSB1cGRhdGVTdGF0dXMoKXZvaWQKCWNhbGxzdWIgdXBkYXRlU3RhdHVzCglpbnRjIDAgLy8gMQoJcmV0dXJuCgovLyB1cGRhdGVTdGF0dXMoKTogdm9pZAp1cGRhdGVTdGF0dXM6Cglwcm90byAwIDAKCgkvLyAqaWYwX2NvbmRpdGlvbgoJLy8gY29udHJhY3RzL0NvbnNlbnRDb250cmFjdC5hbGdvLnRzOjgyCgkvLyBnbG9iYWxzLmxhdGVzdFRpbWVzdGFtcCA+IHRoaXMuZXhwaXJhdGlvbkRhdGUudmFsdWUgJiYgdGhpcy5zdGF0dXMudmFsdWUgPT09ICJBY3RpdmUiCglnbG9iYWwgTGF0ZXN0VGltZXN0YW1wCglieXRlYyAxIC8vICAiZXhwaXJhdGlvbkRhdGUiCglhcHBfZ2xvYmFsX2dldAoJPgoJZHVwCglieiAqc2tpcF9hbmQwCglieXRlYyAwIC8vICAic3RhdHVzIgoJYXBwX2dsb2JhbF9nZXQKCWV4dHJhY3QgMiAwCglieXRlYyA1IC8vICAiQWN0aXZlIgoJPT0KCSYmCgoqc2tpcF9hbmQwOgoJYnogKmlmMF9lbmQKCgkvLyAqaWYwX2NvbnNlcXVlbnQKCS8vIGNvbnRyYWN0cy9Db25zZW50Q29udHJhY3QuYWxnby50czo4MwoJLy8gdGhpcy5zdGF0dXMudmFsdWUgPSAiRXhwaXJlZCIKCWJ5dGVjIDAgLy8gICJzdGF0dXMiCglwdXNoYnl0ZXMgMHgwMDA3NDU3ODcwNjk3MjY1NjQKCWFwcF9nbG9iYWxfcHV0CgoqaWYwX2VuZDoKCXJldHN1YgoKKmNyZWF0ZV9Ob09wOgoJcHVzaGJ5dGVzIDB4ZDMyNGJlYTQgLy8gbWV0aG9kICJjcmVhdGVBcHBsaWNhdGlvbihhZGRyZXNzKXZvaWQiCgl0eG5hIEFwcGxpY2F0aW9uQXJncyAwCgltYXRjaCAqYWJpX3JvdXRlX2NyZWF0ZUFwcGxpY2F0aW9uCgoJLy8gdGhpcyBjb250cmFjdCBkb2VzIG5vdCBpbXBsZW1lbnQgdGhlIGdpdmVuIEFCSSBtZXRob2QgZm9yIGNyZWF0ZSBOb09wCgllcnIKCipjYWxsX05vT3A6CglwdXNoYnl0ZXMgMHhlYTA0NTAzNiAvLyBtZXRob2QgImNyZWF0ZUJveCgpdm9pZCIKCXB1c2hieXRlcyAweDFmNWM3ZDRiIC8vIG1ldGhvZCAiY3JlYXRlQ29uc2VudChzdHJpbmcsc3RyaW5nLHN0cmluZyx1aW50NjQsc3RyaW5nLHN0cmluZyxzdHJpbmcpdm9pZCIKCXB1c2hieXRlcyAweDZiMjk2ZjM1IC8vIG1ldGhvZCAicmV2b2tlQ29uc2VudCgpdm9pZCIKCXB1c2hieXRlcyAweDVlYTQ2OWU2IC8vIG1ldGhvZCAiZXh0ZW5kQ29uc2VudCh1aW50NjQpdm9pZCIKCXB1c2hieXRlcyAweDFmMWJkMjFjIC8vIG1ldGhvZCAidXBkYXRlU3RhdHVzKCl2b2lkIgoJdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMAoJbWF0Y2ggKmFiaV9yb3V0ZV9jcmVhdGVCb3ggKmFiaV9yb3V0ZV9jcmVhdGVDb25zZW50ICphYmlfcm91dGVfcmV2b2tlQ29uc2VudCAqYWJpX3JvdXRlX2V4dGVuZENvbnNlbnQgKmFiaV9yb3V0ZV91cGRhdGVTdGF0dXMKCgkvLyB0aGlzIGNvbnRyYWN0IGRvZXMgbm90IGltcGxlbWVudCB0aGUgZ2l2ZW4gQUJJIG1ldGhvZCBmb3IgY2FsbCBOb09wCgllcnI=",
+    "clear": "I3ByYWdtYSB2ZXJzaW9uIDEw"
+  },
+  "byteCode": {
+    "approval": "CiABASYMBnN0YXR1cw5leHBpcmF0aW9uRGF0ZQIAAAVvd25lcgtjb25zZW50RGF0YQZBY3RpdmUMY29uc2VudFRpdGxlDG9yZ2FuaXphdGlvbgtkZXNjcmlwdGlvbgtjb25zZW50SGFzaAlzaWduZWRVcmwIAAZBY3RpdmUxGBSBBgsxGQiNDAFYAAAAAAAAAAAAAAFKAAAAAAAAAAAAAAA2GgFJFYEgEkSIAAIiQ4oBACcGKmcnCCpnJwcqZymBAGcnCSpnKCcLZyuL/2cnCipniYgAAiJDigAAJwSBkAO5SIk2GgdXAgA2GgZXAgA2GgVXAgA2GgQXNhoDVwIANhoCVwIANhoBVwIAiAACIkOKBwAxACtkEkQnBov/SRUWVwYCTFBnJwiL/kkVFlcGAkxQZycHi/1JFRZXBgJMUGcpMgeL/AhnJwmL+0kVFlcGAkxQZygnC2cnCov6SRUWVwYCTFBnJwRJvEiL+UkVFlcGAkxQv4mIAAIiQ4oAADEAK2QSRChkVwIAJwUSRCiACQAHUmV2b2tlZGeJNhoBF4gAAiJDigEAMQArZBJEKGRXAgAnBRJEKWSL/wgpTGeJiAACIkOKAAAyBylkDUlBAAkoZFcCACcFEhBBAA0ogAkAB0V4cGlyZWRniYAE0yS+pDYaAI4B/qoAgATqBFA2gAQfXH1LgARrKW81gARepGnmgAQfG9IcNhoAjgX+rv6+/1H/dv+aAA==",
+    "clear": "Cg=="
+  },
+  "compilerInfo": {
+    "compiler": "algod",
+    "compilerVersion": {
+      "major": 4,
+      "minor": 0,
+      "patch": 3,
+      "commitHash": "f3be4a3b"
+    }
+  }
+}

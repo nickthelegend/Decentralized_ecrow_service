@@ -16,7 +16,7 @@ export class VotingContract extends Contract {
   // Called on contract creation to initialize global states
   createApplication(ownerAddress: Address): void {
     this.vote1.value = 0;
-    this.vote2.value = 0
+    this.vote2.value = 0;
     this.owner.value = ownerAddress;
     this.voteTitle.value = "";
     this.voteDescription.value = "";
@@ -31,7 +31,7 @@ export class VotingContract extends Contract {
     this.voteDescription.value = description;
     // Set the voting end time to current time plus the duration
     // (Assumes Global.latestTimestamp() returns the current timestamp)
-    this.votingEndTime.value = globals.latestTimestamp + duration;
+    this.votingEndTime.value = duration;
   }
 
   // Function to cast a vote (option 1 or option 2)
