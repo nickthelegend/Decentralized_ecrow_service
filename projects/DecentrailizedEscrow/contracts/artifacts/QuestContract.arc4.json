@@ -1,0 +1,98 @@
+{
+  "name": "QuestContract",
+  "desc": "",
+  "methods": [
+    {
+      "name": "createApplication",
+      "args": [
+        {
+          "name": "questTitle",
+          "type": "string"
+        },
+        {
+          "name": "questLocation",
+          "type": "string"
+        },
+        {
+          "name": "expiryDate",
+          "type": "uint64"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "createReward1",
+      "args": [
+        {
+          "name": "assetUrl",
+          "type": "string"
+        }
+      ],
+      "returns": {
+        "type": "uint64"
+      }
+    },
+    {
+      "name": "createReward2",
+      "args": [
+        {
+          "name": "assetUrl",
+          "type": "string"
+        }
+      ],
+      "returns": {
+        "type": "uint64"
+      }
+    },
+    {
+      "name": "createReward3",
+      "args": [
+        {
+          "name": "assetUrl",
+          "type": "string"
+        }
+      ],
+      "returns": {
+        "type": "uint64"
+      }
+    },
+    {
+      "name": "sendRewardWinner1",
+      "args": [
+        {
+          "name": "winner",
+          "type": "address"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "sendRewardWinner2",
+      "args": [
+        {
+          "name": "winner",
+          "type": "address"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "sendRewardWinner3",
+      "args": [
+        {
+          "name": "winner",
+          "type": "address"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    }
+  ]
+}

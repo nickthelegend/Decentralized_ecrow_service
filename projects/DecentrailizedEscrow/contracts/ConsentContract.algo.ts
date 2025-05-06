@@ -12,7 +12,6 @@ export class ConsentContract extends Contract {
 
   status = GlobalStateKey<string>(); // Possible values: 'Active', 'Revoked', 'Expired'
   owner = GlobalStateKey<Address>();
-  signedUrl = GlobalStateKey<string>(); // Optional signed URL
 
 
   // Called on contract creation to initialize global states
@@ -24,7 +23,6 @@ export class ConsentContract extends Contract {
     this.consentHash.value = "";
     this.status.value = "Active";
     this.owner.value = ownerAddress;
-    this.signedUrl.value = ""; // Initialize as null
 
   }
   createBox(): void {
@@ -38,7 +36,6 @@ export class ConsentContract extends Contract {
     organization: string,
     duration: uint64,
     consentHash: string,
-    signedUrl: string, // Optional parameter
     consetData: string,
   ): void {
     // Only the owner can create a consent
@@ -50,8 +47,6 @@ export class ConsentContract extends Contract {
     this.expirationDate.value = globals.latestTimestamp + duration;
     this.consentHash.value = consentHash;
     this.status.value = "Active";
-    // Assign signedUrl if provided, otherwise set to null
-    this.signedUrl.value = signedUrl;
 
 
     this.consentDataBox.value = consetData;

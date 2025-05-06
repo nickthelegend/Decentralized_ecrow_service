@@ -1,0 +1,102 @@
+import { Contract  } from '@algorandfoundation/tealscript';
+
+
+export class QuestContract extends Contract {
+
+
+    questTitle= GlobalStateKey<string>();
+    questLocation = GlobalStateKey<string>();
+    winner1 = GlobalStateKey<Address>();
+    winner2 = GlobalStateKey<Address>();
+    winner3= GlobalStateKey<Address>();
+    expiryDate = GlobalStateKey<uint64>();
+    reward1 =  GlobalStateKey<AssetID>();
+    reward2 =  GlobalStateKey<uint64>();
+    reward3 =  GlobalStateKey<uint64>();
+    createApplication(
+        questTitle: string,
+        questLocation: string,
+        expiryDate: uint64
+      ): void {
+        // Ensure this is only called during application creation
+        assert(this.app.id == 0, "This method can only be called during application creation");
+        
+        // Set initial global state values
+        this.questTitle.value = questTitle;
+        this.questLocation.value = questLocation;
+        this.expiryDate.value = expiryDate;
+        
+        // Log the creation event
+      }
+
+      createReward1(assetUrl : string): uint64 {
+        const itxnResult = sendAssetCreation({
+          configAssetTotal: 1,  // Use configAssetTotal instead of total
+          configAssetDecimals: 0,      // Use configAssetDecimals instead of decimals
+          configAssetUnitName: "NFT",  // Use configAssetUnitName instead of unitName
+          configAssetName: this.questTitle.value, // Use configAssetName instead of assetName
+          configAssetURL : assetUrl
+        });
+        // log("Asset Created: " + itxnResult.id.toString());
+return itxnResult.id
+
+      }
+      createReward2(assetUrl : string): uint64 {
+        const itxnResult = sendAssetCreation({
+          configAssetTotal: 1,  // Use configAssetTotal instead of total
+          configAssetDecimals: 0,      // Use configAssetDecimals instead of decimals
+          configAssetUnitName: "NFT",  // Use configAssetUnitName instead of unitName
+          configAssetName: this.questTitle.value, // Use configAssetName instead of assetName
+          configAssetURL : assetUrl
+        });
+        // log("Asset Created: " + itxnResult.id.toString());
+return itxnResult.id
+
+      }
+
+      createReward3(assetUrl : string): uint64 {
+        const itxnResult = sendAssetCreation({
+          configAssetTotal: 1,  // Use configAssetTotal instead of total
+          configAssetDecimals: 0,      // Use configAssetDecimals instead of decimals
+          configAssetUnitName: "NFT",  // Use configAssetUnitName instead of unitName
+          configAssetName: this.questTitle.value, // Use configAssetName instead of assetName
+          configAssetURL : assetUrl
+        });
+        // log("Asset Created: " + itxnResult.id.toString());
+return itxnResult.id
+
+      }
+
+
+
+      sendRewardWinner1(winner: Address): void {
+        
+        sendAssetTransfer({
+          xferAsset: this.reward1.value, // Use the value directly, don't wrap it in AssetID()
+          assetReceiver: winner,
+          assetAmount: 1,
+          fee: 0
+        });
+      }
+      sendRewardWinner2(winner: Address): void {
+        
+        sendAssetTransfer({
+          xferAsset: this.reward1.value, // Use the value directly, don't wrap it in AssetID()
+          assetReceiver: winner,
+          assetAmount: 1,
+          fee: 0
+        });
+      }
+      sendRewardWinner3(winner: Address): void {
+        
+        sendAssetTransfer({
+          xferAsset: this.reward1.value, // Use the value directly, don't wrap it in AssetID()
+          assetReceiver: winner,
+          assetAmount: 1,
+          fee: 0
+        });
+      }
+
+
+
+}

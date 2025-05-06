@@ -45,10 +45,6 @@
           "type": "string"
         },
         {
-          "name": "signedUrl",
-          "type": "string"
-        },
-        {
           "name": "consetData",
           "type": "string"
         }

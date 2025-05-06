@@ -1,0 +1,97 @@
+{
+  "name": "RoyaltyNFTMarketplace",
+  "desc": "",
+  "methods": [
+    {
+      "name": "createApplication",
+      "args": [
+        {
+          "name": "creator",
+          "type": "address"
+        },
+        {
+          "name": "pricePersonal",
+          "type": "uint64"
+        },
+        {
+          "name": "priceCommercial",
+          "type": "uint64"
+        },
+        {
+          "name": "priceExclusive",
+          "type": "uint64"
+        },
+        {
+          "name": "royaltyPercent",
+          "type": "uint64"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "optIntoNFT",
+      "args": [
+        {
+          "name": "asset",
+          "type": "uint64"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "buyLicense",
+      "args": [
+        {
+          "name": "payment",
+          "type": "pay"
+        },
+        {
+          "name": "licenseType",
+          "type": "string"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "transferOwnership",
+      "args": [
+        {
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "payRoyalty",
+      "args": [
+        {
+          "name": "to",
+          "type": "address"
+        },
+        {
+          "name": "amountPaid",
+          "type": "uint64"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "cancelListing",
+      "args": [],
+      "returns": {
+        "type": "void"
+      }
+    }
+  ]
+}

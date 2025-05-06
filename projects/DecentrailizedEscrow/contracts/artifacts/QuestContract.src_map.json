@@ -1,0 +1,1922 @@
+[
+  {
+    "teal": 1,
+    "source": "contracts/QuestContract.algo.ts:4",
+    "pc": [
+      0
+    ]
+  },
+  {
+    "teal": 2,
+    "source": "contracts/QuestContract.algo.ts:4",
+    "pc": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "teal": 3,
+    "source": "contracts/QuestContract.algo.ts:4",
+    "pc": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38
+    ]
+  },
+  {
+    "teal": 15,
+    "source": "contracts/QuestContract.algo.ts:4",
+    "pc": [
+      39,
+      40
+    ]
+  },
+  {
+    "teal": 16,
+    "source": "contracts/QuestContract.algo.ts:4",
+    "pc": [
+      41
+    ]
+  },
+  {
+    "teal": 17,
+    "source": "contracts/QuestContract.algo.ts:4",
+    "pc": [
+      42,
+      43
+    ]
+  },
+  {
+    "teal": 18,
+    "source": "contracts/QuestContract.algo.ts:4",
+    "pc": [
+      44
+    ]
+  },
+  {
+    "teal": 19,
+    "source": "contracts/QuestContract.algo.ts:4",
+    "pc": [
+      45,
+      46
+    ]
+  },
+  {
+    "teal": 20,
+    "source": "contracts/QuestContract.algo.ts:4",
+    "pc": [
+      47
+    ]
+  },
+  {
+    "teal": 21,
+    "source": "contracts/QuestContract.algo.ts:4",
+    "pc": [
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73
+    ]
+  },
+  {
+    "teal": 25,
+    "source": "contracts/QuestContract.algo.ts:4",
+    "errorMessage": "The requested action is not implemented in this contract. Are you using the correct OnComplete? Did you set your app ID?",
+    "pc": [
+      74
+    ]
+  },
+  {
+    "teal": 30,
+    "source": "contracts/QuestContract.algo.ts:19",
+    "pc": [
+      75,
+      76,
+      77
+    ]
+  },
+  {
+    "teal": 31,
+    "source": "contracts/QuestContract.algo.ts:19",
+    "pc": [
+      78
+    ]
+  },
+  {
+    "teal": 34,
+    "source": "contracts/QuestContract.algo.ts:18",
+    "pc": [
+      79,
+      80,
+      81
+    ]
+  },
+  {
+    "teal": 35,
+    "source": "contracts/QuestContract.algo.ts:18",
+    "pc": [
+      82,
+      83,
+      84
+    ]
+  },
+  {
+    "teal": 38,
+    "source": "contracts/QuestContract.algo.ts:17",
+    "pc": [
+      85,
+      86,
+      87
+    ]
+  },
+  {
+    "teal": 39,
+    "source": "contracts/QuestContract.algo.ts:17",
+    "pc": [
+      88,
+      89,
+      90
+    ]
+  },
+  {
+    "teal": 42,
+    "source": "contracts/QuestContract.algo.ts:16",
+    "pc": [
+      91,
+      92,
+      93
+    ]
+  },
+  {
+    "teal": 43,
+    "source": "contracts/QuestContract.algo.ts:16",
+    "pc": [
+      94
+    ]
+  },
+  {
+    "teal": 44,
+    "source": "contracts/QuestContract.algo.ts:16",
+    "pc": [
+      95
+    ]
+  },
+  {
+    "teal": 48,
+    "source": "contracts/QuestContract.algo.ts:16",
+    "pc": [
+      96,
+      97,
+      98
+    ]
+  },
+  {
+    "teal": 52,
+    "source": "contracts/QuestContract.algo.ts:22",
+    "pc": [
+      99,
+      100,
+      101
+    ]
+  },
+  {
+    "teal": 53,
+    "source": "contracts/QuestContract.algo.ts:22",
+    "pc": [
+      102
+    ]
+  },
+  {
+    "teal": 54,
+    "source": "contracts/QuestContract.algo.ts:22",
+    "pc": [
+      103
+    ]
+  },
+  {
+    "teal": 57,
+    "source": "contracts/QuestContract.algo.ts:22",
+    "errorMessage": "This method can only be called during application creation",
+    "pc": [
+      104
+    ]
+  },
+  {
+    "teal": 61,
+    "source": "contracts/QuestContract.algo.ts:25",
+    "pc": [
+      105
+    ]
+  },
+  {
+    "teal": 62,
+    "source": "contracts/QuestContract.algo.ts:25",
+    "pc": [
+      106,
+      107
+    ]
+  },
+  {
+    "teal": 63,
+    "source": "contracts/QuestContract.algo.ts:25",
+    "pc": [
+      108
+    ]
+  },
+  {
+    "teal": 64,
+    "source": "contracts/QuestContract.algo.ts:25",
+    "pc": [
+      109
+    ]
+  },
+  {
+    "teal": 65,
+    "source": "contracts/QuestContract.algo.ts:25",
+    "pc": [
+      110
+    ]
+  },
+  {
+    "teal": 66,
+    "source": "contracts/QuestContract.algo.ts:25",
+    "pc": [
+      111,
+      112,
+      113
+    ]
+  },
+  {
+    "teal": 67,
+    "source": "contracts/QuestContract.algo.ts:25",
+    "pc": [
+      114
+    ]
+  },
+  {
+    "teal": 68,
+    "source": "contracts/QuestContract.algo.ts:25",
+    "pc": [
+      115
+    ]
+  },
+  {
+    "teal": 69,
+    "source": "contracts/QuestContract.algo.ts:25",
+    "pc": [
+      116
+    ]
+  },
+  {
+    "teal": 73,
+    "source": "contracts/QuestContract.algo.ts:26",
+    "pc": [
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131
+    ]
+  },
+  {
+    "teal": 74,
+    "source": "contracts/QuestContract.algo.ts:26",
+    "pc": [
+      132,
+      133
+    ]
+  },
+  {
+    "teal": 75,
+    "source": "contracts/QuestContract.algo.ts:26",
+    "pc": [
+      134
+    ]
+  },
+  {
+    "teal": 76,
+    "source": "contracts/QuestContract.algo.ts:26",
+    "pc": [
+      135
+    ]
+  },
+  {
+    "teal": 77,
+    "source": "contracts/QuestContract.algo.ts:26",
+    "pc": [
+      136
+    ]
+  },
+  {
+    "teal": 78,
+    "source": "contracts/QuestContract.algo.ts:26",
+    "pc": [
+      137,
+      138,
+      139
+    ]
+  },
+  {
+    "teal": 79,
+    "source": "contracts/QuestContract.algo.ts:26",
+    "pc": [
+      140
+    ]
+  },
+  {
+    "teal": 80,
+    "source": "contracts/QuestContract.algo.ts:26",
+    "pc": [
+      141
+    ]
+  },
+  {
+    "teal": 81,
+    "source": "contracts/QuestContract.algo.ts:26",
+    "pc": [
+      142
+    ]
+  },
+  {
+    "teal": 85,
+    "source": "contracts/QuestContract.algo.ts:27",
+    "pc": [
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154
+    ]
+  },
+  {
+    "teal": 86,
+    "source": "contracts/QuestContract.algo.ts:27",
+    "pc": [
+      155,
+      156
+    ]
+  },
+  {
+    "teal": 87,
+    "source": "contracts/QuestContract.algo.ts:27",
+    "pc": [
+      157
+    ]
+  },
+  {
+    "teal": 88,
+    "source": "contracts/QuestContract.algo.ts:16",
+    "pc": [
+      158
+    ]
+  },
+  {
+    "teal": 93,
+    "source": "contracts/QuestContract.algo.ts:32",
+    "pc": [
+      159
+    ]
+  },
+  {
+    "teal": 96,
+    "source": "contracts/QuestContract.algo.ts:32",
+    "pc": [
+      160,
+      161,
+      162
+    ]
+  },
+  {
+    "teal": 97,
+    "source": "contracts/QuestContract.algo.ts:32",
+    "pc": [
+      163,
+      164,
+      165
+    ]
+  },
+  {
+    "teal": 100,
+    "source": "contracts/QuestContract.algo.ts:32",
+    "pc": [
+      166,
+      167,
+      168
+    ]
+  },
+  {
+    "teal": 101,
+    "source": "contracts/QuestContract.algo.ts:32",
+    "pc": [
+      169
+    ]
+  },
+  {
+    "teal": 102,
+    "source": "contracts/QuestContract.algo.ts:32",
+    "pc": [
+      170
+    ]
+  },
+  {
+    "teal": 103,
+    "source": "contracts/QuestContract.algo.ts:32",
+    "pc": [
+      171
+    ]
+  },
+  {
+    "teal": 104,
+    "source": "contracts/QuestContract.algo.ts:32",
+    "pc": [
+      172
+    ]
+  },
+  {
+    "teal": 105,
+    "source": "contracts/QuestContract.algo.ts:32",
+    "pc": [
+      173
+    ]
+  },
+  {
+    "teal": 109,
+    "source": "contracts/QuestContract.algo.ts:32",
+    "pc": [
+      174,
+      175,
+      176
+    ]
+  },
+  {
+    "teal": 112,
+    "source": "contracts/QuestContract.algo.ts:32",
+    "pc": [
+      177,
+      178
+    ]
+  },
+  {
+    "teal": 122,
+    "source": "contracts/QuestContract.algo.ts:33",
+    "pc": [
+      179
+    ]
+  },
+  {
+    "teal": 123,
+    "source": "contracts/QuestContract.algo.ts:33",
+    "pc": [
+      180
+    ]
+  },
+  {
+    "teal": 124,
+    "source": "contracts/QuestContract.algo.ts:33",
+    "pc": [
+      181,
+      182
+    ]
+  },
+  {
+    "teal": 128,
+    "source": "contracts/QuestContract.algo.ts:34",
+    "pc": [
+      183
+    ]
+  },
+  {
+    "teal": 129,
+    "source": "contracts/QuestContract.algo.ts:34",
+    "pc": [
+      184,
+      185
+    ]
+  },
+  {
+    "teal": 133,
+    "source": "contracts/QuestContract.algo.ts:35",
+    "pc": [
+      186
+    ]
+  },
+  {
+    "teal": 134,
+    "source": "contracts/QuestContract.algo.ts:35",
+    "pc": [
+      187,
+      188
+    ]
+  },
+  {
+    "teal": 138,
+    "source": "contracts/QuestContract.algo.ts:36",
+    "pc": [
+      189
+    ]
+  },
+  {
+    "teal": 139,
+    "source": "contracts/QuestContract.algo.ts:36",
+    "pc": [
+      190,
+      191
+    ]
+  },
+  {
+    "teal": 143,
+    "source": "contracts/QuestContract.algo.ts:37",
+    "pc": [
+      192
+    ]
+  },
+  {
+    "teal": 144,
+    "source": "contracts/QuestContract.algo.ts:37",
+    "pc": [
+      193
+    ]
+  },
+  {
+    "teal": 145,
+    "source": "contracts/QuestContract.algo.ts:37",
+    "pc": [
+      194,
+      195,
+      196
+    ]
+  },
+  {
+    "teal": 146,
+    "source": "contracts/QuestContract.algo.ts:37",
+    "pc": [
+      197,
+      198
+    ]
+  },
+  {
+    "teal": 150,
+    "source": "contracts/QuestContract.algo.ts:38",
+    "pc": [
+      199,
+      200
+    ]
+  },
+  {
+    "teal": 151,
+    "source": "contracts/QuestContract.algo.ts:38",
+    "pc": [
+      201,
+      202
+    ]
+  },
+  {
+    "teal": 154,
+    "source": "contracts/QuestContract.algo.ts:33",
+    "pc": [
+      203
+    ]
+  },
+  {
+    "teal": 155,
+    "source": "contracts/QuestContract.algo.ts:33",
+    "pc": [
+      204,
+      205
+    ]
+  },
+  {
+    "teal": 158,
+    "source": "contracts/QuestContract.algo.ts:33",
+    "pc": [
+      206
+    ]
+  },
+  {
+    "teal": 159,
+    "source": "contracts/QuestContract.algo.ts:33",
+    "pc": [
+      207,
+      208
+    ]
+  },
+  {
+    "teal": 160,
+    "source": "contracts/QuestContract.algo.ts:33",
+    "pc": [
+      209,
+      210
+    ]
+  },
+  {
+    "teal": 164,
+    "source": "contracts/QuestContract.algo.ts:41",
+    "pc": [
+      211,
+      212
+    ]
+  },
+  {
+    "teal": 167,
+    "source": "contracts/QuestContract.algo.ts:32",
+    "pc": [
+      213,
+      214
+    ]
+  },
+  {
+    "teal": 168,
+    "source": "contracts/QuestContract.algo.ts:32",
+    "pc": [
+      215
+    ]
+  },
+  {
+    "teal": 173,
+    "source": "contracts/QuestContract.algo.ts:44",
+    "pc": [
+      216
+    ]
+  },
+  {
+    "teal": 176,
+    "source": "contracts/QuestContract.algo.ts:44",
+    "pc": [
+      217,
+      218,
+      219
+    ]
+  },
+  {
+    "teal": 177,
+    "source": "contracts/QuestContract.algo.ts:44",
+    "pc": [
+      220,
+      221,
+      222
+    ]
+  },
+  {
+    "teal": 180,
+    "source": "contracts/QuestContract.algo.ts:44",
+    "pc": [
+      223,
+      224,
+      225
+    ]
+  },
+  {
+    "teal": 181,
+    "source": "contracts/QuestContract.algo.ts:44",
+    "pc": [
+      226
+    ]
+  },
+  {
+    "teal": 182,
+    "source": "contracts/QuestContract.algo.ts:44",
+    "pc": [
+      227
+    ]
+  },
+  {
+    "teal": 183,
+    "source": "contracts/QuestContract.algo.ts:44",
+    "pc": [
+      228
+    ]
+  },
+  {
+    "teal": 184,
+    "source": "contracts/QuestContract.algo.ts:44",
+    "pc": [
+      229
+    ]
+  },
+  {
+    "teal": 185,
+    "source": "contracts/QuestContract.algo.ts:44",
+    "pc": [
+      230
+    ]
+  },
+  {
+    "teal": 189,
+    "source": "contracts/QuestContract.algo.ts:44",
+    "pc": [
+      231,
+      232,
+      233
+    ]
+  },
+  {
+    "teal": 192,
+    "source": "contracts/QuestContract.algo.ts:44",
+    "pc": [
+      234,
+      235
+    ]
+  },
+  {
+    "teal": 202,
+    "source": "contracts/QuestContract.algo.ts:45",
+    "pc": [
+      236
+    ]
+  },
+  {
+    "teal": 203,
+    "source": "contracts/QuestContract.algo.ts:45",
+    "pc": [
+      237
+    ]
+  },
+  {
+    "teal": 204,
+    "source": "contracts/QuestContract.algo.ts:45",
+    "pc": [
+      238,
+      239
+    ]
+  },
+  {
+    "teal": 208,
+    "source": "contracts/QuestContract.algo.ts:46",
+    "pc": [
+      240
+    ]
+  },
+  {
+    "teal": 209,
+    "source": "contracts/QuestContract.algo.ts:46",
+    "pc": [
+      241,
+      242
+    ]
+  },
+  {
+    "teal": 213,
+    "source": "contracts/QuestContract.algo.ts:47",
+    "pc": [
+      243
+    ]
+  },
+  {
+    "teal": 214,
+    "source": "contracts/QuestContract.algo.ts:47",
+    "pc": [
+      244,
+      245
+    ]
+  },
+  {
+    "teal": 218,
+    "source": "contracts/QuestContract.algo.ts:48",
+    "pc": [
+      246
+    ]
+  },
+  {
+    "teal": 219,
+    "source": "contracts/QuestContract.algo.ts:48",
+    "pc": [
+      247,
+      248
+    ]
+  },
+  {
+    "teal": 223,
+    "source": "contracts/QuestContract.algo.ts:49",
+    "pc": [
+      249
+    ]
+  },
+  {
+    "teal": 224,
+    "source": "contracts/QuestContract.algo.ts:49",
+    "pc": [
+      250
+    ]
+  },
+  {
+    "teal": 225,
+    "source": "contracts/QuestContract.algo.ts:49",
+    "pc": [
+      251,
+      252,
+      253
+    ]
+  },
+  {
+    "teal": 226,
+    "source": "contracts/QuestContract.algo.ts:49",
+    "pc": [
+      254,
+      255
+    ]
+  },
+  {
+    "teal": 230,
+    "source": "contracts/QuestContract.algo.ts:50",
+    "pc": [
+      256,
+      257
+    ]
+  },
+  {
+    "teal": 231,
+    "source": "contracts/QuestContract.algo.ts:50",
+    "pc": [
+      258,
+      259
+    ]
+  },
+  {
+    "teal": 234,
+    "source": "contracts/QuestContract.algo.ts:45",
+    "pc": [
+      260
+    ]
+  },
+  {
+    "teal": 235,
+    "source": "contracts/QuestContract.algo.ts:45",
+    "pc": [
+      261,
+      262
+    ]
+  },
+  {
+    "teal": 238,
+    "source": "contracts/QuestContract.algo.ts:45",
+    "pc": [
+      263
+    ]
+  },
+  {
+    "teal": 239,
+    "source": "contracts/QuestContract.algo.ts:45",
+    "pc": [
+      264,
+      265
+    ]
+  },
+  {
+    "teal": 240,
+    "source": "contracts/QuestContract.algo.ts:45",
+    "pc": [
+      266,
+      267
+    ]
+  },
+  {
+    "teal": 244,
+    "source": "contracts/QuestContract.algo.ts:53",
+    "pc": [
+      268,
+      269
+    ]
+  },
+  {
+    "teal": 247,
+    "source": "contracts/QuestContract.algo.ts:44",
+    "pc": [
+      270,
+      271
+    ]
+  },
+  {
+    "teal": 248,
+    "source": "contracts/QuestContract.algo.ts:44",
+    "pc": [
+      272
+    ]
+  },
+  {
+    "teal": 253,
+    "source": "contracts/QuestContract.algo.ts:57",
+    "pc": [
+      273
+    ]
+  },
+  {
+    "teal": 256,
+    "source": "contracts/QuestContract.algo.ts:57",
+    "pc": [
+      274,
+      275,
+      276
+    ]
+  },
+  {
+    "teal": 257,
+    "source": "contracts/QuestContract.algo.ts:57",
+    "pc": [
+      277,
+      278,
+      279
+    ]
+  },
+  {
+    "teal": 260,
+    "source": "contracts/QuestContract.algo.ts:57",
+    "pc": [
+      280,
+      281,
+      282
+    ]
+  },
+  {
+    "teal": 261,
+    "source": "contracts/QuestContract.algo.ts:57",
+    "pc": [
+      283
+    ]
+  },
+  {
+    "teal": 262,
+    "source": "contracts/QuestContract.algo.ts:57",
+    "pc": [
+      284
+    ]
+  },
+  {
+    "teal": 263,
+    "source": "contracts/QuestContract.algo.ts:57",
+    "pc": [
+      285
+    ]
+  },
+  {
+    "teal": 264,
+    "source": "contracts/QuestContract.algo.ts:57",
+    "pc": [
+      286
+    ]
+  },
+  {
+    "teal": 265,
+    "source": "contracts/QuestContract.algo.ts:57",
+    "pc": [
+      287
+    ]
+  },
+  {
+    "teal": 269,
+    "source": "contracts/QuestContract.algo.ts:57",
+    "pc": [
+      288,
+      289,
+      290
+    ]
+  },
+  {
+    "teal": 272,
+    "source": "contracts/QuestContract.algo.ts:57",
+    "pc": [
+      291,
+      292
+    ]
+  },
+  {
+    "teal": 282,
+    "source": "contracts/QuestContract.algo.ts:58",
+    "pc": [
+      293
+    ]
+  },
+  {
+    "teal": 283,
+    "source": "contracts/QuestContract.algo.ts:58",
+    "pc": [
+      294
+    ]
+  },
+  {
+    "teal": 284,
+    "source": "contracts/QuestContract.algo.ts:58",
+    "pc": [
+      295,
+      296
+    ]
+  },
+  {
+    "teal": 288,
+    "source": "contracts/QuestContract.algo.ts:59",
+    "pc": [
+      297
+    ]
+  },
+  {
+    "teal": 289,
+    "source": "contracts/QuestContract.algo.ts:59",
+    "pc": [
+      298,
+      299
+    ]
+  },
+  {
+    "teal": 293,
+    "source": "contracts/QuestContract.algo.ts:60",
+    "pc": [
+      300
+    ]
+  },
+  {
+    "teal": 294,
+    "source": "contracts/QuestContract.algo.ts:60",
+    "pc": [
+      301,
+      302
+    ]
+  },
+  {
+    "teal": 298,
+    "source": "contracts/QuestContract.algo.ts:61",
+    "pc": [
+      303
+    ]
+  },
+  {
+    "teal": 299,
+    "source": "contracts/QuestContract.algo.ts:61",
+    "pc": [
+      304,
+      305
+    ]
+  },
+  {
+    "teal": 303,
+    "source": "contracts/QuestContract.algo.ts:62",
+    "pc": [
+      306
+    ]
+  },
+  {
+    "teal": 304,
+    "source": "contracts/QuestContract.algo.ts:62",
+    "pc": [
+      307
+    ]
+  },
+  {
+    "teal": 305,
+    "source": "contracts/QuestContract.algo.ts:62",
+    "pc": [
+      308,
+      309,
+      310
+    ]
+  },
+  {
+    "teal": 306,
+    "source": "contracts/QuestContract.algo.ts:62",
+    "pc": [
+      311,
+      312
+    ]
+  },
+  {
+    "teal": 310,
+    "source": "contracts/QuestContract.algo.ts:63",
+    "pc": [
+      313,
+      314
+    ]
+  },
+  {
+    "teal": 311,
+    "source": "contracts/QuestContract.algo.ts:63",
+    "pc": [
+      315,
+      316
+    ]
+  },
+  {
+    "teal": 314,
+    "source": "contracts/QuestContract.algo.ts:58",
+    "pc": [
+      317
+    ]
+  },
+  {
+    "teal": 315,
+    "source": "contracts/QuestContract.algo.ts:58",
+    "pc": [
+      318,
+      319
+    ]
+  },
+  {
+    "teal": 318,
+    "source": "contracts/QuestContract.algo.ts:58",
+    "pc": [
+      320
+    ]
+  },
+  {
+    "teal": 319,
+    "source": "contracts/QuestContract.algo.ts:58",
+    "pc": [
+      321,
+      322
+    ]
+  },
+  {
+    "teal": 320,
+    "source": "contracts/QuestContract.algo.ts:58",
+    "pc": [
+      323,
+      324
+    ]
+  },
+  {
+    "teal": 324,
+    "source": "contracts/QuestContract.algo.ts:66",
+    "pc": [
+      325,
+      326
+    ]
+  },
+  {
+    "teal": 327,
+    "source": "contracts/QuestContract.algo.ts:57",
+    "pc": [
+      327,
+      328
+    ]
+  },
+  {
+    "teal": 328,
+    "source": "contracts/QuestContract.algo.ts:57",
+    "pc": [
+      329
+    ]
+  },
+  {
+    "teal": 333,
+    "source": "contracts/QuestContract.algo.ts:72",
+    "pc": [
+      330,
+      331,
+      332
+    ]
+  },
+  {
+    "teal": 334,
+    "source": "contracts/QuestContract.algo.ts:72",
+    "pc": [
+      333
+    ]
+  },
+  {
+    "teal": 335,
+    "source": "contracts/QuestContract.algo.ts:72",
+    "pc": [
+      334
+    ]
+  },
+  {
+    "teal": 336,
+    "source": "contracts/QuestContract.algo.ts:72",
+    "pc": [
+      335,
+      336
+    ]
+  },
+  {
+    "teal": 337,
+    "source": "contracts/QuestContract.algo.ts:72",
+    "pc": [
+      337
+    ]
+  },
+  {
+    "teal": 340,
+    "source": "contracts/QuestContract.algo.ts:72",
+    "errorMessage": "argument 0 (winner) for sendRewardWinner1 must be a address",
+    "pc": [
+      338
+    ]
+  },
+  {
+    "teal": 343,
+    "source": "contracts/QuestContract.algo.ts:72",
+    "pc": [
+      339,
+      340,
+      341
+    ]
+  },
+  {
+    "teal": 344,
+    "source": "contracts/QuestContract.algo.ts:72",
+    "pc": [
+      342
+    ]
+  },
+  {
+    "teal": 345,
+    "source": "contracts/QuestContract.algo.ts:72",
+    "pc": [
+      343
+    ]
+  },
+  {
+    "teal": 349,
+    "source": "contracts/QuestContract.algo.ts:72",
+    "pc": [
+      344,
+      345,
+      346
+    ]
+  },
+  {
+    "teal": 358,
+    "source": "contracts/QuestContract.algo.ts:74",
+    "pc": [
+      347
+    ]
+  },
+  {
+    "teal": 359,
+    "source": "contracts/QuestContract.algo.ts:74",
+    "pc": [
+      348
+    ]
+  },
+  {
+    "teal": 360,
+    "source": "contracts/QuestContract.algo.ts:74",
+    "pc": [
+      349,
+      350
+    ]
+  },
+  {
+    "teal": 364,
+    "source": "contracts/QuestContract.algo.ts:75",
+    "pc": [
+      351
+    ]
+  },
+  {
+    "teal": 365,
+    "source": "contracts/QuestContract.algo.ts:75",
+    "pc": [
+      352
+    ]
+  },
+  {
+    "teal": 366,
+    "source": "contracts/QuestContract.algo.ts:75",
+    "pc": [
+      353,
+      354
+    ]
+  },
+  {
+    "teal": 370,
+    "source": "contracts/QuestContract.algo.ts:76",
+    "pc": [
+      355,
+      356
+    ]
+  },
+  {
+    "teal": 371,
+    "source": "contracts/QuestContract.algo.ts:76",
+    "pc": [
+      357,
+      358
+    ]
+  },
+  {
+    "teal": 375,
+    "source": "contracts/QuestContract.algo.ts:77",
+    "pc": [
+      359
+    ]
+  },
+  {
+    "teal": 376,
+    "source": "contracts/QuestContract.algo.ts:77",
+    "pc": [
+      360,
+      361
+    ]
+  },
+  {
+    "teal": 380,
+    "source": "contracts/QuestContract.algo.ts:78",
+    "pc": [
+      362
+    ]
+  },
+  {
+    "teal": 381,
+    "source": "contracts/QuestContract.algo.ts:78",
+    "pc": [
+      363,
+      364
+    ]
+  },
+  {
+    "teal": 384,
+    "source": "contracts/QuestContract.algo.ts:74",
+    "pc": [
+      365
+    ]
+  },
+  {
+    "teal": 385,
+    "source": "contracts/QuestContract.algo.ts:72",
+    "pc": [
+      366
+    ]
+  },
+  {
+    "teal": 390,
+    "source": "contracts/QuestContract.algo.ts:81",
+    "pc": [
+      367,
+      368,
+      369
+    ]
+  },
+  {
+    "teal": 391,
+    "source": "contracts/QuestContract.algo.ts:81",
+    "pc": [
+      370
+    ]
+  },
+  {
+    "teal": 392,
+    "source": "contracts/QuestContract.algo.ts:81",
+    "pc": [
+      371
+    ]
+  },
+  {
+    "teal": 393,
+    "source": "contracts/QuestContract.algo.ts:81",
+    "pc": [
+      372,
+      373
+    ]
+  },
+  {
+    "teal": 394,
+    "source": "contracts/QuestContract.algo.ts:81",
+    "pc": [
+      374
+    ]
+  },
+  {
+    "teal": 397,
+    "source": "contracts/QuestContract.algo.ts:81",
+    "errorMessage": "argument 0 (winner) for sendRewardWinner2 must be a address",
+    "pc": [
+      375
+    ]
+  },
+  {
+    "teal": 400,
+    "source": "contracts/QuestContract.algo.ts:81",
+    "pc": [
+      376,
+      377,
+      378
+    ]
+  },
+  {
+    "teal": 401,
+    "source": "contracts/QuestContract.algo.ts:81",
+    "pc": [
+      379
+    ]
+  },
+  {
+    "teal": 402,
+    "source": "contracts/QuestContract.algo.ts:81",
+    "pc": [
+      380
+    ]
+  },
+  {
+    "teal": 406,
+    "source": "contracts/QuestContract.algo.ts:81",
+    "pc": [
+      381,
+      382,
+      383
+    ]
+  },
+  {
+    "teal": 415,
+    "source": "contracts/QuestContract.algo.ts:83",
+    "pc": [
+      384
+    ]
+  },
+  {
+    "teal": 416,
+    "source": "contracts/QuestContract.algo.ts:83",
+    "pc": [
+      385
+    ]
+  },
+  {
+    "teal": 417,
+    "source": "contracts/QuestContract.algo.ts:83",
+    "pc": [
+      386,
+      387
+    ]
+  },
+  {
+    "teal": 421,
+    "source": "contracts/QuestContract.algo.ts:84",
+    "pc": [
+      388
+    ]
+  },
+  {
+    "teal": 422,
+    "source": "contracts/QuestContract.algo.ts:84",
+    "pc": [
+      389
+    ]
+  },
+  {
+    "teal": 423,
+    "source": "contracts/QuestContract.algo.ts:84",
+    "pc": [
+      390,
+      391
+    ]
+  },
+  {
+    "teal": 427,
+    "source": "contracts/QuestContract.algo.ts:85",
+    "pc": [
+      392,
+      393
+    ]
+  },
+  {
+    "teal": 428,
+    "source": "contracts/QuestContract.algo.ts:85",
+    "pc": [
+      394,
+      395
+    ]
+  },
+  {
+    "teal": 432,
+    "source": "contracts/QuestContract.algo.ts:86",
+    "pc": [
+      396
+    ]
+  },
+  {
+    "teal": 433,
+    "source": "contracts/QuestContract.algo.ts:86",
+    "pc": [
+      397,
+      398
+    ]
+  },
+  {
+    "teal": 437,
+    "source": "contracts/QuestContract.algo.ts:87",
+    "pc": [
+      399
+    ]
+  },
+  {
+    "teal": 438,
+    "source": "contracts/QuestContract.algo.ts:87",
+    "pc": [
+      400,
+      401
+    ]
+  },
+  {
+    "teal": 441,
+    "source": "contracts/QuestContract.algo.ts:83",
+    "pc": [
+      402
+    ]
+  },
+  {
+    "teal": 442,
+    "source": "contracts/QuestContract.algo.ts:81",
+    "pc": [
+      403
+    ]
+  },
+  {
+    "teal": 447,
+    "source": "contracts/QuestContract.algo.ts:90",
+    "pc": [
+      404,
+      405,
+      406
+    ]
+  },
+  {
+    "teal": 448,
+    "source": "contracts/QuestContract.algo.ts:90",
+    "pc": [
+      407
+    ]
+  },
+  {
+    "teal": 449,
+    "source": "contracts/QuestContract.algo.ts:90",
+    "pc": [
+      408
+    ]
+  },
+  {
+    "teal": 450,
+    "source": "contracts/QuestContract.algo.ts:90",
+    "pc": [
+      409,
+      410
+    ]
+  },
+  {
+    "teal": 451,
+    "source": "contracts/QuestContract.algo.ts:90",
+    "pc": [
+      411
+    ]
+  },
+  {
+    "teal": 454,
+    "source": "contracts/QuestContract.algo.ts:90",
+    "errorMessage": "argument 0 (winner) for sendRewardWinner3 must be a address",
+    "pc": [
+      412
+    ]
+  },
+  {
+    "teal": 457,
+    "source": "contracts/QuestContract.algo.ts:90",
+    "pc": [
+      413,
+      414,
+      415
+    ]
+  },
+  {
+    "teal": 458,
+    "source": "contracts/QuestContract.algo.ts:90",
+    "pc": [
+      416
+    ]
+  },
+  {
+    "teal": 459,
+    "source": "contracts/QuestContract.algo.ts:90",
+    "pc": [
+      417
+    ]
+  },
+  {
+    "teal": 463,
+    "source": "contracts/QuestContract.algo.ts:90",
+    "pc": [
+      418,
+      419,
+      420
+    ]
+  },
+  {
+    "teal": 472,
+    "source": "contracts/QuestContract.algo.ts:92",
+    "pc": [
+      421
+    ]
+  },
+  {
+    "teal": 473,
+    "source": "contracts/QuestContract.algo.ts:92",
+    "pc": [
+      422
+    ]
+  },
+  {
+    "teal": 474,
+    "source": "contracts/QuestContract.algo.ts:92",
+    "pc": [
+      423,
+      424
+    ]
+  },
+  {
+    "teal": 478,
+    "source": "contracts/QuestContract.algo.ts:93",
+    "pc": [
+      425
+    ]
+  },
+  {
+    "teal": 479,
+    "source": "contracts/QuestContract.algo.ts:93",
+    "pc": [
+      426
+    ]
+  },
+  {
+    "teal": 480,
+    "source": "contracts/QuestContract.algo.ts:93",
+    "pc": [
+      427,
+      428
+    ]
+  },
+  {
+    "teal": 484,
+    "source": "contracts/QuestContract.algo.ts:94",
+    "pc": [
+      429,
+      430
+    ]
+  },
+  {
+    "teal": 485,
+    "source": "contracts/QuestContract.algo.ts:94",
+    "pc": [
+      431,
+      432
+    ]
+  },
+  {
+    "teal": 489,
+    "source": "contracts/QuestContract.algo.ts:95",
+    "pc": [
+      433
+    ]
+  },
+  {
+    "teal": 490,
+    "source": "contracts/QuestContract.algo.ts:95",
+    "pc": [
+      434,
+      435
+    ]
+  },
+  {
+    "teal": 494,
+    "source": "contracts/QuestContract.algo.ts:96",
+    "pc": [
+      436
+    ]
+  },
+  {
+    "teal": 495,
+    "source": "contracts/QuestContract.algo.ts:96",
+    "pc": [
+      437,
+      438
+    ]
+  },
+  {
+    "teal": 498,
+    "source": "contracts/QuestContract.algo.ts:92",
+    "pc": [
+      439
+    ]
+  },
+  {
+    "teal": 499,
+    "source": "contracts/QuestContract.algo.ts:90",
+    "pc": [
+      440
+    ]
+  },
+  {
+    "teal": 502,
+    "source": "contracts/QuestContract.algo.ts:4",
+    "pc": [
+      441,
+      442,
+      443,
+      444,
+      445,
+      446
+    ]
+  },
+  {
+    "teal": 503,
+    "source": "contracts/QuestContract.algo.ts:4",
+    "pc": [
+      447,
+      448,
+      449
+    ]
+  },
+  {
+    "teal": 504,
+    "source": "contracts/QuestContract.algo.ts:4",
+    "pc": [
+      450,
+      451,
+      452,
+      453
+    ]
+  },
+  {
+    "teal": 507,
+    "source": "contracts/QuestContract.algo.ts:4",
+    "errorMessage": "this contract does not implement the given ABI method for create NoOp",
+    "pc": [
+      454
+    ]
+  },
+  {
+    "teal": 510,
+    "source": "contracts/QuestContract.algo.ts:4",
+    "pc": [
+      455,
+      456,
+      457,
+      458,
+      459,
+      460
+    ]
+  },
+  {
+    "teal": 511,
+    "source": "contracts/QuestContract.algo.ts:4",
+    "pc": [
+      461,
+      462,
+      463,
+      464,
+      465,
+      466
+    ]
+  },
+  {
+    "teal": 512,
+    "source": "contracts/QuestContract.algo.ts:4",
+    "pc": [
+      467,
+      468,
+      469,
+      470,
+      471,
+      472
+    ]
+  },
+  {
+    "teal": 513,
+    "source": "contracts/QuestContract.algo.ts:4",
+    "pc": [
+      473,
+      474,
+      475,
+      476,
+      477,
+      478
+    ]
+  },
+  {
+    "teal": 514,
+    "source": "contracts/QuestContract.algo.ts:4",
+    "pc": [
+      479,
+      480,
+      481,
+      482,
+      483,
+      484
+    ]
+  },
+  {
+    "teal": 515,
+    "source": "contracts/QuestContract.algo.ts:4",
+    "pc": [
+      485,
+      486,
+      487,
+      488,
+      489,
+      490
+    ]
+  },
+  {
+    "teal": 516,
+    "source": "contracts/QuestContract.algo.ts:4",
+    "pc": [
+      491,
+      492,
+      493
+    ]
+  },
+  {
+    "teal": 517,
+    "source": "contracts/QuestContract.algo.ts:4",
+    "pc": [
+      494,
+      495,
+      496,
+      497,
+      498,
+      499,
+      500,
+      501,
+      502,
+      503,
+      504,
+      505,
+      506,
+      507
+    ]
+  },
+  {
+    "teal": 520,
+    "source": "contracts/QuestContract.algo.ts:4",
+    "errorMessage": "this contract does not implement the given ABI method for call NoOp",
+    "pc": [
+      508
+    ]
+  }
+]

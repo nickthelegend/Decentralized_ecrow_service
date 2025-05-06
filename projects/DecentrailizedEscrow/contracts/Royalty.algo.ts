@@ -2,97 +2,107 @@ import { Contract } from '@algorandfoundation/tealscript';
 
 
 
-export class Marketplace extends Contract {
+export class RoyaltyNFTMarketplace extends Contract {
 
-    price = GlobalStateKey<uint64>();
+  pricePersonal = GlobalStateKey<uint64>();
+  priceCommercial = GlobalStateKey<uint64>();
+  priceExclusive = GlobalStateKey<uint64>();
 
-    paymentAmount = GlobalStateKey<uint64>();
+  royaltyPercent = GlobalStateKey<uint64>(); // e.g., 5% royalty = 5
 
-
-    buyer = GlobalStateKey<Address>();
-  
-
-    conditionMet = GlobalStateKey<boolean>();
-
-    seller = GlobalStateKey<Address>();
-
-    nftAssetID = GlobalStateKey<AssetID>();
-
-
-    createApplication(seller: Address,price: uint64 ): void {
-        this.price.value = price;
-        this.paymentAmount.value = 0;
-        this.seller.value = seller;
-        this.buyer.value = Address.zeroAddress;
-        this.nftAssetID.value = AssetID.zeroIndex;
-
-      }
-
-
-      
-
-
-
-      optIntoNFT(asset: AssetID): void {    
-        /// Verify a ASA hasn't already been opted into
-        assert(this.nftAssetID.value === AssetID.zeroIndex);
+  creator = GlobalStateKey<Address>();
+  currentOwner = GlobalStateKey<Address>();
+  nftAssetID = GlobalStateKey<AssetID>();
     
-        /// Save ASA ID in global state
-        this.nftAssetID.value = asset;
-    
-        /// Submit opt-in transaction: 0 asset transfer to self
-        sendAssetTransfer({
-          assetReceiver: this.app.address,
-          xferAsset: asset,
-          assetAmount: 0,
-        });
-      }
+  // License purchased by user
+  buyerLicense = GlobalStateKey<string>();
+  expectedAmount = GlobalStateKey<uint64>();
 
+  createApplication(
+    creator: Address,
+    pricePersonal: uint64,
+    priceCommercial: uint64,
+    priceExclusive: uint64,
+    royaltyPercent: uint64
+  ): void {
+    this.pricePersonal.value = pricePersonal;
+    this.priceCommercial.value = priceCommercial;
+    this.priceExclusive.value = priceExclusive;
+    this.royaltyPercent.value = royaltyPercent;
+    this.creator.value = creator;
+    this.currentOwner.value = creator;
+    this.nftAssetID.value = AssetID.zeroIndex;
+    // this.buyerLicense.value = "personal";
+  }
 
-      takeFunds(): void {
-        assert(
-          this.txn.sender === this.app.creator ||
-            this.txn.sender === this.seller.value
-        );
-        assert(this.paymentAmount.value >= this.price.value); // Check if the condition is met
-    
-        sendPayment({
-          receiver: this.seller.value,
-          amount: this.paymentAmount.value,
-        });
-        this.paymentAmount.value = 0;
-      }
+  optIntoNFT(asset: AssetID): void {
+    assert(this.nftAssetID.value === AssetID.zeroIndex);
+    this.nftAssetID.value = asset;
 
+    sendAssetTransfer({
+      assetReceiver: this.app.address,
+      xferAsset: asset,
+      assetAmount: 0,
+    });
+  }
 
-      buyNFT(payment: PayTxn): void {
-    
-        verifyPayTxn(payment, {
-            receiver: this.app.address,
-        });
-        this.buyer.value = this.txn.sender
-        this.paymentAmount.value = payment.amount;
-      }
+  buyLicense(payment: PayTxn, licenseType: string): void {
+    verifyPayTxn(payment, {
+      receiver: this.app.address,
+    });
 
+    let expectedAmount: uint64;
 
-      recieveNFT(asset: AssetID){
-        assert( this.txn.sender === this.buyer.value);
-        assert(this.paymentAmount.value >= this.price.value); // Check if the condition is met
+    if (licenseType === "personal") {
+      expectedAmount = this.pricePersonal.value;
+    } else if (licenseType === "commercial") {
+      expectedAmount = this.priceCommercial.value;
+    } else if (licenseType ==="exclusive") {
+      expectedAmount = this.priceExclusive.value;
+    } else {
+      assert(false, "Invalid license type.");
+    }
 
-        sendAssetTransfer({
-            assetReceiver: this.buyer.value,
-            xferAsset: asset,
-            assetAmount: 1,
-          });
-      }
+    assert(payment.amount >= this.expectedAmount.value);
 
-      cancelSell(){
-        assert( this.txn.sender === this.seller.value);
+    this.buyerLicense.value = licenseType;
 
-        sendAssetTransfer({
-            assetReceiver: this.seller.value,
-            xferAsset: this.nftAssetID.value,
-            assetAmount: 1,
-          });
-      }
+    if (licenseType === "exclusive") {
+      // Full ownership transfer
+      this.transferOwnership(payment.sender);
+    } else {
+      // Only license rights, no NFT transfer
+      this.payRoyalty(this.creator.value, payment.amount);
+    }
+  }
 
+  transferOwnership(newOwner: Address): void {
+    sendAssetTransfer({
+      assetReceiver: newOwner,
+      xferAsset: this.nftAssetID.value,
+      assetAmount: 1,
+    });
+    this.currentOwner.value = newOwner;
+  }
+
+  payRoyalty(to: Address, amountPaid: uint64): void {
+    let royaltyAmount = (amountPaid * this.royaltyPercent.value) / 100;
+
+    sendPayment({
+      receiver: to,
+      amount: royaltyAmount,
+    });
+
+    // Optionally, refund extra payment if overpaid
+  }
+
+  cancelListing(): void {
+    assert(this.txn.sender === this.creator.value || this.txn.sender === this.currentOwner.value);
+
+    sendAssetTransfer({
+      assetReceiver: this.currentOwner.value,
+      xferAsset: this.nftAssetID.value,
+      assetAmount: 1,
+    });
+  }
 }

@@ -1,0 +1,2158 @@
+[
+  {
+    "teal": 1,
+    "source": "contracts/Royalty.algo.ts:5",
+    "pc": [
+      0
+    ]
+  },
+  {
+    "teal": 2,
+    "source": "contracts/Royalty.algo.ts:5",
+    "pc": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "teal": 3,
+    "source": "contracts/Royalty.algo.ts:5",
+    "pc": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111
+    ]
+  },
+  {
+    "teal": 15,
+    "source": "contracts/Royalty.algo.ts:5",
+    "pc": [
+      112,
+      113
+    ]
+  },
+  {
+    "teal": 16,
+    "source": "contracts/Royalty.algo.ts:5",
+    "pc": [
+      114
+    ]
+  },
+  {
+    "teal": 17,
+    "source": "contracts/Royalty.algo.ts:5",
+    "pc": [
+      115,
+      116
+    ]
+  },
+  {
+    "teal": 18,
+    "source": "contracts/Royalty.algo.ts:5",
+    "pc": [
+      117
+    ]
+  },
+  {
+    "teal": 19,
+    "source": "contracts/Royalty.algo.ts:5",
+    "pc": [
+      118,
+      119
+    ]
+  },
+  {
+    "teal": 20,
+    "source": "contracts/Royalty.algo.ts:5",
+    "pc": [
+      120
+    ]
+  },
+  {
+    "teal": 21,
+    "source": "contracts/Royalty.algo.ts:5",
+    "pc": [
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146
+    ]
+  },
+  {
+    "teal": 25,
+    "source": "contracts/Royalty.algo.ts:5",
+    "errorMessage": "The requested action is not implemented in this contract. Are you using the correct OnComplete? Did you set your app ID?",
+    "pc": [
+      147
+    ]
+  },
+  {
+    "teal": 30,
+    "source": "contracts/Royalty.algo.ts:26",
+    "pc": [
+      148,
+      149,
+      150
+    ]
+  },
+  {
+    "teal": 31,
+    "source": "contracts/Royalty.algo.ts:26",
+    "pc": [
+      151
+    ]
+  },
+  {
+    "teal": 34,
+    "source": "contracts/Royalty.algo.ts:25",
+    "pc": [
+      152,
+      153,
+      154
+    ]
+  },
+  {
+    "teal": 35,
+    "source": "contracts/Royalty.algo.ts:25",
+    "pc": [
+      155
+    ]
+  },
+  {
+    "teal": 38,
+    "source": "contracts/Royalty.algo.ts:24",
+    "pc": [
+      156,
+      157,
+      158
+    ]
+  },
+  {
+    "teal": 39,
+    "source": "contracts/Royalty.algo.ts:24",
+    "pc": [
+      159
+    ]
+  },
+  {
+    "teal": 42,
+    "source": "contracts/Royalty.algo.ts:23",
+    "pc": [
+      160,
+      161,
+      162
+    ]
+  },
+  {
+    "teal": 43,
+    "source": "contracts/Royalty.algo.ts:23",
+    "pc": [
+      163
+    ]
+  },
+  {
+    "teal": 46,
+    "source": "contracts/Royalty.algo.ts:22",
+    "pc": [
+      164,
+      165,
+      166
+    ]
+  },
+  {
+    "teal": 47,
+    "source": "contracts/Royalty.algo.ts:22",
+    "pc": [
+      167
+    ]
+  },
+  {
+    "teal": 48,
+    "source": "contracts/Royalty.algo.ts:22",
+    "pc": [
+      168
+    ]
+  },
+  {
+    "teal": 49,
+    "source": "contracts/Royalty.algo.ts:22",
+    "pc": [
+      169
+    ]
+  },
+  {
+    "teal": 50,
+    "source": "contracts/Royalty.algo.ts:22",
+    "pc": [
+      170
+    ]
+  },
+  {
+    "teal": 53,
+    "source": "contracts/Royalty.algo.ts:22",
+    "errorMessage": "argument 4 (creator) for createApplication must be a address",
+    "pc": [
+      171
+    ]
+  },
+  {
+    "teal": 56,
+    "source": "contracts/Royalty.algo.ts:21",
+    "pc": [
+      172,
+      173,
+      174
+    ]
+  },
+  {
+    "teal": 57,
+    "source": "contracts/Royalty.algo.ts:21",
+    "pc": [
+      175
+    ]
+  },
+  {
+    "teal": 58,
+    "source": "contracts/Royalty.algo.ts:21",
+    "pc": [
+      176
+    ]
+  },
+  {
+    "teal": 62,
+    "source": "contracts/Royalty.algo.ts:21",
+    "pc": [
+      177,
+      178,
+      179
+    ]
+  },
+  {
+    "teal": 66,
+    "source": "contracts/Royalty.algo.ts:28",
+    "pc": [
+      180,
+      181
+    ]
+  },
+  {
+    "teal": 67,
+    "source": "contracts/Royalty.algo.ts:28",
+    "pc": [
+      182,
+      183
+    ]
+  },
+  {
+    "teal": 68,
+    "source": "contracts/Royalty.algo.ts:28",
+    "pc": [
+      184
+    ]
+  },
+  {
+    "teal": 72,
+    "source": "contracts/Royalty.algo.ts:29",
+    "pc": [
+      185
+    ]
+  },
+  {
+    "teal": 73,
+    "source": "contracts/Royalty.algo.ts:29",
+    "pc": [
+      186,
+      187
+    ]
+  },
+  {
+    "teal": 74,
+    "source": "contracts/Royalty.algo.ts:29",
+    "pc": [
+      188
+    ]
+  },
+  {
+    "teal": 78,
+    "source": "contracts/Royalty.algo.ts:30",
+    "pc": [
+      189,
+      190
+    ]
+  },
+  {
+    "teal": 79,
+    "source": "contracts/Royalty.algo.ts:30",
+    "pc": [
+      191,
+      192
+    ]
+  },
+  {
+    "teal": 80,
+    "source": "contracts/Royalty.algo.ts:30",
+    "pc": [
+      193
+    ]
+  },
+  {
+    "teal": 84,
+    "source": "contracts/Royalty.algo.ts:31",
+    "pc": [
+      194,
+      195
+    ]
+  },
+  {
+    "teal": 85,
+    "source": "contracts/Royalty.algo.ts:31",
+    "pc": [
+      196,
+      197
+    ]
+  },
+  {
+    "teal": 86,
+    "source": "contracts/Royalty.algo.ts:31",
+    "pc": [
+      198
+    ]
+  },
+  {
+    "teal": 90,
+    "source": "contracts/Royalty.algo.ts:32",
+    "pc": [
+      199
+    ]
+  },
+  {
+    "teal": 91,
+    "source": "contracts/Royalty.algo.ts:32",
+    "pc": [
+      200,
+      201
+    ]
+  },
+  {
+    "teal": 92,
+    "source": "contracts/Royalty.algo.ts:32",
+    "pc": [
+      202
+    ]
+  },
+  {
+    "teal": 96,
+    "source": "contracts/Royalty.algo.ts:33",
+    "pc": [
+      203
+    ]
+  },
+  {
+    "teal": 97,
+    "source": "contracts/Royalty.algo.ts:33",
+    "pc": [
+      204,
+      205
+    ]
+  },
+  {
+    "teal": 98,
+    "source": "contracts/Royalty.algo.ts:33",
+    "pc": [
+      206
+    ]
+  },
+  {
+    "teal": 102,
+    "source": "contracts/Royalty.algo.ts:34",
+    "pc": [
+      207
+    ]
+  },
+  {
+    "teal": 103,
+    "source": "contracts/Royalty.algo.ts:34",
+    "pc": [
+      208
+    ]
+  },
+  {
+    "teal": 104,
+    "source": "contracts/Royalty.algo.ts:34",
+    "pc": [
+      209
+    ]
+  },
+  {
+    "teal": 105,
+    "source": "contracts/Royalty.algo.ts:21",
+    "pc": [
+      210
+    ]
+  },
+  {
+    "teal": 110,
+    "source": "contracts/Royalty.algo.ts:38",
+    "pc": [
+      211,
+      212,
+      213
+    ]
+  },
+  {
+    "teal": 111,
+    "source": "contracts/Royalty.algo.ts:38",
+    "pc": [
+      214
+    ]
+  },
+  {
+    "teal": 114,
+    "source": "contracts/Royalty.algo.ts:38",
+    "pc": [
+      215,
+      216,
+      217
+    ]
+  },
+  {
+    "teal": 115,
+    "source": "contracts/Royalty.algo.ts:38",
+    "pc": [
+      218
+    ]
+  },
+  {
+    "teal": 116,
+    "source": "contracts/Royalty.algo.ts:38",
+    "pc": [
+      219
+    ]
+  },
+  {
+    "teal": 120,
+    "source": "contracts/Royalty.algo.ts:38",
+    "pc": [
+      220,
+      221,
+      222
+    ]
+  },
+  {
+    "teal": 124,
+    "source": "contracts/Royalty.algo.ts:39",
+    "pc": [
+      223
+    ]
+  },
+  {
+    "teal": 125,
+    "source": "contracts/Royalty.algo.ts:39",
+    "pc": [
+      224
+    ]
+  },
+  {
+    "teal": 126,
+    "source": "contracts/Royalty.algo.ts:39",
+    "pc": [
+      225
+    ]
+  },
+  {
+    "teal": 127,
+    "source": "contracts/Royalty.algo.ts:39",
+    "pc": [
+      226
+    ]
+  },
+  {
+    "teal": 128,
+    "source": "contracts/Royalty.algo.ts:39",
+    "pc": [
+      227
+    ]
+  },
+  {
+    "teal": 132,
+    "source": "contracts/Royalty.algo.ts:40",
+    "pc": [
+      228
+    ]
+  },
+  {
+    "teal": 133,
+    "source": "contracts/Royalty.algo.ts:40",
+    "pc": [
+      229,
+      230
+    ]
+  },
+  {
+    "teal": 134,
+    "source": "contracts/Royalty.algo.ts:40",
+    "pc": [
+      231
+    ]
+  },
+  {
+    "teal": 142,
+    "source": "contracts/Royalty.algo.ts:42",
+    "pc": [
+      232
+    ]
+  },
+  {
+    "teal": 143,
+    "source": "contracts/Royalty.algo.ts:42",
+    "pc": [
+      233
+    ]
+  },
+  {
+    "teal": 144,
+    "source": "contracts/Royalty.algo.ts:42",
+    "pc": [
+      234,
+      235
+    ]
+  },
+  {
+    "teal": 148,
+    "source": "contracts/Royalty.algo.ts:43",
+    "pc": [
+      236,
+      237
+    ]
+  },
+  {
+    "teal": 149,
+    "source": "contracts/Royalty.algo.ts:43",
+    "pc": [
+      238,
+      239
+    ]
+  },
+  {
+    "teal": 153,
+    "source": "contracts/Royalty.algo.ts:44",
+    "pc": [
+      240,
+      241
+    ]
+  },
+  {
+    "teal": 154,
+    "source": "contracts/Royalty.algo.ts:44",
+    "pc": [
+      242,
+      243
+    ]
+  },
+  {
+    "teal": 158,
+    "source": "contracts/Royalty.algo.ts:45",
+    "pc": [
+      244
+    ]
+  },
+  {
+    "teal": 159,
+    "source": "contracts/Royalty.algo.ts:45",
+    "pc": [
+      245,
+      246
+    ]
+  },
+  {
+    "teal": 162,
+    "source": "contracts/Royalty.algo.ts:42",
+    "pc": [
+      247
+    ]
+  },
+  {
+    "teal": 163,
+    "source": "contracts/Royalty.algo.ts:42",
+    "pc": [
+      248,
+      249
+    ]
+  },
+  {
+    "teal": 166,
+    "source": "contracts/Royalty.algo.ts:42",
+    "pc": [
+      250
+    ]
+  },
+  {
+    "teal": 167,
+    "source": "contracts/Royalty.algo.ts:38",
+    "pc": [
+      251
+    ]
+  },
+  {
+    "teal": 172,
+    "source": "contracts/Royalty.algo.ts:49",
+    "pc": [
+      252,
+      253,
+      254
+    ]
+  },
+  {
+    "teal": 173,
+    "source": "contracts/Royalty.algo.ts:49",
+    "pc": [
+      255,
+      256,
+      257
+    ]
+  },
+  {
+    "teal": 176,
+    "source": "contracts/Royalty.algo.ts:49",
+    "pc": [
+      258,
+      259
+    ]
+  },
+  {
+    "teal": 177,
+    "source": "contracts/Royalty.algo.ts:49",
+    "pc": [
+      260
+    ]
+  },
+  {
+    "teal": 178,
+    "source": "contracts/Royalty.algo.ts:49",
+    "pc": [
+      261
+    ]
+  },
+  {
+    "teal": 179,
+    "source": "contracts/Royalty.algo.ts:49",
+    "pc": [
+      262
+    ]
+  },
+  {
+    "teal": 180,
+    "source": "contracts/Royalty.algo.ts:49",
+    "pc": [
+      263,
+      264
+    ]
+  },
+  {
+    "teal": 181,
+    "source": "contracts/Royalty.algo.ts:49",
+    "pc": [
+      265
+    ]
+  },
+  {
+    "teal": 182,
+    "source": "contracts/Royalty.algo.ts:49",
+    "pc": [
+      266
+    ]
+  },
+  {
+    "teal": 185,
+    "source": "contracts/Royalty.algo.ts:49",
+    "errorMessage": "argument 1 (payment) for buyLicense must be a pay transaction",
+    "pc": [
+      267
+    ]
+  },
+  {
+    "teal": 188,
+    "source": "contracts/Royalty.algo.ts:49",
+    "pc": [
+      268,
+      269,
+      270
+    ]
+  },
+  {
+    "teal": 189,
+    "source": "contracts/Royalty.algo.ts:49",
+    "pc": [
+      271
+    ]
+  },
+  {
+    "teal": 190,
+    "source": "contracts/Royalty.algo.ts:49",
+    "pc": [
+      272
+    ]
+  },
+  {
+    "teal": 194,
+    "source": "contracts/Royalty.algo.ts:49",
+    "pc": [
+      273,
+      274,
+      275
+    ]
+  },
+  {
+    "teal": 197,
+    "source": "contracts/Royalty.algo.ts:49",
+    "pc": [
+      276,
+      277
+    ]
+  },
+  {
+    "teal": 204,
+    "source": "contracts/Royalty.algo.ts:50",
+    "pc": [
+      278,
+      279
+    ]
+  },
+  {
+    "teal": 205,
+    "source": "contracts/Royalty.algo.ts:51",
+    "pc": [
+      280,
+      281
+    ]
+  },
+  {
+    "teal": 206,
+    "source": "contracts/Royalty.algo.ts:51",
+    "pc": [
+      282,
+      283
+    ]
+  },
+  {
+    "teal": 207,
+    "source": "contracts/Royalty.algo.ts:51",
+    "pc": [
+      284
+    ]
+  },
+  {
+    "teal": 210,
+    "source": "contracts/Royalty.algo.ts:51",
+    "errorMessage": "transaction verification failed: {\"txn\":\"payment\",\"field\":\"receiver\",\"expected\":\"this.app.address\"}",
+    "pc": [
+      285
+    ]
+  },
+  {
+    "teal": 215,
+    "source": "contracts/Royalty.algo.ts:56",
+    "pc": [
+      286,
+      287
+    ]
+  },
+  {
+    "teal": 216,
+    "source": "contracts/Royalty.algo.ts:56",
+    "pc": [
+      288,
+      289,
+      290,
+      291,
+      292,
+      293,
+      294,
+      295,
+      296,
+      297
+    ]
+  },
+  {
+    "teal": 217,
+    "source": "contracts/Royalty.algo.ts:56",
+    "pc": [
+      298
+    ]
+  },
+  {
+    "teal": 218,
+    "source": "contracts/Royalty.algo.ts:56",
+    "pc": [
+      299,
+      300,
+      301
+    ]
+  },
+  {
+    "teal": 223,
+    "source": "contracts/Royalty.algo.ts:57",
+    "pc": [
+      302,
+      303
+    ]
+  },
+  {
+    "teal": 224,
+    "source": "contracts/Royalty.algo.ts:57",
+    "pc": [
+      304
+    ]
+  },
+  {
+    "teal": 225,
+    "source": "contracts/Royalty.algo.ts:57",
+    "pc": [
+      305,
+      306
+    ]
+  },
+  {
+    "teal": 226,
+    "source": "contracts/Royalty.algo.ts:56",
+    "pc": [
+      307,
+      308,
+      309
+    ]
+  },
+  {
+    "teal": 231,
+    "source": "contracts/Royalty.algo.ts:58",
+    "pc": [
+      310,
+      311
+    ]
+  },
+  {
+    "teal": 232,
+    "source": "contracts/Royalty.algo.ts:58",
+    "pc": [
+      312,
+      313,
+      314,
+      315,
+      316,
+      317,
+      318,
+      319,
+      320,
+      321,
+      322,
+      323
+    ]
+  },
+  {
+    "teal": 233,
+    "source": "contracts/Royalty.algo.ts:58",
+    "pc": [
+      324
+    ]
+  },
+  {
+    "teal": 234,
+    "source": "contracts/Royalty.algo.ts:58",
+    "pc": [
+      325,
+      326,
+      327
+    ]
+  },
+  {
+    "teal": 239,
+    "source": "contracts/Royalty.algo.ts:59",
+    "pc": [
+      328
+    ]
+  },
+  {
+    "teal": 240,
+    "source": "contracts/Royalty.algo.ts:59",
+    "pc": [
+      329
+    ]
+  },
+  {
+    "teal": 241,
+    "source": "contracts/Royalty.algo.ts:59",
+    "pc": [
+      330,
+      331
+    ]
+  },
+  {
+    "teal": 242,
+    "source": "contracts/Royalty.algo.ts:58",
+    "pc": [
+      332,
+      333,
+      334
+    ]
+  },
+  {
+    "teal": 247,
+    "source": "contracts/Royalty.algo.ts:60",
+    "pc": [
+      335,
+      336
+    ]
+  },
+  {
+    "teal": 248,
+    "source": "contracts/Royalty.algo.ts:60",
+    "pc": [
+      337,
+      338
+    ]
+  },
+  {
+    "teal": 249,
+    "source": "contracts/Royalty.algo.ts:60",
+    "pc": [
+      339
+    ]
+  },
+  {
+    "teal": 250,
+    "source": "contracts/Royalty.algo.ts:60",
+    "pc": [
+      340,
+      341,
+      342
+    ]
+  },
+  {
+    "teal": 255,
+    "source": "contracts/Royalty.algo.ts:61",
+    "pc": [
+      343,
+      344
+    ]
+  },
+  {
+    "teal": 256,
+    "source": "contracts/Royalty.algo.ts:61",
+    "pc": [
+      345
+    ]
+  },
+  {
+    "teal": 257,
+    "source": "contracts/Royalty.algo.ts:61",
+    "pc": [
+      346,
+      347
+    ]
+  },
+  {
+    "teal": 258,
+    "source": "contracts/Royalty.algo.ts:60",
+    "pc": [
+      348,
+      349,
+      350
+    ]
+  },
+  {
+    "teal": 263,
+    "source": "contracts/Royalty.algo.ts:63",
+    "pc": [
+      351
+    ]
+  },
+  {
+    "teal": 266,
+    "source": "contracts/Royalty.algo.ts:63",
+    "errorMessage": "Invalid license type.",
+    "pc": [
+      352
+    ]
+  },
+  {
+    "teal": 271,
+    "source": "contracts/Royalty.algo.ts:66",
+    "pc": [
+      353,
+      354
+    ]
+  },
+  {
+    "teal": 272,
+    "source": "contracts/Royalty.algo.ts:66",
+    "pc": [
+      355,
+      356
+    ]
+  },
+  {
+    "teal": 273,
+    "source": "contracts/Royalty.algo.ts:66",
+    "pc": [
+      357,
+      358,
+      359,
+      360,
+      361,
+      362,
+      363,
+      364,
+      365,
+      366,
+      367,
+      368,
+      369,
+      370,
+      371,
+      372
+    ]
+  },
+  {
+    "teal": 274,
+    "source": "contracts/Royalty.algo.ts:66",
+    "pc": [
+      373
+    ]
+  },
+  {
+    "teal": 275,
+    "source": "contracts/Royalty.algo.ts:66",
+    "pc": [
+      374
+    ]
+  },
+  {
+    "teal": 276,
+    "source": "contracts/Royalty.algo.ts:66",
+    "pc": [
+      375
+    ]
+  },
+  {
+    "teal": 280,
+    "source": "contracts/Royalty.algo.ts:68",
+    "pc": [
+      376,
+      377,
+      378,
+      379,
+      380,
+      381,
+      382,
+      383,
+      384,
+      385,
+      386,
+      387,
+      388,
+      389
+    ]
+  },
+  {
+    "teal": 281,
+    "source": "contracts/Royalty.algo.ts:68",
+    "pc": [
+      390,
+      391
+    ]
+  },
+  {
+    "teal": 282,
+    "source": "contracts/Royalty.algo.ts:68",
+    "pc": [
+      392
+    ]
+  },
+  {
+    "teal": 283,
+    "source": "contracts/Royalty.algo.ts:68",
+    "pc": [
+      393
+    ]
+  },
+  {
+    "teal": 284,
+    "source": "contracts/Royalty.algo.ts:68",
+    "pc": [
+      394
+    ]
+  },
+  {
+    "teal": 285,
+    "source": "contracts/Royalty.algo.ts:68",
+    "pc": [
+      395,
+      396,
+      397
+    ]
+  },
+  {
+    "teal": 286,
+    "source": "contracts/Royalty.algo.ts:68",
+    "pc": [
+      398
+    ]
+  },
+  {
+    "teal": 287,
+    "source": "contracts/Royalty.algo.ts:68",
+    "pc": [
+      399
+    ]
+  },
+  {
+    "teal": 288,
+    "source": "contracts/Royalty.algo.ts:68",
+    "pc": [
+      400
+    ]
+  },
+  {
+    "teal": 293,
+    "source": "contracts/Royalty.algo.ts:70",
+    "pc": [
+      401,
+      402
+    ]
+  },
+  {
+    "teal": 294,
+    "source": "contracts/Royalty.algo.ts:70",
+    "pc": [
+      403,
+      404
+    ]
+  },
+  {
+    "teal": 295,
+    "source": "contracts/Royalty.algo.ts:70",
+    "pc": [
+      405
+    ]
+  },
+  {
+    "teal": 296,
+    "source": "contracts/Royalty.algo.ts:70",
+    "pc": [
+      406,
+      407,
+      408
+    ]
+  },
+  {
+    "teal": 301,
+    "source": "contracts/Royalty.algo.ts:72",
+    "pc": [
+      409,
+      410
+    ]
+  },
+  {
+    "teal": 302,
+    "source": "contracts/Royalty.algo.ts:72",
+    "pc": [
+      411,
+      412
+    ]
+  },
+  {
+    "teal": 303,
+    "source": "contracts/Royalty.algo.ts:72",
+    "pc": [
+      413,
+      414,
+      415
+    ]
+  },
+  {
+    "teal": 304,
+    "source": "contracts/Royalty.algo.ts:70",
+    "pc": [
+      416,
+      417,
+      418
+    ]
+  },
+  {
+    "teal": 309,
+    "source": "contracts/Royalty.algo.ts:75",
+    "pc": [
+      419,
+      420
+    ]
+  },
+  {
+    "teal": 310,
+    "source": "contracts/Royalty.algo.ts:75",
+    "pc": [
+      421,
+      422
+    ]
+  },
+  {
+    "teal": 311,
+    "source": "contracts/Royalty.algo.ts:75",
+    "pc": [
+      423
+    ]
+  },
+  {
+    "teal": 312,
+    "source": "contracts/Royalty.algo.ts:75",
+    "pc": [
+      424
+    ]
+  },
+  {
+    "teal": 313,
+    "source": "contracts/Royalty.algo.ts:75",
+    "pc": [
+      425,
+      426,
+      427
+    ]
+  },
+  {
+    "teal": 316,
+    "source": "contracts/Royalty.algo.ts:49",
+    "pc": [
+      428
+    ]
+  },
+  {
+    "teal": 321,
+    "source": "contracts/Royalty.algo.ts:79",
+    "pc": [
+      429,
+      430,
+      431
+    ]
+  },
+  {
+    "teal": 322,
+    "source": "contracts/Royalty.algo.ts:79",
+    "pc": [
+      432
+    ]
+  },
+  {
+    "teal": 323,
+    "source": "contracts/Royalty.algo.ts:79",
+    "pc": [
+      433
+    ]
+  },
+  {
+    "teal": 324,
+    "source": "contracts/Royalty.algo.ts:79",
+    "pc": [
+      434
+    ]
+  },
+  {
+    "teal": 325,
+    "source": "contracts/Royalty.algo.ts:79",
+    "pc": [
+      435
+    ]
+  },
+  {
+    "teal": 328,
+    "source": "contracts/Royalty.algo.ts:79",
+    "errorMessage": "argument 0 (newOwner) for transferOwnership must be a address",
+    "pc": [
+      436
+    ]
+  },
+  {
+    "teal": 331,
+    "source": "contracts/Royalty.algo.ts:79",
+    "pc": [
+      437,
+      438,
+      439
+    ]
+  },
+  {
+    "teal": 332,
+    "source": "contracts/Royalty.algo.ts:79",
+    "pc": [
+      440
+    ]
+  },
+  {
+    "teal": 333,
+    "source": "contracts/Royalty.algo.ts:79",
+    "pc": [
+      441
+    ]
+  },
+  {
+    "teal": 337,
+    "source": "contracts/Royalty.algo.ts:79",
+    "pc": [
+      442,
+      443,
+      444
+    ]
+  },
+  {
+    "teal": 345,
+    "source": "contracts/Royalty.algo.ts:80",
+    "pc": [
+      445
+    ]
+  },
+  {
+    "teal": 346,
+    "source": "contracts/Royalty.algo.ts:80",
+    "pc": [
+      446
+    ]
+  },
+  {
+    "teal": 347,
+    "source": "contracts/Royalty.algo.ts:80",
+    "pc": [
+      447,
+      448
+    ]
+  },
+  {
+    "teal": 351,
+    "source": "contracts/Royalty.algo.ts:81",
+    "pc": [
+      449,
+      450
+    ]
+  },
+  {
+    "teal": 352,
+    "source": "contracts/Royalty.algo.ts:81",
+    "pc": [
+      451,
+      452
+    ]
+  },
+  {
+    "teal": 356,
+    "source": "contracts/Royalty.algo.ts:82",
+    "pc": [
+      453
+    ]
+  },
+  {
+    "teal": 357,
+    "source": "contracts/Royalty.algo.ts:82",
+    "pc": [
+      454
+    ]
+  },
+  {
+    "teal": 358,
+    "source": "contracts/Royalty.algo.ts:82",
+    "pc": [
+      455,
+      456
+    ]
+  },
+  {
+    "teal": 362,
+    "source": "contracts/Royalty.algo.ts:83",
+    "pc": [
+      457
+    ]
+  },
+  {
+    "teal": 363,
+    "source": "contracts/Royalty.algo.ts:83",
+    "pc": [
+      458,
+      459
+    ]
+  },
+  {
+    "teal": 366,
+    "source": "contracts/Royalty.algo.ts:80",
+    "pc": [
+      460
+    ]
+  },
+  {
+    "teal": 367,
+    "source": "contracts/Royalty.algo.ts:80",
+    "pc": [
+      461,
+      462
+    ]
+  },
+  {
+    "teal": 370,
+    "source": "contracts/Royalty.algo.ts:80",
+    "pc": [
+      463
+    ]
+  },
+  {
+    "teal": 374,
+    "source": "contracts/Royalty.algo.ts:85",
+    "pc": [
+      464
+    ]
+  },
+  {
+    "teal": 375,
+    "source": "contracts/Royalty.algo.ts:85",
+    "pc": [
+      465,
+      466
+    ]
+  },
+  {
+    "teal": 376,
+    "source": "contracts/Royalty.algo.ts:85",
+    "pc": [
+      467
+    ]
+  },
+  {
+    "teal": 377,
+    "source": "contracts/Royalty.algo.ts:79",
+    "pc": [
+      468
+    ]
+  },
+  {
+    "teal": 382,
+    "source": "contracts/Royalty.algo.ts:88",
+    "pc": [
+      469,
+      470,
+      471
+    ]
+  },
+  {
+    "teal": 383,
+    "source": "contracts/Royalty.algo.ts:88",
+    "pc": [
+      472
+    ]
+  },
+  {
+    "teal": 386,
+    "source": "contracts/Royalty.algo.ts:88",
+    "pc": [
+      473,
+      474,
+      475
+    ]
+  },
+  {
+    "teal": 387,
+    "source": "contracts/Royalty.algo.ts:88",
+    "pc": [
+      476
+    ]
+  },
+  {
+    "teal": 388,
+    "source": "contracts/Royalty.algo.ts:88",
+    "pc": [
+      477
+    ]
+  },
+  {
+    "teal": 389,
+    "source": "contracts/Royalty.algo.ts:88",
+    "pc": [
+      478
+    ]
+  },
+  {
+    "teal": 390,
+    "source": "contracts/Royalty.algo.ts:88",
+    "pc": [
+      479
+    ]
+  },
+  {
+    "teal": 393,
+    "source": "contracts/Royalty.algo.ts:88",
+    "errorMessage": "argument 1 (to) for payRoyalty must be a address",
+    "pc": [
+      480
+    ]
+  },
+  {
+    "teal": 396,
+    "source": "contracts/Royalty.algo.ts:88",
+    "pc": [
+      481,
+      482,
+      483
+    ]
+  },
+  {
+    "teal": 397,
+    "source": "contracts/Royalty.algo.ts:88",
+    "pc": [
+      484
+    ]
+  },
+  {
+    "teal": 398,
+    "source": "contracts/Royalty.algo.ts:88",
+    "pc": [
+      485
+    ]
+  },
+  {
+    "teal": 402,
+    "source": "contracts/Royalty.algo.ts:88",
+    "pc": [
+      486,
+      487,
+      488
+    ]
+  },
+  {
+    "teal": 405,
+    "source": "contracts/Royalty.algo.ts:88",
+    "pc": [
+      489,
+      490
+    ]
+  },
+  {
+    "teal": 409,
+    "source": "contracts/Royalty.algo.ts:89",
+    "pc": [
+      491,
+      492
+    ]
+  },
+  {
+    "teal": 410,
+    "source": "contracts/Royalty.algo.ts:89",
+    "pc": [
+      493,
+      494
+    ]
+  },
+  {
+    "teal": 411,
+    "source": "contracts/Royalty.algo.ts:89",
+    "pc": [
+      495
+    ]
+  },
+  {
+    "teal": 412,
+    "source": "contracts/Royalty.algo.ts:89",
+    "pc": [
+      496
+    ]
+  },
+  {
+    "teal": 413,
+    "source": "contracts/Royalty.algo.ts:89",
+    "pc": [
+      497,
+      498
+    ]
+  },
+  {
+    "teal": 414,
+    "source": "contracts/Royalty.algo.ts:89",
+    "pc": [
+      499
+    ]
+  },
+  {
+    "teal": 415,
+    "source": "contracts/Royalty.algo.ts:89",
+    "pc": [
+      500,
+      501
+    ]
+  },
+  {
+    "teal": 422,
+    "source": "contracts/Royalty.algo.ts:91",
+    "pc": [
+      502
+    ]
+  },
+  {
+    "teal": 423,
+    "source": "contracts/Royalty.algo.ts:91",
+    "pc": [
+      503
+    ]
+  },
+  {
+    "teal": 424,
+    "source": "contracts/Royalty.algo.ts:91",
+    "pc": [
+      504,
+      505
+    ]
+  },
+  {
+    "teal": 428,
+    "source": "contracts/Royalty.algo.ts:92",
+    "pc": [
+      506,
+      507
+    ]
+  },
+  {
+    "teal": 429,
+    "source": "contracts/Royalty.algo.ts:92",
+    "pc": [
+      508,
+      509
+    ]
+  },
+  {
+    "teal": 433,
+    "source": "contracts/Royalty.algo.ts:93",
+    "pc": [
+      510,
+      511
+    ]
+  },
+  {
+    "teal": 434,
+    "source": "contracts/Royalty.algo.ts:93",
+    "pc": [
+      512,
+      513
+    ]
+  },
+  {
+    "teal": 437,
+    "source": "contracts/Royalty.algo.ts:91",
+    "pc": [
+      514
+    ]
+  },
+  {
+    "teal": 438,
+    "source": "contracts/Royalty.algo.ts:91",
+    "pc": [
+      515,
+      516
+    ]
+  },
+  {
+    "teal": 441,
+    "source": "contracts/Royalty.algo.ts:91",
+    "pc": [
+      517
+    ]
+  },
+  {
+    "teal": 442,
+    "source": "contracts/Royalty.algo.ts:88",
+    "pc": [
+      518
+    ]
+  },
+  {
+    "teal": 447,
+    "source": "contracts/Royalty.algo.ts:99",
+    "pc": [
+      519,
+      520,
+      521
+    ]
+  },
+  {
+    "teal": 448,
+    "source": "contracts/Royalty.algo.ts:99",
+    "pc": [
+      522
+    ]
+  },
+  {
+    "teal": 449,
+    "source": "contracts/Royalty.algo.ts:99",
+    "pc": [
+      523
+    ]
+  },
+  {
+    "teal": 453,
+    "source": "contracts/Royalty.algo.ts:99",
+    "pc": [
+      524,
+      525,
+      526
+    ]
+  },
+  {
+    "teal": 457,
+    "source": "contracts/Royalty.algo.ts:100",
+    "pc": [
+      527,
+      528
+    ]
+  },
+  {
+    "teal": 458,
+    "source": "contracts/Royalty.algo.ts:100",
+    "pc": [
+      529
+    ]
+  },
+  {
+    "teal": 459,
+    "source": "contracts/Royalty.algo.ts:100",
+    "pc": [
+      530
+    ]
+  },
+  {
+    "teal": 460,
+    "source": "contracts/Royalty.algo.ts:100",
+    "pc": [
+      531
+    ]
+  },
+  {
+    "teal": 461,
+    "source": "contracts/Royalty.algo.ts:100",
+    "pc": [
+      532
+    ]
+  },
+  {
+    "teal": 462,
+    "source": "contracts/Royalty.algo.ts:100",
+    "pc": [
+      533,
+      534,
+      535
+    ]
+  },
+  {
+    "teal": 463,
+    "source": "contracts/Royalty.algo.ts:100",
+    "pc": [
+      536,
+      537
+    ]
+  },
+  {
+    "teal": 464,
+    "source": "contracts/Royalty.algo.ts:100",
+    "pc": [
+      538
+    ]
+  },
+  {
+    "teal": 465,
+    "source": "contracts/Royalty.algo.ts:100",
+    "pc": [
+      539
+    ]
+  },
+  {
+    "teal": 466,
+    "source": "contracts/Royalty.algo.ts:100",
+    "pc": [
+      540
+    ]
+  },
+  {
+    "teal": 467,
+    "source": "contracts/Royalty.algo.ts:100",
+    "pc": [
+      541
+    ]
+  },
+  {
+    "teal": 470,
+    "source": "contracts/Royalty.algo.ts:100",
+    "pc": [
+      542
+    ]
+  },
+  {
+    "teal": 478,
+    "source": "contracts/Royalty.algo.ts:102",
+    "pc": [
+      543
+    ]
+  },
+  {
+    "teal": 479,
+    "source": "contracts/Royalty.algo.ts:102",
+    "pc": [
+      544
+    ]
+  },
+  {
+    "teal": 480,
+    "source": "contracts/Royalty.algo.ts:102",
+    "pc": [
+      545,
+      546
+    ]
+  },
+  {
+    "teal": 484,
+    "source": "contracts/Royalty.algo.ts:103",
+    "pc": [
+      547
+    ]
+  },
+  {
+    "teal": 485,
+    "source": "contracts/Royalty.algo.ts:103",
+    "pc": [
+      548
+    ]
+  },
+  {
+    "teal": 486,
+    "source": "contracts/Royalty.algo.ts:103",
+    "pc": [
+      549,
+      550
+    ]
+  },
+  {
+    "teal": 490,
+    "source": "contracts/Royalty.algo.ts:104",
+    "pc": [
+      551
+    ]
+  },
+  {
+    "teal": 491,
+    "source": "contracts/Royalty.algo.ts:104",
+    "pc": [
+      552
+    ]
+  },
+  {
+    "teal": 492,
+    "source": "contracts/Royalty.algo.ts:104",
+    "pc": [
+      553,
+      554
+    ]
+  },
+  {
+    "teal": 496,
+    "source": "contracts/Royalty.algo.ts:105",
+    "pc": [
+      555
+    ]
+  },
+  {
+    "teal": 497,
+    "source": "contracts/Royalty.algo.ts:105",
+    "pc": [
+      556,
+      557
+    ]
+  },
+  {
+    "teal": 500,
+    "source": "contracts/Royalty.algo.ts:102",
+    "pc": [
+      558
+    ]
+  },
+  {
+    "teal": 501,
+    "source": "contracts/Royalty.algo.ts:102",
+    "pc": [
+      559,
+      560
+    ]
+  },
+  {
+    "teal": 504,
+    "source": "contracts/Royalty.algo.ts:102",
+    "pc": [
+      561
+    ]
+  },
+  {
+    "teal": 505,
+    "source": "contracts/Royalty.algo.ts:99",
+    "pc": [
+      562
+    ]
+  },
+  {
+    "teal": 508,
+    "source": "contracts/Royalty.algo.ts:5",
+    "pc": [
+      563,
+      564,
+      565,
+      566,
+      567,
+      568
+    ]
+  },
+  {
+    "teal": 509,
+    "source": "contracts/Royalty.algo.ts:5",
+    "pc": [
+      569,
+      570,
+      571
+    ]
+  },
+  {
+    "teal": 510,
+    "source": "contracts/Royalty.algo.ts:5",
+    "pc": [
+      572,
+      573,
+      574,
+      575
+    ]
+  },
+  {
+    "teal": 513,
+    "source": "contracts/Royalty.algo.ts:5",
+    "errorMessage": "this contract does not implement the given ABI method for create NoOp",
+    "pc": [
+      576
+    ]
+  },
+  {
+    "teal": 516,
+    "source": "contracts/Royalty.algo.ts:5",
+    "pc": [
+      577,
+      578,
+      579,
+      580,
+      581,
+      582
+    ]
+  },
+  {
+    "teal": 517,
+    "source": "contracts/Royalty.algo.ts:5",
+    "pc": [
+      583,
+      584,
+      585,
+      586,
+      587,
+      588
+    ]
+  },
+  {
+    "teal": 518,
+    "source": "contracts/Royalty.algo.ts:5",
+    "pc": [
+      589,
+      590,
+      591,
+      592,
+      593,
+      594
+    ]
+  },
+  {
+    "teal": 519,
+    "source": "contracts/Royalty.algo.ts:5",
+    "pc": [
+      595,
+      596,
+      597,
+      598,
+      599,
+      600
+    ]
+  },
+  {
+    "teal": 520,
+    "source": "contracts/Royalty.algo.ts:5",
+    "pc": [
+      601,
+      602,
+      603,
+      604,
+      605,
+      606
+    ]
+  },
+  {
+    "teal": 521,
+    "source": "contracts/Royalty.algo.ts:5",
+    "pc": [
+      607,
+      608,
+      609
+    ]
+  },
+  {
+    "teal": 522,
+    "source": "contracts/Royalty.algo.ts:5",
+    "pc": [
+      610,
+      611,
+      612,
+      613,
+      614,
+      615,
+      616,
+      617,
+      618,
+      619,
+      620,
+      621
+    ]
+  },
+  {
+    "teal": 525,
+    "source": "contracts/Royalty.algo.ts:5",
+    "errorMessage": "this contract does not implement the given ABI method for call NoOp",
+    "pc": [
+      622
+    ]
+  }
+]

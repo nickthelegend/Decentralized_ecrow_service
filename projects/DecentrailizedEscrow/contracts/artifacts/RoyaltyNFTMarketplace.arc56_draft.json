@@ -1,0 +1,2394 @@
+{
+  "name": "RoyaltyNFTMarketplace",
+  "desc": "",
+  "methods": [
+    {
+      "name": "createApplication",
+      "args": [
+        {
+          "name": "creator",
+          "type": "address"
+        },
+        {
+          "name": "pricePersonal",
+          "type": "uint64"
+        },
+        {
+          "name": "priceCommercial",
+          "type": "uint64"
+        },
+        {
+          "name": "priceExclusive",
+          "type": "uint64"
+        },
+        {
+          "name": "royaltyPercent",
+          "type": "uint64"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      },
+      "actions": {
+        "create": [
+          "NoOp"
+        ],
+        "call": []
+      }
+    },
+    {
+      "name": "optIntoNFT",
+      "args": [
+        {
+          "name": "asset",
+          "type": "uint64"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      },
+      "actions": {
+        "create": [],
+        "call": [
+          "NoOp"
+        ]
+      }
+    },
+    {
+      "name": "buyLicense",
+      "args": [
+        {
+          "name": "payment",
+          "type": "pay"
+        },
+        {
+          "name": "licenseType",
+          "type": "string"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      },
+      "actions": {
+        "create": [],
+        "call": [
+          "NoOp"
+        ]
+      }
+    },
+    {
+      "name": "transferOwnership",
+      "args": [
+        {
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      },
+      "actions": {
+        "create": [],
+        "call": [
+          "NoOp"
+        ]
+      }
+    },
+    {
+      "name": "payRoyalty",
+      "args": [
+        {
+          "name": "to",
+          "type": "address"
+        },
+        {
+          "name": "amountPaid",
+          "type": "uint64"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      },
+      "actions": {
+        "create": [],
+        "call": [
+          "NoOp"
+        ]
+      }
+    },
+    {
+      "name": "cancelListing",
+      "args": [],
+      "returns": {
+        "type": "void"
+      },
+      "actions": {
+        "create": [],
+        "call": [
+          "NoOp"
+        ]
+      }
+    }
+  ],
+  "arcs": [
+    4,
+    56
+  ],
+  "structs": {},
+  "state": {
+    "schema": {
+      "global": {
+        "bytes": 3,
+        "ints": 6
+      },
+      "local": {
+        "bytes": 0,
+        "ints": 0
+      }
+    },
+    "keys": {
+      "global": {
+        "pricePersonal": {
+          "key": "cHJpY2VQZXJzb25hbA==",
+          "keyType": "AVMBytes",
+          "valueType": "uint64"
+        },
+        "priceCommercial": {
+          "key": "cHJpY2VDb21tZXJjaWFs",
+          "keyType": "AVMBytes",
+          "valueType": "uint64"
+        },
+        "priceExclusive": {
+          "key": "cHJpY2VFeGNsdXNpdmU=",
+          "keyType": "AVMBytes",
+          "valueType": "uint64"
+        },
+        "royaltyPercent": {
+          "key": "cm95YWx0eVBlcmNlbnQ=",
+          "keyType": "AVMBytes",
+          "valueType": "uint64"
+        },
+        "creator": {
+          "key": "Y3JlYXRvcg==",
+          "keyType": "AVMBytes",
+          "valueType": "address"
+        },
+        "currentOwner": {
+          "key": "Y3VycmVudE93bmVy",
+          "keyType": "AVMBytes",
+          "valueType": "address"
+        },
+        "nftAssetID": {
+          "key": "bmZ0QXNzZXRJRA==",
+          "keyType": "AVMBytes",
+          "valueType": "uint64"
+        },
+        "buyerLicense": {
+          "key": "YnV5ZXJMaWNlbnNl",
+          "keyType": "AVMBytes",
+          "valueType": "string"
+        },
+        "expectedAmount": {
+          "key": "ZXhwZWN0ZWRBbW91bnQ=",
+          "keyType": "AVMBytes",
+          "valueType": "uint64"
+        }
+      },
+      "local": {},
+      "box": {}
+    },
+    "maps": {
+      "global": {},
+      "local": {},
+      "box": {}
+    }
+  },
+  "bareActions": {
+    "create": [],
+    "call": []
+  },
+  "sourceInfo": {
+    "approval": {
+      "sourceInfo": [
+        {
+          "teal": 1,
+          "source": "contracts/Royalty.algo.ts:5",
+          "pc": [
+            0
+          ]
+        },
+        {
+          "teal": 2,
+          "source": "contracts/Royalty.algo.ts:5",
+          "pc": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "teal": 3,
+          "source": "contracts/Royalty.algo.ts:5",
+          "pc": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111
+          ]
+        },
+        {
+          "teal": 15,
+          "source": "contracts/Royalty.algo.ts:5",
+          "pc": [
+            112,
+            113
+          ]
+        },
+        {
+          "teal": 16,
+          "source": "contracts/Royalty.algo.ts:5",
+          "pc": [
+            114
+          ]
+        },
+        {
+          "teal": 17,
+          "source": "contracts/Royalty.algo.ts:5",
+          "pc": [
+            115,
+            116
+          ]
+        },
+        {
+          "teal": 18,
+          "source": "contracts/Royalty.algo.ts:5",
+          "pc": [
+            117
+          ]
+        },
+        {
+          "teal": 19,
+          "source": "contracts/Royalty.algo.ts:5",
+          "pc": [
+            118,
+            119
+          ]
+        },
+        {
+          "teal": 20,
+          "source": "contracts/Royalty.algo.ts:5",
+          "pc": [
+            120
+          ]
+        },
+        {
+          "teal": 21,
+          "source": "contracts/Royalty.algo.ts:5",
+          "pc": [
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            146
+          ]
+        },
+        {
+          "teal": 25,
+          "source": "contracts/Royalty.algo.ts:5",
+          "errorMessage": "The requested action is not implemented in this contract. Are you using the correct OnComplete? Did you set your app ID?",
+          "pc": [
+            147
+          ]
+        },
+        {
+          "teal": 30,
+          "source": "contracts/Royalty.algo.ts:26",
+          "pc": [
+            148,
+            149,
+            150
+          ]
+        },
+        {
+          "teal": 31,
+          "source": "contracts/Royalty.algo.ts:26",
+          "pc": [
+            151
+          ]
+        },
+        {
+          "teal": 34,
+          "source": "contracts/Royalty.algo.ts:25",
+          "pc": [
+            152,
+            153,
+            154
+          ]
+        },
+        {
+          "teal": 35,
+          "source": "contracts/Royalty.algo.ts:25",
+          "pc": [
+            155
+          ]
+        },
+        {
+          "teal": 38,
+          "source": "contracts/Royalty.algo.ts:24",
+          "pc": [
+            156,
+            157,
+            158
+          ]
+        },
+        {
+          "teal": 39,
+          "source": "contracts/Royalty.algo.ts:24",
+          "pc": [
+            159
+          ]
+        },
+        {
+          "teal": 42,
+          "source": "contracts/Royalty.algo.ts:23",
+          "pc": [
+            160,
+            161,
+            162
+          ]
+        },
+        {
+          "teal": 43,
+          "source": "contracts/Royalty.algo.ts:23",
+          "pc": [
+            163
+          ]
+        },
+        {
+          "teal": 46,
+          "source": "contracts/Royalty.algo.ts:22",
+          "pc": [
+            164,
+            165,
+            166
+          ]
+        },
+        {
+          "teal": 47,
+          "source": "contracts/Royalty.algo.ts:22",
+          "pc": [
+            167
+          ]
+        },
+        {
+          "teal": 48,
+          "source": "contracts/Royalty.algo.ts:22",
+          "pc": [
+            168
+          ]
+        },
+        {
+          "teal": 49,
+          "source": "contracts/Royalty.algo.ts:22",
+          "pc": [
+            169
+          ]
+        },
+        {
+          "teal": 50,
+          "source": "contracts/Royalty.algo.ts:22",
+          "pc": [
+            170
+          ]
+        },
+        {
+          "teal": 53,
+          "source": "contracts/Royalty.algo.ts:22",
+          "errorMessage": "argument 4 (creator) for createApplication must be a address",
+          "pc": [
+            171
+          ]
+        },
+        {
+          "teal": 56,
+          "source": "contracts/Royalty.algo.ts:21",
+          "pc": [
+            172,
+            173,
+            174
+          ]
+        },
+        {
+          "teal": 57,
+          "source": "contracts/Royalty.algo.ts:21",
+          "pc": [
+            175
+          ]
+        },
+        {
+          "teal": 58,
+          "source": "contracts/Royalty.algo.ts:21",
+          "pc": [
+            176
+          ]
+        },
+        {
+          "teal": 62,
+          "source": "contracts/Royalty.algo.ts:21",
+          "pc": [
+            177,
+            178,
+            179
+          ]
+        },
+        {
+          "teal": 66,
+          "source": "contracts/Royalty.algo.ts:28",
+          "pc": [
+            180,
+            181
+          ]
+        },
+        {
+          "teal": 67,
+          "source": "contracts/Royalty.algo.ts:28",
+          "pc": [
+            182,
+            183
+          ]
+        },
+        {
+          "teal": 68,
+          "source": "contracts/Royalty.algo.ts:28",
+          "pc": [
+            184
+          ]
+        },
+        {
+          "teal": 72,
+          "source": "contracts/Royalty.algo.ts:29",
+          "pc": [
+            185
+          ]
+        },
+        {
+          "teal": 73,
+          "source": "contracts/Royalty.algo.ts:29",
+          "pc": [
+            186,
+            187
+          ]
+        },
+        {
+          "teal": 74,
+          "source": "contracts/Royalty.algo.ts:29",
+          "pc": [
+            188
+          ]
+        },
+        {
+          "teal": 78,
+          "source": "contracts/Royalty.algo.ts:30",
+          "pc": [
+            189,
+            190
+          ]
+        },
+        {
+          "teal": 79,
+          "source": "contracts/Royalty.algo.ts:30",
+          "pc": [
+            191,
+            192
+          ]
+        },
+        {
+          "teal": 80,
+          "source": "contracts/Royalty.algo.ts:30",
+          "pc": [
+            193
+          ]
+        },
+        {
+          "teal": 84,
+          "source": "contracts/Royalty.algo.ts:31",
+          "pc": [
+            194,
+            195
+          ]
+        },
+        {
+          "teal": 85,
+          "source": "contracts/Royalty.algo.ts:31",
+          "pc": [
+            196,
+            197
+          ]
+        },
+        {
+          "teal": 86,
+          "source": "contracts/Royalty.algo.ts:31",
+          "pc": [
+            198
+          ]
+        },
+        {
+          "teal": 90,
+          "source": "contracts/Royalty.algo.ts:32",
+          "pc": [
+            199
+          ]
+        },
+        {
+          "teal": 91,
+          "source": "contracts/Royalty.algo.ts:32",
+          "pc": [
+            200,
+            201
+          ]
+        },
+        {
+          "teal": 92,
+          "source": "contracts/Royalty.algo.ts:32",
+          "pc": [
+            202
+          ]
+        },
+        {
+          "teal": 96,
+          "source": "contracts/Royalty.algo.ts:33",
+          "pc": [
+            203
+          ]
+        },
+        {
+          "teal": 97,
+          "source": "contracts/Royalty.algo.ts:33",
+          "pc": [
+            204,
+            205
+          ]
+        },
+        {
+          "teal": 98,
+          "source": "contracts/Royalty.algo.ts:33",
+          "pc": [
+            206
+          ]
+        },
+        {
+          "teal": 102,
+          "source": "contracts/Royalty.algo.ts:34",
+          "pc": [
+            207
+          ]
+        },
+        {
+          "teal": 103,
+          "source": "contracts/Royalty.algo.ts:34",
+          "pc": [
+            208
+          ]
+        },
+        {
+          "teal": 104,
+          "source": "contracts/Royalty.algo.ts:34",
+          "pc": [
+            209
+          ]
+        },
+        {
+          "teal": 105,
+          "source": "contracts/Royalty.algo.ts:21",
+          "pc": [
+            210
+          ]
+        },
+        {
+          "teal": 110,
+          "source": "contracts/Royalty.algo.ts:38",
+          "pc": [
+            211,
+            212,
+            213
+          ]
+        },
+        {
+          "teal": 111,
+          "source": "contracts/Royalty.algo.ts:38",
+          "pc": [
+            214
+          ]
+        },
+        {
+          "teal": 114,
+          "source": "contracts/Royalty.algo.ts:38",
+          "pc": [
+            215,
+            216,
+            217
+          ]
+        },
+        {
+          "teal": 115,
+          "source": "contracts/Royalty.algo.ts:38",
+          "pc": [
+            218
+          ]
+        },
+        {
+          "teal": 116,
+          "source": "contracts/Royalty.algo.ts:38",
+          "pc": [
+            219
+          ]
+        },
+        {
+          "teal": 120,
+          "source": "contracts/Royalty.algo.ts:38",
+          "pc": [
+            220,
+            221,
+            222
+          ]
+        },
+        {
+          "teal": 124,
+          "source": "contracts/Royalty.algo.ts:39",
+          "pc": [
+            223
+          ]
+        },
+        {
+          "teal": 125,
+          "source": "contracts/Royalty.algo.ts:39",
+          "pc": [
+            224
+          ]
+        },
+        {
+          "teal": 126,
+          "source": "contracts/Royalty.algo.ts:39",
+          "pc": [
+            225
+          ]
+        },
+        {
+          "teal": 127,
+          "source": "contracts/Royalty.algo.ts:39",
+          "pc": [
+            226
+          ]
+        },
+        {
+          "teal": 128,
+          "source": "contracts/Royalty.algo.ts:39",
+          "pc": [
+            227
+          ]
+        },
+        {
+          "teal": 132,
+          "source": "contracts/Royalty.algo.ts:40",
+          "pc": [
+            228
+          ]
+        },
+        {
+          "teal": 133,
+          "source": "contracts/Royalty.algo.ts:40",
+          "pc": [
+            229,
+            230
+          ]
+        },
+        {
+          "teal": 134,
+          "source": "contracts/Royalty.algo.ts:40",
+          "pc": [
+            231
+          ]
+        },
+        {
+          "teal": 142,
+          "source": "contracts/Royalty.algo.ts:42",
+          "pc": [
+            232
+          ]
+        },
+        {
+          "teal": 143,
+          "source": "contracts/Royalty.algo.ts:42",
+          "pc": [
+            233
+          ]
+        },
+        {
+          "teal": 144,
+          "source": "contracts/Royalty.algo.ts:42",
+          "pc": [
+            234,
+            235
+          ]
+        },
+        {
+          "teal": 148,
+          "source": "contracts/Royalty.algo.ts:43",
+          "pc": [
+            236,
+            237
+          ]
+        },
+        {
+          "teal": 149,
+          "source": "contracts/Royalty.algo.ts:43",
+          "pc": [
+            238,
+            239
+          ]
+        },
+        {
+          "teal": 153,
+          "source": "contracts/Royalty.algo.ts:44",
+          "pc": [
+            240,
+            241
+          ]
+        },
+        {
+          "teal": 154,
+          "source": "contracts/Royalty.algo.ts:44",
+          "pc": [
+            242,
+            243
+          ]
+        },
+        {
+          "teal": 158,
+          "source": "contracts/Royalty.algo.ts:45",
+          "pc": [
+            244
+          ]
+        },
+        {
+          "teal": 159,
+          "source": "contracts/Royalty.algo.ts:45",
+          "pc": [
+            245,
+            246
+          ]
+        },
+        {
+          "teal": 162,
+          "source": "contracts/Royalty.algo.ts:42",
+          "pc": [
+            247
+          ]
+        },
+        {
+          "teal": 163,
+          "source": "contracts/Royalty.algo.ts:42",
+          "pc": [
+            248,
+            249
+          ]
+        },
+        {
+          "teal": 166,
+          "source": "contracts/Royalty.algo.ts:42",
+          "pc": [
+            250
+          ]
+        },
+        {
+          "teal": 167,
+          "source": "contracts/Royalty.algo.ts:38",
+          "pc": [
+            251
+          ]
+        },
+        {
+          "teal": 172,
+          "source": "contracts/Royalty.algo.ts:49",
+          "pc": [
+            252,
+            253,
+            254
+          ]
+        },
+        {
+          "teal": 173,
+          "source": "contracts/Royalty.algo.ts:49",
+          "pc": [
+            255,
+            256,
+            257
+          ]
+        },
+        {
+          "teal": 176,
+          "source": "contracts/Royalty.algo.ts:49",
+          "pc": [
+            258,
+            259
+          ]
+        },
+        {
+          "teal": 177,
+          "source": "contracts/Royalty.algo.ts:49",
+          "pc": [
+            260
+          ]
+        },
+        {
+          "teal": 178,
+          "source": "contracts/Royalty.algo.ts:49",
+          "pc": [
+            261
+          ]
+        },
+        {
+          "teal": 179,
+          "source": "contracts/Royalty.algo.ts:49",
+          "pc": [
+            262
+          ]
+        },
+        {
+          "teal": 180,
+          "source": "contracts/Royalty.algo.ts:49",
+          "pc": [
+            263,
+            264
+          ]
+        },
+        {
+          "teal": 181,
+          "source": "contracts/Royalty.algo.ts:49",
+          "pc": [
+            265
+          ]
+        },
+        {
+          "teal": 182,
+          "source": "contracts/Royalty.algo.ts:49",
+          "pc": [
+            266
+          ]
+        },
+        {
+          "teal": 185,
+          "source": "contracts/Royalty.algo.ts:49",
+          "errorMessage": "argument 1 (payment) for buyLicense must be a pay transaction",
+          "pc": [
+            267
+          ]
+        },
+        {
+          "teal": 188,
+          "source": "contracts/Royalty.algo.ts:49",
+          "pc": [
+            268,
+            269,
+            270
+          ]
+        },
+        {
+          "teal": 189,
+          "source": "contracts/Royalty.algo.ts:49",
+          "pc": [
+            271
+          ]
+        },
+        {
+          "teal": 190,
+          "source": "contracts/Royalty.algo.ts:49",
+          "pc": [
+            272
+          ]
+        },
+        {
+          "teal": 194,
+          "source": "contracts/Royalty.algo.ts:49",
+          "pc": [
+            273,
+            274,
+            275
+          ]
+        },
+        {
+          "teal": 197,
+          "source": "contracts/Royalty.algo.ts:49",
+          "pc": [
+            276,
+            277
+          ]
+        },
+        {
+          "teal": 204,
+          "source": "contracts/Royalty.algo.ts:50",
+          "pc": [
+            278,
+            279
+          ]
+        },
+        {
+          "teal": 205,
+          "source": "contracts/Royalty.algo.ts:51",
+          "pc": [
+            280,
+            281
+          ]
+        },
+        {
+          "teal": 206,
+          "source": "contracts/Royalty.algo.ts:51",
+          "pc": [
+            282,
+            283
+          ]
+        },
+        {
+          "teal": 207,
+          "source": "contracts/Royalty.algo.ts:51",
+          "pc": [
+            284
+          ]
+        },
+        {
+          "teal": 210,
+          "source": "contracts/Royalty.algo.ts:51",
+          "errorMessage": "transaction verification failed: {\"txn\":\"payment\",\"field\":\"receiver\",\"expected\":\"this.app.address\"}",
+          "pc": [
+            285
+          ]
+        },
+        {
+          "teal": 215,
+          "source": "contracts/Royalty.algo.ts:56",
+          "pc": [
+            286,
+            287
+          ]
+        },
+        {
+          "teal": 216,
+          "source": "contracts/Royalty.algo.ts:56",
+          "pc": [
+            288,
+            289,
+            290,
+            291,
+            292,
+            293,
+            294,
+            295,
+            296,
+            297
+          ]
+        },
+        {
+          "teal": 217,
+          "source": "contracts/Royalty.algo.ts:56",
+          "pc": [
+            298
+          ]
+        },
+        {
+          "teal": 218,
+          "source": "contracts/Royalty.algo.ts:56",
+          "pc": [
+            299,
+            300,
+            301
+          ]
+        },
+        {
+          "teal": 223,
+          "source": "contracts/Royalty.algo.ts:57",
+          "pc": [
+            302,
+            303
+          ]
+        },
+        {
+          "teal": 224,
+          "source": "contracts/Royalty.algo.ts:57",
+          "pc": [
+            304
+          ]
+        },
+        {
+          "teal": 225,
+          "source": "contracts/Royalty.algo.ts:57",
+          "pc": [
+            305,
+            306
+          ]
+        },
+        {
+          "teal": 226,
+          "source": "contracts/Royalty.algo.ts:56",
+          "pc": [
+            307,
+            308,
+            309
+          ]
+        },
+        {
+          "teal": 231,
+          "source": "contracts/Royalty.algo.ts:58",
+          "pc": [
+            310,
+            311
+          ]
+        },
+        {
+          "teal": 232,
+          "source": "contracts/Royalty.algo.ts:58",
+          "pc": [
+            312,
+            313,
+            314,
+            315,
+            316,
+            317,
+            318,
+            319,
+            320,
+            321,
+            322,
+            323
+          ]
+        },
+        {
+          "teal": 233,
+          "source": "contracts/Royalty.algo.ts:58",
+          "pc": [
+            324
+          ]
+        },
+        {
+          "teal": 234,
+          "source": "contracts/Royalty.algo.ts:58",
+          "pc": [
+            325,
+            326,
+            327
+          ]
+        },
+        {
+          "teal": 239,
+          "source": "contracts/Royalty.algo.ts:59",
+          "pc": [
+            328
+          ]
+        },
+        {
+          "teal": 240,
+          "source": "contracts/Royalty.algo.ts:59",
+          "pc": [
+            329
+          ]
+        },
+        {
+          "teal": 241,
+          "source": "contracts/Royalty.algo.ts:59",
+          "pc": [
+            330,
+            331
+          ]
+        },
+        {
+          "teal": 242,
+          "source": "contracts/Royalty.algo.ts:58",
+          "pc": [
+            332,
+            333,
+            334
+          ]
+        },
+        {
+          "teal": 247,
+          "source": "contracts/Royalty.algo.ts:60",
+          "pc": [
+            335,
+            336
+          ]
+        },
+        {
+          "teal": 248,
+          "source": "contracts/Royalty.algo.ts:60",
+          "pc": [
+            337,
+            338
+          ]
+        },
+        {
+          "teal": 249,
+          "source": "contracts/Royalty.algo.ts:60",
+          "pc": [
+            339
+          ]
+        },
+        {
+          "teal": 250,
+          "source": "contracts/Royalty.algo.ts:60",
+          "pc": [
+            340,
+            341,
+            342
+          ]
+        },
+        {
+          "teal": 255,
+          "source": "contracts/Royalty.algo.ts:61",
+          "pc": [
+            343,
+            344
+          ]
+        },
+        {
+          "teal": 256,
+          "source": "contracts/Royalty.algo.ts:61",
+          "pc": [
+            345
+          ]
+        },
+        {
+          "teal": 257,
+          "source": "contracts/Royalty.algo.ts:61",
+          "pc": [
+            346,
+            347
+          ]
+        },
+        {
+          "teal": 258,
+          "source": "contracts/Royalty.algo.ts:60",
+          "pc": [
+            348,
+            349,
+            350
+          ]
+        },
+        {
+          "teal": 263,
+          "source": "contracts/Royalty.algo.ts:63",
+          "pc": [
+            351
+          ]
+        },
+        {
+          "teal": 266,
+          "source": "contracts/Royalty.algo.ts:63",
+          "errorMessage": "Invalid license type.",
+          "pc": [
+            352
+          ]
+        },
+        {
+          "teal": 271,
+          "source": "contracts/Royalty.algo.ts:66",
+          "pc": [
+            353,
+            354
+          ]
+        },
+        {
+          "teal": 272,
+          "source": "contracts/Royalty.algo.ts:66",
+          "pc": [
+            355,
+            356
+          ]
+        },
+        {
+          "teal": 273,
+          "source": "contracts/Royalty.algo.ts:66",
+          "pc": [
+            357,
+            358,
+            359,
+            360,
+            361,
+            362,
+            363,
+            364,
+            365,
+            366,
+            367,
+            368,
+            369,
+            370,
+            371,
+            372
+          ]
+        },
+        {
+          "teal": 274,
+          "source": "contracts/Royalty.algo.ts:66",
+          "pc": [
+            373
+          ]
+        },
+        {
+          "teal": 275,
+          "source": "contracts/Royalty.algo.ts:66",
+          "pc": [
+            374
+          ]
+        },
+        {
+          "teal": 276,
+          "source": "contracts/Royalty.algo.ts:66",
+          "pc": [
+            375
+          ]
+        },
+        {
+          "teal": 280,
+          "source": "contracts/Royalty.algo.ts:68",
+          "pc": [
+            376,
+            377,
+            378,
+            379,
+            380,
+            381,
+            382,
+            383,
+            384,
+            385,
+            386,
+            387,
+            388,
+            389
+          ]
+        },
+        {
+          "teal": 281,
+          "source": "contracts/Royalty.algo.ts:68",
+          "pc": [
+            390,
+            391
+          ]
+        },
+        {
+          "teal": 282,
+          "source": "contracts/Royalty.algo.ts:68",
+          "pc": [
+            392
+          ]
+        },
+        {
+          "teal": 283,
+          "source": "contracts/Royalty.algo.ts:68",
+          "pc": [
+            393
+          ]
+        },
+        {
+          "teal": 284,
+          "source": "contracts/Royalty.algo.ts:68",
+          "pc": [
+            394
+          ]
+        },
+        {
+          "teal": 285,
+          "source": "contracts/Royalty.algo.ts:68",
+          "pc": [
+            395,
+            396,
+            397
+          ]
+        },
+        {
+          "teal": 286,
+          "source": "contracts/Royalty.algo.ts:68",
+          "pc": [
+            398
+          ]
+        },
+        {
+          "teal": 287,
+          "source": "contracts/Royalty.algo.ts:68",
+          "pc": [
+            399
+          ]
+        },
+        {
+          "teal": 288,
+          "source": "contracts/Royalty.algo.ts:68",
+          "pc": [
+            400
+          ]
+        },
+        {
+          "teal": 293,
+          "source": "contracts/Royalty.algo.ts:70",
+          "pc": [
+            401,
+            402
+          ]
+        },
+        {
+          "teal": 294,
+          "source": "contracts/Royalty.algo.ts:70",
+          "pc": [
+            403,
+            404
+          ]
+        },
+        {
+          "teal": 295,
+          "source": "contracts/Royalty.algo.ts:70",
+          "pc": [
+            405
+          ]
+        },
+        {
+          "teal": 296,
+          "source": "contracts/Royalty.algo.ts:70",
+          "pc": [
+            406,
+            407,
+            408
+          ]
+        },
+        {
+          "teal": 301,
+          "source": "contracts/Royalty.algo.ts:72",
+          "pc": [
+            409,
+            410
+          ]
+        },
+        {
+          "teal": 302,
+          "source": "contracts/Royalty.algo.ts:72",
+          "pc": [
+            411,
+            412
+          ]
+        },
+        {
+          "teal": 303,
+          "source": "contracts/Royalty.algo.ts:72",
+          "pc": [
+            413,
+            414,
+            415
+          ]
+        },
+        {
+          "teal": 304,
+          "source": "contracts/Royalty.algo.ts:70",
+          "pc": [
+            416,
+            417,
+            418
+          ]
+        },
+        {
+          "teal": 309,
+          "source": "contracts/Royalty.algo.ts:75",
+          "pc": [
+            419,
+            420
+          ]
+        },
+        {
+          "teal": 310,
+          "source": "contracts/Royalty.algo.ts:75",
+          "pc": [
+            421,
+            422
+          ]
+        },
+        {
+          "teal": 311,
+          "source": "contracts/Royalty.algo.ts:75",
+          "pc": [
+            423
+          ]
+        },
+        {
+          "teal": 312,
+          "source": "contracts/Royalty.algo.ts:75",
+          "pc": [
+            424
+          ]
+        },
+        {
+          "teal": 313,
+          "source": "contracts/Royalty.algo.ts:75",
+          "pc": [
+            425,
+            426,
+            427
+          ]
+        },
+        {
+          "teal": 316,
+          "source": "contracts/Royalty.algo.ts:49",
+          "pc": [
+            428
+          ]
+        },
+        {
+          "teal": 321,
+          "source": "contracts/Royalty.algo.ts:79",
+          "pc": [
+            429,
+            430,
+            431
+          ]
+        },
+        {
+          "teal": 322,
+          "source": "contracts/Royalty.algo.ts:79",
+          "pc": [
+            432
+          ]
+        },
+        {
+          "teal": 323,
+          "source": "contracts/Royalty.algo.ts:79",
+          "pc": [
+            433
+          ]
+        },
+        {
+          "teal": 324,
+          "source": "contracts/Royalty.algo.ts:79",
+          "pc": [
+            434
+          ]
+        },
+        {
+          "teal": 325,
+          "source": "contracts/Royalty.algo.ts:79",
+          "pc": [
+            435
+          ]
+        },
+        {
+          "teal": 328,
+          "source": "contracts/Royalty.algo.ts:79",
+          "errorMessage": "argument 0 (newOwner) for transferOwnership must be a address",
+          "pc": [
+            436
+          ]
+        },
+        {
+          "teal": 331,
+          "source": "contracts/Royalty.algo.ts:79",
+          "pc": [
+            437,
+            438,
+            439
+          ]
+        },
+        {
+          "teal": 332,
+          "source": "contracts/Royalty.algo.ts:79",
+          "pc": [
+            440
+          ]
+        },
+        {
+          "teal": 333,
+          "source": "contracts/Royalty.algo.ts:79",
+          "pc": [
+            441
+          ]
+        },
+        {
+          "teal": 337,
+          "source": "contracts/Royalty.algo.ts:79",
+          "pc": [
+            442,
+            443,
+            444
+          ]
+        },
+        {
+          "teal": 345,
+          "source": "contracts/Royalty.algo.ts:80",
+          "pc": [
+            445
+          ]
+        },
+        {
+          "teal": 346,
+          "source": "contracts/Royalty.algo.ts:80",
+          "pc": [
+            446
+          ]
+        },
+        {
+          "teal": 347,
+          "source": "contracts/Royalty.algo.ts:80",
+          "pc": [
+            447,
+            448
+          ]
+        },
+        {
+          "teal": 351,
+          "source": "contracts/Royalty.algo.ts:81",
+          "pc": [
+            449,
+            450
+          ]
+        },
+        {
+          "teal": 352,
+          "source": "contracts/Royalty.algo.ts:81",
+          "pc": [
+            451,
+            452
+          ]
+        },
+        {
+          "teal": 356,
+          "source": "contracts/Royalty.algo.ts:82",
+          "pc": [
+            453
+          ]
+        },
+        {
+          "teal": 357,
+          "source": "contracts/Royalty.algo.ts:82",
+          "pc": [
+            454
+          ]
+        },
+        {
+          "teal": 358,
+          "source": "contracts/Royalty.algo.ts:82",
+          "pc": [
+            455,
+            456
+          ]
+        },
+        {
+          "teal": 362,
+          "source": "contracts/Royalty.algo.ts:83",
+          "pc": [
+            457
+          ]
+        },
+        {
+          "teal": 363,
+          "source": "contracts/Royalty.algo.ts:83",
+          "pc": [
+            458,
+            459
+          ]
+        },
+        {
+          "teal": 366,
+          "source": "contracts/Royalty.algo.ts:80",
+          "pc": [
+            460
+          ]
+        },
+        {
+          "teal": 367,
+          "source": "contracts/Royalty.algo.ts:80",
+          "pc": [
+            461,
+            462
+          ]
+        },
+        {
+          "teal": 370,
+          "source": "contracts/Royalty.algo.ts:80",
+          "pc": [
+            463
+          ]
+        },
+        {
+          "teal": 374,
+          "source": "contracts/Royalty.algo.ts:85",
+          "pc": [
+            464
+          ]
+        },
+        {
+          "teal": 375,
+          "source": "contracts/Royalty.algo.ts:85",
+          "pc": [
+            465,
+            466
+          ]
+        },
+        {
+          "teal": 376,
+          "source": "contracts/Royalty.algo.ts:85",
+          "pc": [
+            467
+          ]
+        },
+        {
+          "teal": 377,
+          "source": "contracts/Royalty.algo.ts:79",
+          "pc": [
+            468
+          ]
+        },
+        {
+          "teal": 382,
+          "source": "contracts/Royalty.algo.ts:88",
+          "pc": [
+            469,
+            470,
+            471
+          ]
+        },
+        {
+          "teal": 383,
+          "source": "contracts/Royalty.algo.ts:88",
+          "pc": [
+            472
+          ]
+        },
+        {
+          "teal": 386,
+          "source": "contracts/Royalty.algo.ts:88",
+          "pc": [
+            473,
+            474,
+            475
+          ]
+        },
+        {
+          "teal": 387,
+          "source": "contracts/Royalty.algo.ts:88",
+          "pc": [
+            476
+          ]
+        },
+        {
+          "teal": 388,
+          "source": "contracts/Royalty.algo.ts:88",
+          "pc": [
+            477
+          ]
+        },
+        {
+          "teal": 389,
+          "source": "contracts/Royalty.algo.ts:88",
+          "pc": [
+            478
+          ]
+        },
+        {
+          "teal": 390,
+          "source": "contracts/Royalty.algo.ts:88",
+          "pc": [
+            479
+          ]
+        },
+        {
+          "teal": 393,
+          "source": "contracts/Royalty.algo.ts:88",
+          "errorMessage": "argument 1 (to) for payRoyalty must be a address",
+          "pc": [
+            480
+          ]
+        },
+        {
+          "teal": 396,
+          "source": "contracts/Royalty.algo.ts:88",
+          "pc": [
+            481,
+            482,
+            483
+          ]
+        },
+        {
+          "teal": 397,
+          "source": "contracts/Royalty.algo.ts:88",
+          "pc": [
+            484
+          ]
+        },
+        {
+          "teal": 398,
+          "source": "contracts/Royalty.algo.ts:88",
+          "pc": [
+            485
+          ]
+        },
+        {
+          "teal": 402,
+          "source": "contracts/Royalty.algo.ts:88",
+          "pc": [
+            486,
+            487,
+            488
+          ]
+        },
+        {
+          "teal": 405,
+          "source": "contracts/Royalty.algo.ts:88",
+          "pc": [
+            489,
+            490
+          ]
+        },
+        {
+          "teal": 409,
+          "source": "contracts/Royalty.algo.ts:89",
+          "pc": [
+            491,
+            492
+          ]
+        },
+        {
+          "teal": 410,
+          "source": "contracts/Royalty.algo.ts:89",
+          "pc": [
+            493,
+            494
+          ]
+        },
+        {
+          "teal": 411,
+          "source": "contracts/Royalty.algo.ts:89",
+          "pc": [
+            495
+          ]
+        },
+        {
+          "teal": 412,
+          "source": "contracts/Royalty.algo.ts:89",
+          "pc": [
+            496
+          ]
+        },
+        {
+          "teal": 413,
+          "source": "contracts/Royalty.algo.ts:89",
+          "pc": [
+            497,
+            498
+          ]
+        },
+        {
+          "teal": 414,
+          "source": "contracts/Royalty.algo.ts:89",
+          "pc": [
+            499
+          ]
+        },
+        {
+          "teal": 415,
+          "source": "contracts/Royalty.algo.ts:89",
+          "pc": [
+            500,
+            501
+          ]
+        },
+        {
+          "teal": 422,
+          "source": "contracts/Royalty.algo.ts:91",
+          "pc": [
+            502
+          ]
+        },
+        {
+          "teal": 423,
+          "source": "contracts/Royalty.algo.ts:91",
+          "pc": [
+            503
+          ]
+        },
+        {
+          "teal": 424,
+          "source": "contracts/Royalty.algo.ts:91",
+          "pc": [
+            504,
+            505
+          ]
+        },
+        {
+          "teal": 428,
+          "source": "contracts/Royalty.algo.ts:92",
+          "pc": [
+            506,
+            507
+          ]
+        },
+        {
+          "teal": 429,
+          "source": "contracts/Royalty.algo.ts:92",
+          "pc": [
+            508,
+            509
+          ]
+        },
+        {
+          "teal": 433,
+          "source": "contracts/Royalty.algo.ts:93",
+          "pc": [
+            510,
+            511
+          ]
+        },
+        {
+          "teal": 434,
+          "source": "contracts/Royalty.algo.ts:93",
+          "pc": [
+            512,
+            513
+          ]
+        },
+        {
+          "teal": 437,
+          "source": "contracts/Royalty.algo.ts:91",
+          "pc": [
+            514
+          ]
+        },
+        {
+          "teal": 438,
+          "source": "contracts/Royalty.algo.ts:91",
+          "pc": [
+            515,
+            516
+          ]
+        },
+        {
+          "teal": 441,
+          "source": "contracts/Royalty.algo.ts:91",
+          "pc": [
+            517
+          ]
+        },
+        {
+          "teal": 442,
+          "source": "contracts/Royalty.algo.ts:88",
+          "pc": [
+            518
+          ]
+        },
+        {
+          "teal": 447,
+          "source": "contracts/Royalty.algo.ts:99",
+          "pc": [
+            519,
+            520,
+            521
+          ]
+        },
+        {
+          "teal": 448,
+          "source": "contracts/Royalty.algo.ts:99",
+          "pc": [
+            522
+          ]
+        },
+        {
+          "teal": 449,
+          "source": "contracts/Royalty.algo.ts:99",
+          "pc": [
+            523
+          ]
+        },
+        {
+          "teal": 453,
+          "source": "contracts/Royalty.algo.ts:99",
+          "pc": [
+            524,
+            525,
+            526
+          ]
+        },
+        {
+          "teal": 457,
+          "source": "contracts/Royalty.algo.ts:100",
+          "pc": [
+            527,
+            528
+          ]
+        },
+        {
+          "teal": 458,
+          "source": "contracts/Royalty.algo.ts:100",
+          "pc": [
+            529
+          ]
+        },
+        {
+          "teal": 459,
+          "source": "contracts/Royalty.algo.ts:100",
+          "pc": [
+            530
+          ]
+        },
+        {
+          "teal": 460,
+          "source": "contracts/Royalty.algo.ts:100",
+          "pc": [
+            531
+          ]
+        },
+        {
+          "teal": 461,
+          "source": "contracts/Royalty.algo.ts:100",
+          "pc": [
+            532
+          ]
+        },
+        {
+          "teal": 462,
+          "source": "contracts/Royalty.algo.ts:100",
+          "pc": [
+            533,
+            534,
+            535
+          ]
+        },
+        {
+          "teal": 463,
+          "source": "contracts/Royalty.algo.ts:100",
+          "pc": [
+            536,
+            537
+          ]
+        },
+        {
+          "teal": 464,
+          "source": "contracts/Royalty.algo.ts:100",
+          "pc": [
+            538
+          ]
+        },
+        {
+          "teal": 465,
+          "source": "contracts/Royalty.algo.ts:100",
+          "pc": [
+            539
+          ]
+        },
+        {
+          "teal": 466,
+          "source": "contracts/Royalty.algo.ts:100",
+          "pc": [
+            540
+          ]
+        },
+        {
+          "teal": 467,
+          "source": "contracts/Royalty.algo.ts:100",
+          "pc": [
+            541
+          ]
+        },
+        {
+          "teal": 470,
+          "source": "contracts/Royalty.algo.ts:100",
+          "pc": [
+            542
+          ]
+        },
+        {
+          "teal": 478,
+          "source": "contracts/Royalty.algo.ts:102",
+          "pc": [
+            543
+          ]
+        },
+        {
+          "teal": 479,
+          "source": "contracts/Royalty.algo.ts:102",
+          "pc": [
+            544
+          ]
+        },
+        {
+          "teal": 480,
+          "source": "contracts/Royalty.algo.ts:102",
+          "pc": [
+            545,
+            546
+          ]
+        },
+        {
+          "teal": 484,
+          "source": "contracts/Royalty.algo.ts:103",
+          "pc": [
+            547
+          ]
+        },
+        {
+          "teal": 485,
+          "source": "contracts/Royalty.algo.ts:103",
+          "pc": [
+            548
+          ]
+        },
+        {
+          "teal": 486,
+          "source": "contracts/Royalty.algo.ts:103",
+          "pc": [
+            549,
+            550
+          ]
+        },
+        {
+          "teal": 490,
+          "source": "contracts/Royalty.algo.ts:104",
+          "pc": [
+            551
+          ]
+        },
+        {
+          "teal": 491,
+          "source": "contracts/Royalty.algo.ts:104",
+          "pc": [
+            552
+          ]
+        },
+        {
+          "teal": 492,
+          "source": "contracts/Royalty.algo.ts:104",
+          "pc": [
+            553,
+            554
+          ]
+        },
+        {
+          "teal": 496,
+          "source": "contracts/Royalty.algo.ts:105",
+          "pc": [
+            555
+          ]
+        },
+        {
+          "teal": 497,
+          "source": "contracts/Royalty.algo.ts:105",
+          "pc": [
+            556,
+            557
+          ]
+        },
+        {
+          "teal": 500,
+          "source": "contracts/Royalty.algo.ts:102",
+          "pc": [
+            558
+          ]
+        },
+        {
+          "teal": 501,
+          "source": "contracts/Royalty.algo.ts:102",
+          "pc": [
+            559,
+            560
+          ]
+        },
+        {
+          "teal": 504,
+          "source": "contracts/Royalty.algo.ts:102",
+          "pc": [
+            561
+          ]
+        },
+        {
+          "teal": 505,
+          "source": "contracts/Royalty.algo.ts:99",
+          "pc": [
+            562
+          ]
+        },
+        {
+          "teal": 508,
+          "source": "contracts/Royalty.algo.ts:5",
+          "pc": [
+            563,
+            564,
+            565,
+            566,
+            567,
+            568
+          ]
+        },
+        {
+          "teal": 509,
+          "source": "contracts/Royalty.algo.ts:5",
+          "pc": [
+            569,
+            570,
+            571
+          ]
+        },
+        {
+          "teal": 510,
+          "source": "contracts/Royalty.algo.ts:5",
+          "pc": [
+            572,
+            573,
+            574,
+            575
+          ]
+        },
+        {
+          "teal": 513,
+          "source": "contracts/Royalty.algo.ts:5",
+          "errorMessage": "this contract does not implement the given ABI method for create NoOp",
+          "pc": [
+            576
+          ]
+        },
+        {
+          "teal": 516,
+          "source": "contracts/Royalty.algo.ts:5",
+          "pc": [
+            577,
+            578,
+            579,
+            580,
+            581,
+            582
+          ]
+        },
+        {
+          "teal": 517,
+          "source": "contracts/Royalty.algo.ts:5",
+          "pc": [
+            583,
+            584,
+            585,
+            586,
+            587,
+            588
+          ]
+        },
+        {
+          "teal": 518,
+          "source": "contracts/Royalty.algo.ts:5",
+          "pc": [
+            589,
+            590,
+            591,
+            592,
+            593,
+            594
+          ]
+        },
+        {
+          "teal": 519,
+          "source": "contracts/Royalty.algo.ts:5",
+          "pc": [
+            595,
+            596,
+            597,
+            598,
+            599,
+            600
+          ]
+        },
+        {
+          "teal": 520,
+          "source": "contracts/Royalty.algo.ts:5",
+          "pc": [
+            601,
+            602,
+            603,
+            604,
+            605,
+            606
+          ]
+        },
+        {
+          "teal": 521,
+          "source": "contracts/Royalty.algo.ts:5",
+          "pc": [
+            607,
+            608,
+            609
+          ]
+        },
+        {
+          "teal": 522,
+          "source": "contracts/Royalty.algo.ts:5",
+          "pc": [
+            610,
+            611,
+            612,
+            613,
+            614,
+            615,
+            616,
+            617,
+            618,
+            619,
+            620,
+            621
+          ]
+        },
+        {
+          "teal": 525,
+          "source": "contracts/Royalty.algo.ts:5",
+          "errorMessage": "this contract does not implement the given ABI method for call NoOp",
+          "pc": [
+            622
+          ]
+        }
+      ],
+      "pcOffsetMethod": "none"
+    },
+    "clear": {
+      "sourceInfo": [],
+      "pcOffsetMethod": "none"
+    }
+  },
+  "source": {
+    "approval": "I3ByYWdtYSB2ZXJzaW9uIDEwCmludGNibG9jayAxIDAgNCAzMgpieXRlY2Jsb2NrIDB4NmU2Njc0NDE3MzczNjU3NDQ5NDQgMHg2Mzc1NzI3MjY1NmU3NDRmNzc2ZTY1NzIgMHg2MzcyNjU2MTc0NmY3MiAweDcwNzI2OTYzNjU0MzZmNmQ2ZDY1NzI2MzY5NjE2YyAweDcwNzI2OTYzNjU0NTc4NjM2Yzc1NzM2OTc2NjUgMHg3MjZmNzk2MTZjNzQ3OTUwNjU3MjYzNjU2ZTc0IDB4NzA3MjY5NjM2NTUwNjU3MjczNmY2ZTYxNmMgMHg2NTc4NjM2Yzc1NzM2OTc2NjUgMHgKCi8vIFRoaXMgVEVBTCB3YXMgZ2VuZXJhdGVkIGJ5IFRFQUxTY3JpcHQgdjAuMTA1LjQKLy8gaHR0cHM6Ly9naXRodWIuY29tL2FsZ29yYW5kZm91bmRhdGlvbi9URUFMU2NyaXB0CgovLyBUaGlzIGNvbnRyYWN0IGlzIGNvbXBsaWFudCB3aXRoIGFuZC9vciBpbXBsZW1lbnRzIHRoZSBmb2xsb3dpbmcgQVJDczogWyBBUkM0IF0KCi8vIFRoZSBmb2xsb3dpbmcgdGVuIGxpbmVzIG9mIFRFQUwgaGFuZGxlIGluaXRpYWwgcHJvZ3JhbSBmbG93Ci8vIFRoaXMgcGF0dGVybiBpcyB1c2VkIHRvIG1ha2UgaXQgZWFzeSBmb3IgYW55b25lIHRvIHBhcnNlIHRoZSBzdGFydCBvZiB0aGUgcHJvZ3JhbSBhbmQgZGV0ZXJtaW5lIGlmIGEgc3BlY2lmaWMgYWN0aW9uIGlzIGFsbG93ZWQKLy8gSGVyZSwgYWN0aW9uIHJlZmVycyB0byB0aGUgT25Db21wbGV0ZSBpbiBjb21iaW5hdGlvbiB3aXRoIHdoZXRoZXIgdGhlIGFwcCBpcyBiZWluZyBjcmVhdGVkIG9yIGNhbGxlZAovLyBFdmVyeSBwb3NzaWJsZSBhY3Rpb24gZm9yIHRoaXMgY29udHJhY3QgaXMgcmVwcmVzZW50ZWQgaW4gdGhlIHN3aXRjaCBzdGF0ZW1lbnQKLy8gSWYgdGhlIGFjdGlvbiBpcyBub3QgaW1wbGVtZW50ZWQgaW4gdGhlIGNvbnRyYWN0LCBpdHMgcmVzcGVjdGl2ZSBicmFuY2ggd2lsbCBiZSAiKk5PVF9JTVBMRU1FTlRFRCIgd2hpY2gganVzdCBjb250YWlucyAiZXJyIgp0eG4gQXBwbGljYXRpb25JRAohCnB1c2hpbnQgNgoqCnR4biBPbkNvbXBsZXRpb24KKwpzd2l0Y2ggKmNhbGxfTm9PcCAqTk9UX0lNUExFTUVOVEVEICpOT1RfSU1QTEVNRU5URUQgKk5PVF9JTVBMRU1FTlRFRCAqTk9UX0lNUExFTUVOVEVEICpOT1RfSU1QTEVNRU5URUQgKmNyZWF0ZV9Ob09wICpOT1RfSU1QTEVNRU5URUQgKk5PVF9JTVBMRU1FTlRFRCAqTk9UX0lNUExFTUVOVEVEICpOT1RfSU1QTEVNRU5URUQgKk5PVF9JTVBMRU1FTlRFRAoKKk5PVF9JTVBMRU1FTlRFRDoKCS8vIFRoZSByZXF1ZXN0ZWQgYWN0aW9uIGlzIG5vdCBpbXBsZW1lbnRlZCBpbiB0aGlzIGNvbnRyYWN0LiBBcmUgeW91IHVzaW5nIHRoZSBjb3JyZWN0IE9uQ29tcGxldGU/IERpZCB5b3Ugc2V0IHlvdXIgYXBwIElEPwoJZXJyCgovLyBjcmVhdGVBcHBsaWNhdGlvbihhZGRyZXNzLHVpbnQ2NCx1aW50NjQsdWludDY0LHVpbnQ2NCl2b2lkCiphYmlfcm91dGVfY3JlYXRlQXBwbGljYXRpb246CgkvLyByb3lhbHR5UGVyY2VudDogdWludDY0Cgl0eG5hIEFwcGxpY2F0aW9uQXJncyA1CglidG9pCgoJLy8gcHJpY2VFeGNsdXNpdmU6IHVpbnQ2NAoJdHhuYSBBcHBsaWNhdGlvbkFyZ3MgNAoJYnRvaQoKCS8vIHByaWNlQ29tbWVyY2lhbDogdWludDY0Cgl0eG5hIEFwcGxpY2F0aW9uQXJncyAzCglidG9pCgoJLy8gcHJpY2VQZXJzb25hbDogdWludDY0Cgl0eG5hIEFwcGxpY2F0aW9uQXJncyAyCglidG9pCgoJLy8gY3JlYXRvcjogYWRkcmVzcwoJdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMQoJZHVwCglsZW4KCWludGMgMyAvLyAzMgoJPT0KCgkvLyBhcmd1bWVudCA0IChjcmVhdG9yKSBmb3IgY3JlYXRlQXBwbGljYXRpb24gbXVzdCBiZSBhIGFkZHJlc3MKCWFzc2VydAoKCS8vIGV4ZWN1dGUgY3JlYXRlQXBwbGljYXRpb24oYWRkcmVzcyx1aW50NjQsdWludDY0LHVpbnQ2NCx1aW50NjQpdm9pZAoJY2FsbHN1YiBjcmVhdGVBcHBsaWNhdGlvbgoJaW50YyAwIC8vIDEKCXJldHVybgoKLy8gY3JlYXRlQXBwbGljYXRpb24oY3JlYXRvcjogQWRkcmVzcywgcHJpY2VQZXJzb25hbDogdWludDY0LCBwcmljZUNvbW1lcmNpYWw6IHVpbnQ2NCwgcHJpY2VFeGNsdXNpdmU6IHVpbnQ2NCwgcm95YWx0eVBlcmNlbnQ6IHVpbnQ2NCk6IHZvaWQKY3JlYXRlQXBwbGljYXRpb246Cglwcm90byA1IDAKCgkvLyBjb250cmFjdHMvUm95YWx0eS5hbGdvLnRzOjI4CgkvLyB0aGlzLnByaWNlUGVyc29uYWwudmFsdWUgPSBwcmljZVBlcnNvbmFsCglieXRlYyA2IC8vICAicHJpY2VQZXJzb25hbCIKCWZyYW1lX2RpZyAtMiAvLyBwcmljZVBlcnNvbmFsOiB1aW50NjQKCWFwcF9nbG9iYWxfcHV0CgoJLy8gY29udHJhY3RzL1JveWFsdHkuYWxnby50czoyOQoJLy8gdGhpcy5wcmljZUNvbW1lcmNpYWwudmFsdWUgPSBwcmljZUNvbW1lcmNpYWwKCWJ5dGVjIDMgLy8gICJwcmljZUNvbW1lcmNpYWwiCglmcmFtZV9kaWcgLTMgLy8gcHJpY2VDb21tZXJjaWFsOiB1aW50NjQKCWFwcF9nbG9iYWxfcHV0CgoJLy8gY29udHJhY3RzL1JveWFsdHkuYWxnby50czozMAoJLy8gdGhpcy5wcmljZUV4Y2x1c2l2ZS52YWx1ZSA9IHByaWNlRXhjbHVzaXZlCglieXRlYyA0IC8vICAicHJpY2VFeGNsdXNpdmUiCglmcmFtZV9kaWcgLTQgLy8gcHJpY2VFeGNsdXNpdmU6IHVpbnQ2NAoJYXBwX2dsb2JhbF9wdXQKCgkvLyBjb250cmFjdHMvUm95YWx0eS5hbGdvLnRzOjMxCgkvLyB0aGlzLnJveWFsdHlQZXJjZW50LnZhbHVlID0gcm95YWx0eVBlcmNlbnQKCWJ5dGVjIDUgLy8gICJyb3lhbHR5UGVyY2VudCIKCWZyYW1lX2RpZyAtNSAvLyByb3lhbHR5UGVyY2VudDogdWludDY0CglhcHBfZ2xvYmFsX3B1dAoKCS8vIGNvbnRyYWN0cy9Sb3lhbHR5LmFsZ28udHM6MzIKCS8vIHRoaXMuY3JlYXRvci52YWx1ZSA9IGNyZWF0b3IKCWJ5dGVjIDIgLy8gICJjcmVhdG9yIgoJZnJhbWVfZGlnIC0xIC8vIGNyZWF0b3I6IEFkZHJlc3MKCWFwcF9nbG9iYWxfcHV0CgoJLy8gY29udHJhY3RzL1JveWFsdHkuYWxnby50czozMwoJLy8gdGhpcy5jdXJyZW50T3duZXIudmFsdWUgPSBjcmVhdG9yCglieXRlYyAxIC8vICAiY3VycmVudE93bmVyIgoJZnJhbWVfZGlnIC0xIC8vIGNyZWF0b3I6IEFkZHJlc3MKCWFwcF9nbG9iYWxfcHV0CgoJLy8gY29udHJhY3RzL1JveWFsdHkuYWxnby50czozNAoJLy8gdGhpcy5uZnRBc3NldElELnZhbHVlID0gQXNzZXRJRC56ZXJvSW5kZXgKCWJ5dGVjIDAgLy8gICJuZnRBc3NldElEIgoJaW50YyAxIC8vIDAKCWFwcF9nbG9iYWxfcHV0CglyZXRzdWIKCi8vIG9wdEludG9ORlQodWludDY0KXZvaWQKKmFiaV9yb3V0ZV9vcHRJbnRvTkZUOgoJLy8gYXNzZXQ6IHVpbnQ2NAoJdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMQoJYnRvaQoKCS8vIGV4ZWN1dGUgb3B0SW50b05GVCh1aW50NjQpdm9pZAoJY2FsbHN1YiBvcHRJbnRvTkZUCglpbnRjIDAgLy8gMQoJcmV0dXJuCgovLyBvcHRJbnRvTkZUKGFzc2V0OiBBc3NldElEKTogdm9pZApvcHRJbnRvTkZUOgoJcHJvdG8gMSAwCgoJLy8gY29udHJhY3RzL1JveWFsdHkuYWxnby50czozOQoJLy8gYXNzZXJ0KHRoaXMubmZ0QXNzZXRJRC52YWx1ZSA9PT0gQXNzZXRJRC56ZXJvSW5kZXgpCglieXRlYyAwIC8vICAibmZ0QXNzZXRJRCIKCWFwcF9nbG9iYWxfZ2V0CglpbnRjIDEgLy8gMAoJPT0KCWFzc2VydAoKCS8vIGNvbnRyYWN0cy9Sb3lhbHR5LmFsZ28udHM6NDAKCS8vIHRoaXMubmZ0QXNzZXRJRC52YWx1ZSA9IGFzc2V0CglieXRlYyAwIC8vICAibmZ0QXNzZXRJRCIKCWZyYW1lX2RpZyAtMSAvLyBhc3NldDogQXNzZXRJRAoJYXBwX2dsb2JhbF9wdXQKCgkvLyBjb250cmFjdHMvUm95YWx0eS5hbGdvLnRzOjQyCgkvLyBzZW5kQXNzZXRUcmFuc2Zlcih7CgkvLyAgICAgICBhc3NldFJlY2VpdmVyOiB0aGlzLmFwcC5hZGRyZXNzLAoJLy8gICAgICAgeGZlckFzc2V0OiBhc3NldCwKCS8vICAgICAgIGFzc2V0QW1vdW50OiAwLAoJLy8gICAgIH0pCglpdHhuX2JlZ2luCglpbnRjIDIgLy8gIGF4ZmVyCglpdHhuX2ZpZWxkIFR5cGVFbnVtCgoJLy8gY29udHJhY3RzL1JveWFsdHkuYWxnby50czo0MwoJLy8gYXNzZXRSZWNlaXZlcjogdGhpcy5hcHAuYWRkcmVzcwoJZ2xvYmFsIEN1cnJlbnRBcHBsaWNhdGlvbkFkZHJlc3MKCWl0eG5fZmllbGQgQXNzZXRSZWNlaXZlcgoKCS8vIGNvbnRyYWN0cy9Sb3lhbHR5LmFsZ28udHM6NDQKCS8vIHhmZXJBc3NldDogYXNzZXQKCWZyYW1lX2RpZyAtMSAvLyBhc3NldDogQXNzZXRJRAoJaXR4bl9maWVsZCBYZmVyQXNzZXQKCgkvLyBjb250cmFjdHMvUm95YWx0eS5hbGdvLnRzOjQ1CgkvLyBhc3NldEFtb3VudDogMAoJaW50YyAxIC8vIDAKCWl0eG5fZmllbGQgQXNzZXRBbW91bnQKCgkvLyBGZWUgZmllbGQgbm90IHNldCwgZGVmYXVsdGluZyB0byAwCglpbnRjIDEgLy8gMAoJaXR4bl9maWVsZCBGZWUKCgkvLyBTdWJtaXQgaW5uZXIgdHJhbnNhY3Rpb24KCWl0eG5fc3VibWl0CglyZXRzdWIKCi8vIGJ1eUxpY2Vuc2UocGF5LHN0cmluZyl2b2lkCiphYmlfcm91dGVfYnV5TGljZW5zZToKCS8vIGxpY2Vuc2VUeXBlOiBzdHJpbmcKCXR4bmEgQXBwbGljYXRpb25BcmdzIDEKCWV4dHJhY3QgMiAwCgoJLy8gcGF5bWVudDogcGF5Cgl0eG4gR3JvdXBJbmRleAoJaW50YyAwIC8vIDEKCS0KCWR1cAoJZ3R4bnMgVHlwZUVudW0KCWludGMgMCAvLyAgcGF5Cgk9PQoKCS8vIGFyZ3VtZW50IDEgKHBheW1lbnQpIGZvciBidXlMaWNlbnNlIG11c3QgYmUgYSBwYXkgdHJhbnNhY3Rpb24KCWFzc2VydAoKCS8vIGV4ZWN1dGUgYnV5TGljZW5zZShwYXksc3RyaW5nKXZvaWQKCWNhbGxzdWIgYnV5TGljZW5zZQoJaW50YyAwIC8vIDEKCXJldHVybgoKLy8gYnV5TGljZW5zZShwYXltZW50OiBQYXlUeG4sIGxpY2Vuc2VUeXBlOiBzdHJpbmcpOiB2b2lkCmJ1eUxpY2Vuc2U6Cglwcm90byAyIDAKCgkvLyBQdXNoIGVtcHR5IGJ5dGVzIGFmdGVyIHRoZSBmcmFtZSBwb2ludGVyIHRvIHJlc2VydmUgc3BhY2UgZm9yIGxvY2FsIHZhcmlhYmxlcwoJYnl0ZWMgOCAvLyAweAoKCS8vIGNvbnRyYWN0cy9Sb3lhbHR5LmFsZ28udHM6NTAKCS8vIHZlcmlmeVBheVR4bihwYXltZW50LCB7CgkvLyAgICAgICByZWNlaXZlcjogdGhpcy5hcHAuYWRkcmVzcywKCS8vICAgICB9KQoJLy8gdmVyaWZ5IHJlY2VpdmVyCglmcmFtZV9kaWcgLTEgLy8gcGF5bWVudDogUGF5VHhuCglndHhucyBSZWNlaXZlcgoJZ2xvYmFsIEN1cnJlbnRBcHBsaWNhdGlvbkFkZHJlc3MKCT09CgoJLy8gdHJhbnNhY3Rpb24gdmVyaWZpY2F0aW9uIGZhaWxlZDogeyJ0eG4iOiJwYXltZW50IiwiZmllbGQiOiJyZWNlaXZlciIsImV4cGVjdGVkIjoidGhpcy5hcHAuYWRkcmVzcyJ9Cglhc3NlcnQKCgkvLyAqaWYwX2NvbmRpdGlvbgoJLy8gY29udHJhY3RzL1JveWFsdHkuYWxnby50czo1NgoJLy8gbGljZW5zZVR5cGUgPT09ICJwZXJzb25hbCIKCWZyYW1lX2RpZyAtMiAvLyBsaWNlbnNlVHlwZTogc3RyaW5nCglwdXNoYnl0ZXMgMHg3MDY1NzI3MzZmNmU2MTZjIC8vICJwZXJzb25hbCIKCT09CglieiAqaWYwX2Vsc2VpZjFfY29uZGl0aW9uCgoJLy8gKmlmMF9jb25zZXF1ZW50CgkvLyBjb250cmFjdHMvUm95YWx0eS5hbGdvLnRzOjU3CgkvLyBleHBlY3RlZEFtb3VudCA9IHRoaXMucHJpY2VQZXJzb25hbC52YWx1ZQoJYnl0ZWMgNiAvLyAgInByaWNlUGVyc29uYWwiCglhcHBfZ2xvYmFsX2dldAoJZnJhbWVfYnVyeSAwIC8vIGV4cGVjdGVkQW1vdW50OiB1aW50NjQKCWIgKmlmMF9lbmQKCippZjBfZWxzZWlmMV9jb25kaXRpb246CgkvLyBjb250cmFjdHMvUm95YWx0eS5hbGdvLnRzOjU4CgkvLyBsaWNlbnNlVHlwZSA9PT0gImNvbW1lcmNpYWwiCglmcmFtZV9kaWcgLTIgLy8gbGljZW5zZVR5cGU6IHN0cmluZwoJcHVzaGJ5dGVzIDB4NjM2ZjZkNmQ2NTcyNjM2OTYxNmMgLy8gImNvbW1lcmNpYWwiCgk9PQoJYnogKmlmMF9lbHNlaWYyX2NvbmRpdGlvbgoKCS8vICppZjBfZWxzZWlmMV9jb25zZXF1ZW50CgkvLyBjb250cmFjdHMvUm95YWx0eS5hbGdvLnRzOjU5CgkvLyBleHBlY3RlZEFtb3VudCA9IHRoaXMucHJpY2VDb21tZXJjaWFsLnZhbHVlCglieXRlYyAzIC8vICAicHJpY2VDb21tZXJjaWFsIgoJYXBwX2dsb2JhbF9nZXQKCWZyYW1lX2J1cnkgMCAvLyBleHBlY3RlZEFtb3VudDogdWludDY0CgliICppZjBfZW5kCgoqaWYwX2Vsc2VpZjJfY29uZGl0aW9uOgoJLy8gY29udHJhY3RzL1JveWFsdHkuYWxnby50czo2MAoJLy8gbGljZW5zZVR5cGUgPT09ImV4Y2x1c2l2ZSIKCWZyYW1lX2RpZyAtMiAvLyBsaWNlbnNlVHlwZTogc3RyaW5nCglieXRlYyA3IC8vICAiZXhjbHVzaXZlIgoJPT0KCWJ6ICppZjBfZWxzZQoKCS8vICppZjBfZWxzZWlmMl9jb25zZXF1ZW50CgkvLyBjb250cmFjdHMvUm95YWx0eS5hbGdvLnRzOjYxCgkvLyBleHBlY3RlZEFtb3VudCA9IHRoaXMucHJpY2VFeGNsdXNpdmUudmFsdWUKCWJ5dGVjIDQgLy8gICJwcmljZUV4Y2x1c2l2ZSIKCWFwcF9nbG9iYWxfZ2V0CglmcmFtZV9idXJ5IDAgLy8gZXhwZWN0ZWRBbW91bnQ6IHVpbnQ2NAoJYiAqaWYwX2VuZAoKKmlmMF9lbHNlOgoJLy8gY29udHJhY3RzL1JveWFsdHkuYWxnby50czo2MwoJLy8gYXNzZXJ0KGZhbHNlLCAiSW52YWxpZCBsaWNlbnNlIHR5cGUuIikKCWludGMgMSAvLyAwCgoJLy8gSW52YWxpZCBsaWNlbnNlIHR5cGUuCglhc3NlcnQKCippZjBfZW5kOgoJLy8gY29udHJhY3RzL1JveWFsdHkuYWxnby50czo2NgoJLy8gYXNzZXJ0KHBheW1lbnQuYW1vdW50ID49IHRoaXMuZXhwZWN0ZWRBbW91bnQudmFsdWUpCglmcmFtZV9kaWcgLTEgLy8gcGF5bWVudDogUGF5VHhuCglndHhucyBBbW91bnQKCXB1c2hieXRlcyAweDY1Nzg3MDY1NjM3NDY1NjQ0MTZkNmY3NTZlNzQgLy8gImV4cGVjdGVkQW1vdW50IgoJYXBwX2dsb2JhbF9nZXQKCT49Cglhc3NlcnQKCgkvLyBjb250cmFjdHMvUm95YWx0eS5hbGdvLnRzOjY4CgkvLyB0aGlzLmJ1eWVyTGljZW5zZS52YWx1ZSA9IGxpY2Vuc2VUeXBlCglwdXNoYnl0ZXMgMHg2Mjc1Nzk2NTcyNGM2OTYzNjU2ZTczNjUgLy8gImJ1eWVyTGljZW5zZSIKCWZyYW1lX2RpZyAtMiAvLyBsaWNlbnNlVHlwZTogc3RyaW5nCglkdXAKCWxlbgoJaXRvYgoJZXh0cmFjdCA2IDIKCXN3YXAKCWNvbmNhdAoJYXBwX2dsb2JhbF9wdXQKCgkvLyAqaWYxX2NvbmRpdGlvbgoJLy8gY29udHJhY3RzL1JveWFsdHkuYWxnby50czo3MAoJLy8gbGljZW5zZVR5cGUgPT09ICJleGNsdXNpdmUiCglmcmFtZV9kaWcgLTIgLy8gbGljZW5zZVR5cGU6IHN0cmluZwoJYnl0ZWMgNyAvLyAgImV4Y2x1c2l2ZSIKCT09CglieiAqaWYxX2Vsc2UKCgkvLyAqaWYxX2NvbnNlcXVlbnQKCS8vIGNvbnRyYWN0cy9Sb3lhbHR5LmFsZ28udHM6NzIKCS8vIHRoaXMudHJhbnNmZXJPd25lcnNoaXAocGF5bWVudC5zZW5kZXIpCglmcmFtZV9kaWcgLTEgLy8gcGF5bWVudDogUGF5VHhuCglndHhucyBTZW5kZXIKCWNhbGxzdWIgdHJhbnNmZXJPd25lcnNoaXAKCWIgKmlmMV9lbmQKCippZjFfZWxzZToKCS8vIGNvbnRyYWN0cy9Sb3lhbHR5LmFsZ28udHM6NzUKCS8vIHRoaXMucGF5Um95YWx0eSh0aGlzLmNyZWF0b3IudmFsdWUsIHBheW1lbnQuYW1vdW50KQoJZnJhbWVfZGlnIC0xIC8vIHBheW1lbnQ6IFBheVR4bgoJZ3R4bnMgQW1vdW50CglieXRlYyAyIC8vICAiY3JlYXRvciIKCWFwcF9nbG9iYWxfZ2V0CgljYWxsc3ViIHBheVJveWFsdHkKCippZjFfZW5kOgoJcmV0c3ViCgovLyB0cmFuc2Zlck93bmVyc2hpcChhZGRyZXNzKXZvaWQKKmFiaV9yb3V0ZV90cmFuc2Zlck93bmVyc2hpcDoKCS8vIG5ld093bmVyOiBhZGRyZXNzCgl0eG5hIEFwcGxpY2F0aW9uQXJncyAxCglkdXAKCWxlbgoJaW50YyAzIC8vIDMyCgk9PQoKCS8vIGFyZ3VtZW50IDAgKG5ld093bmVyKSBmb3IgdHJhbnNmZXJPd25lcnNoaXAgbXVzdCBiZSBhIGFkZHJlc3MKCWFzc2VydAoKCS8vIGV4ZWN1dGUgdHJhbnNmZXJPd25lcnNoaXAoYWRkcmVzcyl2b2lkCgljYWxsc3ViIHRyYW5zZmVyT3duZXJzaGlwCglpbnRjIDAgLy8gMQoJcmV0dXJuCgovLyB0cmFuc2Zlck93bmVyc2hpcChuZXdPd25lcjogQWRkcmVzcyk6IHZvaWQKdHJhbnNmZXJPd25lcnNoaXA6Cglwcm90byAxIDAKCgkvLyBjb250cmFjdHMvUm95YWx0eS5hbGdvLnRzOjgwCgkvLyBzZW5kQXNzZXRUcmFuc2Zlcih7CgkvLyAgICAgICBhc3NldFJlY2VpdmVyOiBuZXdPd25lciwKCS8vICAgICAgIHhmZXJBc3NldDogdGhpcy5uZnRBc3NldElELnZhbHVlLAoJLy8gICAgICAgYXNzZXRBbW91bnQ6IDEsCgkvLyAgICAgfSkKCWl0eG5fYmVnaW4KCWludGMgMiAvLyAgYXhmZXIKCWl0eG5fZmllbGQgVHlwZUVudW0KCgkvLyBjb250cmFjdHMvUm95YWx0eS5hbGdvLnRzOjgxCgkvLyBhc3NldFJlY2VpdmVyOiBuZXdPd25lcgoJZnJhbWVfZGlnIC0xIC8vIG5ld093bmVyOiBBZGRyZXNzCglpdHhuX2ZpZWxkIEFzc2V0UmVjZWl2ZXIKCgkvLyBjb250cmFjdHMvUm95YWx0eS5hbGdvLnRzOjgyCgkvLyB4ZmVyQXNzZXQ6IHRoaXMubmZ0QXNzZXRJRC52YWx1ZQoJYnl0ZWMgMCAvLyAgIm5mdEFzc2V0SUQiCglhcHBfZ2xvYmFsX2dldAoJaXR4bl9maWVsZCBYZmVyQXNzZXQKCgkvLyBjb250cmFjdHMvUm95YWx0eS5hbGdvLnRzOjgzCgkvLyBhc3NldEFtb3VudDogMQoJaW50YyAwIC8vIDEKCWl0eG5fZmllbGQgQXNzZXRBbW91bnQKCgkvLyBGZWUgZmllbGQgbm90IHNldCwgZGVmYXVsdGluZyB0byAwCglpbnRjIDEgLy8gMAoJaXR4bl9maWVsZCBGZWUKCgkvLyBTdWJtaXQgaW5uZXIgdHJhbnNhY3Rpb24KCWl0eG5fc3VibWl0CgoJLy8gY29udHJhY3RzL1JveWFsdHkuYWxnby50czo4NQoJLy8gdGhpcy5jdXJyZW50T3duZXIudmFsdWUgPSBuZXdPd25lcgoJYnl0ZWMgMSAvLyAgImN1cnJlbnRPd25lciIKCWZyYW1lX2RpZyAtMSAvLyBuZXdPd25lcjogQWRkcmVzcwoJYXBwX2dsb2JhbF9wdXQKCXJldHN1YgoKLy8gcGF5Um95YWx0eShhZGRyZXNzLHVpbnQ2NCl2b2lkCiphYmlfcm91dGVfcGF5Um95YWx0eToKCS8vIGFtb3VudFBhaWQ6IHVpbnQ2NAoJdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMgoJYnRvaQoKCS8vIHRvOiBhZGRyZXNzCgl0eG5hIEFwcGxpY2F0aW9uQXJncyAxCglkdXAKCWxlbgoJaW50YyAzIC8vIDMyCgk9PQoKCS8vIGFyZ3VtZW50IDEgKHRvKSBmb3IgcGF5Um95YWx0eSBtdXN0IGJlIGEgYWRkcmVzcwoJYXNzZXJ0CgoJLy8gZXhlY3V0ZSBwYXlSb3lhbHR5KGFkZHJlc3MsdWludDY0KXZvaWQKCWNhbGxzdWIgcGF5Um95YWx0eQoJaW50YyAwIC8vIDEKCXJldHVybgoKLy8gcGF5Um95YWx0eSh0bzogQWRkcmVzcywgYW1vdW50UGFpZDogdWludDY0KTogdm9pZApwYXlSb3lhbHR5OgoJcHJvdG8gMiAwCgoJLy8gUHVzaCBlbXB0eSBieXRlcyBhZnRlciB0aGUgZnJhbWUgcG9pbnRlciB0byByZXNlcnZlIHNwYWNlIGZvciBsb2NhbCB2YXJpYWJsZXMKCWJ5dGVjIDggLy8gMHgKCgkvLyBjb250cmFjdHMvUm95YWx0eS5hbGdvLnRzOjg5CgkvLyByb3lhbHR5QW1vdW50ID0gKGFtb3VudFBhaWQgKiB0aGlzLnJveWFsdHlQZXJjZW50LnZhbHVlKSAvIDEwMAoJZnJhbWVfZGlnIC0yIC8vIGFtb3VudFBhaWQ6IHVpbnQ2NAoJYnl0ZWMgNSAvLyAgInJveWFsdHlQZXJjZW50IgoJYXBwX2dsb2JhbF9nZXQKCSoKCXB1c2hpbnQgMTAwCgkvCglmcmFtZV9idXJ5IDAgLy8gcm95YWx0eUFtb3VudDogdWludDY0CgoJLy8gY29udHJhY3RzL1JveWFsdHkuYWxnby50czo5MQoJLy8gc2VuZFBheW1lbnQoewoJLy8gICAgICAgcmVjZWl2ZXI6IHRvLAoJLy8gICAgICAgYW1vdW50OiByb3lhbHR5QW1vdW50LAoJLy8gICAgIH0pCglpdHhuX2JlZ2luCglpbnRjIDAgLy8gIHBheQoJaXR4bl9maWVsZCBUeXBlRW51bQoKCS8vIGNvbnRyYWN0cy9Sb3lhbHR5LmFsZ28udHM6OTIKCS8vIHJlY2VpdmVyOiB0bwoJZnJhbWVfZGlnIC0xIC8vIHRvOiBBZGRyZXNzCglpdHhuX2ZpZWxkIFJlY2VpdmVyCgoJLy8gY29udHJhY3RzL1JveWFsdHkuYWxnby50czo5MwoJLy8gYW1vdW50OiByb3lhbHR5QW1vdW50CglmcmFtZV9kaWcgMCAvLyByb3lhbHR5QW1vdW50OiB1aW50NjQKCWl0eG5fZmllbGQgQW1vdW50CgoJLy8gRmVlIGZpZWxkIG5vdCBzZXQsIGRlZmF1bHRpbmcgdG8gMAoJaW50YyAxIC8vIDAKCWl0eG5fZmllbGQgRmVlCgoJLy8gU3VibWl0IGlubmVyIHRyYW5zYWN0aW9uCglpdHhuX3N1Ym1pdAoJcmV0c3ViCgovLyBjYW5jZWxMaXN0aW5nKCl2b2lkCiphYmlfcm91dGVfY2FuY2VsTGlzdGluZzoKCS8vIGV4ZWN1dGUgY2FuY2VsTGlzdGluZygpdm9pZAoJY2FsbHN1YiBjYW5jZWxMaXN0aW5nCglpbnRjIDAgLy8gMQoJcmV0dXJuCgovLyBjYW5jZWxMaXN0aW5nKCk6IHZvaWQKY2FuY2VsTGlzdGluZzoKCXByb3RvIDAgMAoKCS8vIGNvbnRyYWN0cy9Sb3lhbHR5LmFsZ28udHM6MTAwCgkvLyBhc3NlcnQodGhpcy50eG4uc2VuZGVyID09PSB0aGlzLmNyZWF0b3IudmFsdWUgfHwgdGhpcy50eG4uc2VuZGVyID09PSB0aGlzLmN1cnJlbnRPd25lci52YWx1ZSkKCXR4biBTZW5kZXIKCWJ5dGVjIDIgLy8gICJjcmVhdG9yIgoJYXBwX2dsb2JhbF9nZXQKCT09CglkdXAKCWJueiAqc2tpcF9vcjAKCXR4biBTZW5kZXIKCWJ5dGVjIDEgLy8gICJjdXJyZW50T3duZXIiCglhcHBfZ2xvYmFsX2dldAoJPT0KCXx8Cgoqc2tpcF9vcjA6Cglhc3NlcnQKCgkvLyBjb250cmFjdHMvUm95YWx0eS5hbGdvLnRzOjEwMgoJLy8gc2VuZEFzc2V0VHJhbnNmZXIoewoJLy8gICAgICAgYXNzZXRSZWNlaXZlcjogdGhpcy5jdXJyZW50T3duZXIudmFsdWUsCgkvLyAgICAgICB4ZmVyQXNzZXQ6IHRoaXMubmZ0QXNzZXRJRC52YWx1ZSwKCS8vICAgICAgIGFzc2V0QW1vdW50OiAxLAoJLy8gICAgIH0pCglpdHhuX2JlZ2luCglpbnRjIDIgLy8gIGF4ZmVyCglpdHhuX2ZpZWxkIFR5cGVFbnVtCgoJLy8gY29udHJhY3RzL1JveWFsdHkuYWxnby50czoxMDMKCS8vIGFzc2V0UmVjZWl2ZXI6IHRoaXMuY3VycmVudE93bmVyLnZhbHVlCglieXRlYyAxIC8vICAiY3VycmVudE93bmVyIgoJYXBwX2dsb2JhbF9nZXQKCWl0eG5fZmllbGQgQXNzZXRSZWNlaXZlcgoKCS8vIGNvbnRyYWN0cy9Sb3lhbHR5LmFsZ28udHM6MTA0CgkvLyB4ZmVyQXNzZXQ6IHRoaXMubmZ0QXNzZXRJRC52YWx1ZQoJYnl0ZWMgMCAvLyAgIm5mdEFzc2V0SUQiCglhcHBfZ2xvYmFsX2dldAoJaXR4bl9maWVsZCBYZmVyQXNzZXQKCgkvLyBjb250cmFjdHMvUm95YWx0eS5hbGdvLnRzOjEwNQoJLy8gYXNzZXRBbW91bnQ6IDEKCWludGMgMCAvLyAxCglpdHhuX2ZpZWxkIEFzc2V0QW1vdW50CgoJLy8gRmVlIGZpZWxkIG5vdCBzZXQsIGRlZmF1bHRpbmcgdG8gMAoJaW50YyAxIC8vIDAKCWl0eG5fZmllbGQgRmVlCgoJLy8gU3VibWl0IGlubmVyIHRyYW5zYWN0aW9uCglpdHhuX3N1Ym1pdAoJcmV0c3ViCgoqY3JlYXRlX05vT3A6CglwdXNoYnl0ZXMgMHgyOTg1ZWFiYyAvLyBtZXRob2QgImNyZWF0ZUFwcGxpY2F0aW9uKGFkZHJlc3MsdWludDY0LHVpbnQ2NCx1aW50NjQsdWludDY0KXZvaWQiCgl0eG5hIEFwcGxpY2F0aW9uQXJncyAwCgltYXRjaCAqYWJpX3JvdXRlX2NyZWF0ZUFwcGxpY2F0aW9uCgoJLy8gdGhpcyBjb250cmFjdCBkb2VzIG5vdCBpbXBsZW1lbnQgdGhlIGdpdmVuIEFCSSBtZXRob2QgZm9yIGNyZWF0ZSBOb09wCgllcnIKCipjYWxsX05vT3A6CglwdXNoYnl0ZXMgMHgxOGNhODFmNSAvLyBtZXRob2QgIm9wdEludG9ORlQodWludDY0KXZvaWQiCglwdXNoYnl0ZXMgMHhiMDM4MGU3YSAvLyBtZXRob2QgImJ1eUxpY2Vuc2UocGF5LHN0cmluZyl2b2lkIgoJcHVzaGJ5dGVzIDB4ZTE3YmFmYjQgLy8gbWV0aG9kICJ0cmFuc2Zlck93bmVyc2hpcChhZGRyZXNzKXZvaWQiCglwdXNoYnl0ZXMgMHgzMTRiNjNhZSAvLyBtZXRob2QgInBheVJveWFsdHkoYWRkcmVzcyx1aW50NjQpdm9pZCIKCXB1c2hieXRlcyAweGIyYzJiNTRjIC8vIG1ldGhvZCAiY2FuY2VsTGlzdGluZygpdm9pZCIKCXR4bmEgQXBwbGljYXRpb25BcmdzIDAKCW1hdGNoICphYmlfcm91dGVfb3B0SW50b05GVCAqYWJpX3JvdXRlX2J1eUxpY2Vuc2UgKmFiaV9yb3V0ZV90cmFuc2Zlck93bmVyc2hpcCAqYWJpX3JvdXRlX3BheVJveWFsdHkgKmFiaV9yb3V0ZV9jYW5jZWxMaXN0aW5nCgoJLy8gdGhpcyBjb250cmFjdCBkb2VzIG5vdCBpbXBsZW1lbnQgdGhlIGdpdmVuIEFCSSBtZXRob2QgZm9yIGNhbGwgTm9PcAoJZXJy",
+    "clear": "I3ByYWdtYSB2ZXJzaW9uIDEw"
+  },
+  "byteCode": {
+    "approval": "CiAEAQAEICYJCm5mdEFzc2V0SUQMY3VycmVudE93bmVyB2NyZWF0b3IPcHJpY2VDb21tZXJjaWFsDnByaWNlRXhjbHVzaXZlDnJveWFsdHlQZXJjZW50DXByaWNlUGVyc29uYWwJZXhjbHVzaXZlADEYFIEGCzEZCI0MAa4AAAAAAAAAAAAAAaAAAAAAAAAAAAAAADYaBRc2GgQXNhoDFzYaAhc2GgFJFSUSRIgAAiJDigUAJwaL/mcri/1nJwSL/GcnBYv7ZyqL/2cpi/9nKCNniTYaAReIAAIiQ4oBAChkIxJEKIv/Z7EkshAyCrIUi/+yESOyEiOyAbOJNhoBVwIAMRYiCUk4ECISRIgAAiJDigIAJwiL/zgHMgoSRIv+gAhwZXJzb25hbBJBAAgnBmSMAEIAK4v+gApjb21tZXJjaWFsEkEABytkjABCABKL/icHEkEACCcEZIwAQgACI0SL/zgIgA5leHBlY3RlZEFtb3VudGQPRIAMYnV5ZXJMaWNlbnNli/5JFRZXBgJMUGeL/icHEkEACov/OACIABpCAAmL/zgIKmSIADqJNhoBSRUlEkSIAAIiQ4oBALEkshCL/7IUKGSyESKyEiOyAbMpi/9niTYaAhc2GgFJFSUSRIgAAiJDigIAJwiL/icFZAuBZAqMALEishCL/7IHiwCyCCOyAbOJiAACIkOKAAAxACpkEklAAAYxAClkEhFEsSSyEClkshQoZLIRIrISI7IBs4mABCmF6rw2GgCOAf5UAIAEGMqB9YAEsDgOeoAE4XuvtIAEMUtjroAEssK1TDYaAI4F/mX+jv8//2f/mQA=",
+    "clear": "Cg=="
+  },
+  "compilerInfo": {
+    "compiler": "algod",
+    "compilerVersion": {
+      "major": 4,
+      "minor": 0,
+      "patch": 3,
+      "commitHash": "f3be4a3b"
+    }
+  }
+}
