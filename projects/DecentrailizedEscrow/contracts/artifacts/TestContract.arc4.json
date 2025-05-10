@@ -1,0 +1,25 @@
+{
+  "name": "TestContract",
+  "desc": "",
+  "methods": [
+    {
+      "name": "createApplication",
+      "args": [],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "sadMethod",
+      "args": [
+        {
+          "name": "sad",
+          "type": "string"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    }
+  ]
+}
