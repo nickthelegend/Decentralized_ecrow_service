@@ -1,0 +1,506 @@
+{
+  "name": "BlinkContract",
+  "desc": "",
+  "methods": [
+    {
+      "name": "createApplication",
+      "args": [],
+      "returns": {
+        "type": "void"
+      },
+      "actions": {
+        "create": [
+          "NoOp"
+        ],
+        "call": []
+      }
+    },
+    {
+      "name": "turnOn",
+      "args": [],
+      "returns": {
+        "type": "void"
+      },
+      "actions": {
+        "create": [],
+        "call": [
+          "NoOp"
+        ]
+      }
+    },
+    {
+      "name": "turnOff",
+      "args": [],
+      "returns": {
+        "type": "void"
+      },
+      "actions": {
+        "create": [],
+        "call": [
+          "NoOp"
+        ]
+      }
+    }
+  ],
+  "arcs": [
+    4,
+    56
+  ],
+  "structs": {},
+  "state": {
+    "schema": {
+      "global": {
+        "bytes": 1,
+        "ints": 0
+      },
+      "local": {
+        "bytes": 0,
+        "ints": 0
+      }
+    },
+    "keys": {
+      "global": {
+        "led": {
+          "key": "bGVk",
+          "keyType": "AVMBytes",
+          "valueType": "string"
+        }
+      },
+      "local": {},
+      "box": {}
+    },
+    "maps": {
+      "global": {},
+      "local": {},
+      "box": {}
+    }
+  },
+  "bareActions": {
+    "create": [],
+    "call": []
+  },
+  "sourceInfo": {
+    "approval": {
+      "sourceInfo": [
+        {
+          "teal": 1,
+          "source": "contracts/Blink.algo.ts:4",
+          "pc": [
+            0
+          ]
+        },
+        {
+          "teal": 2,
+          "source": "contracts/Blink.algo.ts:4",
+          "pc": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "teal": 3,
+          "source": "contracts/Blink.algo.ts:4",
+          "pc": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        },
+        {
+          "teal": 15,
+          "source": "contracts/Blink.algo.ts:4",
+          "pc": [
+            16,
+            17
+          ]
+        },
+        {
+          "teal": 16,
+          "source": "contracts/Blink.algo.ts:4",
+          "pc": [
+            18
+          ]
+        },
+        {
+          "teal": 17,
+          "source": "contracts/Blink.algo.ts:4",
+          "pc": [
+            19,
+            20
+          ]
+        },
+        {
+          "teal": 18,
+          "source": "contracts/Blink.algo.ts:4",
+          "pc": [
+            21
+          ]
+        },
+        {
+          "teal": 19,
+          "source": "contracts/Blink.algo.ts:4",
+          "pc": [
+            22,
+            23
+          ]
+        },
+        {
+          "teal": 20,
+          "source": "contracts/Blink.algo.ts:4",
+          "pc": [
+            24
+          ]
+        },
+        {
+          "teal": 21,
+          "source": "contracts/Blink.algo.ts:4",
+          "pc": [
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50
+          ]
+        },
+        {
+          "teal": 25,
+          "source": "contracts/Blink.algo.ts:4",
+          "errorMessage": "The requested action is not implemented in this contract. Are you using the correct OnComplete? Did you set your app ID?",
+          "pc": [
+            51
+          ]
+        },
+        {
+          "teal": 30,
+          "source": "contracts/Blink.algo.ts:7",
+          "pc": [
+            52,
+            53,
+            54
+          ]
+        },
+        {
+          "teal": 31,
+          "source": "contracts/Blink.algo.ts:7",
+          "pc": [
+            55
+          ]
+        },
+        {
+          "teal": 32,
+          "source": "contracts/Blink.algo.ts:7",
+          "pc": [
+            56
+          ]
+        },
+        {
+          "teal": 36,
+          "source": "contracts/Blink.algo.ts:7",
+          "pc": [
+            57,
+            58,
+            59
+          ]
+        },
+        {
+          "teal": 40,
+          "source": "contracts/Blink.algo.ts:11",
+          "pc": [
+            60
+          ]
+        },
+        {
+          "teal": 41,
+          "source": "contracts/Blink.algo.ts:11",
+          "pc": [
+            61
+          ]
+        },
+        {
+          "teal": 42,
+          "source": "contracts/Blink.algo.ts:11",
+          "pc": [
+            62
+          ]
+        },
+        {
+          "teal": 43,
+          "source": "contracts/Blink.algo.ts:7",
+          "pc": [
+            63
+          ]
+        },
+        {
+          "teal": 48,
+          "source": "contracts/Blink.algo.ts:17",
+          "pc": [
+            64,
+            65,
+            66
+          ]
+        },
+        {
+          "teal": 49,
+          "source": "contracts/Blink.algo.ts:17",
+          "pc": [
+            67
+          ]
+        },
+        {
+          "teal": 50,
+          "source": "contracts/Blink.algo.ts:17",
+          "pc": [
+            68
+          ]
+        },
+        {
+          "teal": 54,
+          "source": "contracts/Blink.algo.ts:17",
+          "pc": [
+            69,
+            70,
+            71
+          ]
+        },
+        {
+          "teal": 58,
+          "source": "contracts/Blink.algo.ts:19",
+          "pc": [
+            72
+          ]
+        },
+        {
+          "teal": 59,
+          "source": "contracts/Blink.algo.ts:19",
+          "pc": [
+            73,
+            74,
+            75,
+            76,
+            77,
+            78
+          ]
+        },
+        {
+          "teal": 60,
+          "source": "contracts/Blink.algo.ts:19",
+          "pc": [
+            79
+          ]
+        },
+        {
+          "teal": 61,
+          "source": "contracts/Blink.algo.ts:17",
+          "pc": [
+            80
+          ]
+        },
+        {
+          "teal": 66,
+          "source": "contracts/Blink.algo.ts:23",
+          "pc": [
+            81,
+            82,
+            83
+          ]
+        },
+        {
+          "teal": 67,
+          "source": "contracts/Blink.algo.ts:23",
+          "pc": [
+            84
+          ]
+        },
+        {
+          "teal": 68,
+          "source": "contracts/Blink.algo.ts:23",
+          "pc": [
+            85
+          ]
+        },
+        {
+          "teal": 72,
+          "source": "contracts/Blink.algo.ts:23",
+          "pc": [
+            86,
+            87,
+            88
+          ]
+        },
+        {
+          "teal": 76,
+          "source": "contracts/Blink.algo.ts:25",
+          "pc": [
+            89
+          ]
+        },
+        {
+          "teal": 77,
+          "source": "contracts/Blink.algo.ts:25",
+          "pc": [
+            90
+          ]
+        },
+        {
+          "teal": 78,
+          "source": "contracts/Blink.algo.ts:25",
+          "pc": [
+            91
+          ]
+        },
+        {
+          "teal": 79,
+          "source": "contracts/Blink.algo.ts:23",
+          "pc": [
+            92
+          ]
+        },
+        {
+          "teal": 82,
+          "source": "contracts/Blink.algo.ts:4",
+          "pc": [
+            93,
+            94,
+            95,
+            96,
+            97,
+            98
+          ]
+        },
+        {
+          "teal": 83,
+          "source": "contracts/Blink.algo.ts:4",
+          "pc": [
+            99,
+            100,
+            101
+          ]
+        },
+        {
+          "teal": 84,
+          "source": "contracts/Blink.algo.ts:4",
+          "pc": [
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        {
+          "teal": 87,
+          "source": "contracts/Blink.algo.ts:4",
+          "errorMessage": "this contract does not implement the given ABI method for create NoOp",
+          "pc": [
+            106
+          ]
+        },
+        {
+          "teal": 90,
+          "source": "contracts/Blink.algo.ts:4",
+          "pc": [
+            107,
+            108,
+            109,
+            110,
+            111,
+            112
+          ]
+        },
+        {
+          "teal": 91,
+          "source": "contracts/Blink.algo.ts:4",
+          "pc": [
+            113,
+            114,
+            115,
+            116,
+            117,
+            118
+          ]
+        },
+        {
+          "teal": 92,
+          "source": "contracts/Blink.algo.ts:4",
+          "pc": [
+            119,
+            120,
+            121
+          ]
+        },
+        {
+          "teal": 93,
+          "source": "contracts/Blink.algo.ts:4",
+          "pc": [
+            122,
+            123,
+            124,
+            125,
+            126,
+            127
+          ]
+        },
+        {
+          "teal": 96,
+          "source": "contracts/Blink.algo.ts:4",
+          "errorMessage": "this contract does not implement the given ABI method for call NoOp",
+          "pc": [
+            128
+          ]
+        }
+      ],
+      "pcOffsetMethod": "none"
+    },
+    "clear": {
+      "sourceInfo": [],
+      "pcOffsetMethod": "none"
+    }
+  },
+  "source": {
+    "approval": "I3ByYWdtYSB2ZXJzaW9uIDEwCmludGNibG9jayAxCmJ5dGVjYmxvY2sgMHg2YzY1NjQgMHgwMDAzNGY2NjY2CgovLyBUaGlzIFRFQUwgd2FzIGdlbmVyYXRlZCBieSBURUFMU2NyaXB0IHYwLjEwNS40Ci8vIGh0dHBzOi8vZ2l0aHViLmNvbS9hbGdvcmFuZGZvdW5kYXRpb24vVEVBTFNjcmlwdAoKLy8gVGhpcyBjb250cmFjdCBpcyBjb21wbGlhbnQgd2l0aCBhbmQvb3IgaW1wbGVtZW50cyB0aGUgZm9sbG93aW5nIEFSQ3M6IFsgQVJDNCBdCgovLyBUaGUgZm9sbG93aW5nIHRlbiBsaW5lcyBvZiBURUFMIGhhbmRsZSBpbml0aWFsIHByb2dyYW0gZmxvdwovLyBUaGlzIHBhdHRlcm4gaXMgdXNlZCB0byBtYWtlIGl0IGVhc3kgZm9yIGFueW9uZSB0byBwYXJzZSB0aGUgc3RhcnQgb2YgdGhlIHByb2dyYW0gYW5kIGRldGVybWluZSBpZiBhIHNwZWNpZmljIGFjdGlvbiBpcyBhbGxvd2VkCi8vIEhlcmUsIGFjdGlvbiByZWZlcnMgdG8gdGhlIE9uQ29tcGxldGUgaW4gY29tYmluYXRpb24gd2l0aCB3aGV0aGVyIHRoZSBhcHAgaXMgYmVpbmcgY3JlYXRlZCBvciBjYWxsZWQKLy8gRXZlcnkgcG9zc2libGUgYWN0aW9uIGZvciB0aGlzIGNvbnRyYWN0IGlzIHJlcHJlc2VudGVkIGluIHRoZSBzd2l0Y2ggc3RhdGVtZW50Ci8vIElmIHRoZSBhY3Rpb24gaXMgbm90IGltcGxlbWVudGVkIGluIHRoZSBjb250cmFjdCwgaXRzIHJlc3BlY3RpdmUgYnJhbmNoIHdpbGwgYmUgIipOT1RfSU1QTEVNRU5URUQiIHdoaWNoIGp1c3QgY29udGFpbnMgImVyciIKdHhuIEFwcGxpY2F0aW9uSUQKIQpwdXNoaW50IDYKKgp0eG4gT25Db21wbGV0aW9uCisKc3dpdGNoICpjYWxsX05vT3AgKk5PVF9JTVBMRU1FTlRFRCAqTk9UX0lNUExFTUVOVEVEICpOT1RfSU1QTEVNRU5URUQgKk5PVF9JTVBMRU1FTlRFRCAqTk9UX0lNUExFTUVOVEVEICpjcmVhdGVfTm9PcCAqTk9UX0lNUExFTUVOVEVEICpOT1RfSU1QTEVNRU5URUQgKk5PVF9JTVBMRU1FTlRFRCAqTk9UX0lNUExFTUVOVEVEICpOT1RfSU1QTEVNRU5URUQKCipOT1RfSU1QTEVNRU5URUQ6CgkvLyBUaGUgcmVxdWVzdGVkIGFjdGlvbiBpcyBub3QgaW1wbGVtZW50ZWQgaW4gdGhpcyBjb250cmFjdC4gQXJlIHlvdSB1c2luZyB0aGUgY29ycmVjdCBPbkNvbXBsZXRlPyBEaWQgeW91IHNldCB5b3VyIGFwcCBJRD8KCWVycgoKLy8gY3JlYXRlQXBwbGljYXRpb24oKXZvaWQKKmFiaV9yb3V0ZV9jcmVhdGVBcHBsaWNhdGlvbjoKCS8vIGV4ZWN1dGUgY3JlYXRlQXBwbGljYXRpb24oKXZvaWQKCWNhbGxzdWIgY3JlYXRlQXBwbGljYXRpb24KCWludGMgMCAvLyAxCglyZXR1cm4KCi8vIGNyZWF0ZUFwcGxpY2F0aW9uKCk6IHZvaWQKY3JlYXRlQXBwbGljYXRpb246Cglwcm90byAwIDAKCgkvLyBjb250cmFjdHMvQmxpbmsuYWxnby50czoxMQoJLy8gdGhpcy5sZWQudmFsdWUgPSAiT2ZmIgoJYnl0ZWMgMCAvLyAgImxlZCIKCWJ5dGVjIDEgLy8gMHgwMDAzNGY2NjY2CglhcHBfZ2xvYmFsX3B1dAoJcmV0c3ViCgovLyB0dXJuT24oKXZvaWQKKmFiaV9yb3V0ZV90dXJuT246CgkvLyBleGVjdXRlIHR1cm5Pbigpdm9pZAoJY2FsbHN1YiB0dXJuT24KCWludGMgMCAvLyAxCglyZXR1cm4KCi8vIHR1cm5PbigpOiB2b2lkCnR1cm5PbjoKCXByb3RvIDAgMAoKCS8vIGNvbnRyYWN0cy9CbGluay5hbGdvLnRzOjE5CgkvLyB0aGlzLmxlZC52YWx1ZSA9ICJPbiIKCWJ5dGVjIDAgLy8gICJsZWQiCglwdXNoYnl0ZXMgMHgwMDAyNGY2ZQoJYXBwX2dsb2JhbF9wdXQKCXJldHN1YgoKLy8gdHVybk9mZigpdm9pZAoqYWJpX3JvdXRlX3R1cm5PZmY6CgkvLyBleGVjdXRlIHR1cm5PZmYoKXZvaWQKCWNhbGxzdWIgdHVybk9mZgoJaW50YyAwIC8vIDEKCXJldHVybgoKLy8gdHVybk9mZigpOiB2b2lkCnR1cm5PZmY6Cglwcm90byAwIDAKCgkvLyBjb250cmFjdHMvQmxpbmsuYWxnby50czoyNQoJLy8gdGhpcy5sZWQudmFsdWUgPSAiT2ZmIgoJYnl0ZWMgMCAvLyAgImxlZCIKCWJ5dGVjIDEgLy8gMHgwMDAzNGY2NjY2CglhcHBfZ2xvYmFsX3B1dAoJcmV0c3ViCgoqY3JlYXRlX05vT3A6CglwdXNoYnl0ZXMgMHhiODQ0N2IzNiAvLyBtZXRob2QgImNyZWF0ZUFwcGxpY2F0aW9uKCl2b2lkIgoJdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMAoJbWF0Y2ggKmFiaV9yb3V0ZV9jcmVhdGVBcHBsaWNhdGlvbgoKCS8vIHRoaXMgY29udHJhY3QgZG9lcyBub3QgaW1wbGVtZW50IHRoZSBnaXZlbiBBQkkgbWV0aG9kIGZvciBjcmVhdGUgTm9PcAoJZXJyCgoqY2FsbF9Ob09wOgoJcHVzaGJ5dGVzIDB4ZDg2M2E4NTQgLy8gbWV0aG9kICJ0dXJuT24oKXZvaWQiCglwdXNoYnl0ZXMgMHhmMjlkOWJmMCAvLyBtZXRob2QgInR1cm5PZmYoKXZvaWQiCgl0eG5hIEFwcGxpY2F0aW9uQXJncyAwCgltYXRjaCAqYWJpX3JvdXRlX3R1cm5PbiAqYWJpX3JvdXRlX3R1cm5PZmYKCgkvLyB0aGlzIGNvbnRyYWN0IGRvZXMgbm90IGltcGxlbWVudCB0aGUgZ2l2ZW4gQUJJIG1ldGhvZCBmb3IgY2FsbCBOb09wCgllcnI=",
+    "clear": "I3ByYWdtYSB2ZXJzaW9uIDEw"
+  },
+  "byteCode": {
+    "approval": "CiABASYCA2xlZAUAA09mZjEYFIEGCzEZCI0MADgAAAAAAAAAAAAAACoAAAAAAAAAAAAAAIgAAiJDigAAKClniYgAAiJDigAAKIAEAAJPbmeJiAACIkOKAAAoKWeJgAS4RHs2NhoAjgH/ygCABNhjqFSABPKdm/A2GgCOAv/A/9EA",
+    "clear": "Cg=="
+  },
+  "compilerInfo": {
+    "compiler": "algod",
+    "compilerVersion": {
+      "major": 4,
+      "minor": 0,
+      "patch": 3,
+      "commitHash": "f3be4a3b"
+    }
+  }
+}

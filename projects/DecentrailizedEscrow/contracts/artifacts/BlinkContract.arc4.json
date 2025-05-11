@@ -1,0 +1,27 @@
+{
+  "name": "BlinkContract",
+  "desc": "",
+  "methods": [
+    {
+      "name": "createApplication",
+      "args": [],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "turnOn",
+      "args": [],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "turnOff",
+      "args": [],
+      "returns": {
+        "type": "void"
+      }
+    }
+  ]
+}
