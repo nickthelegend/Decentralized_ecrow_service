@@ -23,7 +23,7 @@
       }
     },
     {
-      "name": "createReward1",
+      "name": "createNFTReward",
       "args": [
         {
           "name": "assetUrl",
@@ -35,27 +35,10 @@
       }
     },
     {
-      "name": "createReward2",
-      "args": [
-        {
-          "name": "assetUrl",
-          "type": "string"
-        }
-      ],
+      "name": "optIntoAsset",
+      "args": [],
       "returns": {
-        "type": "uint64"
-      }
-    },
-    {
-      "name": "createReward3",
-      "args": [
-        {
-          "name": "assetUrl",
-          "type": "string"
-        }
-      ],
-      "returns": {
-        "type": "uint64"
+        "type": "void"
       }
     },
     {

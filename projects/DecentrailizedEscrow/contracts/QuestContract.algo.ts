@@ -11,8 +11,10 @@ export class QuestContract extends Contract {
     winner3= GlobalStateKey<Address>();
     expiryDate = GlobalStateKey<uint64>();
     reward1 =  GlobalStateKey<AssetID>();
-    reward2 =  GlobalStateKey<uint64>();
-    reward3 =  GlobalStateKey<uint64>();
+
+
+
+
     createApplication(
         questTitle: string,
         questLocation: string,
@@ -29,70 +31,82 @@ export class QuestContract extends Contract {
         // Log the creation event
       }
 
-      createReward1(assetUrl : string): uint64 {
+      createNFTReward(assetUrl : string): uint64 {
         const itxnResult = sendAssetCreation({
           configAssetTotal: 1,  // Use configAssetTotal instead of total
           configAssetDecimals: 0,      // Use configAssetDecimals instead of decimals
           configAssetUnitName: "NFT",  // Use configAssetUnitName instead of unitName
           configAssetName: this.questTitle.value, // Use configAssetName instead of assetName
-          configAssetURL : assetUrl
-        });
-        // log("Asset Created: " + itxnResult.id.toString());
-return itxnResult.id
-
-      }
-      createReward2(assetUrl : string): uint64 {
-        const itxnResult = sendAssetCreation({
-          configAssetTotal: 1,  // Use configAssetTotal instead of total
-          configAssetDecimals: 0,      // Use configAssetDecimals instead of decimals
-          configAssetUnitName: "NFT",  // Use configAssetUnitName instead of unitName
-          configAssetName: this.questTitle.value, // Use configAssetName instead of assetName
-          configAssetURL : assetUrl
+          configAssetURL : assetUrl,
+          fee: 3000,
+          
         });
         // log("Asset Created: " + itxnResult.id.toString());
 return itxnResult.id
 
       }
 
-      createReward3(assetUrl : string): uint64 {
-        const itxnResult = sendAssetCreation({
-          configAssetTotal: 1,  // Use configAssetTotal instead of total
-          configAssetDecimals: 0,      // Use configAssetDecimals instead of decimals
-          configAssetUnitName: "NFT",  // Use configAssetUnitName instead of unitName
-          configAssetName: this.questTitle.value, // Use configAssetName instead of assetName
-          configAssetURL : assetUrl
+      optIntoAsset(): void {
+        /// Only allow app creator to opt the app account into a ASA
+        verifyAppCallTxn(this.txn, { sender: globals.creatorAddress });
+    
+        
+    
+        /// Submit opt-in transaction: 0 asset transfer to self
+        sendAssetTransfer({
+          assetReceiver: this.app.address,
+          xferAsset: AssetID.fromUint64(734399300),
+          assetAmount: 0,
         });
-        // log("Asset Created: " + itxnResult.id.toString());
-return itxnResult.id
-
       }
+
+
+
+
 
 
 
       sendRewardWinner1(winner: Address): void {
-        
+                verifyAppCallTxn(this.txn, { sender: globals.creatorAddress });
+
         sendAssetTransfer({
           xferAsset: this.reward1.value, // Use the value directly, don't wrap it in AssetID()
           assetReceiver: winner,
           assetAmount: 1,
           fee: 0
         });
+
+
+        sendAssetTransfer({
+          xferAsset: AssetID.fromUint64(734399300), // Use the value directly, don't wrap it in AssetID()
+          assetReceiver: winner,
+          assetAmount: 100,
+          fee: 0
+        });
+
       }
+
+
+
+
       sendRewardWinner2(winner: Address): void {
         
         sendAssetTransfer({
-          xferAsset: this.reward1.value, // Use the value directly, don't wrap it in AssetID()
+          xferAsset: AssetID.fromUint64(734399300), // Use the value directly, don't wrap it in AssetID()
           assetReceiver: winner,
-          assetAmount: 1,
+          assetAmount: 50,
           fee: 0
         });
       }
+
+
+
       sendRewardWinner3(winner: Address): void {
         
         sendAssetTransfer({
-          xferAsset: this.reward1.value, // Use the value directly, don't wrap it in AssetID()
+          xferAsset: AssetID.fromUint64(734399300), // Use the value directly, don't wrap it in AssetID()
           assetReceiver: winner,
-          assetAmount: 1,
+          assetAmount: 25,
           fee: 0
         });
       }
