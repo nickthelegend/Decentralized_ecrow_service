@@ -1,0 +1,30 @@
+{
+  "name": "EventManager",
+  "desc": "",
+  "methods": [
+    {
+      "name": "createApplication",
+      "args": [
+        {
+          "name": "maintainerAddress",
+          "type": "address"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "createEvent",
+      "args": [
+        {
+          "name": "eventConfig",
+          "type": "(uint64,string,address,uint64,string,uint64,uint64,uint64,uint64)"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    }
+  ]
+}

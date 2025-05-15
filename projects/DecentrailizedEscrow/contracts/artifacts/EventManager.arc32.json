@@ -1,0 +1,88 @@
+{
+  "hints": {
+    "createApplication(address)void": {
+      "call_config": {
+        "no_op": "CREATE"
+      }
+    },
+    "createEvent((uint64,string,address,uint64,string,uint64,uint64,uint64,uint64))void": {
+      "call_config": {
+        "no_op": "CALL"
+      }
+    }
+  },
+  "bare_call_config": {
+    "no_op": "NEVER",
+    "opt_in": "NEVER",
+    "close_out": "NEVER",
+    "update_application": "NEVER",
+    "delete_application": "NEVER"
+  },
+  "schema": {
+    "local": {
+      "declared": {},
+      "reserved": {}
+    },
+    "global": {
+      "declared": {
+        "maintainerAddress": {
+          "type": "bytes",
+          "key": "maintainerAddress"
+        },
+        "totalEvents": {
+          "type": "uint64",
+          "key": "totalEvents"
+        },
+        "lastEventID": {
+          "type": "uint64",
+          "key": "lastEventID"
+        }
+      },
+      "reserved": {}
+    }
+  },
+  "state": {
+    "global": {
+      "num_byte_slices": 1,
+      "num_uints": 2
+    },
+    "local": {
+      "num_byte_slices": 0,
+      "num_uints": 0
+    }
+  },
+  "source": {
+    "approval": "I3ByYWdtYSB2ZXJzaW9uIDEwCmludGNibG9jayAxIDAKYnl0ZWNibG9jayAweDZjNjE3Mzc0NDU3NjY1NmU3NDQ5NDQKCi8vIFRoaXMgVEVBTCB3YXMgZ2VuZXJhdGVkIGJ5IFRFQUxTY3JpcHQgdjAuMTA2LjMKLy8gaHR0cHM6Ly9naXRodWIuY29tL2FsZ29yYW5kZm91bmRhdGlvbi9URUFMU2NyaXB0CgovLyBUaGlzIGNvbnRyYWN0IGlzIGNvbXBsaWFudCB3aXRoIGFuZC9vciBpbXBsZW1lbnRzIHRoZSBmb2xsb3dpbmcgQVJDczogWyBBUkM0IF0KCi8vIFRoZSBmb2xsb3dpbmcgdGVuIGxpbmVzIG9mIFRFQUwgaGFuZGxlIGluaXRpYWwgcHJvZ3JhbSBmbG93Ci8vIFRoaXMgcGF0dGVybiBpcyB1c2VkIHRvIG1ha2UgaXQgZWFzeSBmb3IgYW55b25lIHRvIHBhcnNlIHRoZSBzdGFydCBvZiB0aGUgcHJvZ3JhbSBhbmQgZGV0ZXJtaW5lIGlmIGEgc3BlY2lmaWMgYWN0aW9uIGlzIGFsbG93ZWQKLy8gSGVyZSwgYWN0aW9uIHJlZmVycyB0byB0aGUgT25Db21wbGV0ZSBpbiBjb21iaW5hdGlvbiB3aXRoIHdoZXRoZXIgdGhlIGFwcCBpcyBiZWluZyBjcmVhdGVkIG9yIGNhbGxlZAovLyBFdmVyeSBwb3NzaWJsZSBhY3Rpb24gZm9yIHRoaXMgY29udHJhY3QgaXMgcmVwcmVzZW50ZWQgaW4gdGhlIHN3aXRjaCBzdGF0ZW1lbnQKLy8gSWYgdGhlIGFjdGlvbiBpcyBub3QgaW1wbGVtZW50ZWQgaW4gdGhlIGNvbnRyYWN0LCBpdHMgcmVzcGVjdGl2ZSBicmFuY2ggd2lsbCBiZSAiKk5PVF9JTVBMRU1FTlRFRCIgd2hpY2gganVzdCBjb250YWlucyAiZXJyIgp0eG4gQXBwbGljYXRpb25JRAohCnB1c2hpbnQgNgoqCnR4biBPbkNvbXBsZXRpb24KKwpzd2l0Y2ggKmNhbGxfTm9PcCAqTk9UX0lNUExFTUVOVEVEICpOT1RfSU1QTEVNRU5URUQgKk5PVF9JTVBMRU1FTlRFRCAqTk9UX0lNUExFTUVOVEVEICpOT1RfSU1QTEVNRU5URUQgKmNyZWF0ZV9Ob09wICpOT1RfSU1QTEVNRU5URUQgKk5PVF9JTVBMRU1FTlRFRCAqTk9UX0lNUExFTUVOVEVEICpOT1RfSU1QTEVNRU5URUQgKk5PVF9JTVBMRU1FTlRFRAoKKk5PVF9JTVBMRU1FTlRFRDoKCS8vIFRoZSByZXF1ZXN0ZWQgYWN0aW9uIGlzIG5vdCBpbXBsZW1lbnRlZCBpbiB0aGlzIGNvbnRyYWN0LiBBcmUgeW91IHVzaW5nIHRoZSBjb3JyZWN0IE9uQ29tcGxldGU/IERpZCB5b3Ugc2V0IHlvdXIgYXBwIElEPwoJZXJyCgovLyBjcmVhdGVBcHBsaWNhdGlvbihhZGRyZXNzKXZvaWQKKmFiaV9yb3V0ZV9jcmVhdGVBcHBsaWNhdGlvbjoKCS8vIG1haW50YWluZXJBZGRyZXNzOiBhZGRyZXNzCgl0eG5hIEFwcGxpY2F0aW9uQXJncyAxCglkdXAKCWxlbgoJcHVzaGludCAzMgoJPT0KCgkvLyBhcmd1bWVudCAwIChtYWludGFpbmVyQWRkcmVzcykgZm9yIGNyZWF0ZUFwcGxpY2F0aW9uIG11c3QgYmUgYSBhZGRyZXNzCglhc3NlcnQKCgkvLyBleGVjdXRlIGNyZWF0ZUFwcGxpY2F0aW9uKGFkZHJlc3Mpdm9pZAoJY2FsbHN1YiBjcmVhdGVBcHBsaWNhdGlvbgoJaW50YyAwIC8vIDEKCXJldHVybgoKLy8gY3JlYXRlQXBwbGljYXRpb24obWFpbnRhaW5lckFkZHJlc3M6IEFkZHJlc3MpOiB2b2lkCmNyZWF0ZUFwcGxpY2F0aW9uOgoJcHJvdG8gMSAwCgoJLy8gY29udHJhY3RzXEV2ZW50TWFuYWdlci5hbGdvLnRzOjI5CgkvLyB0aGlzLnRvdGFsRXZlbnRzLnZhbHVlID0gMAoJcHVzaGJ5dGVzIDB4NzQ2Zjc0NjE2YzQ1NzY2NTZlNzQ3MyAvLyAidG90YWxFdmVudHMiCglpbnRjIDEgLy8gMAoJYXBwX2dsb2JhbF9wdXQKCgkvLyBjb250cmFjdHNcRXZlbnRNYW5hZ2VyLmFsZ28udHM6MzAKCS8vIHRoaXMubWFpbnRhaW5lckFkZHJlc3MudmFsdWUgPSBtYWludGFpbmVyQWRkcmVzcwoJcHVzaGJ5dGVzIDB4NmQ2MTY5NmU3NDYxNjk2ZTY1NzI0MTY0NjQ3MjY1NzM3MyAvLyAibWFpbnRhaW5lckFkZHJlc3MiCglmcmFtZV9kaWcgLTEgLy8gbWFpbnRhaW5lckFkZHJlc3M6IEFkZHJlc3MKCWFwcF9nbG9iYWxfcHV0CgoJLy8gY29udHJhY3RzXEV2ZW50TWFuYWdlci5hbGdvLnRzOjMxCgkvLyB0aGlzLmxhc3RFdmVudElELnZhbHVlID0gMAoJYnl0ZWMgMCAvLyAgImxhc3RFdmVudElEIgoJaW50YyAxIC8vIDAKCWFwcF9nbG9iYWxfcHV0CglyZXRzdWIKCi8vIGNyZWF0ZUV2ZW50KCh1aW50NjQsc3RyaW5nLGFkZHJlc3MsdWludDY0LHN0cmluZyx1aW50NjQsdWludDY0LHVpbnQ2NCx1aW50NjQpKXZvaWQKKmFiaV9yb3V0ZV9jcmVhdGVFdmVudDoKCS8vIGV2ZW50Q29uZmlnOiAodWludDY0LHN0cmluZyxhZGRyZXNzLHVpbnQ2NCxzdHJpbmcsdWludDY0LHVpbnQ2NCx1aW50NjQsdWludDY0KQoJdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMQoKCS8vIGV4ZWN1dGUgY3JlYXRlRXZlbnQoKHVpbnQ2NCxzdHJpbmcsYWRkcmVzcyx1aW50NjQsc3RyaW5nLHVpbnQ2NCx1aW50NjQsdWludDY0LHVpbnQ2NCkpdm9pZAoJY2FsbHN1YiBjcmVhdGVFdmVudAoJaW50YyAwIC8vIDEKCXJldHVybgoKLy8gY3JlYXRlRXZlbnQoZXZlbnRDb25maWc6IEV2ZW50Q29uZmlnKTogdm9pZApjcmVhdGVFdmVudDoKCXByb3RvIDEgMAoKCS8vIGNvbnRyYWN0c1xFdmVudE1hbmFnZXIuYWxnby50czozNgoJLy8gdGhpcy5sYXN0RXZlbnRJRC52YWx1ZSArPSAxCglieXRlYyAwIC8vICAibGFzdEV2ZW50SUQiCglhcHBfZ2xvYmFsX2dldAoJaW50YyAwIC8vIDEKCSsKCWJ5dGVjIDAgLy8gICJsYXN0RXZlbnRJRCIKCXN3YXAKCWFwcF9nbG9iYWxfcHV0CgoJLy8gY29udHJhY3RzXEV2ZW50TWFuYWdlci5hbGdvLnRzOjM4CgkvLyB0aGlzLmFsbEV2ZW50cyh0aGlzLmxhc3RFdmVudElELnZhbHVlKS52YWx1ZSA9IGV2ZW50Q29uZmlnCglwdXNoYnl0ZXMgMHg2NSAvLyAiZSIKCWJ5dGVjIDAgLy8gICJsYXN0RXZlbnRJRCIKCWFwcF9nbG9iYWxfZ2V0CglpdG9iCgljb25jYXQKCWR1cAoJYm94X2RlbAoJcG9wCglmcmFtZV9kaWcgLTEgLy8gZXZlbnRDb25maWc6IEV2ZW50Q29uZmlnCglib3hfcHV0CglyZXRzdWIKCipjcmVhdGVfTm9PcDoKCXB1c2hieXRlcyAweGQzMjRiZWE0IC8vIG1ldGhvZCAiY3JlYXRlQXBwbGljYXRpb24oYWRkcmVzcyl2b2lkIgoJdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMAoJbWF0Y2ggKmFiaV9yb3V0ZV9jcmVhdGVBcHBsaWNhdGlvbgoKCS8vIHRoaXMgY29udHJhY3QgZG9lcyBub3QgaW1wbGVtZW50IHRoZSBnaXZlbiBBQkkgbWV0aG9kIGZvciBjcmVhdGUgTm9PcAoJZXJyCgoqY2FsbF9Ob09wOgoJcHVzaGJ5dGVzIDB4OTYwNWQ3NGMgLy8gbWV0aG9kICJjcmVhdGVFdmVudCgodWludDY0LHN0cmluZyxhZGRyZXNzLHVpbnQ2NCxzdHJpbmcsdWludDY0LHVpbnQ2NCx1aW50NjQsdWludDY0KSl2b2lkIgoJdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMAoJbWF0Y2ggKmFiaV9yb3V0ZV9jcmVhdGVFdmVudAoKCS8vIHRoaXMgY29udHJhY3QgZG9lcyBub3QgaW1wbGVtZW50IHRoZSBnaXZlbiBBQkkgbWV0aG9kIGZvciBjYWxsIE5vT3AKCWVycg==",
+    "clear": "I3ByYWdtYSB2ZXJzaW9uIDEw"
+  },
+  "contract": {
+    "name": "EventManager",
+    "desc": "",
+    "methods": [
+      {
+        "name": "createApplication",
+        "args": [
+          {
+            "name": "maintainerAddress",
+            "type": "address"
+          }
+        ],
+        "returns": {
+          "type": "void"
+        }
+      },
+      {
+        "name": "createEvent",
+        "args": [
+          {
+            "name": "eventConfig",
+            "type": "(uint64,string,address,uint64,string,uint64,uint64,uint64,uint64)"
+          }
+        ],
+        "returns": {
+          "type": "void"
+        }
+      }
+    ]
+  }
+}
