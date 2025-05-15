@@ -118,7 +118,8 @@ createNFTReward:
 	//           configAssetUnitName: "NFT",  // Use configAssetUnitName instead of unitName
 	//           configAssetName: this.questTitle.value, // Use configAssetName instead of assetName
 	//           configAssetURL : assetUrl,
-	//           fee: 3000
+	//           fee: 3000,
+	//
 	//         })
 	itxn_begin
 	pushint 3 // acfg
@@ -161,7 +162,7 @@ createNFTReward:
 	itxn CreatedAssetID
 	frame_bury 0 // itxnResult: uint64
 
-	// contracts/QuestContract.algo.ts:44
+	// contracts/QuestContract.algo.ts:45
 	// return itxnResult.id
 	frame_dig 0 // itxnResult: uint64
 
@@ -181,7 +182,7 @@ optIntoAsset:
 	proto 0 0
 
 	// Only allow app creator to opt the app account into a ASA
-	// contracts/QuestContract.algo.ts:50
+	// contracts/QuestContract.algo.ts:51
 	// verifyAppCallTxn(this.txn, { sender: globals.creatorAddress })
 	// verify sender
 	txn Sender
@@ -192,7 +193,7 @@ optIntoAsset:
 	assert
 
 	// Submit opt-in transaction: 0 asset transfer to self
-	// contracts/QuestContract.algo.ts:55
+	// contracts/QuestContract.algo.ts:56
 	// sendAssetTransfer({
 	//           assetReceiver: this.app.address,
 	//           xferAsset: AssetID.fromUint64(734399300),
@@ -202,17 +203,17 @@ optIntoAsset:
 	intc 2 //  axfer
 	itxn_field TypeEnum
 
-	// contracts/QuestContract.algo.ts:56
+	// contracts/QuestContract.algo.ts:57
 	// assetReceiver: this.app.address
 	global CurrentApplicationAddress
 	itxn_field AssetReceiver
 
-	// contracts/QuestContract.algo.ts:57
+	// contracts/QuestContract.algo.ts:58
 	// xferAsset: AssetID.fromUint64(734399300)
 	intc 3 // 734399300
 	itxn_field XferAsset
 
-	// contracts/QuestContract.algo.ts:58
+	// contracts/QuestContract.algo.ts:59
 	// assetAmount: 0
 	intc 0 // 0
 	itxn_field AssetAmount
@@ -246,7 +247,7 @@ optIntoAsset:
 sendRewardWinner1:
 	proto 1 0
 
-	// contracts/QuestContract.algo.ts:69
+	// contracts/QuestContract.algo.ts:70
 	// verifyAppCallTxn(this.txn, { sender: globals.creatorAddress })
 	// verify sender
 	txn Sender
@@ -256,7 +257,7 @@ sendRewardWinner1:
 	// transaction verification failed: {"txn":"this.txn","field":"sender","expected":"globals.creatorAddress"}
 	assert
 
-	// contracts/QuestContract.algo.ts:71
+	// contracts/QuestContract.algo.ts:72
 	// sendAssetTransfer({
 	//           xferAsset: this.reward1.value, // Use the value directly, don't wrap it in AssetID()
 	//           assetReceiver: winner,
@@ -267,23 +268,23 @@ sendRewardWinner1:
 	intc 2 //  axfer
 	itxn_field TypeEnum
 
-	// contracts/QuestContract.algo.ts:72
+	// contracts/QuestContract.algo.ts:73
 	// xferAsset: this.reward1.value
 	pushbytes 0x72657761726431 // "reward1"
 	app_global_get
 	itxn_field XferAsset
 
-	// contracts/QuestContract.algo.ts:73
+	// contracts/QuestContract.algo.ts:74
 	// assetReceiver: winner
 	frame_dig -1 // winner: Address
 	itxn_field AssetReceiver
 
-	// contracts/QuestContract.algo.ts:74
+	// contracts/QuestContract.algo.ts:75
 	// assetAmount: 1
 	intc 1 // 1
 	itxn_field AssetAmount
 
-	// contracts/QuestContract.algo.ts:75
+	// contracts/QuestContract.algo.ts:76
 	// fee: 0
 	intc 0 // 0
 	itxn_field Fee
@@ -291,7 +292,7 @@ sendRewardWinner1:
 	// Submit inner transaction
 	itxn_submit
 
-	// contracts/QuestContract.algo.ts:79
+	// contracts/QuestContract.algo.ts:80
 	// sendAssetTransfer({
 	//           xferAsset: AssetID.fromUint64(734399300), // Use the value directly, don't wrap it in AssetID()
 	//           assetReceiver: winner,
@@ -302,22 +303,22 @@ sendRewardWinner1:
 	intc 2 //  axfer
 	itxn_field TypeEnum
 
-	// contracts/QuestContract.algo.ts:80
+	// contracts/QuestContract.algo.ts:81
 	// xferAsset: AssetID.fromUint64(734399300)
 	intc 3 // 734399300
 	itxn_field XferAsset
 
-	// contracts/QuestContract.algo.ts:81
+	// contracts/QuestContract.algo.ts:82
 	// assetReceiver: winner
 	frame_dig -1 // winner: Address
 	itxn_field AssetReceiver
 
-	// contracts/QuestContract.algo.ts:82
+	// contracts/QuestContract.algo.ts:83
 	// assetAmount: 100
 	pushint 100
 	itxn_field AssetAmount
 
-	// contracts/QuestContract.algo.ts:83
+	// contracts/QuestContract.algo.ts:84
 	// fee: 0
 	intc 0 // 0
 	itxn_field Fee
@@ -347,7 +348,7 @@ sendRewardWinner1:
 sendRewardWinner2:
 	proto 1 0
 
-	// contracts/QuestContract.algo.ts:93
+	// contracts/QuestContract.algo.ts:94
 	// sendAssetTransfer({
 	//           xferAsset: AssetID.fromUint64(734399300), // Use the value directly, don't wrap it in AssetID()
 	//           assetReceiver: winner,
@@ -358,22 +359,22 @@ sendRewardWinner2:
 	intc 2 //  axfer
 	itxn_field TypeEnum
 
-	// contracts/QuestContract.algo.ts:94
+	// contracts/QuestContract.algo.ts:95
 	// xferAsset: AssetID.fromUint64(734399300)
 	intc 3 // 734399300
 	itxn_field XferAsset
 
-	// contracts/QuestContract.algo.ts:95
+	// contracts/QuestContract.algo.ts:96
 	// assetReceiver: winner
 	frame_dig -1 // winner: Address
 	itxn_field AssetReceiver
 
-	// contracts/QuestContract.algo.ts:96
+	// contracts/QuestContract.algo.ts:97
 	// assetAmount: 50
 	pushint 50
 	itxn_field AssetAmount
 
-	// contracts/QuestContract.algo.ts:97
+	// contracts/QuestContract.algo.ts:98
 	// fee: 0
 	intc 0 // 0
 	itxn_field Fee
@@ -403,7 +404,7 @@ sendRewardWinner2:
 sendRewardWinner3:
 	proto 1 0
 
-	// contracts/QuestContract.algo.ts:105
+	// contracts/QuestContract.algo.ts:106
 	// sendAssetTransfer({
 	//           xferAsset: AssetID.fromUint64(734399300), // Use the value directly, don't wrap it in AssetID()
 	//           assetReceiver: winner,
@@ -414,22 +415,22 @@ sendRewardWinner3:
 	intc 2 //  axfer
 	itxn_field TypeEnum
 
-	// contracts/QuestContract.algo.ts:106
+	// contracts/QuestContract.algo.ts:107
 	// xferAsset: AssetID.fromUint64(734399300)
 	intc 3 // 734399300
 	itxn_field XferAsset
 
-	// contracts/QuestContract.algo.ts:107
+	// contracts/QuestContract.algo.ts:108
 	// assetReceiver: winner
 	frame_dig -1 // winner: Address
 	itxn_field AssetReceiver
 
-	// contracts/QuestContract.algo.ts:108
+	// contracts/QuestContract.algo.ts:109
 	// assetAmount: 25
 	pushint 25
 	itxn_field AssetAmount
 
-	// contracts/QuestContract.algo.ts:109
+	// contracts/QuestContract.algo.ts:110
 	// fee: 0
 	intc 0 // 0
 	itxn_field Fee

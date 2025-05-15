@@ -1,0 +1,50 @@
+{
+  "name": "Events",
+  "desc": "",
+  "methods": [
+    {
+      "name": "createApplication",
+      "args": [
+        {
+          "name": "maintainerAddress",
+          "type": "address"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "createEvent",
+      "args": [
+        {
+          "name": "feeAndMbrPayment",
+          "type": "pay"
+        },
+        {
+          "name": "eventConfig",
+          "type": "(uint64,string,address,uint64,string,uint64,uint64,uint64)"
+        }
+      ],
+      "returns": {
+        "type": "uint64"
+      }
+    },
+    {
+      "name": "claimEvent",
+      "args": [
+        {
+          "name": "feeAndMbrPayment",
+          "type": "pay"
+        },
+        {
+          "name": "eventID",
+          "type": "uint64"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    }
+  ]
+}

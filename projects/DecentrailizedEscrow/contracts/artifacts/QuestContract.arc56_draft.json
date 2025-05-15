@@ -705,14 +705,14 @@
           ]
         },
         {
-          "teal": 123,
+          "teal": 124,
           "source": "contracts/QuestContract.algo.ts:35",
           "pc": [
             170
           ]
         },
         {
-          "teal": 124,
+          "teal": 125,
           "source": "contracts/QuestContract.algo.ts:35",
           "pc": [
             171,
@@ -720,7 +720,7 @@
           ]
         },
         {
-          "teal": 125,
+          "teal": 126,
           "source": "contracts/QuestContract.algo.ts:35",
           "pc": [
             173,
@@ -728,14 +728,14 @@
           ]
         },
         {
-          "teal": 129,
+          "teal": 130,
           "source": "contracts/QuestContract.algo.ts:36",
           "pc": [
             175
           ]
         },
         {
-          "teal": 130,
+          "teal": 131,
           "source": "contracts/QuestContract.algo.ts:36",
           "pc": [
             176,
@@ -743,14 +743,14 @@
           ]
         },
         {
-          "teal": 134,
+          "teal": 135,
           "source": "contracts/QuestContract.algo.ts:37",
           "pc": [
             178
           ]
         },
         {
-          "teal": 135,
+          "teal": 136,
           "source": "contracts/QuestContract.algo.ts:37",
           "pc": [
             179,
@@ -758,7 +758,7 @@
           ]
         },
         {
-          "teal": 139,
+          "teal": 140,
           "source": "contracts/QuestContract.algo.ts:38",
           "pc": [
             181,
@@ -769,7 +769,7 @@
           ]
         },
         {
-          "teal": 140,
+          "teal": 141,
           "source": "contracts/QuestContract.algo.ts:38",
           "pc": [
             186,
@@ -777,21 +777,21 @@
           ]
         },
         {
-          "teal": 144,
+          "teal": 145,
           "source": "contracts/QuestContract.algo.ts:39",
           "pc": [
             188
           ]
         },
         {
-          "teal": 145,
+          "teal": 146,
           "source": "contracts/QuestContract.algo.ts:39",
           "pc": [
             189
           ]
         },
         {
-          "teal": 146,
+          "teal": 147,
           "source": "contracts/QuestContract.algo.ts:39",
           "pc": [
             190,
@@ -800,7 +800,7 @@
           ]
         },
         {
-          "teal": 147,
+          "teal": 148,
           "source": "contracts/QuestContract.algo.ts:39",
           "pc": [
             193,
@@ -808,7 +808,7 @@
           ]
         },
         {
-          "teal": 151,
+          "teal": 152,
           "source": "contracts/QuestContract.algo.ts:40",
           "pc": [
             195,
@@ -816,7 +816,7 @@
           ]
         },
         {
-          "teal": 152,
+          "teal": 153,
           "source": "contracts/QuestContract.algo.ts:40",
           "pc": [
             197,
@@ -824,7 +824,7 @@
           ]
         },
         {
-          "teal": 156,
+          "teal": 157,
           "source": "contracts/QuestContract.algo.ts:41",
           "pc": [
             199,
@@ -833,7 +833,7 @@
           ]
         },
         {
-          "teal": 157,
+          "teal": 158,
           "source": "contracts/QuestContract.algo.ts:41",
           "pc": [
             202,
@@ -841,14 +841,14 @@
           ]
         },
         {
-          "teal": 160,
+          "teal": 161,
           "source": "contracts/QuestContract.algo.ts:35",
           "pc": [
             204
           ]
         },
         {
-          "teal": 161,
+          "teal": 162,
           "source": "contracts/QuestContract.algo.ts:35",
           "pc": [
             205,
@@ -856,7 +856,7 @@
           ]
         },
         {
-          "teal": 162,
+          "teal": 163,
           "source": "contracts/QuestContract.algo.ts:35",
           "pc": [
             207,
@@ -864,15 +864,15 @@
           ]
         },
         {
-          "teal": 166,
-          "source": "contracts/QuestContract.algo.ts:44",
+          "teal": 167,
+          "source": "contracts/QuestContract.algo.ts:45",
           "pc": [
             209,
             210
           ]
         },
         {
-          "teal": 169,
+          "teal": 170,
           "source": "contracts/QuestContract.algo.ts:34",
           "pc": [
             211,
@@ -880,15 +880,15 @@
           ]
         },
         {
-          "teal": 170,
+          "teal": 171,
           "source": "contracts/QuestContract.algo.ts:34",
           "pc": [
             213
           ]
         },
         {
-          "teal": 175,
-          "source": "contracts/QuestContract.algo.ts:48",
+          "teal": 176,
+          "source": "contracts/QuestContract.algo.ts:49",
           "pc": [
             214,
             215,
@@ -896,22 +896,22 @@
           ]
         },
         {
-          "teal": 176,
-          "source": "contracts/QuestContract.algo.ts:48",
+          "teal": 177,
+          "source": "contracts/QuestContract.algo.ts:49",
           "pc": [
             217
           ]
         },
         {
-          "teal": 177,
-          "source": "contracts/QuestContract.algo.ts:48",
+          "teal": 178,
+          "source": "contracts/QuestContract.algo.ts:49",
           "pc": [
             218
           ]
         },
         {
-          "teal": 181,
-          "source": "contracts/QuestContract.algo.ts:48",
+          "teal": 182,
+          "source": "contracts/QuestContract.algo.ts:49",
           "pc": [
             219,
             220,
@@ -919,136 +919,136 @@
           ]
         },
         {
-          "teal": 187,
-          "source": "contracts/QuestContract.algo.ts:50",
+          "teal": 188,
+          "source": "contracts/QuestContract.algo.ts:51",
           "pc": [
             222,
             223
           ]
         },
         {
-          "teal": 188,
-          "source": "contracts/QuestContract.algo.ts:50",
+          "teal": 189,
+          "source": "contracts/QuestContract.algo.ts:51",
           "pc": [
             224,
             225
           ]
         },
         {
-          "teal": 189,
-          "source": "contracts/QuestContract.algo.ts:50",
+          "teal": 190,
+          "source": "contracts/QuestContract.algo.ts:51",
           "pc": [
             226
           ]
         },
         {
-          "teal": 192,
-          "source": "contracts/QuestContract.algo.ts:50",
+          "teal": 193,
+          "source": "contracts/QuestContract.algo.ts:51",
           "errorMessage": "transaction verification failed: {\"txn\":\"this.txn\",\"field\":\"sender\",\"expected\":\"globals.creatorAddress\"}",
           "pc": [
             227
           ]
         },
         {
-          "teal": 201,
-          "source": "contracts/QuestContract.algo.ts:55",
+          "teal": 202,
+          "source": "contracts/QuestContract.algo.ts:56",
           "pc": [
             228
           ]
         },
         {
-          "teal": 202,
-          "source": "contracts/QuestContract.algo.ts:55",
+          "teal": 203,
+          "source": "contracts/QuestContract.algo.ts:56",
           "pc": [
             229
           ]
         },
         {
-          "teal": 203,
-          "source": "contracts/QuestContract.algo.ts:55",
+          "teal": 204,
+          "source": "contracts/QuestContract.algo.ts:56",
           "pc": [
             230,
             231
           ]
         },
         {
-          "teal": 207,
-          "source": "contracts/QuestContract.algo.ts:56",
+          "teal": 208,
+          "source": "contracts/QuestContract.algo.ts:57",
           "pc": [
             232,
             233
           ]
         },
         {
-          "teal": 208,
-          "source": "contracts/QuestContract.algo.ts:56",
+          "teal": 209,
+          "source": "contracts/QuestContract.algo.ts:57",
           "pc": [
             234,
             235
           ]
         },
         {
-          "teal": 212,
-          "source": "contracts/QuestContract.algo.ts:57",
+          "teal": 213,
+          "source": "contracts/QuestContract.algo.ts:58",
           "pc": [
             236
           ]
         },
         {
-          "teal": 213,
-          "source": "contracts/QuestContract.algo.ts:57",
+          "teal": 214,
+          "source": "contracts/QuestContract.algo.ts:58",
           "pc": [
             237,
             238
           ]
         },
         {
-          "teal": 217,
-          "source": "contracts/QuestContract.algo.ts:58",
+          "teal": 218,
+          "source": "contracts/QuestContract.algo.ts:59",
           "pc": [
             239
           ]
         },
         {
-          "teal": 218,
-          "source": "contracts/QuestContract.algo.ts:58",
+          "teal": 219,
+          "source": "contracts/QuestContract.algo.ts:59",
           "pc": [
             240,
             241
           ]
         },
         {
-          "teal": 221,
-          "source": "contracts/QuestContract.algo.ts:55",
+          "teal": 222,
+          "source": "contracts/QuestContract.algo.ts:56",
           "pc": [
             242
           ]
         },
         {
-          "teal": 222,
-          "source": "contracts/QuestContract.algo.ts:55",
+          "teal": 223,
+          "source": "contracts/QuestContract.algo.ts:56",
           "pc": [
             243,
             244
           ]
         },
         {
-          "teal": 225,
-          "source": "contracts/QuestContract.algo.ts:55",
+          "teal": 226,
+          "source": "contracts/QuestContract.algo.ts:56",
           "pc": [
             245
           ]
         },
         {
-          "teal": 226,
-          "source": "contracts/QuestContract.algo.ts:48",
+          "teal": 227,
+          "source": "contracts/QuestContract.algo.ts:49",
           "pc": [
             246
           ]
         },
         {
-          "teal": 231,
-          "source": "contracts/QuestContract.algo.ts:68",
+          "teal": 232,
+          "source": "contracts/QuestContract.algo.ts:69",
           "pc": [
             247,
             248,
@@ -1056,45 +1056,45 @@
           ]
         },
         {
-          "teal": 232,
-          "source": "contracts/QuestContract.algo.ts:68",
+          "teal": 233,
+          "source": "contracts/QuestContract.algo.ts:69",
           "pc": [
             250
           ]
         },
         {
-          "teal": 233,
-          "source": "contracts/QuestContract.algo.ts:68",
+          "teal": 234,
+          "source": "contracts/QuestContract.algo.ts:69",
           "pc": [
             251
           ]
         },
         {
-          "teal": 234,
-          "source": "contracts/QuestContract.algo.ts:68",
+          "teal": 235,
+          "source": "contracts/QuestContract.algo.ts:69",
           "pc": [
             252,
             253
           ]
         },
         {
-          "teal": 235,
-          "source": "contracts/QuestContract.algo.ts:68",
+          "teal": 236,
+          "source": "contracts/QuestContract.algo.ts:69",
           "pc": [
             254
           ]
         },
         {
-          "teal": 238,
-          "source": "contracts/QuestContract.algo.ts:68",
+          "teal": 239,
+          "source": "contracts/QuestContract.algo.ts:69",
           "errorMessage": "argument 0 (winner) for sendRewardWinner1 must be a address",
           "pc": [
             255
           ]
         },
         {
-          "teal": 241,
-          "source": "contracts/QuestContract.algo.ts:68",
+          "teal": 242,
+          "source": "contracts/QuestContract.algo.ts:69",
           "pc": [
             256,
             257,
@@ -1102,22 +1102,22 @@
           ]
         },
         {
-          "teal": 242,
-          "source": "contracts/QuestContract.algo.ts:68",
+          "teal": 243,
+          "source": "contracts/QuestContract.algo.ts:69",
           "pc": [
             259
           ]
         },
         {
-          "teal": 243,
-          "source": "contracts/QuestContract.algo.ts:68",
+          "teal": 244,
+          "source": "contracts/QuestContract.algo.ts:69",
           "pc": [
             260
           ]
         },
         {
-          "teal": 247,
-          "source": "contracts/QuestContract.algo.ts:68",
+          "teal": 248,
+          "source": "contracts/QuestContract.algo.ts:69",
           "pc": [
             261,
             262,
@@ -1125,61 +1125,61 @@
           ]
         },
         {
-          "teal": 252,
-          "source": "contracts/QuestContract.algo.ts:69",
+          "teal": 253,
+          "source": "contracts/QuestContract.algo.ts:70",
           "pc": [
             264,
             265
           ]
         },
         {
-          "teal": 253,
-          "source": "contracts/QuestContract.algo.ts:69",
+          "teal": 254,
+          "source": "contracts/QuestContract.algo.ts:70",
           "pc": [
             266,
             267
           ]
         },
         {
-          "teal": 254,
-          "source": "contracts/QuestContract.algo.ts:69",
+          "teal": 255,
+          "source": "contracts/QuestContract.algo.ts:70",
           "pc": [
             268
           ]
         },
         {
-          "teal": 257,
-          "source": "contracts/QuestContract.algo.ts:69",
+          "teal": 258,
+          "source": "contracts/QuestContract.algo.ts:70",
           "errorMessage": "transaction verification failed: {\"txn\":\"this.txn\",\"field\":\"sender\",\"expected\":\"globals.creatorAddress\"}",
           "pc": [
             269
           ]
         },
         {
-          "teal": 266,
-          "source": "contracts/QuestContract.algo.ts:71",
+          "teal": 267,
+          "source": "contracts/QuestContract.algo.ts:72",
           "pc": [
             270
           ]
         },
         {
-          "teal": 267,
-          "source": "contracts/QuestContract.algo.ts:71",
+          "teal": 268,
+          "source": "contracts/QuestContract.algo.ts:72",
           "pc": [
             271
           ]
         },
         {
-          "teal": 268,
-          "source": "contracts/QuestContract.algo.ts:71",
+          "teal": 269,
+          "source": "contracts/QuestContract.algo.ts:72",
           "pc": [
             272,
             273
           ]
         },
         {
-          "teal": 272,
-          "source": "contracts/QuestContract.algo.ts:72",
+          "teal": 273,
+          "source": "contracts/QuestContract.algo.ts:73",
           "pc": [
             274,
             275,
@@ -1193,174 +1193,174 @@
           ]
         },
         {
-          "teal": 273,
-          "source": "contracts/QuestContract.algo.ts:72",
+          "teal": 274,
+          "source": "contracts/QuestContract.algo.ts:73",
           "pc": [
             283
           ]
         },
         {
-          "teal": 274,
-          "source": "contracts/QuestContract.algo.ts:72",
+          "teal": 275,
+          "source": "contracts/QuestContract.algo.ts:73",
           "pc": [
             284,
             285
           ]
         },
         {
-          "teal": 278,
-          "source": "contracts/QuestContract.algo.ts:73",
+          "teal": 279,
+          "source": "contracts/QuestContract.algo.ts:74",
           "pc": [
             286,
             287
           ]
         },
         {
-          "teal": 279,
-          "source": "contracts/QuestContract.algo.ts:73",
+          "teal": 280,
+          "source": "contracts/QuestContract.algo.ts:74",
           "pc": [
             288,
             289
           ]
         },
         {
-          "teal": 283,
-          "source": "contracts/QuestContract.algo.ts:74",
+          "teal": 284,
+          "source": "contracts/QuestContract.algo.ts:75",
           "pc": [
             290
           ]
         },
         {
-          "teal": 284,
-          "source": "contracts/QuestContract.algo.ts:74",
+          "teal": 285,
+          "source": "contracts/QuestContract.algo.ts:75",
           "pc": [
             291,
             292
           ]
         },
         {
-          "teal": 288,
-          "source": "contracts/QuestContract.algo.ts:75",
+          "teal": 289,
+          "source": "contracts/QuestContract.algo.ts:76",
           "pc": [
             293
           ]
         },
         {
-          "teal": 289,
-          "source": "contracts/QuestContract.algo.ts:75",
+          "teal": 290,
+          "source": "contracts/QuestContract.algo.ts:76",
           "pc": [
             294,
             295
           ]
         },
         {
-          "teal": 292,
-          "source": "contracts/QuestContract.algo.ts:71",
+          "teal": 293,
+          "source": "contracts/QuestContract.algo.ts:72",
           "pc": [
             296
           ]
         },
         {
-          "teal": 301,
-          "source": "contracts/QuestContract.algo.ts:79",
+          "teal": 302,
+          "source": "contracts/QuestContract.algo.ts:80",
           "pc": [
             297
           ]
         },
         {
-          "teal": 302,
-          "source": "contracts/QuestContract.algo.ts:79",
+          "teal": 303,
+          "source": "contracts/QuestContract.algo.ts:80",
           "pc": [
             298
           ]
         },
         {
-          "teal": 303,
-          "source": "contracts/QuestContract.algo.ts:79",
+          "teal": 304,
+          "source": "contracts/QuestContract.algo.ts:80",
           "pc": [
             299,
             300
           ]
         },
         {
-          "teal": 307,
-          "source": "contracts/QuestContract.algo.ts:80",
+          "teal": 308,
+          "source": "contracts/QuestContract.algo.ts:81",
           "pc": [
             301
           ]
         },
         {
-          "teal": 308,
-          "source": "contracts/QuestContract.algo.ts:80",
+          "teal": 309,
+          "source": "contracts/QuestContract.algo.ts:81",
           "pc": [
             302,
             303
           ]
         },
         {
-          "teal": 312,
-          "source": "contracts/QuestContract.algo.ts:81",
+          "teal": 313,
+          "source": "contracts/QuestContract.algo.ts:82",
           "pc": [
             304,
             305
           ]
         },
         {
-          "teal": 313,
-          "source": "contracts/QuestContract.algo.ts:81",
+          "teal": 314,
+          "source": "contracts/QuestContract.algo.ts:82",
           "pc": [
             306,
             307
           ]
         },
         {
-          "teal": 317,
-          "source": "contracts/QuestContract.algo.ts:82",
+          "teal": 318,
+          "source": "contracts/QuestContract.algo.ts:83",
           "pc": [
             308,
             309
           ]
         },
         {
-          "teal": 318,
-          "source": "contracts/QuestContract.algo.ts:82",
+          "teal": 319,
+          "source": "contracts/QuestContract.algo.ts:83",
           "pc": [
             310,
             311
           ]
         },
         {
-          "teal": 322,
-          "source": "contracts/QuestContract.algo.ts:83",
+          "teal": 323,
+          "source": "contracts/QuestContract.algo.ts:84",
           "pc": [
             312
           ]
         },
         {
-          "teal": 323,
-          "source": "contracts/QuestContract.algo.ts:83",
+          "teal": 324,
+          "source": "contracts/QuestContract.algo.ts:84",
           "pc": [
             313,
             314
           ]
         },
         {
-          "teal": 326,
-          "source": "contracts/QuestContract.algo.ts:79",
+          "teal": 327,
+          "source": "contracts/QuestContract.algo.ts:80",
           "pc": [
             315
           ]
         },
         {
-          "teal": 327,
-          "source": "contracts/QuestContract.algo.ts:68",
+          "teal": 328,
+          "source": "contracts/QuestContract.algo.ts:69",
           "pc": [
             316
           ]
         },
         {
-          "teal": 332,
-          "source": "contracts/QuestContract.algo.ts:91",
+          "teal": 333,
+          "source": "contracts/QuestContract.algo.ts:92",
           "pc": [
             317,
             318,
@@ -1368,45 +1368,45 @@
           ]
         },
         {
-          "teal": 333,
-          "source": "contracts/QuestContract.algo.ts:91",
+          "teal": 334,
+          "source": "contracts/QuestContract.algo.ts:92",
           "pc": [
             320
           ]
         },
         {
-          "teal": 334,
-          "source": "contracts/QuestContract.algo.ts:91",
+          "teal": 335,
+          "source": "contracts/QuestContract.algo.ts:92",
           "pc": [
             321
           ]
         },
         {
-          "teal": 335,
-          "source": "contracts/QuestContract.algo.ts:91",
+          "teal": 336,
+          "source": "contracts/QuestContract.algo.ts:92",
           "pc": [
             322,
             323
           ]
         },
         {
-          "teal": 336,
-          "source": "contracts/QuestContract.algo.ts:91",
+          "teal": 337,
+          "source": "contracts/QuestContract.algo.ts:92",
           "pc": [
             324
           ]
         },
         {
-          "teal": 339,
-          "source": "contracts/QuestContract.algo.ts:91",
+          "teal": 340,
+          "source": "contracts/QuestContract.algo.ts:92",
           "errorMessage": "argument 0 (winner) for sendRewardWinner2 must be a address",
           "pc": [
             325
           ]
         },
         {
-          "teal": 342,
-          "source": "contracts/QuestContract.algo.ts:91",
+          "teal": 343,
+          "source": "contracts/QuestContract.algo.ts:92",
           "pc": [
             326,
             327,
@@ -1414,22 +1414,22 @@
           ]
         },
         {
-          "teal": 343,
-          "source": "contracts/QuestContract.algo.ts:91",
+          "teal": 344,
+          "source": "contracts/QuestContract.algo.ts:92",
           "pc": [
             329
           ]
         },
         {
-          "teal": 344,
-          "source": "contracts/QuestContract.algo.ts:91",
+          "teal": 345,
+          "source": "contracts/QuestContract.algo.ts:92",
           "pc": [
             330
           ]
         },
         {
-          "teal": 348,
-          "source": "contracts/QuestContract.algo.ts:91",
+          "teal": 349,
+          "source": "contracts/QuestContract.algo.ts:92",
           "pc": [
             331,
             332,
@@ -1437,106 +1437,106 @@
           ]
         },
         {
-          "teal": 357,
-          "source": "contracts/QuestContract.algo.ts:93",
+          "teal": 358,
+          "source": "contracts/QuestContract.algo.ts:94",
           "pc": [
             334
           ]
         },
         {
-          "teal": 358,
-          "source": "contracts/QuestContract.algo.ts:93",
+          "teal": 359,
+          "source": "contracts/QuestContract.algo.ts:94",
           "pc": [
             335
           ]
         },
         {
-          "teal": 359,
-          "source": "contracts/QuestContract.algo.ts:93",
+          "teal": 360,
+          "source": "contracts/QuestContract.algo.ts:94",
           "pc": [
             336,
             337
           ]
         },
         {
-          "teal": 363,
-          "source": "contracts/QuestContract.algo.ts:94",
+          "teal": 364,
+          "source": "contracts/QuestContract.algo.ts:95",
           "pc": [
             338
           ]
         },
         {
-          "teal": 364,
-          "source": "contracts/QuestContract.algo.ts:94",
+          "teal": 365,
+          "source": "contracts/QuestContract.algo.ts:95",
           "pc": [
             339,
             340
           ]
         },
         {
-          "teal": 368,
-          "source": "contracts/QuestContract.algo.ts:95",
+          "teal": 369,
+          "source": "contracts/QuestContract.algo.ts:96",
           "pc": [
             341,
             342
           ]
         },
         {
-          "teal": 369,
-          "source": "contracts/QuestContract.algo.ts:95",
+          "teal": 370,
+          "source": "contracts/QuestContract.algo.ts:96",
           "pc": [
             343,
             344
           ]
         },
         {
-          "teal": 373,
-          "source": "contracts/QuestContract.algo.ts:96",
+          "teal": 374,
+          "source": "contracts/QuestContract.algo.ts:97",
           "pc": [
             345,
             346
           ]
         },
         {
-          "teal": 374,
-          "source": "contracts/QuestContract.algo.ts:96",
+          "teal": 375,
+          "source": "contracts/QuestContract.algo.ts:97",
           "pc": [
             347,
             348
           ]
         },
         {
-          "teal": 378,
-          "source": "contracts/QuestContract.algo.ts:97",
+          "teal": 379,
+          "source": "contracts/QuestContract.algo.ts:98",
           "pc": [
             349
           ]
         },
         {
-          "teal": 379,
-          "source": "contracts/QuestContract.algo.ts:97",
+          "teal": 380,
+          "source": "contracts/QuestContract.algo.ts:98",
           "pc": [
             350,
             351
           ]
         },
         {
-          "teal": 382,
-          "source": "contracts/QuestContract.algo.ts:93",
+          "teal": 383,
+          "source": "contracts/QuestContract.algo.ts:94",
           "pc": [
             352
           ]
         },
         {
-          "teal": 383,
-          "source": "contracts/QuestContract.algo.ts:91",
+          "teal": 384,
+          "source": "contracts/QuestContract.algo.ts:92",
           "pc": [
             353
           ]
         },
         {
-          "teal": 388,
-          "source": "contracts/QuestContract.algo.ts:103",
+          "teal": 389,
+          "source": "contracts/QuestContract.algo.ts:104",
           "pc": [
             354,
             355,
@@ -1544,45 +1544,45 @@
           ]
         },
         {
-          "teal": 389,
-          "source": "contracts/QuestContract.algo.ts:103",
+          "teal": 390,
+          "source": "contracts/QuestContract.algo.ts:104",
           "pc": [
             357
           ]
         },
         {
-          "teal": 390,
-          "source": "contracts/QuestContract.algo.ts:103",
+          "teal": 391,
+          "source": "contracts/QuestContract.algo.ts:104",
           "pc": [
             358
           ]
         },
         {
-          "teal": 391,
-          "source": "contracts/QuestContract.algo.ts:103",
+          "teal": 392,
+          "source": "contracts/QuestContract.algo.ts:104",
           "pc": [
             359,
             360
           ]
         },
         {
-          "teal": 392,
-          "source": "contracts/QuestContract.algo.ts:103",
+          "teal": 393,
+          "source": "contracts/QuestContract.algo.ts:104",
           "pc": [
             361
           ]
         },
         {
-          "teal": 395,
-          "source": "contracts/QuestContract.algo.ts:103",
+          "teal": 396,
+          "source": "contracts/QuestContract.algo.ts:104",
           "errorMessage": "argument 0 (winner) for sendRewardWinner3 must be a address",
           "pc": [
             362
           ]
         },
         {
-          "teal": 398,
-          "source": "contracts/QuestContract.algo.ts:103",
+          "teal": 399,
+          "source": "contracts/QuestContract.algo.ts:104",
           "pc": [
             363,
             364,
@@ -1590,22 +1590,22 @@
           ]
         },
         {
-          "teal": 399,
-          "source": "contracts/QuestContract.algo.ts:103",
+          "teal": 400,
+          "source": "contracts/QuestContract.algo.ts:104",
           "pc": [
             366
           ]
         },
         {
-          "teal": 400,
-          "source": "contracts/QuestContract.algo.ts:103",
+          "teal": 401,
+          "source": "contracts/QuestContract.algo.ts:104",
           "pc": [
             367
           ]
         },
         {
-          "teal": 404,
-          "source": "contracts/QuestContract.algo.ts:103",
+          "teal": 405,
+          "source": "contracts/QuestContract.algo.ts:104",
           "pc": [
             368,
             369,
@@ -1613,105 +1613,105 @@
           ]
         },
         {
-          "teal": 413,
-          "source": "contracts/QuestContract.algo.ts:105",
+          "teal": 414,
+          "source": "contracts/QuestContract.algo.ts:106",
           "pc": [
             371
           ]
         },
         {
-          "teal": 414,
-          "source": "contracts/QuestContract.algo.ts:105",
+          "teal": 415,
+          "source": "contracts/QuestContract.algo.ts:106",
           "pc": [
             372
           ]
         },
         {
-          "teal": 415,
-          "source": "contracts/QuestContract.algo.ts:105",
+          "teal": 416,
+          "source": "contracts/QuestContract.algo.ts:106",
           "pc": [
             373,
             374
           ]
         },
         {
-          "teal": 419,
-          "source": "contracts/QuestContract.algo.ts:106",
+          "teal": 420,
+          "source": "contracts/QuestContract.algo.ts:107",
           "pc": [
             375
           ]
         },
         {
-          "teal": 420,
-          "source": "contracts/QuestContract.algo.ts:106",
+          "teal": 421,
+          "source": "contracts/QuestContract.algo.ts:107",
           "pc": [
             376,
             377
           ]
         },
         {
-          "teal": 424,
-          "source": "contracts/QuestContract.algo.ts:107",
+          "teal": 425,
+          "source": "contracts/QuestContract.algo.ts:108",
           "pc": [
             378,
             379
           ]
         },
         {
-          "teal": 425,
-          "source": "contracts/QuestContract.algo.ts:107",
+          "teal": 426,
+          "source": "contracts/QuestContract.algo.ts:108",
           "pc": [
             380,
             381
           ]
         },
         {
-          "teal": 429,
-          "source": "contracts/QuestContract.algo.ts:108",
+          "teal": 430,
+          "source": "contracts/QuestContract.algo.ts:109",
           "pc": [
             382,
             383
           ]
         },
         {
-          "teal": 430,
-          "source": "contracts/QuestContract.algo.ts:108",
+          "teal": 431,
+          "source": "contracts/QuestContract.algo.ts:109",
           "pc": [
             384,
             385
           ]
         },
         {
-          "teal": 434,
-          "source": "contracts/QuestContract.algo.ts:109",
+          "teal": 435,
+          "source": "contracts/QuestContract.algo.ts:110",
           "pc": [
             386
           ]
         },
         {
-          "teal": 435,
-          "source": "contracts/QuestContract.algo.ts:109",
+          "teal": 436,
+          "source": "contracts/QuestContract.algo.ts:110",
           "pc": [
             387,
             388
           ]
         },
         {
-          "teal": 438,
-          "source": "contracts/QuestContract.algo.ts:105",
+          "teal": 439,
+          "source": "contracts/QuestContract.algo.ts:106",
           "pc": [
             389
           ]
         },
         {
-          "teal": 439,
-          "source": "contracts/QuestContract.algo.ts:103",
+          "teal": 440,
+          "source": "contracts/QuestContract.algo.ts:104",
           "pc": [
             390
           ]
         },
         {
-          "teal": 442,
+          "teal": 443,
           "source": "contracts/QuestContract.algo.ts:4",
           "pc": [
             391,
@@ -1723,7 +1723,7 @@
           ]
         },
         {
-          "teal": 443,
+          "teal": 444,
           "source": "contracts/QuestContract.algo.ts:4",
           "pc": [
             397,
@@ -1732,7 +1732,7 @@
           ]
         },
         {
-          "teal": 444,
+          "teal": 445,
           "source": "contracts/QuestContract.algo.ts:4",
           "pc": [
             400,
@@ -1742,7 +1742,7 @@
           ]
         },
         {
-          "teal": 447,
+          "teal": 448,
           "source": "contracts/QuestContract.algo.ts:4",
           "errorMessage": "this contract does not implement the given ABI method for create NoOp",
           "pc": [
@@ -1750,7 +1750,7 @@
           ]
         },
         {
-          "teal": 450,
+          "teal": 451,
           "source": "contracts/QuestContract.algo.ts:4",
           "pc": [
             405,
@@ -1762,7 +1762,7 @@
           ]
         },
         {
-          "teal": 451,
+          "teal": 452,
           "source": "contracts/QuestContract.algo.ts:4",
           "pc": [
             411,
@@ -1774,7 +1774,7 @@
           ]
         },
         {
-          "teal": 452,
+          "teal": 453,
           "source": "contracts/QuestContract.algo.ts:4",
           "pc": [
             417,
@@ -1786,7 +1786,7 @@
           ]
         },
         {
-          "teal": 453,
+          "teal": 454,
           "source": "contracts/QuestContract.algo.ts:4",
           "pc": [
             423,
@@ -1798,7 +1798,7 @@
           ]
         },
         {
-          "teal": 454,
+          "teal": 455,
           "source": "contracts/QuestContract.algo.ts:4",
           "pc": [
             429,
@@ -1810,7 +1810,7 @@
           ]
         },
         {
-          "teal": 455,
+          "teal": 456,
           "source": "contracts/QuestContract.algo.ts:4",
           "pc": [
             435,
@@ -1819,7 +1819,7 @@
           ]
         },
         {
-          "teal": 456,
+          "teal": 457,
           "source": "contracts/QuestContract.algo.ts:4",
           "pc": [
             438,
@@ -1837,7 +1837,7 @@
           ]
         },
         {
-          "teal": 459,
+          "teal": 460,
           "source": "contracts/QuestContract.algo.ts:4",
           "errorMessage": "this contract does not implement the given ABI method for call NoOp",
           "pc": [
@@ -1853,7 +1853,7 @@
     }
   },
   "source": {
-    "approval": "I3ByYWdtYSB2ZXJzaW9uIDEwCmludGNibG9jayAwIDEgNCA3MzQzOTkzMDAgMzIKYnl0ZWNibG9jayAweDcxNzU2NTczNzQ1NDY5NzQ2YzY1CgovLyBUaGlzIFRFQUwgd2FzIGdlbmVyYXRlZCBieSBURUFMU2NyaXB0IHYwLjEwNS40Ci8vIGh0dHBzOi8vZ2l0aHViLmNvbS9hbGdvcmFuZGZvdW5kYXRpb24vVEVBTFNjcmlwdAoKLy8gVGhpcyBjb250cmFjdCBpcyBjb21wbGlhbnQgd2l0aCBhbmQvb3IgaW1wbGVtZW50cyB0aGUgZm9sbG93aW5nIEFSQ3M6IFsgQVJDNCBdCgovLyBUaGUgZm9sbG93aW5nIHRlbiBsaW5lcyBvZiBURUFMIGhhbmRsZSBpbml0aWFsIHByb2dyYW0gZmxvdwovLyBUaGlzIHBhdHRlcm4gaXMgdXNlZCB0byBtYWtlIGl0IGVhc3kgZm9yIGFueW9uZSB0byBwYXJzZSB0aGUgc3RhcnQgb2YgdGhlIHByb2dyYW0gYW5kIGRldGVybWluZSBpZiBhIHNwZWNpZmljIGFjdGlvbiBpcyBhbGxvd2VkCi8vIEhlcmUsIGFjdGlvbiByZWZlcnMgdG8gdGhlIE9uQ29tcGxldGUgaW4gY29tYmluYXRpb24gd2l0aCB3aGV0aGVyIHRoZSBhcHAgaXMgYmVpbmcgY3JlYXRlZCBvciBjYWxsZWQKLy8gRXZlcnkgcG9zc2libGUgYWN0aW9uIGZvciB0aGlzIGNvbnRyYWN0IGlzIHJlcHJlc2VudGVkIGluIHRoZSBzd2l0Y2ggc3RhdGVtZW50Ci8vIElmIHRoZSBhY3Rpb24gaXMgbm90IGltcGxlbWVudGVkIGluIHRoZSBjb250cmFjdCwgaXRzIHJlc3BlY3RpdmUgYnJhbmNoIHdpbGwgYmUgIipOT1RfSU1QTEVNRU5URUQiIHdoaWNoIGp1c3QgY29udGFpbnMgImVyciIKdHhuIEFwcGxpY2F0aW9uSUQKIQpwdXNoaW50IDYKKgp0eG4gT25Db21wbGV0aW9uCisKc3dpdGNoICpjYWxsX05vT3AgKk5PVF9JTVBMRU1FTlRFRCAqTk9UX0lNUExFTUVOVEVEICpOT1RfSU1QTEVNRU5URUQgKk5PVF9JTVBMRU1FTlRFRCAqTk9UX0lNUExFTUVOVEVEICpjcmVhdGVfTm9PcCAqTk9UX0lNUExFTUVOVEVEICpOT1RfSU1QTEVNRU5URUQgKk5PVF9JTVBMRU1FTlRFRCAqTk9UX0lNUExFTUVOVEVEICpOT1RfSU1QTEVNRU5URUQKCipOT1RfSU1QTEVNRU5URUQ6CgkvLyBUaGUgcmVxdWVzdGVkIGFjdGlvbiBpcyBub3QgaW1wbGVtZW50ZWQgaW4gdGhpcyBjb250cmFjdC4gQXJlIHlvdSB1c2luZyB0aGUgY29ycmVjdCBPbkNvbXBsZXRlPyBEaWQgeW91IHNldCB5b3VyIGFwcCBJRD8KCWVycgoKLy8gY3JlYXRlQXBwbGljYXRpb24oc3RyaW5nLHN0cmluZyx1aW50NjQpdm9pZAoqYWJpX3JvdXRlX2NyZWF0ZUFwcGxpY2F0aW9uOgoJLy8gZXhwaXJ5RGF0ZTogdWludDY0Cgl0eG5hIEFwcGxpY2F0aW9uQXJncyAzCglidG9pCgoJLy8gcXVlc3RMb2NhdGlvbjogc3RyaW5nCgl0eG5hIEFwcGxpY2F0aW9uQXJncyAyCglleHRyYWN0IDIgMAoKCS8vIHF1ZXN0VGl0bGU6IHN0cmluZwoJdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMQoJZXh0cmFjdCAyIDAKCgkvLyBleGVjdXRlIGNyZWF0ZUFwcGxpY2F0aW9uKHN0cmluZyxzdHJpbmcsdWludDY0KXZvaWQKCWNhbGxzdWIgY3JlYXRlQXBwbGljYXRpb24KCWludGMgMSAvLyAxCglyZXR1cm4KCi8vIGNyZWF0ZUFwcGxpY2F0aW9uKHF1ZXN0VGl0bGU6IHN0cmluZywgcXVlc3RMb2NhdGlvbjogc3RyaW5nLCBleHBpcnlEYXRlOiB1aW50NjQpOiB2b2lkCmNyZWF0ZUFwcGxpY2F0aW9uOgoJcHJvdG8gMyAwCgoJLy8gY29udHJhY3RzL1F1ZXN0Q29udHJhY3QuYWxnby50czoyNAoJLy8gYXNzZXJ0KHRoaXMuYXBwLmlkID09IDAsICJUaGlzIG1ldGhvZCBjYW4gb25seSBiZSBjYWxsZWQgZHVyaW5nIGFwcGxpY2F0aW9uIGNyZWF0aW9uIikKCXR4bmEgQXBwbGljYXRpb25zIDAKCWludGMgMCAvLyAwCgk9PQoKCS8vIFRoaXMgbWV0aG9kIGNhbiBvbmx5IGJlIGNhbGxlZCBkdXJpbmcgYXBwbGljYXRpb24gY3JlYXRpb24KCWFzc2VydAoKCS8vIGNvbnRyYWN0cy9RdWVzdENvbnRyYWN0LmFsZ28udHM6MjcKCS8vIHRoaXMucXVlc3RUaXRsZS52YWx1ZSA9IHF1ZXN0VGl0bGUKCWJ5dGVjIDAgLy8gICJxdWVzdFRpdGxlIgoJZnJhbWVfZGlnIC0xIC8vIHF1ZXN0VGl0bGU6IHN0cmluZwoJZHVwCglsZW4KCWl0b2IKCWV4dHJhY3QgNiAyCglzd2FwCgljb25jYXQKCWFwcF9nbG9iYWxfcHV0CgoJLy8gY29udHJhY3RzL1F1ZXN0Q29udHJhY3QuYWxnby50czoyOAoJLy8gdGhpcy5xdWVzdExvY2F0aW9uLnZhbHVlID0gcXVlc3RMb2NhdGlvbgoJcHVzaGJ5dGVzIDB4NzE3NTY1NzM3NDRjNmY2MzYxNzQ2OTZmNmUgLy8gInF1ZXN0TG9jYXRpb24iCglmcmFtZV9kaWcgLTIgLy8gcXVlc3RMb2NhdGlvbjogc3RyaW5nCglkdXAKCWxlbgoJaXRvYgoJZXh0cmFjdCA2IDIKCXN3YXAKCWNvbmNhdAoJYXBwX2dsb2JhbF9wdXQKCgkvLyBjb250cmFjdHMvUXVlc3RDb250cmFjdC5hbGdvLnRzOjI5CgkvLyB0aGlzLmV4cGlyeURhdGUudmFsdWUgPSBleHBpcnlEYXRlCglwdXNoYnl0ZXMgMHg2NTc4NzA2OTcyNzk0NDYxNzQ2NSAvLyAiZXhwaXJ5RGF0ZSIKCWZyYW1lX2RpZyAtMyAvLyBleHBpcnlEYXRlOiB1aW50NjQKCWFwcF9nbG9iYWxfcHV0CglyZXRzdWIKCi8vIGNyZWF0ZU5GVFJld2FyZChzdHJpbmcpdWludDY0CiphYmlfcm91dGVfY3JlYXRlTkZUUmV3YXJkOgoJLy8gVGhlIEFCSSByZXR1cm4gcHJlZml4CglwdXNoYnl0ZXMgMHgxNTFmN2M3NQoKCS8vIGFzc2V0VXJsOiBzdHJpbmcKCXR4bmEgQXBwbGljYXRpb25BcmdzIDEKCWV4dHJhY3QgMiAwCgoJLy8gZXhlY3V0ZSBjcmVhdGVORlRSZXdhcmQoc3RyaW5nKXVpbnQ2NAoJY2FsbHN1YiBjcmVhdGVORlRSZXdhcmQKCWl0b2IKCWNvbmNhdAoJbG9nCglpbnRjIDEgLy8gMQoJcmV0dXJuCgovLyBjcmVhdGVORlRSZXdhcmQoYXNzZXRVcmwgOiBzdHJpbmcpOiB1aW50NjQKY3JlYXRlTkZUUmV3YXJkOgoJcHJvdG8gMSAxCgoJLy8gUHVzaCBlbXB0eSBieXRlcyBhZnRlciB0aGUgZnJhbWUgcG9pbnRlciB0byByZXNlcnZlIHNwYWNlIGZvciBsb2NhbCB2YXJpYWJsZXMKCXB1c2hieXRlcyAweAoKCS8vIGNvbnRyYWN0cy9RdWVzdENvbnRyYWN0LmFsZ28udHM6MzUKCS8vIGl0eG5SZXN1bHQgPSBzZW5kQXNzZXRDcmVhdGlvbih7CgkvLyAgICAgICAgICAgY29uZmlnQXNzZXRUb3RhbDogMSwgIC8vIFVzZSBjb25maWdBc3NldFRvdGFsIGluc3RlYWQgb2YgdG90YWwKCS8vICAgICAgICAgICBjb25maWdBc3NldERlY2ltYWxzOiAwLCAgICAgIC8vIFVzZSBjb25maWdBc3NldERlY2ltYWxzIGluc3RlYWQgb2YgZGVjaW1hbHMKCS8vICAgICAgICAgICBjb25maWdBc3NldFVuaXROYW1lOiAiTkZUIiwgIC8vIFVzZSBjb25maWdBc3NldFVuaXROYW1lIGluc3RlYWQgb2YgdW5pdE5hbWUKCS8vICAgICAgICAgICBjb25maWdBc3NldE5hbWU6IHRoaXMucXVlc3RUaXRsZS52YWx1ZSwgLy8gVXNlIGNvbmZpZ0Fzc2V0TmFtZSBpbnN0ZWFkIG9mIGFzc2V0TmFtZQoJLy8gICAgICAgICAgIGNvbmZpZ0Fzc2V0VVJMIDogYXNzZXRVcmwsCgkvLyAgICAgICAgICAgZmVlOiAzMDAwCgkvLyAgICAgICAgIH0pCglpdHhuX2JlZ2luCglwdXNoaW50IDMgLy8gYWNmZwoJaXR4bl9maWVsZCBUeXBlRW51bQoKCS8vIGNvbnRyYWN0cy9RdWVzdENvbnRyYWN0LmFsZ28udHM6MzYKCS8vIGNvbmZpZ0Fzc2V0VG90YWw6IDEKCWludGMgMSAvLyAxCglpdHhuX2ZpZWxkIENvbmZpZ0Fzc2V0VG90YWwKCgkvLyBjb250cmFjdHMvUXVlc3RDb250cmFjdC5hbGdvLnRzOjM3CgkvLyBjb25maWdBc3NldERlY2ltYWxzOiAwCglpbnRjIDAgLy8gMAoJaXR4bl9maWVsZCBDb25maWdBc3NldERlY2ltYWxzCgoJLy8gY29udHJhY3RzL1F1ZXN0Q29udHJhY3QuYWxnby50czozOAoJLy8gY29uZmlnQXNzZXRVbml0TmFtZTogIk5GVCIKCXB1c2hieXRlcyAweDRlNDY1NCAvLyAiTkZUIgoJaXR4bl9maWVsZCBDb25maWdBc3NldFVuaXROYW1lCgoJLy8gY29udHJhY3RzL1F1ZXN0Q29udHJhY3QuYWxnby50czozOQoJLy8gY29uZmlnQXNzZXROYW1lOiB0aGlzLnF1ZXN0VGl0bGUudmFsdWUKCWJ5dGVjIDAgLy8gICJxdWVzdFRpdGxlIgoJYXBwX2dsb2JhbF9nZXQKCWV4dHJhY3QgMiAwCglpdHhuX2ZpZWxkIENvbmZpZ0Fzc2V0TmFtZQoKCS8vIGNvbnRyYWN0cy9RdWVzdENvbnRyYWN0LmFsZ28udHM6NDAKCS8vIGNvbmZpZ0Fzc2V0VVJMIDogYXNzZXRVcmwKCWZyYW1lX2RpZyAtMSAvLyBhc3NldFVybDogc3RyaW5nCglpdHhuX2ZpZWxkIENvbmZpZ0Fzc2V0VVJMCgoJLy8gY29udHJhY3RzL1F1ZXN0Q29udHJhY3QuYWxnby50czo0MQoJLy8gZmVlOiAzMDAwCglwdXNoaW50IDMwMDAKCWl0eG5fZmllbGQgRmVlCgoJLy8gU3VibWl0IGlubmVyIHRyYW5zYWN0aW9uCglpdHhuX3N1Ym1pdAoJaXR4biBDcmVhdGVkQXNzZXRJRAoJZnJhbWVfYnVyeSAwIC8vIGl0eG5SZXN1bHQ6IHVpbnQ2NAoKCS8vIGNvbnRyYWN0cy9RdWVzdENvbnRyYWN0LmFsZ28udHM6NDQKCS8vIHJldHVybiBpdHhuUmVzdWx0LmlkCglmcmFtZV9kaWcgMCAvLyBpdHhuUmVzdWx0OiB1aW50NjQKCgkvLyBzZXQgdGhlIHN1YnJvdXRpbmUgcmV0dXJuIHZhbHVlCglmcmFtZV9idXJ5IDAKCXJldHN1YgoKLy8gb3B0SW50b0Fzc2V0KCl2b2lkCiphYmlfcm91dGVfb3B0SW50b0Fzc2V0OgoJLy8gZXhlY3V0ZSBvcHRJbnRvQXNzZXQoKXZvaWQKCWNhbGxzdWIgb3B0SW50b0Fzc2V0CglpbnRjIDEgLy8gMQoJcmV0dXJuCgovLyBvcHRJbnRvQXNzZXQoKTogdm9pZApvcHRJbnRvQXNzZXQ6Cglwcm90byAwIDAKCgkvLyBPbmx5IGFsbG93IGFwcCBjcmVhdG9yIHRvIG9wdCB0aGUgYXBwIGFjY291bnQgaW50byBhIEFTQQoJLy8gY29udHJhY3RzL1F1ZXN0Q29udHJhY3QuYWxnby50czo1MAoJLy8gdmVyaWZ5QXBwQ2FsbFR4bih0aGlzLnR4biwgeyBzZW5kZXI6IGdsb2JhbHMuY3JlYXRvckFkZHJlc3MgfSkKCS8vIHZlcmlmeSBzZW5kZXIKCXR4biBTZW5kZXIKCWdsb2JhbCBDcmVhdG9yQWRkcmVzcwoJPT0KCgkvLyB0cmFuc2FjdGlvbiB2ZXJpZmljYXRpb24gZmFpbGVkOiB7InR4biI6InRoaXMudHhuIiwiZmllbGQiOiJzZW5kZXIiLCJleHBlY3RlZCI6Imdsb2JhbHMuY3JlYXRvckFkZHJlc3MifQoJYXNzZXJ0CgoJLy8gU3VibWl0IG9wdC1pbiB0cmFuc2FjdGlvbjogMCBhc3NldCB0cmFuc2ZlciB0byBzZWxmCgkvLyBjb250cmFjdHMvUXVlc3RDb250cmFjdC5hbGdvLnRzOjU1CgkvLyBzZW5kQXNzZXRUcmFuc2Zlcih7CgkvLyAgICAgICAgICAgYXNzZXRSZWNlaXZlcjogdGhpcy5hcHAuYWRkcmVzcywKCS8vICAgICAgICAgICB4ZmVyQXNzZXQ6IEFzc2V0SUQuZnJvbVVpbnQ2NCg3MzQzOTkzMDApLAoJLy8gICAgICAgICAgIGFzc2V0QW1vdW50OiAwLAoJLy8gICAgICAgICB9KQoJaXR4bl9iZWdpbgoJaW50YyAyIC8vICBheGZlcgoJaXR4bl9maWVsZCBUeXBlRW51bQoKCS8vIGNvbnRyYWN0cy9RdWVzdENvbnRyYWN0LmFsZ28udHM6NTYKCS8vIGFzc2V0UmVjZWl2ZXI6IHRoaXMuYXBwLmFkZHJlc3MKCWdsb2JhbCBDdXJyZW50QXBwbGljYXRpb25BZGRyZXNzCglpdHhuX2ZpZWxkIEFzc2V0UmVjZWl2ZXIKCgkvLyBjb250cmFjdHMvUXVlc3RDb250cmFjdC5hbGdvLnRzOjU3CgkvLyB4ZmVyQXNzZXQ6IEFzc2V0SUQuZnJvbVVpbnQ2NCg3MzQzOTkzMDApCglpbnRjIDMgLy8gNzM0Mzk5MzAwCglpdHhuX2ZpZWxkIFhmZXJBc3NldAoKCS8vIGNvbnRyYWN0cy9RdWVzdENvbnRyYWN0LmFsZ28udHM6NTgKCS8vIGFzc2V0QW1vdW50OiAwCglpbnRjIDAgLy8gMAoJaXR4bl9maWVsZCBBc3NldEFtb3VudAoKCS8vIEZlZSBmaWVsZCBub3Qgc2V0LCBkZWZhdWx0aW5nIHRvIDAKCWludGMgMCAvLyAwCglpdHhuX2ZpZWxkIEZlZQoKCS8vIFN1Ym1pdCBpbm5lciB0cmFuc2FjdGlvbgoJaXR4bl9zdWJtaXQKCXJldHN1YgoKLy8gc2VuZFJld2FyZFdpbm5lcjEoYWRkcmVzcyl2b2lkCiphYmlfcm91dGVfc2VuZFJld2FyZFdpbm5lcjE6CgkvLyB3aW5uZXI6IGFkZHJlc3MKCXR4bmEgQXBwbGljYXRpb25BcmdzIDEKCWR1cAoJbGVuCglpbnRjIDQgLy8gMzIKCT09CgoJLy8gYXJndW1lbnQgMCAod2lubmVyKSBmb3Igc2VuZFJld2FyZFdpbm5lcjEgbXVzdCBiZSBhIGFkZHJlc3MKCWFzc2VydAoKCS8vIGV4ZWN1dGUgc2VuZFJld2FyZFdpbm5lcjEoYWRkcmVzcyl2b2lkCgljYWxsc3ViIHNlbmRSZXdhcmRXaW5uZXIxCglpbnRjIDEgLy8gMQoJcmV0dXJuCgovLyBzZW5kUmV3YXJkV2lubmVyMSh3aW5uZXI6IEFkZHJlc3MpOiB2b2lkCnNlbmRSZXdhcmRXaW5uZXIxOgoJcHJvdG8gMSAwCgoJLy8gY29udHJhY3RzL1F1ZXN0Q29udHJhY3QuYWxnby50czo2OQoJLy8gdmVyaWZ5QXBwQ2FsbFR4bih0aGlzLnR4biwgeyBzZW5kZXI6IGdsb2JhbHMuY3JlYXRvckFkZHJlc3MgfSkKCS8vIHZlcmlmeSBzZW5kZXIKCXR4biBTZW5kZXIKCWdsb2JhbCBDcmVhdG9yQWRkcmVzcwoJPT0KCgkvLyB0cmFuc2FjdGlvbiB2ZXJpZmljYXRpb24gZmFpbGVkOiB7InR4biI6InRoaXMudHhuIiwiZmllbGQiOiJzZW5kZXIiLCJleHBlY3RlZCI6Imdsb2JhbHMuY3JlYXRvckFkZHJlc3MifQoJYXNzZXJ0CgoJLy8gY29udHJhY3RzL1F1ZXN0Q29udHJhY3QuYWxnby50czo3MQoJLy8gc2VuZEFzc2V0VHJhbnNmZXIoewoJLy8gICAgICAgICAgIHhmZXJBc3NldDogdGhpcy5yZXdhcmQxLnZhbHVlLCAvLyBVc2UgdGhlIHZhbHVlIGRpcmVjdGx5LCBkb24ndCB3cmFwIGl0IGluIEFzc2V0SUQoKQoJLy8gICAgICAgICAgIGFzc2V0UmVjZWl2ZXI6IHdpbm5lciwKCS8vICAgICAgICAgICBhc3NldEFtb3VudDogMSwKCS8vICAgICAgICAgICBmZWU6IDAKCS8vICAgICAgICAgfSkKCWl0eG5fYmVnaW4KCWludGMgMiAvLyAgYXhmZXIKCWl0eG5fZmllbGQgVHlwZUVudW0KCgkvLyBjb250cmFjdHMvUXVlc3RDb250cmFjdC5hbGdvLnRzOjcyCgkvLyB4ZmVyQXNzZXQ6IHRoaXMucmV3YXJkMS52YWx1ZQoJcHVzaGJ5dGVzIDB4NzI2NTc3NjE3MjY0MzEgLy8gInJld2FyZDEiCglhcHBfZ2xvYmFsX2dldAoJaXR4bl9maWVsZCBYZmVyQXNzZXQKCgkvLyBjb250cmFjdHMvUXVlc3RDb250cmFjdC5hbGdvLnRzOjczCgkvLyBhc3NldFJlY2VpdmVyOiB3aW5uZXIKCWZyYW1lX2RpZyAtMSAvLyB3aW5uZXI6IEFkZHJlc3MKCWl0eG5fZmllbGQgQXNzZXRSZWNlaXZlcgoKCS8vIGNvbnRyYWN0cy9RdWVzdENvbnRyYWN0LmFsZ28udHM6NzQKCS8vIGFzc2V0QW1vdW50OiAxCglpbnRjIDEgLy8gMQoJaXR4bl9maWVsZCBBc3NldEFtb3VudAoKCS8vIGNvbnRyYWN0cy9RdWVzdENvbnRyYWN0LmFsZ28udHM6NzUKCS8vIGZlZTogMAoJaW50YyAwIC8vIDAKCWl0eG5fZmllbGQgRmVlCgoJLy8gU3VibWl0IGlubmVyIHRyYW5zYWN0aW9uCglpdHhuX3N1Ym1pdAoKCS8vIGNvbnRyYWN0cy9RdWVzdENvbnRyYWN0LmFsZ28udHM6NzkKCS8vIHNlbmRBc3NldFRyYW5zZmVyKHsKCS8vICAgICAgICAgICB4ZmVyQXNzZXQ6IEFzc2V0SUQuZnJvbVVpbnQ2NCg3MzQzOTkzMDApLCAvLyBVc2UgdGhlIHZhbHVlIGRpcmVjdGx5LCBkb24ndCB3cmFwIGl0IGluIEFzc2V0SUQoKQoJLy8gICAgICAgICAgIGFzc2V0UmVjZWl2ZXI6IHdpbm5lciwKCS8vICAgICAgICAgICBhc3NldEFtb3VudDogMTAwLAoJLy8gICAgICAgICAgIGZlZTogMAoJLy8gICAgICAgICB9KQoJaXR4bl9iZWdpbgoJaW50YyAyIC8vICBheGZlcgoJaXR4bl9maWVsZCBUeXBlRW51bQoKCS8vIGNvbnRyYWN0cy9RdWVzdENvbnRyYWN0LmFsZ28udHM6ODAKCS8vIHhmZXJBc3NldDogQXNzZXRJRC5mcm9tVWludDY0KDczNDM5OTMwMCkKCWludGMgMyAvLyA3MzQzOTkzMDAKCWl0eG5fZmllbGQgWGZlckFzc2V0CgoJLy8gY29udHJhY3RzL1F1ZXN0Q29udHJhY3QuYWxnby50czo4MQoJLy8gYXNzZXRSZWNlaXZlcjogd2lubmVyCglmcmFtZV9kaWcgLTEgLy8gd2lubmVyOiBBZGRyZXNzCglpdHhuX2ZpZWxkIEFzc2V0UmVjZWl2ZXIKCgkvLyBjb250cmFjdHMvUXVlc3RDb250cmFjdC5hbGdvLnRzOjgyCgkvLyBhc3NldEFtb3VudDogMTAwCglwdXNoaW50IDEwMAoJaXR4bl9maWVsZCBBc3NldEFtb3VudAoKCS8vIGNvbnRyYWN0cy9RdWVzdENvbnRyYWN0LmFsZ28udHM6ODMKCS8vIGZlZTogMAoJaW50YyAwIC8vIDAKCWl0eG5fZmllbGQgRmVlCgoJLy8gU3VibWl0IGlubmVyIHRyYW5zYWN0aW9uCglpdHhuX3N1Ym1pdAoJcmV0c3ViCgovLyBzZW5kUmV3YXJkV2lubmVyMihhZGRyZXNzKXZvaWQKKmFiaV9yb3V0ZV9zZW5kUmV3YXJkV2lubmVyMjoKCS8vIHdpbm5lcjogYWRkcmVzcwoJdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMQoJZHVwCglsZW4KCWludGMgNCAvLyAzMgoJPT0KCgkvLyBhcmd1bWVudCAwICh3aW5uZXIpIGZvciBzZW5kUmV3YXJkV2lubmVyMiBtdXN0IGJlIGEgYWRkcmVzcwoJYXNzZXJ0CgoJLy8gZXhlY3V0ZSBzZW5kUmV3YXJkV2lubmVyMihhZGRyZXNzKXZvaWQKCWNhbGxzdWIgc2VuZFJld2FyZFdpbm5lcjIKCWludGMgMSAvLyAxCglyZXR1cm4KCi8vIHNlbmRSZXdhcmRXaW5uZXIyKHdpbm5lcjogQWRkcmVzcyk6IHZvaWQKc2VuZFJld2FyZFdpbm5lcjI6Cglwcm90byAxIDAKCgkvLyBjb250cmFjdHMvUXVlc3RDb250cmFjdC5hbGdvLnRzOjkzCgkvLyBzZW5kQXNzZXRUcmFuc2Zlcih7CgkvLyAgICAgICAgICAgeGZlckFzc2V0OiBBc3NldElELmZyb21VaW50NjQoNzM0Mzk5MzAwKSwgLy8gVXNlIHRoZSB2YWx1ZSBkaXJlY3RseSwgZG9uJ3Qgd3JhcCBpdCBpbiBBc3NldElEKCkKCS8vICAgICAgICAgICBhc3NldFJlY2VpdmVyOiB3aW5uZXIsCgkvLyAgICAgICAgICAgYXNzZXRBbW91bnQ6IDUwLAoJLy8gICAgICAgICAgIGZlZTogMAoJLy8gICAgICAgICB9KQoJaXR4bl9iZWdpbgoJaW50YyAyIC8vICBheGZlcgoJaXR4bl9maWVsZCBUeXBlRW51bQoKCS8vIGNvbnRyYWN0cy9RdWVzdENvbnRyYWN0LmFsZ28udHM6OTQKCS8vIHhmZXJBc3NldDogQXNzZXRJRC5mcm9tVWludDY0KDczNDM5OTMwMCkKCWludGMgMyAvLyA3MzQzOTkzMDAKCWl0eG5fZmllbGQgWGZlckFzc2V0CgoJLy8gY29udHJhY3RzL1F1ZXN0Q29udHJhY3QuYWxnby50czo5NQoJLy8gYXNzZXRSZWNlaXZlcjogd2lubmVyCglmcmFtZV9kaWcgLTEgLy8gd2lubmVyOiBBZGRyZXNzCglpdHhuX2ZpZWxkIEFzc2V0UmVjZWl2ZXIKCgkvLyBjb250cmFjdHMvUXVlc3RDb250cmFjdC5hbGdvLnRzOjk2CgkvLyBhc3NldEFtb3VudDogNTAKCXB1c2hpbnQgNTAKCWl0eG5fZmllbGQgQXNzZXRBbW91bnQKCgkvLyBjb250cmFjdHMvUXVlc3RDb250cmFjdC5hbGdvLnRzOjk3CgkvLyBmZWU6IDAKCWludGMgMCAvLyAwCglpdHhuX2ZpZWxkIEZlZQoKCS8vIFN1Ym1pdCBpbm5lciB0cmFuc2FjdGlvbgoJaXR4bl9zdWJtaXQKCXJldHN1YgoKLy8gc2VuZFJld2FyZFdpbm5lcjMoYWRkcmVzcyl2b2lkCiphYmlfcm91dGVfc2VuZFJld2FyZFdpbm5lcjM6CgkvLyB3aW5uZXI6IGFkZHJlc3MKCXR4bmEgQXBwbGljYXRpb25BcmdzIDEKCWR1cAoJbGVuCglpbnRjIDQgLy8gMzIKCT09CgoJLy8gYXJndW1lbnQgMCAod2lubmVyKSBmb3Igc2VuZFJld2FyZFdpbm5lcjMgbXVzdCBiZSBhIGFkZHJlc3MKCWFzc2VydAoKCS8vIGV4ZWN1dGUgc2VuZFJld2FyZFdpbm5lcjMoYWRkcmVzcyl2b2lkCgljYWxsc3ViIHNlbmRSZXdhcmRXaW5uZXIzCglpbnRjIDEgLy8gMQoJcmV0dXJuCgovLyBzZW5kUmV3YXJkV2lubmVyMyh3aW5uZXI6IEFkZHJlc3MpOiB2b2lkCnNlbmRSZXdhcmRXaW5uZXIzOgoJcHJvdG8gMSAwCgoJLy8gY29udHJhY3RzL1F1ZXN0Q29udHJhY3QuYWxnby50czoxMDUKCS8vIHNlbmRBc3NldFRyYW5zZmVyKHsKCS8vICAgICAgICAgICB4ZmVyQXNzZXQ6IEFzc2V0SUQuZnJvbVVpbnQ2NCg3MzQzOTkzMDApLCAvLyBVc2UgdGhlIHZhbHVlIGRpcmVjdGx5LCBkb24ndCB3cmFwIGl0IGluIEFzc2V0SUQoKQoJLy8gICAgICAgICAgIGFzc2V0UmVjZWl2ZXI6IHdpbm5lciwKCS8vICAgICAgICAgICBhc3NldEFtb3VudDogMjUsCgkvLyAgICAgICAgICAgZmVlOiAwCgkvLyAgICAgICAgIH0pCglpdHhuX2JlZ2luCglpbnRjIDIgLy8gIGF4ZmVyCglpdHhuX2ZpZWxkIFR5cGVFbnVtCgoJLy8gY29udHJhY3RzL1F1ZXN0Q29udHJhY3QuYWxnby50czoxMDYKCS8vIHhmZXJBc3NldDogQXNzZXRJRC5mcm9tVWludDY0KDczNDM5OTMwMCkKCWludGMgMyAvLyA3MzQzOTkzMDAKCWl0eG5fZmllbGQgWGZlckFzc2V0CgoJLy8gY29udHJhY3RzL1F1ZXN0Q29udHJhY3QuYWxnby50czoxMDcKCS8vIGFzc2V0UmVjZWl2ZXI6IHdpbm5lcgoJZnJhbWVfZGlnIC0xIC8vIHdpbm5lcjogQWRkcmVzcwoJaXR4bl9maWVsZCBBc3NldFJlY2VpdmVyCgoJLy8gY29udHJhY3RzL1F1ZXN0Q29udHJhY3QuYWxnby50czoxMDgKCS8vIGFzc2V0QW1vdW50OiAyNQoJcHVzaGludCAyNQoJaXR4bl9maWVsZCBBc3NldEFtb3VudAoKCS8vIGNvbnRyYWN0cy9RdWVzdENvbnRyYWN0LmFsZ28udHM6MTA5CgkvLyBmZWU6IDAKCWludGMgMCAvLyAwCglpdHhuX2ZpZWxkIEZlZQoKCS8vIFN1Ym1pdCBpbm5lciB0cmFuc2FjdGlvbgoJaXR4bl9zdWJtaXQKCXJldHN1YgoKKmNyZWF0ZV9Ob09wOgoJcHVzaGJ5dGVzIDB4YzA0Yjc1ZjQgLy8gbWV0aG9kICJjcmVhdGVBcHBsaWNhdGlvbihzdHJpbmcsc3RyaW5nLHVpbnQ2NCl2b2lkIgoJdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMAoJbWF0Y2ggKmFiaV9yb3V0ZV9jcmVhdGVBcHBsaWNhdGlvbgoKCS8vIHRoaXMgY29udHJhY3QgZG9lcyBub3QgaW1wbGVtZW50IHRoZSBnaXZlbiBBQkkgbWV0aG9kIGZvciBjcmVhdGUgTm9PcAoJZXJyCgoqY2FsbF9Ob09wOgoJcHVzaGJ5dGVzIDB4YWRkMzZhMDIgLy8gbWV0aG9kICJjcmVhdGVORlRSZXdhcmQoc3RyaW5nKXVpbnQ2NCIKCXB1c2hieXRlcyAweGJiNzU3YjFjIC8vIG1ldGhvZCAib3B0SW50b0Fzc2V0KCl2b2lkIgoJcHVzaGJ5dGVzIDB4MmIwOGJiNzUgLy8gbWV0aG9kICJzZW5kUmV3YXJkV2lubmVyMShhZGRyZXNzKXZvaWQiCglwdXNoYnl0ZXMgMHhhNjczM2RmMSAvLyBtZXRob2QgInNlbmRSZXdhcmRXaW5uZXIyKGFkZHJlc3Mpdm9pZCIKCXB1c2hieXRlcyAweDBlOWI4MGYyIC8vIG1ldGhvZCAic2VuZFJld2FyZFdpbm5lcjMoYWRkcmVzcyl2b2lkIgoJdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMAoJbWF0Y2ggKmFiaV9yb3V0ZV9jcmVhdGVORlRSZXdhcmQgKmFiaV9yb3V0ZV9vcHRJbnRvQXNzZXQgKmFiaV9yb3V0ZV9zZW5kUmV3YXJkV2lubmVyMSAqYWJpX3JvdXRlX3NlbmRSZXdhcmRXaW5uZXIyICphYmlfcm91dGVfc2VuZFJld2FyZFdpbm5lcjMKCgkvLyB0aGlzIGNvbnRyYWN0IGRvZXMgbm90IGltcGxlbWVudCB0aGUgZ2l2ZW4gQUJJIG1ldGhvZCBmb3IgY2FsbCBOb09wCgllcnI=",
+    "approval": "I3ByYWdtYSB2ZXJzaW9uIDEwCmludGNibG9jayAwIDEgNCA3MzQzOTkzMDAgMzIKYnl0ZWNibG9jayAweDcxNzU2NTczNzQ1NDY5NzQ2YzY1CgovLyBUaGlzIFRFQUwgd2FzIGdlbmVyYXRlZCBieSBURUFMU2NyaXB0IHYwLjEwNS40Ci8vIGh0dHBzOi8vZ2l0aHViLmNvbS9hbGdvcmFuZGZvdW5kYXRpb24vVEVBTFNjcmlwdAoKLy8gVGhpcyBjb250cmFjdCBpcyBjb21wbGlhbnQgd2l0aCBhbmQvb3IgaW1wbGVtZW50cyB0aGUgZm9sbG93aW5nIEFSQ3M6IFsgQVJDNCBdCgovLyBUaGUgZm9sbG93aW5nIHRlbiBsaW5lcyBvZiBURUFMIGhhbmRsZSBpbml0aWFsIHByb2dyYW0gZmxvdwovLyBUaGlzIHBhdHRlcm4gaXMgdXNlZCB0byBtYWtlIGl0IGVhc3kgZm9yIGFueW9uZSB0byBwYXJzZSB0aGUgc3RhcnQgb2YgdGhlIHByb2dyYW0gYW5kIGRldGVybWluZSBpZiBhIHNwZWNpZmljIGFjdGlvbiBpcyBhbGxvd2VkCi8vIEhlcmUsIGFjdGlvbiByZWZlcnMgdG8gdGhlIE9uQ29tcGxldGUgaW4gY29tYmluYXRpb24gd2l0aCB3aGV0aGVyIHRoZSBhcHAgaXMgYmVpbmcgY3JlYXRlZCBvciBjYWxsZWQKLy8gRXZlcnkgcG9zc2libGUgYWN0aW9uIGZvciB0aGlzIGNvbnRyYWN0IGlzIHJlcHJlc2VudGVkIGluIHRoZSBzd2l0Y2ggc3RhdGVtZW50Ci8vIElmIHRoZSBhY3Rpb24gaXMgbm90IGltcGxlbWVudGVkIGluIHRoZSBjb250cmFjdCwgaXRzIHJlc3BlY3RpdmUgYnJhbmNoIHdpbGwgYmUgIipOT1RfSU1QTEVNRU5URUQiIHdoaWNoIGp1c3QgY29udGFpbnMgImVyciIKdHhuIEFwcGxpY2F0aW9uSUQKIQpwdXNoaW50IDYKKgp0eG4gT25Db21wbGV0aW9uCisKc3dpdGNoICpjYWxsX05vT3AgKk5PVF9JTVBMRU1FTlRFRCAqTk9UX0lNUExFTUVOVEVEICpOT1RfSU1QTEVNRU5URUQgKk5PVF9JTVBMRU1FTlRFRCAqTk9UX0lNUExFTUVOVEVEICpjcmVhdGVfTm9PcCAqTk9UX0lNUExFTUVOVEVEICpOT1RfSU1QTEVNRU5URUQgKk5PVF9JTVBMRU1FTlRFRCAqTk9UX0lNUExFTUVOVEVEICpOT1RfSU1QTEVNRU5URUQKCipOT1RfSU1QTEVNRU5URUQ6CgkvLyBUaGUgcmVxdWVzdGVkIGFjdGlvbiBpcyBub3QgaW1wbGVtZW50ZWQgaW4gdGhpcyBjb250cmFjdC4gQXJlIHlvdSB1c2luZyB0aGUgY29ycmVjdCBPbkNvbXBsZXRlPyBEaWQgeW91IHNldCB5b3VyIGFwcCBJRD8KCWVycgoKLy8gY3JlYXRlQXBwbGljYXRpb24oc3RyaW5nLHN0cmluZyx1aW50NjQpdm9pZAoqYWJpX3JvdXRlX2NyZWF0ZUFwcGxpY2F0aW9uOgoJLy8gZXhwaXJ5RGF0ZTogdWludDY0Cgl0eG5hIEFwcGxpY2F0aW9uQXJncyAzCglidG9pCgoJLy8gcXVlc3RMb2NhdGlvbjogc3RyaW5nCgl0eG5hIEFwcGxpY2F0aW9uQXJncyAyCglleHRyYWN0IDIgMAoKCS8vIHF1ZXN0VGl0bGU6IHN0cmluZwoJdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMQoJZXh0cmFjdCAyIDAKCgkvLyBleGVjdXRlIGNyZWF0ZUFwcGxpY2F0aW9uKHN0cmluZyxzdHJpbmcsdWludDY0KXZvaWQKCWNhbGxzdWIgY3JlYXRlQXBwbGljYXRpb24KCWludGMgMSAvLyAxCglyZXR1cm4KCi8vIGNyZWF0ZUFwcGxpY2F0aW9uKHF1ZXN0VGl0bGU6IHN0cmluZywgcXVlc3RMb2NhdGlvbjogc3RyaW5nLCBleHBpcnlEYXRlOiB1aW50NjQpOiB2b2lkCmNyZWF0ZUFwcGxpY2F0aW9uOgoJcHJvdG8gMyAwCgoJLy8gY29udHJhY3RzL1F1ZXN0Q29udHJhY3QuYWxnby50czoyNAoJLy8gYXNzZXJ0KHRoaXMuYXBwLmlkID09IDAsICJUaGlzIG1ldGhvZCBjYW4gb25seSBiZSBjYWxsZWQgZHVyaW5nIGFwcGxpY2F0aW9uIGNyZWF0aW9uIikKCXR4bmEgQXBwbGljYXRpb25zIDAKCWludGMgMCAvLyAwCgk9PQoKCS8vIFRoaXMgbWV0aG9kIGNhbiBvbmx5IGJlIGNhbGxlZCBkdXJpbmcgYXBwbGljYXRpb24gY3JlYXRpb24KCWFzc2VydAoKCS8vIGNvbnRyYWN0cy9RdWVzdENvbnRyYWN0LmFsZ28udHM6MjcKCS8vIHRoaXMucXVlc3RUaXRsZS52YWx1ZSA9IHF1ZXN0VGl0bGUKCWJ5dGVjIDAgLy8gICJxdWVzdFRpdGxlIgoJZnJhbWVfZGlnIC0xIC8vIHF1ZXN0VGl0bGU6IHN0cmluZwoJZHVwCglsZW4KCWl0b2IKCWV4dHJhY3QgNiAyCglzd2FwCgljb25jYXQKCWFwcF9nbG9iYWxfcHV0CgoJLy8gY29udHJhY3RzL1F1ZXN0Q29udHJhY3QuYWxnby50czoyOAoJLy8gdGhpcy5xdWVzdExvY2F0aW9uLnZhbHVlID0gcXVlc3RMb2NhdGlvbgoJcHVzaGJ5dGVzIDB4NzE3NTY1NzM3NDRjNmY2MzYxNzQ2OTZmNmUgLy8gInF1ZXN0TG9jYXRpb24iCglmcmFtZV9kaWcgLTIgLy8gcXVlc3RMb2NhdGlvbjogc3RyaW5nCglkdXAKCWxlbgoJaXRvYgoJZXh0cmFjdCA2IDIKCXN3YXAKCWNvbmNhdAoJYXBwX2dsb2JhbF9wdXQKCgkvLyBjb250cmFjdHMvUXVlc3RDb250cmFjdC5hbGdvLnRzOjI5CgkvLyB0aGlzLmV4cGlyeURhdGUudmFsdWUgPSBleHBpcnlEYXRlCglwdXNoYnl0ZXMgMHg2NTc4NzA2OTcyNzk0NDYxNzQ2NSAvLyAiZXhwaXJ5RGF0ZSIKCWZyYW1lX2RpZyAtMyAvLyBleHBpcnlEYXRlOiB1aW50NjQKCWFwcF9nbG9iYWxfcHV0CglyZXRzdWIKCi8vIGNyZWF0ZU5GVFJld2FyZChzdHJpbmcpdWludDY0CiphYmlfcm91dGVfY3JlYXRlTkZUUmV3YXJkOgoJLy8gVGhlIEFCSSByZXR1cm4gcHJlZml4CglwdXNoYnl0ZXMgMHgxNTFmN2M3NQoKCS8vIGFzc2V0VXJsOiBzdHJpbmcKCXR4bmEgQXBwbGljYXRpb25BcmdzIDEKCWV4dHJhY3QgMiAwCgoJLy8gZXhlY3V0ZSBjcmVhdGVORlRSZXdhcmQoc3RyaW5nKXVpbnQ2NAoJY2FsbHN1YiBjcmVhdGVORlRSZXdhcmQKCWl0b2IKCWNvbmNhdAoJbG9nCglpbnRjIDEgLy8gMQoJcmV0dXJuCgovLyBjcmVhdGVORlRSZXdhcmQoYXNzZXRVcmwgOiBzdHJpbmcpOiB1aW50NjQKY3JlYXRlTkZUUmV3YXJkOgoJcHJvdG8gMSAxCgoJLy8gUHVzaCBlbXB0eSBieXRlcyBhZnRlciB0aGUgZnJhbWUgcG9pbnRlciB0byByZXNlcnZlIHNwYWNlIGZvciBsb2NhbCB2YXJpYWJsZXMKCXB1c2hieXRlcyAweAoKCS8vIGNvbnRyYWN0cy9RdWVzdENvbnRyYWN0LmFsZ28udHM6MzUKCS8vIGl0eG5SZXN1bHQgPSBzZW5kQXNzZXRDcmVhdGlvbih7CgkvLyAgICAgICAgICAgY29uZmlnQXNzZXRUb3RhbDogMSwgIC8vIFVzZSBjb25maWdBc3NldFRvdGFsIGluc3RlYWQgb2YgdG90YWwKCS8vICAgICAgICAgICBjb25maWdBc3NldERlY2ltYWxzOiAwLCAgICAgIC8vIFVzZSBjb25maWdBc3NldERlY2ltYWxzIGluc3RlYWQgb2YgZGVjaW1hbHMKCS8vICAgICAgICAgICBjb25maWdBc3NldFVuaXROYW1lOiAiTkZUIiwgIC8vIFVzZSBjb25maWdBc3NldFVuaXROYW1lIGluc3RlYWQgb2YgdW5pdE5hbWUKCS8vICAgICAgICAgICBjb25maWdBc3NldE5hbWU6IHRoaXMucXVlc3RUaXRsZS52YWx1ZSwgLy8gVXNlIGNvbmZpZ0Fzc2V0TmFtZSBpbnN0ZWFkIG9mIGFzc2V0TmFtZQoJLy8gICAgICAgICAgIGNvbmZpZ0Fzc2V0VVJMIDogYXNzZXRVcmwsCgkvLyAgICAgICAgICAgZmVlOiAzMDAwLAoJLy8KCS8vICAgICAgICAgfSkKCWl0eG5fYmVnaW4KCXB1c2hpbnQgMyAvLyBhY2ZnCglpdHhuX2ZpZWxkIFR5cGVFbnVtCgoJLy8gY29udHJhY3RzL1F1ZXN0Q29udHJhY3QuYWxnby50czozNgoJLy8gY29uZmlnQXNzZXRUb3RhbDogMQoJaW50YyAxIC8vIDEKCWl0eG5fZmllbGQgQ29uZmlnQXNzZXRUb3RhbAoKCS8vIGNvbnRyYWN0cy9RdWVzdENvbnRyYWN0LmFsZ28udHM6MzcKCS8vIGNvbmZpZ0Fzc2V0RGVjaW1hbHM6IDAKCWludGMgMCAvLyAwCglpdHhuX2ZpZWxkIENvbmZpZ0Fzc2V0RGVjaW1hbHMKCgkvLyBjb250cmFjdHMvUXVlc3RDb250cmFjdC5hbGdvLnRzOjM4CgkvLyBjb25maWdBc3NldFVuaXROYW1lOiAiTkZUIgoJcHVzaGJ5dGVzIDB4NGU0NjU0IC8vICJORlQiCglpdHhuX2ZpZWxkIENvbmZpZ0Fzc2V0VW5pdE5hbWUKCgkvLyBjb250cmFjdHMvUXVlc3RDb250cmFjdC5hbGdvLnRzOjM5CgkvLyBjb25maWdBc3NldE5hbWU6IHRoaXMucXVlc3RUaXRsZS52YWx1ZQoJYnl0ZWMgMCAvLyAgInF1ZXN0VGl0bGUiCglhcHBfZ2xvYmFsX2dldAoJZXh0cmFjdCAyIDAKCWl0eG5fZmllbGQgQ29uZmlnQXNzZXROYW1lCgoJLy8gY29udHJhY3RzL1F1ZXN0Q29udHJhY3QuYWxnby50czo0MAoJLy8gY29uZmlnQXNzZXRVUkwgOiBhc3NldFVybAoJZnJhbWVfZGlnIC0xIC8vIGFzc2V0VXJsOiBzdHJpbmcKCWl0eG5fZmllbGQgQ29uZmlnQXNzZXRVUkwKCgkvLyBjb250cmFjdHMvUXVlc3RDb250cmFjdC5hbGdvLnRzOjQxCgkvLyBmZWU6IDMwMDAKCXB1c2hpbnQgMzAwMAoJaXR4bl9maWVsZCBGZWUKCgkvLyBTdWJtaXQgaW5uZXIgdHJhbnNhY3Rpb24KCWl0eG5fc3VibWl0CglpdHhuIENyZWF0ZWRBc3NldElECglmcmFtZV9idXJ5IDAgLy8gaXR4blJlc3VsdDogdWludDY0CgoJLy8gY29udHJhY3RzL1F1ZXN0Q29udHJhY3QuYWxnby50czo0NQoJLy8gcmV0dXJuIGl0eG5SZXN1bHQuaWQKCWZyYW1lX2RpZyAwIC8vIGl0eG5SZXN1bHQ6IHVpbnQ2NAoKCS8vIHNldCB0aGUgc3Vicm91dGluZSByZXR1cm4gdmFsdWUKCWZyYW1lX2J1cnkgMAoJcmV0c3ViCgovLyBvcHRJbnRvQXNzZXQoKXZvaWQKKmFiaV9yb3V0ZV9vcHRJbnRvQXNzZXQ6CgkvLyBleGVjdXRlIG9wdEludG9Bc3NldCgpdm9pZAoJY2FsbHN1YiBvcHRJbnRvQXNzZXQKCWludGMgMSAvLyAxCglyZXR1cm4KCi8vIG9wdEludG9Bc3NldCgpOiB2b2lkCm9wdEludG9Bc3NldDoKCXByb3RvIDAgMAoKCS8vIE9ubHkgYWxsb3cgYXBwIGNyZWF0b3IgdG8gb3B0IHRoZSBhcHAgYWNjb3VudCBpbnRvIGEgQVNBCgkvLyBjb250cmFjdHMvUXVlc3RDb250cmFjdC5hbGdvLnRzOjUxCgkvLyB2ZXJpZnlBcHBDYWxsVHhuKHRoaXMudHhuLCB7IHNlbmRlcjogZ2xvYmFscy5jcmVhdG9yQWRkcmVzcyB9KQoJLy8gdmVyaWZ5IHNlbmRlcgoJdHhuIFNlbmRlcgoJZ2xvYmFsIENyZWF0b3JBZGRyZXNzCgk9PQoKCS8vIHRyYW5zYWN0aW9uIHZlcmlmaWNhdGlvbiBmYWlsZWQ6IHsidHhuIjoidGhpcy50eG4iLCJmaWVsZCI6InNlbmRlciIsImV4cGVjdGVkIjoiZ2xvYmFscy5jcmVhdG9yQWRkcmVzcyJ9Cglhc3NlcnQKCgkvLyBTdWJtaXQgb3B0LWluIHRyYW5zYWN0aW9uOiAwIGFzc2V0IHRyYW5zZmVyIHRvIHNlbGYKCS8vIGNvbnRyYWN0cy9RdWVzdENvbnRyYWN0LmFsZ28udHM6NTYKCS8vIHNlbmRBc3NldFRyYW5zZmVyKHsKCS8vICAgICAgICAgICBhc3NldFJlY2VpdmVyOiB0aGlzLmFwcC5hZGRyZXNzLAoJLy8gICAgICAgICAgIHhmZXJBc3NldDogQXNzZXRJRC5mcm9tVWludDY0KDczNDM5OTMwMCksCgkvLyAgICAgICAgICAgYXNzZXRBbW91bnQ6IDAsCgkvLyAgICAgICAgIH0pCglpdHhuX2JlZ2luCglpbnRjIDIgLy8gIGF4ZmVyCglpdHhuX2ZpZWxkIFR5cGVFbnVtCgoJLy8gY29udHJhY3RzL1F1ZXN0Q29udHJhY3QuYWxnby50czo1NwoJLy8gYXNzZXRSZWNlaXZlcjogdGhpcy5hcHAuYWRkcmVzcwoJZ2xvYmFsIEN1cnJlbnRBcHBsaWNhdGlvbkFkZHJlc3MKCWl0eG5fZmllbGQgQXNzZXRSZWNlaXZlcgoKCS8vIGNvbnRyYWN0cy9RdWVzdENvbnRyYWN0LmFsZ28udHM6NTgKCS8vIHhmZXJBc3NldDogQXNzZXRJRC5mcm9tVWludDY0KDczNDM5OTMwMCkKCWludGMgMyAvLyA3MzQzOTkzMDAKCWl0eG5fZmllbGQgWGZlckFzc2V0CgoJLy8gY29udHJhY3RzL1F1ZXN0Q29udHJhY3QuYWxnby50czo1OQoJLy8gYXNzZXRBbW91bnQ6IDAKCWludGMgMCAvLyAwCglpdHhuX2ZpZWxkIEFzc2V0QW1vdW50CgoJLy8gRmVlIGZpZWxkIG5vdCBzZXQsIGRlZmF1bHRpbmcgdG8gMAoJaW50YyAwIC8vIDAKCWl0eG5fZmllbGQgRmVlCgoJLy8gU3VibWl0IGlubmVyIHRyYW5zYWN0aW9uCglpdHhuX3N1Ym1pdAoJcmV0c3ViCgovLyBzZW5kUmV3YXJkV2lubmVyMShhZGRyZXNzKXZvaWQKKmFiaV9yb3V0ZV9zZW5kUmV3YXJkV2lubmVyMToKCS8vIHdpbm5lcjogYWRkcmVzcwoJdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMQoJZHVwCglsZW4KCWludGMgNCAvLyAzMgoJPT0KCgkvLyBhcmd1bWVudCAwICh3aW5uZXIpIGZvciBzZW5kUmV3YXJkV2lubmVyMSBtdXN0IGJlIGEgYWRkcmVzcwoJYXNzZXJ0CgoJLy8gZXhlY3V0ZSBzZW5kUmV3YXJkV2lubmVyMShhZGRyZXNzKXZvaWQKCWNhbGxzdWIgc2VuZFJld2FyZFdpbm5lcjEKCWludGMgMSAvLyAxCglyZXR1cm4KCi8vIHNlbmRSZXdhcmRXaW5uZXIxKHdpbm5lcjogQWRkcmVzcyk6IHZvaWQKc2VuZFJld2FyZFdpbm5lcjE6Cglwcm90byAxIDAKCgkvLyBjb250cmFjdHMvUXVlc3RDb250cmFjdC5hbGdvLnRzOjcwCgkvLyB2ZXJpZnlBcHBDYWxsVHhuKHRoaXMudHhuLCB7IHNlbmRlcjogZ2xvYmFscy5jcmVhdG9yQWRkcmVzcyB9KQoJLy8gdmVyaWZ5IHNlbmRlcgoJdHhuIFNlbmRlcgoJZ2xvYmFsIENyZWF0b3JBZGRyZXNzCgk9PQoKCS8vIHRyYW5zYWN0aW9uIHZlcmlmaWNhdGlvbiBmYWlsZWQ6IHsidHhuIjoidGhpcy50eG4iLCJmaWVsZCI6InNlbmRlciIsImV4cGVjdGVkIjoiZ2xvYmFscy5jcmVhdG9yQWRkcmVzcyJ9Cglhc3NlcnQKCgkvLyBjb250cmFjdHMvUXVlc3RDb250cmFjdC5hbGdvLnRzOjcyCgkvLyBzZW5kQXNzZXRUcmFuc2Zlcih7CgkvLyAgICAgICAgICAgeGZlckFzc2V0OiB0aGlzLnJld2FyZDEudmFsdWUsIC8vIFVzZSB0aGUgdmFsdWUgZGlyZWN0bHksIGRvbid0IHdyYXAgaXQgaW4gQXNzZXRJRCgpCgkvLyAgICAgICAgICAgYXNzZXRSZWNlaXZlcjogd2lubmVyLAoJLy8gICAgICAgICAgIGFzc2V0QW1vdW50OiAxLAoJLy8gICAgICAgICAgIGZlZTogMAoJLy8gICAgICAgICB9KQoJaXR4bl9iZWdpbgoJaW50YyAyIC8vICBheGZlcgoJaXR4bl9maWVsZCBUeXBlRW51bQoKCS8vIGNvbnRyYWN0cy9RdWVzdENvbnRyYWN0LmFsZ28udHM6NzMKCS8vIHhmZXJBc3NldDogdGhpcy5yZXdhcmQxLnZhbHVlCglwdXNoYnl0ZXMgMHg3MjY1Nzc2MTcyNjQzMSAvLyAicmV3YXJkMSIKCWFwcF9nbG9iYWxfZ2V0CglpdHhuX2ZpZWxkIFhmZXJBc3NldAoKCS8vIGNvbnRyYWN0cy9RdWVzdENvbnRyYWN0LmFsZ28udHM6NzQKCS8vIGFzc2V0UmVjZWl2ZXI6IHdpbm5lcgoJZnJhbWVfZGlnIC0xIC8vIHdpbm5lcjogQWRkcmVzcwoJaXR4bl9maWVsZCBBc3NldFJlY2VpdmVyCgoJLy8gY29udHJhY3RzL1F1ZXN0Q29udHJhY3QuYWxnby50czo3NQoJLy8gYXNzZXRBbW91bnQ6IDEKCWludGMgMSAvLyAxCglpdHhuX2ZpZWxkIEFzc2V0QW1vdW50CgoJLy8gY29udHJhY3RzL1F1ZXN0Q29udHJhY3QuYWxnby50czo3NgoJLy8gZmVlOiAwCglpbnRjIDAgLy8gMAoJaXR4bl9maWVsZCBGZWUKCgkvLyBTdWJtaXQgaW5uZXIgdHJhbnNhY3Rpb24KCWl0eG5fc3VibWl0CgoJLy8gY29udHJhY3RzL1F1ZXN0Q29udHJhY3QuYWxnby50czo4MAoJLy8gc2VuZEFzc2V0VHJhbnNmZXIoewoJLy8gICAgICAgICAgIHhmZXJBc3NldDogQXNzZXRJRC5mcm9tVWludDY0KDczNDM5OTMwMCksIC8vIFVzZSB0aGUgdmFsdWUgZGlyZWN0bHksIGRvbid0IHdyYXAgaXQgaW4gQXNzZXRJRCgpCgkvLyAgICAgICAgICAgYXNzZXRSZWNlaXZlcjogd2lubmVyLAoJLy8gICAgICAgICAgIGFzc2V0QW1vdW50OiAxMDAsCgkvLyAgICAgICAgICAgZmVlOiAwCgkvLyAgICAgICAgIH0pCglpdHhuX2JlZ2luCglpbnRjIDIgLy8gIGF4ZmVyCglpdHhuX2ZpZWxkIFR5cGVFbnVtCgoJLy8gY29udHJhY3RzL1F1ZXN0Q29udHJhY3QuYWxnby50czo4MQoJLy8geGZlckFzc2V0OiBBc3NldElELmZyb21VaW50NjQoNzM0Mzk5MzAwKQoJaW50YyAzIC8vIDczNDM5OTMwMAoJaXR4bl9maWVsZCBYZmVyQXNzZXQKCgkvLyBjb250cmFjdHMvUXVlc3RDb250cmFjdC5hbGdvLnRzOjgyCgkvLyBhc3NldFJlY2VpdmVyOiB3aW5uZXIKCWZyYW1lX2RpZyAtMSAvLyB3aW5uZXI6IEFkZHJlc3MKCWl0eG5fZmllbGQgQXNzZXRSZWNlaXZlcgoKCS8vIGNvbnRyYWN0cy9RdWVzdENvbnRyYWN0LmFsZ28udHM6ODMKCS8vIGFzc2V0QW1vdW50OiAxMDAKCXB1c2hpbnQgMTAwCglpdHhuX2ZpZWxkIEFzc2V0QW1vdW50CgoJLy8gY29udHJhY3RzL1F1ZXN0Q29udHJhY3QuYWxnby50czo4NAoJLy8gZmVlOiAwCglpbnRjIDAgLy8gMAoJaXR4bl9maWVsZCBGZWUKCgkvLyBTdWJtaXQgaW5uZXIgdHJhbnNhY3Rpb24KCWl0eG5fc3VibWl0CglyZXRzdWIKCi8vIHNlbmRSZXdhcmRXaW5uZXIyKGFkZHJlc3Mpdm9pZAoqYWJpX3JvdXRlX3NlbmRSZXdhcmRXaW5uZXIyOgoJLy8gd2lubmVyOiBhZGRyZXNzCgl0eG5hIEFwcGxpY2F0aW9uQXJncyAxCglkdXAKCWxlbgoJaW50YyA0IC8vIDMyCgk9PQoKCS8vIGFyZ3VtZW50IDAgKHdpbm5lcikgZm9yIHNlbmRSZXdhcmRXaW5uZXIyIG11c3QgYmUgYSBhZGRyZXNzCglhc3NlcnQKCgkvLyBleGVjdXRlIHNlbmRSZXdhcmRXaW5uZXIyKGFkZHJlc3Mpdm9pZAoJY2FsbHN1YiBzZW5kUmV3YXJkV2lubmVyMgoJaW50YyAxIC8vIDEKCXJldHVybgoKLy8gc2VuZFJld2FyZFdpbm5lcjIod2lubmVyOiBBZGRyZXNzKTogdm9pZApzZW5kUmV3YXJkV2lubmVyMjoKCXByb3RvIDEgMAoKCS8vIGNvbnRyYWN0cy9RdWVzdENvbnRyYWN0LmFsZ28udHM6OTQKCS8vIHNlbmRBc3NldFRyYW5zZmVyKHsKCS8vICAgICAgICAgICB4ZmVyQXNzZXQ6IEFzc2V0SUQuZnJvbVVpbnQ2NCg3MzQzOTkzMDApLCAvLyBVc2UgdGhlIHZhbHVlIGRpcmVjdGx5LCBkb24ndCB3cmFwIGl0IGluIEFzc2V0SUQoKQoJLy8gICAgICAgICAgIGFzc2V0UmVjZWl2ZXI6IHdpbm5lciwKCS8vICAgICAgICAgICBhc3NldEFtb3VudDogNTAsCgkvLyAgICAgICAgICAgZmVlOiAwCgkvLyAgICAgICAgIH0pCglpdHhuX2JlZ2luCglpbnRjIDIgLy8gIGF4ZmVyCglpdHhuX2ZpZWxkIFR5cGVFbnVtCgoJLy8gY29udHJhY3RzL1F1ZXN0Q29udHJhY3QuYWxnby50czo5NQoJLy8geGZlckFzc2V0OiBBc3NldElELmZyb21VaW50NjQoNzM0Mzk5MzAwKQoJaW50YyAzIC8vIDczNDM5OTMwMAoJaXR4bl9maWVsZCBYZmVyQXNzZXQKCgkvLyBjb250cmFjdHMvUXVlc3RDb250cmFjdC5hbGdvLnRzOjk2CgkvLyBhc3NldFJlY2VpdmVyOiB3aW5uZXIKCWZyYW1lX2RpZyAtMSAvLyB3aW5uZXI6IEFkZHJlc3MKCWl0eG5fZmllbGQgQXNzZXRSZWNlaXZlcgoKCS8vIGNvbnRyYWN0cy9RdWVzdENvbnRyYWN0LmFsZ28udHM6OTcKCS8vIGFzc2V0QW1vdW50OiA1MAoJcHVzaGludCA1MAoJaXR4bl9maWVsZCBBc3NldEFtb3VudAoKCS8vIGNvbnRyYWN0cy9RdWVzdENvbnRyYWN0LmFsZ28udHM6OTgKCS8vIGZlZTogMAoJaW50YyAwIC8vIDAKCWl0eG5fZmllbGQgRmVlCgoJLy8gU3VibWl0IGlubmVyIHRyYW5zYWN0aW9uCglpdHhuX3N1Ym1pdAoJcmV0c3ViCgovLyBzZW5kUmV3YXJkV2lubmVyMyhhZGRyZXNzKXZvaWQKKmFiaV9yb3V0ZV9zZW5kUmV3YXJkV2lubmVyMzoKCS8vIHdpbm5lcjogYWRkcmVzcwoJdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMQoJZHVwCglsZW4KCWludGMgNCAvLyAzMgoJPT0KCgkvLyBhcmd1bWVudCAwICh3aW5uZXIpIGZvciBzZW5kUmV3YXJkV2lubmVyMyBtdXN0IGJlIGEgYWRkcmVzcwoJYXNzZXJ0CgoJLy8gZXhlY3V0ZSBzZW5kUmV3YXJkV2lubmVyMyhhZGRyZXNzKXZvaWQKCWNhbGxzdWIgc2VuZFJld2FyZFdpbm5lcjMKCWludGMgMSAvLyAxCglyZXR1cm4KCi8vIHNlbmRSZXdhcmRXaW5uZXIzKHdpbm5lcjogQWRkcmVzcyk6IHZvaWQKc2VuZFJld2FyZFdpbm5lcjM6Cglwcm90byAxIDAKCgkvLyBjb250cmFjdHMvUXVlc3RDb250cmFjdC5hbGdvLnRzOjEwNgoJLy8gc2VuZEFzc2V0VHJhbnNmZXIoewoJLy8gICAgICAgICAgIHhmZXJBc3NldDogQXNzZXRJRC5mcm9tVWludDY0KDczNDM5OTMwMCksIC8vIFVzZSB0aGUgdmFsdWUgZGlyZWN0bHksIGRvbid0IHdyYXAgaXQgaW4gQXNzZXRJRCgpCgkvLyAgICAgICAgICAgYXNzZXRSZWNlaXZlcjogd2lubmVyLAoJLy8gICAgICAgICAgIGFzc2V0QW1vdW50OiAyNSwKCS8vICAgICAgICAgICBmZWU6IDAKCS8vICAgICAgICAgfSkKCWl0eG5fYmVnaW4KCWludGMgMiAvLyAgYXhmZXIKCWl0eG5fZmllbGQgVHlwZUVudW0KCgkvLyBjb250cmFjdHMvUXVlc3RDb250cmFjdC5hbGdvLnRzOjEwNwoJLy8geGZlckFzc2V0OiBBc3NldElELmZyb21VaW50NjQoNzM0Mzk5MzAwKQoJaW50YyAzIC8vIDczNDM5OTMwMAoJaXR4bl9maWVsZCBYZmVyQXNzZXQKCgkvLyBjb250cmFjdHMvUXVlc3RDb250cmFjdC5hbGdvLnRzOjEwOAoJLy8gYXNzZXRSZWNlaXZlcjogd2lubmVyCglmcmFtZV9kaWcgLTEgLy8gd2lubmVyOiBBZGRyZXNzCglpdHhuX2ZpZWxkIEFzc2V0UmVjZWl2ZXIKCgkvLyBjb250cmFjdHMvUXVlc3RDb250cmFjdC5hbGdvLnRzOjEwOQoJLy8gYXNzZXRBbW91bnQ6IDI1CglwdXNoaW50IDI1CglpdHhuX2ZpZWxkIEFzc2V0QW1vdW50CgoJLy8gY29udHJhY3RzL1F1ZXN0Q29udHJhY3QuYWxnby50czoxMTAKCS8vIGZlZTogMAoJaW50YyAwIC8vIDAKCWl0eG5fZmllbGQgRmVlCgoJLy8gU3VibWl0IGlubmVyIHRyYW5zYWN0aW9uCglpdHhuX3N1Ym1pdAoJcmV0c3ViCgoqY3JlYXRlX05vT3A6CglwdXNoYnl0ZXMgMHhjMDRiNzVmNCAvLyBtZXRob2QgImNyZWF0ZUFwcGxpY2F0aW9uKHN0cmluZyxzdHJpbmcsdWludDY0KXZvaWQiCgl0eG5hIEFwcGxpY2F0aW9uQXJncyAwCgltYXRjaCAqYWJpX3JvdXRlX2NyZWF0ZUFwcGxpY2F0aW9uCgoJLy8gdGhpcyBjb250cmFjdCBkb2VzIG5vdCBpbXBsZW1lbnQgdGhlIGdpdmVuIEFCSSBtZXRob2QgZm9yIGNyZWF0ZSBOb09wCgllcnIKCipjYWxsX05vT3A6CglwdXNoYnl0ZXMgMHhhZGQzNmEwMiAvLyBtZXRob2QgImNyZWF0ZU5GVFJld2FyZChzdHJpbmcpdWludDY0IgoJcHVzaGJ5dGVzIDB4YmI3NTdiMWMgLy8gbWV0aG9kICJvcHRJbnRvQXNzZXQoKXZvaWQiCglwdXNoYnl0ZXMgMHgyYjA4YmI3NSAvLyBtZXRob2QgInNlbmRSZXdhcmRXaW5uZXIxKGFkZHJlc3Mpdm9pZCIKCXB1c2hieXRlcyAweGE2NzMzZGYxIC8vIG1ldGhvZCAic2VuZFJld2FyZFdpbm5lcjIoYWRkcmVzcyl2b2lkIgoJcHVzaGJ5dGVzIDB4MGU5YjgwZjIgLy8gbWV0aG9kICJzZW5kUmV3YXJkV2lubmVyMyhhZGRyZXNzKXZvaWQiCgl0eG5hIEFwcGxpY2F0aW9uQXJncyAwCgltYXRjaCAqYWJpX3JvdXRlX2NyZWF0ZU5GVFJld2FyZCAqYWJpX3JvdXRlX29wdEludG9Bc3NldCAqYWJpX3JvdXRlX3NlbmRSZXdhcmRXaW5uZXIxICphYmlfcm91dGVfc2VuZFJld2FyZFdpbm5lcjIgKmFiaV9yb3V0ZV9zZW5kUmV3YXJkV2lubmVyMwoKCS8vIHRoaXMgY29udHJhY3QgZG9lcyBub3QgaW1wbGVtZW50IHRoZSBnaXZlbiBBQkkgbWV0aG9kIGZvciBjYWxsIE5vT3AKCWVycg==",
     "clear": "I3ByYWdtYSB2ZXJzaW9uIDEw"
   },
   "byteCode": {
