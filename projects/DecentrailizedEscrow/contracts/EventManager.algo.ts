@@ -38,6 +38,7 @@ export class EventManager extends Contract {
         this.totalEvents.value +=1;
         this.allEvents(this.lastEventID.value).value = eventConfig
 
+        
 
       }
 

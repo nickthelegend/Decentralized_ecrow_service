@@ -1,5 +1,5 @@
 {
-  "name": "EventManager",
+  "name": "AirdopManager",
   "desc": "",
   "methods": [
     {
@@ -15,11 +15,11 @@
       }
     },
     {
-      "name": "createEvent",
+      "name": "createDrop",
       "args": [
         {
-          "name": "eventConfig",
-          "type": "(uint64,string,string,address,uint64,string,uint64,uint64,uint64,uint64)"
+          "name": "dropConfig",
+          "type": "(uint64,address,string,uint64,uint64,uint64,uint64,uint64,uint64)"
         }
       ],
       "returns": {

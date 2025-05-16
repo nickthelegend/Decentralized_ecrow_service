@@ -1,0 +1,68 @@
+{
+  "name": "AirDrop",
+  "desc": "",
+  "methods": [
+    {
+      "name": "createApplication",
+      "args": [
+        {
+          "name": "creatorAddress",
+          "type": "address"
+        },
+        {
+          "name": "tokenName",
+          "type": "string"
+        },
+        {
+          "name": "assetID",
+          "type": "uint64"
+        },
+        {
+          "name": "numClaims",
+          "type": "uint64"
+        },
+        {
+          "name": "maxClaims",
+          "type": "uint64"
+        },
+        {
+          "name": "expiryDate",
+          "type": "uint64"
+        },
+        {
+          "name": "amountToSend",
+          "type": "uint64"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "optinAsset",
+      "args": [],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "fundDrop",
+      "args": [
+        {
+          "name": "assetTxn",
+          "type": "axfer"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "claimDrop",
+      "args": [],
+      "returns": {
+        "type": "void"
+      }
+    }
+  ]
+}

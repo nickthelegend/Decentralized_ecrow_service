@@ -2,16 +2,18 @@ import { Contract } from '@algorandfoundation/tealscript'
 
 type EventConfig = {
 
-    EventID: uint64
-    EventName: string
-    EventCreator: Address
-    MaxParticipants: uint64
-    Location: string
-    StartTime: uint64
-    EndTime : uint64
-    RegisteredCount: uint64
-    EventAppID: uint64
+  EventID: uint64
+  EventName: string
+  EventCategory : string
+  EventCreator: Address
+  MaxParticipants: uint64
+  Location: string
+  StartTime: uint64
+  EndTime : uint64
+  RegisteredCount: uint64
+  EventAppID: uint64
 }
+
 type EventID = uint64
 
 export type AddressClaimKey = {

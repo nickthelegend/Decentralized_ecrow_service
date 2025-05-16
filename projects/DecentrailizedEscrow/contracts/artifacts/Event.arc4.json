@@ -20,10 +20,6 @@
         {
           "name": "endTime",
           "type": "uint64"
-        },
-        {
-          "name": "registeredCount",
-          "type": "uint64"
         }
       ],
       "returns": {
