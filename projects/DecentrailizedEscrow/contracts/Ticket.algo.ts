@@ -62,9 +62,7 @@ export class Ticket  extends Contract {
 
 assert(this.txn.sender == this.app.creator, "Only The Event Creator can Mint Tickets")
 
-                if(totalTickets>255){
-                    assert(false,"The Maximum number of Tickets that can minted are 255")
-                }
+                
         const itxnResult = sendAssetCreation({
             configAssetTotal: totalTickets,  // Use configAssetTotal instead of total
             configAssetDecimals: 0,      // Use configAssetDecimals instead of decimals
@@ -77,6 +75,8 @@ assert(this.txn.sender == this.app.creator, "Only The Event Creator can Mint Tic
 
 
       })
+
+      this.assetID.value = itxnResult.id
 
     }
 

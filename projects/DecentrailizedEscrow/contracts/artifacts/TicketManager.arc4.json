@@ -19,7 +19,7 @@
       "args": [
         {
           "name": "eventConfig",
-          "type": "(uint64,string,string,address,uint64,string,uint64,uint64,uint64,uint64)"
+          "type": "(uint64,string,string,address,string,uint64,string,uint64,uint64,uint64,uint64)"
         }
       ],
       "returns": {
