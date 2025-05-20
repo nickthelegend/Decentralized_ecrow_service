@@ -48,7 +48,24 @@
     },
     {
       "name": "registerEvent",
-      "args": [],
+      "args": [
+        {
+          "name": "email",
+          "type": "string"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "withDrawFunds",
+      "args": [
+        {
+          "name": "funds",
+          "type": "uint64"
+        }
+      ],
       "returns": {
         "type": "void"
       }

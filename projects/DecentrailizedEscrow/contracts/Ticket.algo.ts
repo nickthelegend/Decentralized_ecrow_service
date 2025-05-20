@@ -42,7 +42,7 @@ export class Ticket  extends Contract {
     assetID = GlobalStateKey<uint64>({ key: 'assetID' })
     ticketsRemaining = GlobalStateKey<uint64>();
 
-    registeredMap = BoxMap<Address, TxnId>()
+    registeredMap = BoxMap<Address, string>()
 
 
     createApplication(eventName: string, location: string, startTime: uint64, endTime: uint64, eventCost: uint64): void {
@@ -54,7 +54,7 @@ export class Ticket  extends Contract {
         this.registeredCount.value = 0
         this.startTime.value = startTime
       this.eventCost.value = eventCost
-
+      this.ticketsRemaining.value = this.registeredCount.value
 
 
 
@@ -88,12 +88,12 @@ assert(this.txn.sender == this.app.creator, "Only The Event Creator can Mint Tic
 
 
 
-      registerEvent ( ): void {
+      registerEvent (email: string ): void {
         
 
         assert(!this.registeredMap(this.txn.sender).exists, 'already claimed')
         this.registeredCount.value += 1
-        this.registeredMap(this.txn.sender).value = this.txn.txID as bytes32
+        this.registeredMap(this.txn.sender).value = email;
 
 
 
@@ -106,9 +106,11 @@ assert(this.txn.sender == this.app.creator, "Only The Event Creator can Mint Tic
 
 
 
+      withDrawFunds (funds : uint64 ): void {
+        
 
-
-
+        sendPayment({amount: funds,note: "Withdrawn Funds from Ticket Contract"})
+      }
 
 
 
