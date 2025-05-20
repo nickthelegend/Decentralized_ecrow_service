@@ -1,0 +1,49 @@
+{
+  "name": "TicketManager",
+  "desc": "",
+  "methods": [
+    {
+      "name": "createApplication",
+      "args": [
+        {
+          "name": "maintainerAddress",
+          "type": "address"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "createEvent",
+      "args": [
+        {
+          "name": "eventConfig",
+          "type": "(uint64,string,string,address,uint64,string,uint64,uint64,uint64,uint64)"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "deleteEvent",
+      "args": [
+        {
+          "name": "eventID",
+          "type": "uint64"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "updateEvent",
+      "args": [],
+      "returns": {
+        "type": "void"
+      }
+    }
+  ]
+}

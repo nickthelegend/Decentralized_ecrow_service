@@ -143,6 +143,7 @@ optinAsset:
 	//             xferAsset: this.assetID.value,
 	//             assetReceiver: this.app.address,
 	//             assetAmount: 0,
+	//             fee: 2000
 	//         })
 	itxn_begin
 	intc 2 //  axfer
@@ -164,67 +165,13 @@ optinAsset:
 	intc 1 // 0
 	itxn_field AssetAmount
 
-	// Fee field not set, defaulting to 0
-	intc 1 // 0
+	// contracts\Airdrop.algo.ts:49
+	// fee: 2000
+	pushint 2000
 	itxn_field Fee
 
 	// Submit inner transaction
 	itxn_submit
-	retsub
-
-// fundDrop(axfer)void
-*abi_route_fundDrop:
-	// assetTxn: axfer
-	txn GroupIndex
-	intc 0 // 1
-	-
-	dup
-	gtxns TypeEnum
-	intc 2 //  axfer
-	==
-
-	// argument 0 (assetTxn) for fundDrop must be a axfer transaction
-	assert
-
-	// execute fundDrop(axfer)void
-	callsub fundDrop
-	intc 0 // 1
-	return
-
-// fundDrop(assetTxn: AssetTransferTxn): void
-fundDrop:
-	proto 1 0
-
-	// contracts\Airdrop.algo.ts:68
-	// assert(this.txn.sender == this.app.creator)
-	txn Sender
-	txna Applications 0
-	app_params_get AppCreator
-	pop
-	==
-	assert
-
-	// contracts\Airdrop.algo.ts:69
-	// verifyAssetTransferTxn(assetTxn, { assetReceiver: this.app.address })
-	// verify assetReceiver
-	frame_dig -1 // assetTxn: AssetTransferTxn
-	gtxns AssetReceiver
-	global CurrentApplicationAddress
-	==
-
-	// transaction verification failed: {"txn":"assetTxn","field":"assetReceiver","expected":"this.app.address"}
-	assert
-
-	// contracts\Airdrop.algo.ts:70
-	// assert(assetTxn.xferAsset === this.assetID.value, 'asset sent must be same as asset specified for drops')
-	frame_dig -1 // assetTxn: AssetTransferTxn
-	gtxns XferAsset
-	bytec 0 //  "assetID"
-	app_global_get
-	==
-
-	// asset sent must be same as asset specified for drops
-	assert
 	retsub
 
 // claimDrop()void
@@ -238,7 +185,7 @@ fundDrop:
 claimDrop:
 	proto 0 0
 
-	// contracts\Airdrop.algo.ts:77
+	// contracts\Airdrop.algo.ts:71
 	// assert(this.txn.sender !==  this.app.creator, 'drop creator cannot claim')
 	txn Sender
 	txna Applications 0
@@ -249,7 +196,7 @@ claimDrop:
 	// drop creator cannot claim
 	assert
 
-	// contracts\Airdrop.algo.ts:78
+	// contracts\Airdrop.algo.ts:72
 	// assert(this.txn.sender.isOptedInToAsset(this.assetID.value), 'claimant must already be opted-in to token!')
 	txn Sender
 	bytec 0 //  "assetID"
@@ -261,7 +208,7 @@ claimDrop:
 	// claimant must already be opted-in to token!
 	assert
 
-	// contracts\Airdrop.algo.ts:79
+	// contracts\Airdrop.algo.ts:73
 	// assert(this.expiryDate.value >= globals.latestTimestamp , 'DROP expired')
 	bytec 3 //  "expiryDate"
 	app_global_get
@@ -271,7 +218,7 @@ claimDrop:
 	// DROP expired
 	assert
 
-	// contracts\Airdrop.algo.ts:80
+	// contracts\Airdrop.algo.ts:74
 	// assert(!this.claimedMap(this.txn.sender).exists, 'already claimed')
 	txn Sender
 	box_len
@@ -282,7 +229,7 @@ claimDrop:
 	// already claimed
 	assert
 
-	// contracts\Airdrop.algo.ts:82
+	// contracts\Airdrop.algo.ts:76
 	// this.claimedMap(this.txn.sender).value =  this.txn.txID as bytes32
 	txn Sender
 	txn TxID
@@ -296,7 +243,7 @@ claimDrop:
 	extract 0 32
 	box_put
 
-	// contracts\Airdrop.algo.ts:84
+	// contracts\Airdrop.algo.ts:78
 	// this.numClaims.value += 1
 	bytec 1 //  "numClaims"
 	app_global_get
@@ -306,7 +253,7 @@ claimDrop:
 	swap
 	app_global_put
 
-	// contracts\Airdrop.algo.ts:86
+	// contracts\Airdrop.algo.ts:80
 	// this.sendTokensFromDrop(this.amountToSend.value, this.txn.sender)
 	txn Sender
 	bytec 2 //  "amountToSend"
@@ -329,7 +276,7 @@ sendTokensFromDrop:
 	// Push empty bytes after the frame pointer to reserve space for local variables
 	bytec 4 // 0x
 
-	// contracts\Airdrop.algo.ts:100
+	// contracts\Airdrop.algo.ts:94
 	// sendAssetTransfer({
 	//             xferAsset: this.assetID.value,
 	//             assetReceiver: receiver,
@@ -339,18 +286,18 @@ sendTokensFromDrop:
 	intc 2 //  axfer
 	itxn_field TypeEnum
 
-	// contracts\Airdrop.algo.ts:101
+	// contracts\Airdrop.algo.ts:95
 	// xferAsset: this.assetID.value
 	bytec 0 //  "assetID"
 	app_global_get
 	itxn_field XferAsset
 
-	// contracts\Airdrop.algo.ts:102
+	// contracts\Airdrop.algo.ts:96
 	// assetReceiver: receiver
 	frame_dig -2 // receiver: Address
 	itxn_field AssetReceiver
 
-	// contracts\Airdrop.algo.ts:103
+	// contracts\Airdrop.algo.ts:97
 	// assetAmount: amountToSend
 	frame_dig -1 // amountToSend: uint64
 	itxn_field AssetAmount
@@ -362,7 +309,7 @@ sendTokensFromDrop:
 	// Submit inner transaction
 	itxn_submit
 
-	// contracts\Airdrop.algo.ts:107
+	// contracts\Airdrop.algo.ts:101
 	// remaining = this.amountRemaining.value - amountToSend
 	pushbytes 0x616d6f756e7452656d61696e696e67 // "amountRemaining"
 	app_global_get
@@ -370,7 +317,7 @@ sendTokensFromDrop:
 	-
 	frame_bury 0 // remaining: uint64
 
-	// contracts\Airdrop.algo.ts:109
+	// contracts\Airdrop.algo.ts:103
 	// return remaining
 	frame_dig 0 // remaining: uint64
 
@@ -388,10 +335,9 @@ sendTokensFromDrop:
 
 *call_NoOp:
 	pushbytes 0x3e89bcf8 // method "optinAsset()void"
-	pushbytes 0x2c4b71bf // method "fundDrop(axfer)void"
 	pushbytes 0x9aeb5ece // method "claimDrop()void"
 	txna ApplicationArgs 0
-	match *abi_route_optinAsset *abi_route_fundDrop *abi_route_claimDrop
+	match *abi_route_optinAsset *abi_route_claimDrop
 
 	// this contract does not implement the given ABI method for call NoOp
 	err

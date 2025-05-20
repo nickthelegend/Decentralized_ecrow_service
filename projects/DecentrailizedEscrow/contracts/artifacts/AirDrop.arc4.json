@@ -46,18 +46,6 @@
       }
     },
     {
-      "name": "fundDrop",
-      "args": [
-        {
-          "name": "assetTxn",
-          "type": "axfer"
-        }
-      ],
-      "returns": {
-        "type": "void"
-      }
-    },
-    {
       "name": "claimDrop",
       "args": [],
       "returns": {

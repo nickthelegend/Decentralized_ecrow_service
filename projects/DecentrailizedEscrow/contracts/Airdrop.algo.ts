@@ -46,6 +46,7 @@ this.amountToSend.value = amountToSend;
             xferAsset: this.assetID.value,
             assetReceiver: this.app.address,
             assetAmount: 0,
+            fee: 2000
         })
 
     }

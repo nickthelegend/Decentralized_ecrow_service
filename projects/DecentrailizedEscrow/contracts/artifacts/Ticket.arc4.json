@@ -1,0 +1,53 @@
+{
+  "name": "Ticket",
+  "desc": "",
+  "methods": [
+    {
+      "name": "createApplication",
+      "args": [
+        {
+          "name": "eventName",
+          "type": "string"
+        },
+        {
+          "name": "location",
+          "type": "string"
+        },
+        {
+          "name": "startTime",
+          "type": "uint64"
+        },
+        {
+          "name": "endTime",
+          "type": "uint64"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "createTickets",
+      "args": [
+        {
+          "name": "assetUrl",
+          "type": "string"
+        },
+        {
+          "name": "totalTickets",
+          "type": "uint64"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "registerEvent",
+      "args": [],
+      "returns": {
+        "type": "void"
+      }
+    }
+  ]
+}
