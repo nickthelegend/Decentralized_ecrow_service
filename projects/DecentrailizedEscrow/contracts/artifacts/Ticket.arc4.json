@@ -24,6 +24,10 @@
         {
           "name": "eventCost",
           "type": "uint64"
+        },
+        {
+          "name": "ticketsRemaining",
+          "type": "uint64"
         }
       ],
       "returns": {

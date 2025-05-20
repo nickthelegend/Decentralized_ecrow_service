@@ -45,7 +45,7 @@ export class Ticket  extends Contract {
     registeredMap = BoxMap<Address, string>()
 
 
-    createApplication(eventName: string, location: string, startTime: uint64, endTime: uint64, eventCost: uint64): void {
+    createApplication(eventName: string, location: string, startTime: uint64, endTime: uint64, eventCost: uint64, ticketsRemaining: uint64): void {
         
         this.creatorAddress.value = this.txn.sender;
         this.eventName.value = eventName
@@ -54,7 +54,7 @@ export class Ticket  extends Contract {
         this.registeredCount.value = 0
         this.startTime.value = startTime
       this.eventCost.value = eventCost
-      this.ticketsRemaining.value = this.registeredCount.value
+      this.ticketsRemaining.value = ticketsRemaining
 
 
 
@@ -74,7 +74,6 @@ assert(this.txn.sender == this.app.creator, "Only The Event Creator can Mint Tic
             configAssetName: this.eventName.value, // Use configAssetName instead of assetName
             configAssetURL : assetUrl,
             fee: 3000,
-            
 
 
 

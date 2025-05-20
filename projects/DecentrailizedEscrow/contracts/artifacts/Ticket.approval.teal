@@ -24,8 +24,12 @@ switch *call_NoOp *NOT_IMPLEMENTED *NOT_IMPLEMENTED *NOT_IMPLEMENTED *NOT_IMPLEM
 	// The requested action is not implemented in this contract. Are you using the correct OnComplete? Did you set your app ID?
 	err
 
-// createApplication(string,string,uint64,uint64,uint64)void
+// createApplication(string,string,uint64,uint64,uint64,uint64)void
 *abi_route_createApplication:
+	// ticketsRemaining: uint64
+	txna ApplicationArgs 6
+	btoi
+
 	// eventCost: uint64
 	txna ApplicationArgs 5
 	btoi
@@ -46,14 +50,14 @@ switch *call_NoOp *NOT_IMPLEMENTED *NOT_IMPLEMENTED *NOT_IMPLEMENTED *NOT_IMPLEM
 	txna ApplicationArgs 1
 	extract 2 0
 
-	// execute createApplication(string,string,uint64,uint64,uint64)void
+	// execute createApplication(string,string,uint64,uint64,uint64,uint64)void
 	callsub createApplication
 	intc 0 // 1
 	return
 
-// createApplication(eventName: string, location: string, startTime: uint64, endTime: uint64, eventCost: uint64): void
+// createApplication(eventName: string, location: string, startTime: uint64, endTime: uint64, eventCost: uint64, ticketsRemaining: uint64): void
 createApplication:
-	proto 5 0
+	proto 6 0
 
 	// contracts\Ticket.algo.ts:50
 	// this.creatorAddress.value = this.txn.sender
@@ -110,10 +114,9 @@ createApplication:
 	app_global_put
 
 	// contracts\Ticket.algo.ts:57
-	// this.ticketsRemaining.value = this.registeredCount.value
+	// this.ticketsRemaining.value = ticketsRemaining
 	bytec 1 //  "ticketsRemaining"
-	bytec 0 //  "registeredCount"
-	app_global_get
+	frame_dig -6 // ticketsRemaining: uint64
 	app_global_put
 	retsub
 
@@ -373,7 +376,7 @@ sendTickets:
 	retsub
 
 *create_NoOp:
-	pushbytes 0x8007f2da // method "createApplication(string,string,uint64,uint64,uint64)void"
+	pushbytes 0x57539b2b // method "createApplication(string,string,uint64,uint64,uint64,uint64)void"
 	txna ApplicationArgs 0
 	match *abi_route_createApplication
 
