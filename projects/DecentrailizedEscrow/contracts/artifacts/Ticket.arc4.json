@@ -20,6 +20,10 @@
         {
           "name": "endTime",
           "type": "uint64"
+        },
+        {
+          "name": "eventCost",
+          "type": "uint64"
         }
       ],
       "returns": {

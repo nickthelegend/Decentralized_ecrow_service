@@ -45,31 +45,31 @@ switch *call_NoOp *NOT_IMPLEMENTED *NOT_IMPLEMENTED *NOT_IMPLEMENTED *NOT_IMPLEM
 createApplication:
 	proto 1 0
 
-	// contracts\TicketManager.algo.ts:33
+	// contracts\TicketManager.algo.ts:34
 	// this.totalEvents.value = 0
 	bytec 1 //  "totalEvents"
 	pushint 0
 	app_global_put
 
-	// contracts\TicketManager.algo.ts:34
+	// contracts\TicketManager.algo.ts:35
 	// this.maintainerAddress.value = maintainerAddress
 	pushbytes 0x6d61696e7461696e657241646472657373 // "maintainerAddress"
 	frame_dig -1 // maintainerAddress: Address
 	app_global_put
 
-	// contracts\TicketManager.algo.ts:35
+	// contracts\TicketManager.algo.ts:36
 	// this.lastEventID.value = 1
 	bytec 0 //  "lastEventID"
 	intc 0 // 1
 	app_global_put
 	retsub
 
-// createEvent((uint64,string,string,address,string,uint64,string,uint64,uint64,uint64,uint64))void
+// createEvent((uint64,string,string,address,string,uint64,uint64,string,uint64,uint64,uint64,uint64))void
 *abi_route_createEvent:
-	// eventConfig: (uint64,string,string,address,string,uint64,string,uint64,uint64,uint64,uint64)
+	// eventConfig: (uint64,string,string,address,string,uint64,uint64,string,uint64,uint64,uint64,uint64)
 	txna ApplicationArgs 1
 
-	// execute createEvent((uint64,string,string,address,string,uint64,string,uint64,uint64,uint64,uint64))void
+	// execute createEvent((uint64,string,string,address,string,uint64,uint64,string,uint64,uint64,uint64,uint64))void
 	callsub createEvent
 	intc 0 // 1
 	return
@@ -81,13 +81,14 @@ createEvent:
 	// Push empty bytes after the frame pointer to reserve space for local variables
 	bytec 2 // 0x
 
-	// contracts\TicketManager.algo.ts:39
+	// contracts\TicketManager.algo.ts:40
 	// newEvent: EventConfig = {
 	//             EventID: this.lastEventID.value,
 	//             EventName: eventConfig.EventName,
 	//             EventCategory: eventConfig.EventCategory,
 	//             EventCreator: eventConfig.EventCreator,
 	//             EventImage: eventConfig.EventImage,
+	//             EventCost: eventConfig.EventCost,
 	//             MaxParticipants: eventConfig.MaxParticipants,
 	//             Location: eventConfig.Location,
 	//             StartTime: eventConfig.StartTime,
@@ -98,7 +99,7 @@ createEvent:
 	//         }
 	bytec 2 //  initial head
 	bytec 2 //  initial tail
-	pushbytes 0x0058 // initial head offset
+	pushbytes 0x0060 // initial head offset
 	bytec 0 //  "lastEventID"
 	app_global_get
 	itob
@@ -189,7 +190,14 @@ createEvent:
 	callsub *process_static_tuple_element
 	frame_dig -1 // eventConfig: EventConfig
 	store 255 // full array
-	pushint 54
+	load 255 // full array
+	extract 54 8
+	btoi
+	itob
+	callsub *process_static_tuple_element
+	frame_dig -1 // eventConfig: EventConfig
+	store 255 // full array
+	pushint 62
 	load 255 // full array
 	load 255 // full array
 	uncover 2
@@ -214,13 +222,6 @@ createEvent:
 	frame_dig -1 // eventConfig: EventConfig
 	store 255 // full array
 	load 255 // full array
-	extract 56 8
-	btoi
-	itob
-	callsub *process_static_tuple_element
-	frame_dig -1 // eventConfig: EventConfig
-	store 255 // full array
-	load 255 // full array
 	extract 64 8
 	btoi
 	itob
@@ -239,11 +240,18 @@ createEvent:
 	btoi
 	itob
 	callsub *process_static_tuple_element
+	frame_dig -1 // eventConfig: EventConfig
+	store 255 // full array
+	load 255 // full array
+	extract 88 8
+	btoi
+	itob
+	callsub *process_static_tuple_element
 	pop // pop head offset
 	concat // concat head and tail
 	frame_bury 0 // newEvent: EventConfig
 
-	// contracts\TicketManager.algo.ts:54
+	// contracts\TicketManager.algo.ts:56
 	// this.allEvents(this.lastEventID.value).value = newEvent
 	bytec 0 //  "lastEventID"
 	app_global_get
@@ -254,7 +262,7 @@ createEvent:
 	frame_dig 0 // newEvent: EventConfig
 	box_put
 
-	// contracts\TicketManager.algo.ts:55
+	// contracts\TicketManager.algo.ts:57
 	// this.lastEventID.value += 1
 	bytec 0 //  "lastEventID"
 	app_global_get
@@ -264,7 +272,7 @@ createEvent:
 	swap
 	app_global_put
 
-	// contracts\TicketManager.algo.ts:56
+	// contracts\TicketManager.algo.ts:58
 	// this.totalEvents.value += 1
 	bytec 1 //  "totalEvents"
 	app_global_get
@@ -290,7 +298,7 @@ createEvent:
 deleteEvent:
 	proto 1 0
 
-	// contracts\TicketManager.algo.ts:63
+	// contracts\TicketManager.algo.ts:65
 	// assert(this.txn.sender == this.app.creator)
 	txn Sender
 	txna Applications 0
@@ -299,7 +307,7 @@ deleteEvent:
 	==
 	assert
 
-	// contracts\TicketManager.algo.ts:66
+	// contracts\TicketManager.algo.ts:68
 	// this.allEvents(eventID).delete()
 	frame_dig -1 // eventID: uint64
 	itob
@@ -327,7 +335,7 @@ updateEvent:
 	err
 
 *call_NoOp:
-	pushbytes 0xeaaf382a // method "createEvent((uint64,string,string,address,string,uint64,string,uint64,uint64,uint64,uint64))void"
+	pushbytes 0x77e0bb47 // method "createEvent((uint64,string,string,address,string,uint64,uint64,string,uint64,uint64,uint64,uint64))void"
 	pushbytes 0xc26e7e19 // method "deleteEvent(uint64)void"
 	pushbytes 0x901d578a // method "updateEvent()void"
 	txna ApplicationArgs 0

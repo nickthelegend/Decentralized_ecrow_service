@@ -11,6 +11,7 @@ type EventConfig = {
     EventCategory : string
     EventCreator: Address
     EventImage: string
+    EventCost: uint64
     MaxParticipants: uint64
     Location: string
     StartTime: uint64
@@ -42,6 +43,7 @@ export class TicketManager extends Contract {
             EventCategory: eventConfig.EventCategory,
             EventCreator: eventConfig.EventCreator,
             EventImage: eventConfig.EventImage,
+            EventCost: eventConfig.EventCost,
             MaxParticipants: eventConfig.MaxParticipants,
             Location: eventConfig.Location,
             StartTime: eventConfig.StartTime,

@@ -6,6 +6,8 @@ type EventConfig = {
   EventName: string
   EventCategory : string
   EventCreator: Address
+  EventImage: string
+  EventCost: uint64
   MaxParticipants: uint64
   Location: string
   StartTime: uint64
@@ -35,13 +37,15 @@ export class Ticket  extends Contract {
     startTime = GlobalStateKey<EventConfig["StartTime"]>({ key: 'startTime' })
     endTime = GlobalStateKey<EventConfig["EndTime"]>({ key: 'endTime' })
     registeredCount = GlobalStateKey<EventConfig["RegisteredCount"]>({ key: 'registeredCount' })
+    eventCost = GlobalStateKey<EventConfig["EventCost"]>({ key: 'eventCost' })
+
     assetID = GlobalStateKey<uint64>({ key: 'assetID' })
     ticketsRemaining = GlobalStateKey<uint64>();
 
     registeredMap = BoxMap<Address, TxnId>()
 
 
-    createApplication(eventName: string, location: string, startTime: uint64, endTime: uint64): void {
+    createApplication(eventName: string, location: string, startTime: uint64, endTime: uint64, eventCost: uint64): void {
         
         this.creatorAddress.value = this.txn.sender;
         this.eventName.value = eventName
@@ -49,7 +53,7 @@ export class Ticket  extends Contract {
         this.endTime.value = endTime
         this.registeredCount.value = 0
         this.startTime.value = startTime
-
+      this.eventCost.value = eventCost
 
 
 
